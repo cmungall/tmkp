@@ -138,7 +138,7 @@ Manual inspection of sampled examples shows that good edges often have directly 
 
 | KGX edge | Mention spans | PubMed context | Assessment |
 | --- | --- | --- | --- |
-| `BCAR1 -> syndrome` | subject mention `Cas`; object mention `syndrome` | [PMID:29437009](https://pubmed.ncbi.nlm.nih.gov/29437009/) is about Drosophila `Nulp1` femur development and a phenotype resembling Stuve-Weidemann syndrome. | Useful context exists for `Nulp1` and a syndrome-like phenotype, but `Cas` came from `CRISPR/Cas9` and was normalized to `BCAR1`; the object is also too generic. |
+| `BCAR1 -> syndrome` | subject mention `Cas`; object mention `syndrome` | [PMID:29437009](https://pubmed.ncbi.nlm.nih.gov/29437009/) is about Drosophila `Nulp1` femur development and a phenotype resembling Stuve-Weidemann syndrome. | The largest practical problem is the object: `syndrome` is too vague to be actionable. There is also a secondary subject issue because `Cas` came from `CRISPR/Cas9` and was normalized to `BCAR1`. |
 | `RDH11 -> cancer` | subject mention `RalR1`; object mention `cancer` | [PMID:14674758](https://pubmed.ncbi.nlm.nih.gov/14674758/) characterizes retinal reductase/RalR1/RDH11 and reports expression in normal tissues and cancer cell lines. | The subject normalization is plausible, but the text supports expression in cancer cell lines, not that RDH11 contributes to cancer. |
 | `SRY -> neoplasm` | subject mention `SRY`; object mention `tumor` | [PMID:19033127](https://pubmed.ncbi.nlm.nih.gov/19033127/) uses SRY as a marker to track tumor-cell origin in female mice. | The abstract is about metastasis tracking; SRY is a marker/control, not a causal disease gene. |
 | `SMC6 -> cancer` | subject mention `RAD18`; object mention `cancer` | [PMID:31432163](https://pubmed.ncbi.nlm.nih.gov/31432163/) reports RAD18 effects in cervical cancer cells. | The biomedical statement is useful for RAD18, but the subject is normalized to SMC6, so the finalized edge is wrong. |
@@ -148,7 +148,7 @@ Manual inspection of sampled examples shows that good edges often have directly 
 ### Preliminary error taxonomy
 
 1. **Acronym and short-token normalization errors**
-   - Examples: `Cas` from `CRISPR/Cas9` mapped to `BCAR1`; `DSS` mapped to Severe Dengue.
+   - Examples: `DSS` mapped to Severe Dengue; `Cas` from `CRISPR/Cas9` mapped to `BCAR1`.
    - Detection signal: extracted mention length is very short, all caps/mixed abbreviation, and normalized label is semantically distant from surrounding text.
 
 2. **Wrong normalized subject despite a useful source claim**
@@ -157,7 +157,7 @@ Manual inspection of sampled examples shows that good edges often have directly 
 
 3. **Over-broad disease/object normalization**
    - Examples: `syndrome`, `cancer`, `neoplasm`.
-   - Detection signal: object node is a high-degree generic MONDO term, while the abstract names a more specific disease or experimental context.
+   - Detection signal: object node is a high-degree generic MONDO term, while the abstract names a more specific disease or experimental context. In many cases this is enough to make the edge unhelpful even if the subject mention is reasonable.
 
 4. **Marker/control relations mistaken for causal disease contribution**
    - Example: SRY used as a sex-chromosome marker in tumor tracking.
@@ -175,6 +175,6 @@ Manual inspection of sampled examples shows that good edges often have directly 
 
 - Flag edges where the extracted subject/object mention is shorter than 4 characters.
 - Flag edges where the mention string has low lexical similarity to the normalized node name and no obvious synonym/equivalent match.
-- Down-rank generic disease objects such as `cancer`, `neoplasm`, and `syndrome` unless the source text lacks a more specific disease mention.
+- Down-rank or suppress generic disease objects such as `cancer`, `neoplasm`, and especially `syndrome` unless the source text lacks a more specific disease mention.
 - Separate evidence categories: direct causation/mutation, expression/prognosis, model organism, marker/control, and cell-line-only context.
 - Use higher evidence count cautiously: repeated evidence can amplify a systematic normalization error.
