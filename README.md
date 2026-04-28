@@ -311,6 +311,89 @@ Additional taxonomy suggested by chemical/drug to disease edges:
     - This bucket is often useful, but its semantics span direct toxicity, epidemiologic risk, induced disease models, and disease predisposition.
     - Detection signal: separate "chemical causes/induces disease" from "disease predisposes to adverse event during chemical exposure".
 
+### Chemical/drug to Mendelian disease scan
+
+This pass narrowed the chemical/drug to disease slice to disease objects with rare, inherited, congenital, familial, or named-syndrome signals, while excluding common cancer, infectious, and broad acquired-disease terms where possible. This is still a name-based review filter, not a clean Mendelian classifier: generic `syndrome` terms and abbreviation collisions dominate many high-count errors.
+
+Tightened heuristic buckets:
+
+| Predicate | Audit bucket | Edges | Median evidence count | Max evidence count | Edges with SemMed support |
+| --- | --- | ---: | ---: | ---: | ---: |
+| `biolink:contributes_to` | abbreviation or normalization risk | 8,925 | 1 | 1,311 | 0 |
+| `biolink:contributes_to` | named Mendelian object only | 3,271 | 1 | 655 | 0 |
+| `biolink:contributes_to` | adverse or teratogenic context | 2,136 | 2 | 635 | 0 |
+| `biolink:contributes_to` | genetic context, unclear relation | 371 | 1 | 291 | 0 |
+| `biolink:treats_or_applied_or_studied_to_treat` | abbreviation or normalization risk | 18,195 | 1 | 2,164 | 105 |
+| `biolink:treats_or_applied_or_studied_to_treat` | treatment or management context | 9,642 | 2 | 2,632 | 1,022 |
+| `biolink:treats_or_applied_or_studied_to_treat` | named Mendelian object only | 4,195 | 1 | 432 | 152 |
+| `biolink:treats_or_applied_or_studied_to_treat` | genetic context, unclear relation | 598 | 1 | 261 | 22 |
+
+Good or useful treatment/management examples:
+
+| Edge | Evidence read |
+| --- | --- |
+| `Colchicine -> familial Mediterranean fever` | The abstract-level evidence describes colchicine as the mainstay treatment for familial Mediterranean fever. |
+| `Hydroxyurea -> sickle cell disease` | The evidence describes hydroxyurea as useful in treating sickle cell anemia/disease. |
+| `Ivacaftor -> cystic fibrosis` | The evidence concerns lumacaftor-ivacaftor safety or effectiveness in cystic fibrosis. |
+| `Nusinersen -> spinal muscular atrophy` | The evidence describes antisense oligonucleotide therapy for spinal muscular atrophy. |
+| `Sapropterin -> phenylketonuria` | The evidence reports sapropterin lowering phenylalanine in phenylketonuria. |
+| `Somatotropin -> Prader-Willi syndrome` | The evidence describes growth hormone therapy in Prader-Willi syndrome. |
+| `Somatotropin -> Turner syndrome` | The evidence discusses growth hormone efficacy or cost-effectiveness in Turner syndrome. |
+| `Tobramycin -> cystic fibrosis` | The evidence discusses inhaled tobramycin in cystic fibrosis. |
+| `Losartan -> Marfan syndrome` | The evidence comes from atenolol versus losartan treatment context in Marfan syndrome. |
+| `Deferoxamine -> thalassemia` | The evidence describes long-term deferoxamine therapy as part of thalassemia management. |
+
+Useful adverse, toxic, preventive, or teratogenic examples:
+
+| Edge | Evidence read |
+| --- | --- |
+| `Carbamazepine -> Stevens-Johnson syndrome` | The evidence discusses carbamazepine/oxcarbazepine-induced cutaneous adverse reactions including SJS/TEN. |
+| `Tryptophan -> eosinophilia-myalgia syndrome` | The evidence links eosinophilia-myalgia syndrome to contaminated tryptophan exposure. |
+| `Allopurinol -> Stevens-Johnson syndrome` | The evidence discusses SJS/TEN in allopurinol-exposed participants. |
+| `Tenofovir -> Fanconi renotubular syndrome` | The evidence states tenofovir exposure can lead to Fanconi syndrome. |
+| `Gemcitabine -> hemolytic-uremic syndrome` | The evidence describes gemcitabine-induced hemolytic-uremic syndrome. |
+| `Ethanol -> fetal alcohol syndrome` | The evidence supports maternal alcohol exposure as causal for fetal alcohol syndrome. |
+
+High-yield normalization and abbreviation risks:
+
+| Edge | Likely issue |
+| --- | --- |
+| `Azacitidine -> Miller-Dieker lissencephaly syndrome` | The object mention is `MDS`, which in context is myelodysplastic syndrome, not Miller-Dieker syndrome. |
+| `Decitabine -> Miller-Dieker lissencephaly syndrome` | Same `MDS` abbreviation collision as above. |
+| `Clopidogrel -> acute chest syndrome` | The object mention is `ACS`, often acute coronary syndrome in the source context. |
+| `Clopidogrel -> acrocallosal syndrome` | Same `ACS` abbreviation collision, mapped to a different rare syndrome. |
+| `Ticagrelor -> acute chest syndrome` | Another `ACS` collision in antiplatelet/cardiology context. |
+| `Hydroxyurea -> Schnyder corneal dystrophy` | The object mention is `SCD`, which the context supports as sickle cell disease, not Schnyder corneal dystrophy. |
+
+False inclusions from the Mendelian-name filter:
+
+| Edge | Issue |
+| --- | --- |
+| `Propofol -> syndrome` | The likely source concept is propofol infusion syndrome; normalized object `syndrome` is too generic. |
+| `Dexamethasone -> acute respiratory distress syndrome` | This is an acquired critical-illness syndrome, not a Mendelian disease. |
+| `Metformin -> vitamin B12 deficiency` | Clinically relevant adverse/metabolic context, but not a Mendelian disease. |
+| `Chloroquine -> severe acute respiratory syndrome` | Infectious-disease object passed the broad syndrome filter. |
+| `Rifaximin -> irritable bowel syndrome` | Useful treatment context, but not Mendelian. |
+| `Tacrolimus -> posterior leukoencephalopathy syndrome` | Adverse-event syndrome context, not Mendelian. |
+
+Additional taxonomy suggested by this scan:
+
+14. **Mendelian detection by disease name over-includes syndrome terms**
+    - `syndrome` alone is not enough to identify a rare inherited disease, and many acquired, infectious, drug-induced, or ICU syndromes pass naive filters.
+    - Detection signal: require specific rare-disease labels or ontology ancestors rather than lexical `syndrome` alone.
+
+15. **Abbreviation collisions are especially severe in rare-disease slices**
+    - Examples: `ACS` maps to acute chest syndrome or acrocallosal syndrome in cardiology contexts; `MDS` maps to Miller-Dieker syndrome in hematology contexts; `SCD` maps to Schnyder corneal dystrophy instead of sickle cell disease.
+    - Detection signal: short all-caps object mentions should require local expansion or strong lexical agreement with the normalized disease label.
+
+16. **Chemical-to-Mendelian treatment edges include many real high-value relations**
+    - Examples include colchicine/familial Mediterranean fever, hydroxyurea/sickle cell disease, ivacaftor/cystic fibrosis, nusinersen/spinal muscular atrophy, sapropterin/phenylketonuria, growth hormone/Prader-Willi or Turner syndrome, and deferoxamine/thalassemia.
+    - Detection signal: direct therapy, response, approval, trial, or management language plus a specific inherited disease object makes a useful review queue.
+
+17. **`contributes_to` spans adverse event, teratogen, exposure, and true disease causation**
+    - Drug-induced syndromes and fetal alcohol syndrome are useful, but they should not be merged semantically with inherited disease causation or therapeutic use.
+    - Detection signal: split induced/adverse, preventive, teratogenic, exposure-risk, and treatment/management assertions before downstream use.
+
 ### Candidate filters to try next
 
 - Flag edges where the extracted subject/object mention is shorter than 4 characters.
@@ -321,3 +404,5 @@ Additional taxonomy suggested by chemical/drug to disease edges:
 - For Mendelian candidates, require direct gene-disease alignment in the same clause when evidence contains multiple genes and multiple diseases.
 - Add a negation/hedging pass before accepting high-scoring mutation-language edges.
 - For treatment edges, split direct treatment assertions from studied-to-treat, eligibility/comorbidity, and adverse-event context before using the predicate as a clinical treatment relation.
+- For chemical/drug to Mendelian-disease edges, require ontology-backed rare/inherited disease membership rather than disease-label keywords alone.
+- For short disease mentions such as `ACS`, `MDS`, and `SCD`, require local abbreviation expansion before accepting the normalized object.
