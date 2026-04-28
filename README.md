@@ -171,6 +171,66 @@ Manual inspection of sampled examples shows that good edges often have directly 
    - Example: Drosophila Nulp1 femur phenotype resembling a human syndrome.
    - Detection signal: source mentions a model organism plus "similar to", "model for", or "resembling" rather than a direct human gene-disease association.
 
+### Mendelian candidate scan
+
+A first pass scanned the `Gene -> Disease` `biolink:affects` / `biolink:contributes_to` slice for Mendelian-like signals in the evidence text. The heuristic score used:
+
+- variant/inheritance terms such as `mutation`, `variant`, `loss-of-function`, `homozygous`, `de novo`, `autosomal`, `familial`, `hereditary`, `congenital`
+- causal/association terms such as `caused by`, `due to`, `responsible for`, `associated with`, `linked to`
+- explicit Mendelian terms such as `OMIM`, `monogenic`, `Mendelian`, `proband`, `pedigree`, `consanguineous`
+- direct lexical presence of the normalized gene and disease labels in the supporting text
+- a penalty for very generic object labels such as `cancer`, `neoplasm`, `syndrome`, `disease`, and `disorder`
+
+Score distribution over 398,321 gene-disease edges:
+
+| Score | Edges | Interpretation |
+| ---: | ---: | --- |
+| 7 | 317 | Highest-signal; usually explicit variant/causal/Mendelian text with both labels present. |
+| 6 | 823 | Very strong, but some generic-object and list-sentence errors remain. |
+| 5 | 8,359 | Good candidate pool for review. |
+| 4 | 21,054 | Broader recall-oriented pool; more generic disease labels and weaker relation text. |
+| 3 or less | 367,768 | Lower confidence for Mendelian curation without additional filtering. |
+
+Useful high-scoring candidates from manual inspection:
+
+| Edge | PubMed/PMC | Assessment |
+| --- | --- | --- |
+| `PORCN -> focal dermal hypoplasia` | [PMID:26843121](https://pubmed.ncbi.nlm.nih.gov/26843121/) | Strong direct Mendelian claim: disease caused by mutations in `PORCN`. |
+| `ZIC3 -> congenital heart malformation` | [PMID:21858219](https://pubmed.ncbi.nlm.nih.gov/21858219/) | Strong claim for loss of function in `ZIC3` causing X-linked heterotaxy / congenital heart malformation. |
+| `KIF15 -> thrombocytopenia` | [PMID:28150392](https://pubmed.ncbi.nlm.nih.gov/28150392/) | Strong consanguineous-family/loss-of-function style evidence. |
+| `RIMS1 -> inherited retinal dystrophy` | [PMID:17237123](https://pubmed.ncbi.nlm.nih.gov/17237123/) | Strong inherited retinal dystrophy phrasing. |
+| `SLCO2A1 -> primary hypertrophic osteoarthropathy` | [PMID:22197487](https://pubmed.ncbi.nlm.nih.gov/22197487/) | Strong causative-mutation evidence. |
+| `DNMT1 -> hereditary sensory and autonomic neuropathy type 1` | [PMID:25033457](https://pubmed.ncbi.nlm.nih.gov/25033457/) | Strong direct causal statement with OMIM-like disease context. |
+| `GCK -> monogenic diabetes` | [PMID:21437567](https://pubmed.ncbi.nlm.nih.gov/21437567/) | Strong explicit monogenic diabetes evidence. |
+| `SPATA7 -> retinal degeneration` | [PMID:28481129](https://pubmed.ncbi.nlm.nih.gov/28481129/) | Strong title-level evidence for a homozygous mutation causing autosomal recessive retinal degeneration. |
+| `EFTUD2 -> mandibulofacial dysostosis` | [PMID:23879989](https://pubmed.ncbi.nlm.nih.gov/23879989/) | Strong direct statement that `EFTUD2` mutations cause mandibulofacial dysostosis. |
+| `FASTKD2 -> mitochondrial encephalomyopathy` | [PMID:26370583](https://pubmed.ncbi.nlm.nih.gov/26370583/) | Strong explicit Mendelian disease evidence. |
+
+High-scoring false positives or cautionary cases:
+
+| Edge | PubMed/PMC | Likely issue |
+| --- | --- | --- |
+| `CALR3 -> cardiomyopathy` | [PMID:29988065](https://pubmed.ncbi.nlm.nih.gov/29988065/) | Negation/hedging: the evidence says it is questionable that `CALR3` variants are a monogenic cause of cardiomyopathy. |
+| `DNAJC6 -> dopa-responsive dystonia`, `VPS35 -> dopa-responsive dystonia`, `ATP13A2 -> dopa-responsive dystonia` | [PMID:31779813](https://pubmed.ncbi.nlm.nih.gov/31779813/) | List-sentence problem: the abstract discusses multiple Parkinsonism genes and movement-disorder categories; individual gene-object pairings can be over-assigned. |
+| `SALL4 -> horizontal gaze palsy with progressive scoliosis`, `CHN1 -> horizontal gaze palsy with progressive scoliosis` | [PMID:25173900](https://pubmed.ncbi.nlm.nih.gov/25173900/) | Coordinated-list problem: several genes and several phenotypes are listed together; not every gene maps to every phenotype. |
+| `CNGA3 -> retinitis pigmentosa`, `CNGB3 -> choroideremia` | [PMID:28035529](https://pubmed.ncbi.nlm.nih.gov/28035529/) | Panel/list context: genes and inherited retinal disease categories co-occur, but the specific normalized object may be wrong. |
+| `CYP24A1 -> distal renal tubular acidosis` | [PMID:30470867](https://pubmed.ncbi.nlm.nih.gov/30470867/) | Differential/list context: `CYP24A1` belongs to one nephrocalcinosis cause, while distal renal tubular acidosis is another listed cause. |
+| `NSUN2 -> autosomal recessive hypophosphatemic rickets` | [PMID:24102521](https://pubmed.ncbi.nlm.nih.gov/24102521/) | Multi-case sequencing list: the sentence contains several genes and diagnoses; the edge likely cross-products unrelated list items. |
+
+Additional taxonomy suggested by this scan:
+
+7. **Coordinated gene-list / disease-list cross-products**
+   - Several genes and diseases appear in one sentence, and extraction creates edges between non-corresponding pairs.
+   - Detection signal: multiple comma-separated genes and multiple comma-separated diseases in the same evidence span.
+
+8. **Negated or hedged Mendelian causality**
+   - Evidence contains Mendelian keywords but says the causal claim is doubtful, absent, or only suspected.
+   - Detection signal: terms such as "questionable", "not associated", "failed to", "unlikely", "may", "suspect", or "candidate" near causal language.
+
+9. **Panel, review, or differential-diagnosis context**
+   - Gene and disease names co-occur in a broad review/panel/differential list rather than a direct assertion.
+   - Detection signal: section/title contains "panel", "review", "differential", "spectrum", or "genes including"; evidence has several semicolon/comma-separated alternatives.
+
 ### Candidate filters to try next
 
 - Flag edges where the extracted subject/object mention is shorter than 4 characters.
@@ -178,3 +238,5 @@ Manual inspection of sampled examples shows that good edges often have directly 
 - Down-rank or suppress generic disease objects such as `cancer`, `neoplasm`, and especially `syndrome` unless the source text lacks a more specific disease mention.
 - Separate evidence categories: direct causation/mutation, expression/prognosis, model organism, marker/control, and cell-line-only context.
 - Use higher evidence count cautiously: repeated evidence can amplify a systematic normalization error.
+- For Mendelian candidates, require direct gene-disease alignment in the same clause when evidence contains multiple genes and multiple diseases.
+- Add a negation/hedging pass before accepting high-scoring mutation-language edges.
