@@ -231,6 +231,86 @@ Additional taxonomy suggested by this scan:
    - Gene and disease names co-occur in a broad review/panel/differential list rather than a direct assertion.
    - Detection signal: section/title contains "panel", "review", "differential", "spectrum", or "genes including"; evidence has several semicolon/comma-separated alternatives.
 
+### Chemical/drug to disease scan
+
+The chemical/drug to disease slice has two main predicates:
+
+| Predicate | Edges | Notes |
+| --- | ---: | --- |
+| `biolink:treats_or_applied_or_studied_to_treat` | 316,217 | Broad predicate covering true treatment, clinical use, trial/study context, and sometimes mere exposure in patients with a disease. |
+| `biolink:contributes_to` | 121,082 | Often adverse-event, risk-factor, exposure, toxicity, or disease-causation language. |
+
+SemMed agreement is present only for treatment-style edges in this slice:
+
+| Predicate | Edges with `semmed_agreement_count` |
+| --- | ---: |
+| `biolink:treats_or_applied_or_studied_to_treat` | 18,449 |
+| `biolink:contributes_to` | 0 |
+
+Heuristic buckets over this slice:
+
+| Predicate | Audit bucket | Edges | Notes |
+| --- | --- | ---: | --- |
+| `treats_or_applied_or_studied_to_treat` | treatment/therapy language | 110,719 | Evidence contains treatment, therapy, efficacy, response, remission, or clinical-use terms. |
+| `treats_or_applied_or_studied_to_treat` | abbreviation-sensitive mention | 76,513 | Evidence uses short mentions such as `5-FU`, `HCC`, `CML`, `ALS`; this bucket contains both valid abbreviations and normalization risks. |
+| `treats_or_applied_or_studied_to_treat` | studied-to-treat / trial context | 27,642 | Often valid for this broad Biolink predicate, but weaker than a direct treatment claim. |
+| `treats_or_applied_or_studied_to_treat` | generic disease object | 25,990 | Disease object is broad, for example `cancer`, `neoplasm`, or `disease`. |
+| `treats_or_applied_or_studied_to_treat` | exposure/comorbidity not treatment | 25,183 | Evidence often mentions patients with a condition, contraindications, risk factors, or adverse context rather than treatment of the object disease. |
+| `treats_or_applied_or_studied_to_treat` | treatment with SemMed support | 13,665 | A higher-priority review subset, though still not guaranteed correct. |
+| `contributes_to` | adverse/risk language | 42,795 | Often useful for toxicity, induced disease, adverse events, or risk factors. |
+| `contributes_to` | abbreviation-sensitive mention | 35,422 | Same caveat as above: includes valid abbreviations and errors. |
+| `contributes_to` | generic disease object | 13,563 | Broad object labels reduce usefulness. |
+
+Good or mostly good treatment examples:
+
+| Edge | Evidence read |
+| --- | --- |
+| `Midostaurin -> acute myeloid leukemia` | The excerpt says midostaurin is approved for treatment of newly diagnosed FLT3-mutated AML. |
+| `Pazopanib -> renal cell carcinoma` | The excerpt describes pazopanib as first-line treatment for metastatic renal cell carcinoma. |
+| `Ursodiol -> primary biliary cholangitis` | The excerpt describes ursodeoxycholic acid therapy in primary biliary cirrhosis/cholangitis patients. |
+| `Edaravone -> amyotrophic lateral sclerosis` | The excerpt discusses clinical efficacy and treatment implications for ALS. |
+| `Methotrexate -> rheumatoid arthritis` | The excerpt references low-dose methotrexate therapy in rheumatoid arthritis. |
+| `Gefitinib -> non-small cell lung carcinoma` | The excerpt links gefitinib efficacy with non-small-cell lung cancer. |
+
+Useful `contributes_to` examples:
+
+| Edge | Evidence read |
+| --- | --- |
+| `Clopidogrel -> thrombotic thrombocytopenic purpura` | The excerpt describes an association of clopidogrel with TTP in product-label/safety context. |
+| `estrogen -> hepatocellular adenoma` | The excerpt describes hormonal exposure to estrogens or androgens as a main risk factor for HCA. |
+| `alkylating agent -> myeloid neoplasm` | The excerpt links alkylating-agent exposure to risk of secondary myeloid malignancies. |
+| `Meclizine -> orofacial cleft` | Title-level evidence links meclozine with cleft lip/palate. |
+| `Ethanol -> cancer` | The excerpt states alcohol use contributes to increased risk of cancer in chronic HCV context. |
+
+Likely false positives or ambiguity patterns:
+
+| Edge | Issue |
+| --- | --- |
+| `Givinostat -> Duane Syndrome` | Object mention was `duration`; this is a word-sense/normalization error, not a disease treatment or adverse relation. |
+| `Zafirlukast -> kidney disorder` | Evidence says subjects without renal disease received zafirlukast; this is exposure eligibility, not treatment of kidney disease. |
+| `Domperidone -> digestive system disorder` | Evidence says domperidone is prescribed in patients with gastrointestinal disorders while discussing cardiac adverse effects. The broad predicate may be defensible, but it is not a clean therapeutic assertion. |
+| `Hydralazine -> thyroid disease` | Evidence says thyroid disease is a predisposing factor for hydralazine-induced AAV, not an effect of hydralazine. |
+| `Aminohippuric acid -> neoplasm` | Mention `PAH` likely refers to polycyclic aromatic hydrocarbons in cigarette smoke, not aminohippuric acid. |
+| `Bisphenol A -> cancer` as treatment | Evidence says data on BPA effects on cancer cell migration are lacking. This is not treatment. |
+
+Additional taxonomy suggested by chemical/drug to disease edges:
+
+10. **Broad treatment predicate ambiguity**
+    - `treats_or_applied_or_studied_to_treat` intentionally combines true treatment, studied-to-treat, clinical trial context, and exposure in disease cohorts.
+    - Detection signal: distinguish direct terms such as "approved", "effective", "therapy", and "treatment of" from "patients with", "safety", "without", and eligibility language.
+
+11. **Exposure, contraindication, or comorbidity context misread as treatment**
+    - A drug appears near a disease because the disease is an exclusion criterion, comorbidity, baseline condition, or adverse-effect context.
+    - Detection signal: "patients with", "without", "history of", "contraindicated", "risk factor", "adverse effects", or "comorbidity".
+
+12. **Abbreviation-sensitive chemical and disease mentions**
+    - Short mentions may be valid (`5-FU`, `HCC`, `CML`, `ALS`) or bad (`duration` -> Duane Syndrome, `PAH` -> aminohippuric acid).
+    - Detection signal: mention length <= 4 and low lexical match to the normalized node label; treat as review-needed rather than automatically false.
+
+13. **Adverse/risk relation mixed into `contributes_to`**
+    - This bucket is often useful, but its semantics span direct toxicity, epidemiologic risk, induced disease models, and disease predisposition.
+    - Detection signal: separate "chemical causes/induces disease" from "disease predisposes to adverse event during chemical exposure".
+
 ### Candidate filters to try next
 
 - Flag edges where the extracted subject/object mention is shorter than 4 characters.
@@ -240,3 +320,4 @@ Additional taxonomy suggested by this scan:
 - Use higher evidence count cautiously: repeated evidence can amplify a systematic normalization error.
 - For Mendelian candidates, require direct gene-disease alignment in the same clause when evidence contains multiple genes and multiple diseases.
 - Add a negation/hedging pass before accepting high-scoring mutation-language edges.
+- For treatment edges, split direct treatment assertions from studied-to-treat, eligibility/comorbidity, and adverse-event context before using the predicate as a clinical treatment relation.
