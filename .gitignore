@@ -1,0 +1,14 @@
+/downloads/
+/.venv/
+/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.duckdb
+*.duckdb.wal
+*.tar
+*.tar.*
+*.jsonl
+*.tsv
+*.tsv.gz
+*.csv
+*.csv.gz
+

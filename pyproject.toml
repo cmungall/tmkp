@@ -1,0 +1,15 @@
+[project]
+name = "tmkp-analysis"
+version = "0.1.0"
+description = "DuckDB and notebook analysis for the TMKP KGX release"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.3.0",
+    "ipykernel>=6.29.0",
+    "jupyterlab>=4.3.0",
+    "matplotlib>=3.9.0",
+    "nbconvert>=7.16.0",
+    "pandas>=2.2.0",
+]
+
