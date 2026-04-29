@@ -476,6 +476,94 @@ Additional taxonomy suggested by phenotype-object edges:
     - Evidence can say a marker is elevated or measured in patients with a phenotype, but the edge becomes `affects` or `contributes_to`.
     - Detection signal: terms such as "levels", "measured", "marker", "CSF", "expression", and "compared with controls" need separate handling from causal or genetic assertions.
 
+### Gene/protein to phenotype audit
+
+The more specific gene/protein-to-HPO slice contains `9,519` edges. These are the phenotype edges most likely to be useful for variant, mechanism, model-system, or biologic-treatment review, but the slice mixes several semantics.
+
+| Subject category | Predicate | Qualified predicate | Edges | Median evidence count | Max evidence count |
+| --- | --- | --- | ---: | ---: | ---: |
+| `biolink:Gene` | `biolink:affects` | `biolink:contributes_to` | 7,753 | 1 | 614 |
+| `biolink:Protein` | `biolink:contributes_to` | `NULL` | 972 | 1 | 990 |
+| `biolink:Protein` | `biolink:treats_or_applied_or_studied_to_treat` | `NULL` | 702 | 1 | 1,534 |
+| `biolink:Protein` | `biolink:affects` | `biolink:contributes_to` | 74 | 1 | 26 |
+| `biolink:Gene` | `biolink:contributes_to` | `NULL` | 12 | 1 | 14 |
+| `biolink:Gene` | `biolink:treats_or_applied_or_studied_to_treat` | `NULL` | 6 | 2 | 18 |
+
+There is no SemMed support in this slice (`semmed_agreement_count > 0` is zero for every row above).
+
+Top HPO objects in this slice are again broad symptom or clinical-feature terms: `Edema` (`773` edges), `Growth delay` (`647`), `Cognitive impairment` (`559`), `Short stature` (`348`), `Fever` (`286`), `Abnormality of the skeletal system` (`266`), `Overgrowth` (`231`), `Pain` (`217`), `Vomiting` (`208`), and `Hypercholesterolemia` (`163`).
+
+Heuristic buckets:
+
+| Audit bucket | Edges | Median evidence count | Max evidence count |
+| --- | ---: | ---: | ---: |
+| genetic or variant phenotype language | 2,936 | 1 | 614 |
+| model or assay context | 2,796 | 1 | 108 |
+| biomarker, expression, or measurement context | 1,099 | 1 | 990 |
+| phenotype object only | 929 | 1 | 16 |
+| short mention / normalization risk | 620 | 1 | 51 |
+| generic biomolecule or family mention | 605 | 2 | 584 |
+| protein therapeutic or management language | 534 | 2 | 1,534 |
+
+Good or mostly good genetic/phenotype examples:
+
+| Edge | Evidence read |
+| --- | --- |
+| `LDLR -> Hypercholesterolemia` | The evidence reports a large deletion in the low-density-lipoprotein receptor gene in patients with heterozygous familial hypercholesterolemia. |
+| `PCSK9 -> Hypercholesterolemia` | The evidence says gain-of-function `PCSK9` mutations cause autosomal dominant hypercholesterolemia. |
+| `SCN1A -> Febrile Seizure` | The evidence says common `SCN1A` variants are associated with febrile seizures. |
+| `GPC3 -> Overgrowth` | The evidence discusses loss-of-function `GPC3` mutations in Simpson-Golabi-Behmel overgrowth syndrome. |
+| `KDM6B -> Neurodevelopmental delay` | The evidence says genetic variants in `KDM6B` are associated with neurodevelopmental delays and dysmorphic features. |
+| `SLC7A7 -> Undergrowth` | The evidence says `SLC7A7` mutations cause lysinuric protein intolerance, characterized by failure to thrive and other features. |
+| `RPS6KA3 -> Intellectual disability, severe` | The evidence says Coffin-Lowry syndrome is caused by mutations in `RSK2`/`RPS6KA3` and includes moderate to severe intellectual disability. |
+| `RUNX2 -> Tooth problem` | The evidence describes a `RUNX2` mutation with dental abnormalities in cleidocranial dysplasia. |
+| `FGD1 -> Short stature` | The evidence says `FGD1` mutations are responsible for Aarskog-Scott syndrome, characterized by short stature and other features. |
+| `HCN4 -> Ventricular arrhythmia` | The evidence connects HCN4 loss of function with ventricular arrhythmia. |
+
+Good or useful protein/biologic treatment and adverse examples:
+
+| Edge | Evidence read |
+| --- | --- |
+| `Dysport -> Spasticity` | The evidence describes botulinum toxin A treatment for focal spasticity. |
+| `bevacizumab -> Edema` | The evidence reports bevacizumab decreasing perilesional edema caused by radiation necrosis. |
+| `ranibizumab -> Impaired Vision` | The evidence describes ranibizumab treatment in patients with visual impairment due to myopic choroidal neovascularization. |
+| `Human interleukin-2 -> Edema` | The evidence describes continuous intravenous IL-2 causing capillary leak with systemic/pulmonary edema. |
+| `AMG 162 -> Hypocalcemia` | The evidence describes denosumab being associated with severe hypocalcemia. |
+| `BCG Vaccine -> Fever` | The evidence lists fever among adverse effects of BCG therapy. |
+
+Likely false positives or ambiguity patterns:
+
+| Edge | Issue |
+| --- | --- |
+| `WDR46 -> Micrognathia` | Subject mention is `COL11A2`, so the edge subject is wrong even though the phenotype context is real. |
+| `PHF1 -> Cognitive impairment` | Subject mention is `Syngap1`; the normalized subject `PHF1` is wrong. |
+| `ADH1A -> Hypocalcemia` | Mention `ADH1` means autosomal dominant hypocalcemia type 1, not the alcohol dehydrogenase gene `ADH1A`. |
+| `ASIP -> Abnormality of the skeletal system` | Mention `Asp` is an amino-acid residue in an FGFR1 variant, not `ASIP`. |
+| `COMP -> Gait ataxia` | Mention `precursor` comes from cerebellin 1 precursor protein text, not cartilage oligomeric matrix protein. |
+| `GH1 -> Short stature` | Evidence is about human growth hormone treatment and height, not necessarily a `GH1` gene-to-phenotype assertion. |
+| `VEGFC -> Edema` and `VEGFD -> Edema` | Generic `VEGF` or anti-VEGF mentions are mapped to specific VEGF-family genes. |
+| `MAPT -> Cognitive impairment` | Evidence is biomarker/CSF tau context in cognitive impairment, not direct gene causality. |
+| `INS -> Edema` | Evidence discusses insulin and metabolic indices in a disease model, while edema appears as histopathology or treatment context. |
+| `TNFSF13B -> Edema`, `TNFSF4 -> Edema`, `CD70 -> Edema` | Generic `TNF` mentions are normalized to specific TNF-superfamily genes. |
+
+Additional taxonomy suggested by gene/protein-to-phenotype edges:
+
+23. **Specific-gene versus protein/family normalization**
+    - Generic protein-family mentions (`VEGF`, `TNF`, `growth hormone`, `insulin`, `tau`) can be normalized to one or many specific gene nodes.
+    - Detection signal: require mention-to-node lexical/synonym agreement and treat family-level mentions as separate from specific gene assertions.
+
+24. **Disease phenotype statements are not always gene phenotype assertions**
+    - Evidence often says a disease caused by a gene has certain features; this can still be useful, but the edge is one step removed from a direct gene-feature mechanism.
+    - Detection signal: distinguish "gene variant causes disease characterized by phenotype" from "gene directly affects phenotype".
+
+25. **Variant-residue and abbreviation collisions**
+    - Short tokens such as `Asp`, `ADH1`, `SCA1`, `BTX-A`, and `TPA` can be valid in one context and wrong in another.
+    - Detection signal: short subject mentions should be resolved with local expansion and surrounding entity type, not just string matching.
+
+26. **Protein therapeutics appear inside the protein phenotype slice**
+    - Biologics such as botulinum toxin, bevacizumab, ranibizumab, IL-2, denosumab, and BCG vaccine are categorized as `biolink:Protein`, but their phenotype edges are treatment or adverse-event assertions.
+    - Detection signal: separate therapeutic-agent semantics from gene/protein biology before estimating precision.
+
 ### Candidate filters to try next
 
 - Flag edges where the extracted subject/object mention is shorter than 4 characters.
@@ -491,3 +579,4 @@ Additional taxonomy suggested by phenotype-object edges:
 - For phenotype-object edges, first separate treatment target, adverse effect, gene/protein phenotype, assay readout, and biomarker contexts.
 - For HPO symptom objects, treat common features such as edema, vomiting, fever, pain, and cognitive impairment as broad review buckets rather than precise disease phenotypes.
 - Flag generic biomolecule mentions (`VEGF`, `TNF`, `growth hormone`, `insulin`, `tau`) that normalize to specific genes without strong lexical support.
+- For gene/protein-to-phenotype edges, split direct variant phenotype, disease-feature inheritance, biomarker/expression, model/assay, and biologic-therapeutic contexts before scoring precision.
