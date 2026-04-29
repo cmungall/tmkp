@@ -394,6 +394,88 @@ Additional taxonomy suggested by this scan:
     - Drug-induced syndromes and fetal alcohol syndrome are useful, but they should not be merged semantically with inherited disease causation or therapeutic use.
     - Detection signal: split induced/adverse, preventive, teratogenic, exposure-risk, and treatment/management assertions before downstream use.
 
+### Disease/phenotype edge check
+
+There are no direct `Disease -> PhenotypicFeature` or `PhenotypicFeature -> Disease` edges in this KGX, even when using all node category memberships rather than only the primary category. The closest phenotype review slice is therefore edges whose object is `biolink:PhenotypicFeature`.
+
+That phenotype-object slice contains `29,094` edges:
+
+| Subject category | Predicate | Edges | Edges with SemMed support | Median evidence count | Max evidence count |
+| --- | --- | ---: | ---: | ---: | ---: |
+| `biolink:SmallMolecule` | `biolink:contributes_to` | 9,509 | 0 | 1 | 498 |
+| `biolink:Gene` | `biolink:affects` / `qualified_predicate=contributes_to` | 7,753 | 0 | 1 | 614 |
+| `biolink:SmallMolecule` | `biolink:treats_or_applied_or_studied_to_treat` | 7,260 | 297 | 1 | 1,802 |
+| `biolink:ChemicalEntity` | `biolink:contributes_to` | 1,128 | 0 | 1 | 212 |
+| `biolink:Protein` | `biolink:contributes_to` | 972 | 0 | 1 | 990 |
+| `biolink:ChemicalEntity` | `biolink:treats_or_applied_or_studied_to_treat` | 967 | 4 | 1 | 219 |
+| `biolink:Protein` | `biolink:treats_or_applied_or_studied_to_treat` | 702 | 0 | 1 | 1,534 |
+| Other subject/predicate combinations | mixed | 1,023 | 7 | 1 | 1,408 |
+
+Top phenotype objects are broad symptom or clinical-feature HPO terms: `Edema` (`2,868` edges), `Vomiting` (`1,962`), `Fever` (`1,489`), `Cognitive impairment` (`1,425`), `Abdominal pain` (`1,251`), `Growth delay` (`1,146`), `Nausea and vomiting` (`961`), `Pain` (`737`), `Ventricular arrhythmia` (`623`), and `Drowsiness` (`590`).
+
+Heuristic buckets over phenotype-object edges:
+
+| Audit bucket | Edges | Median evidence count | Max evidence count |
+| --- | ---: | ---: | ---: |
+| short mention / normalization risk | 7,318 | 1 | 990 |
+| adverse, induced, or risk language | 6,685 | 2 | 498 |
+| treatment or management language | 5,946 | 2 | 1,802 |
+| gene/protein phenotype language | 2,925 | 1 | 584 |
+| phenotype object only | 2,286 | 1 | 238 |
+| model or assay context | 2,158 | 1 | 87 |
+| broad symptom object only | 1,776 | 1 | 57 |
+
+Good or mostly good examples:
+
+| Edge | Evidence read |
+| --- | --- |
+| `Somatotropin -> Short stature` | The evidence describes recombinant human growth hormone being used to treat short stature. |
+| `baclofen -> Spasticity` | The evidence says baclofen ameliorates rigidity and spasticity or is used intrathecally for spasticity. |
+| `Dysport -> Spasticity` | The evidence describes botulinum toxin A treatment for focal spasticity. |
+| `Ondansetron -> Nausea and vomiting` | The evidence describes ondansetron use for chemotherapy-associated acute nausea and vomiting. |
+| `Furosemide -> Edema` | The evidence describes furosemide being given to treat edema due to nephrotic syndrome. |
+| `Pioglitazone -> Edema` | The evidence describes pioglitazone/thiazolidinediones being associated with fluid retention and edema. |
+| `Cisplatin -> Nausea and vomiting` | The evidence lists nausea and vomiting among cisplatin toxicities. |
+| `Hydroxychloroquine -> Ventricular arrhythmia` | The evidence reports increased de novo ventricular arrhythmia during hydroxychloroquine/chloroquine hospitalization context. |
+| `LDLR -> Hypercholesterolemia` | The evidence reports an `LDLR` deletion in French Canadians with heterozygous familial hypercholesterolemia. |
+| `SCN1A -> Febrile Seizure` | The evidence says common variants in `SCN1A` are associated with febrile seizures. |
+| `PIK3CA -> Overgrowth` | The evidence names `PIK3CA`-related overgrowth spectrum. |
+
+Likely false positives or ambiguity patterns:
+
+| Edge | Issue |
+| --- | --- |
+| `alteplase -> Edema` | Subject mention `TPA` occurs in `TPA-induced ear edema`; in that inflammation-model context it is 12-O-tetradecanoylphorbol-13-acetate, not tissue plasminogen activator/alteplase. |
+| `Methyldopa -> Impaired Vision` and `Methyldopa -> Visual loss` | Subject mention `AMD` refers to age-related macular degeneration, not alpha-methyldopa. |
+| `GH1 -> Short stature` | Subject mention is `growth hormone` in treatment/height context; the normalized edge becomes a gene-to-phenotype contribution claim. |
+| `VEGFC -> Edema` and `VEGFD -> Edema` | Generic `VEGF` or vascular endothelial growth factor mentions are mapped to specific VEGF-family genes. |
+| `MAPT -> Cognitive impairment` | The evidence reports CSF tau/p-tau levels in patients with cognitive impairment; this is biomarker context, not direct gene causation. |
+| `INS -> Edema` | The evidence discusses insulin and metabolic indices in a diabetic nephropathy model, while edema appears as kidney histopathology. |
+| `solution -> Edema` | Subject mention `solution` is a generic reagent/exposure artifact, not a useful chemical entity. |
+| `EDA -> Edema` and `TNFSF4 -> Edema` | Subject mentions are generic `TNF`-family or inflammatory mediator text; normalized subjects can become overly specific genes. |
+
+Additional taxonomy suggested by phenotype-object edges:
+
+18. **No direct disease-to-phenotype representation**
+    - TMKP appears not to emit direct disease-HPO phenotype edges. Phenotype review must instead inspect chemical, gene, and protein subjects connected to HPO objects.
+    - Detection signal: direct joins between disease-category nodes and phenotype-category nodes are empty.
+
+19. **Broad HPO symptom objects mix several semantics**
+    - HPO terms such as edema, vomiting, fever, pain, drowsiness, growth delay, and cognitive impairment can be treatment targets, adverse effects, disease manifestations, or assay readouts.
+    - Detection signal: classify by local verbs and study context before treating an HPO edge as phenotype biology.
+
+20. **Generic biomolecule mentions mapped to specific genes**
+    - Mentions such as `growth hormone`, `VEGF`, `TNF`, `insulin`, and `tau` may be normalized to a gene even when the text is about a protein, hormone, biomarker, treatment, or family-level concept.
+    - Detection signal: require lexical or synonym agreement with the specific normalized gene, especially for family abbreviations and common protein names.
+
+21. **Inflammation-model assay contexts create clinical-looking phenotype edges**
+    - `paw edema`, `ear edema`, carrageenan, formalin, TPA, and similar model phrases often describe experimental assay readouts rather than patient phenotypes.
+    - Detection signal: flag animal/model/assay terms and separate pharmacology assay effects from clinical adverse effects.
+
+22. **Biomarker or measurement context promoted to causality**
+    - Evidence can say a marker is elevated or measured in patients with a phenotype, but the edge becomes `affects` or `contributes_to`.
+    - Detection signal: terms such as "levels", "measured", "marker", "CSF", "expression", and "compared with controls" need separate handling from causal or genetic assertions.
+
 ### Candidate filters to try next
 
 - Flag edges where the extracted subject/object mention is shorter than 4 characters.
@@ -406,3 +488,6 @@ Additional taxonomy suggested by this scan:
 - For treatment edges, split direct treatment assertions from studied-to-treat, eligibility/comorbidity, and adverse-event context before using the predicate as a clinical treatment relation.
 - For chemical/drug to Mendelian-disease edges, require ontology-backed rare/inherited disease membership rather than disease-label keywords alone.
 - For short disease mentions such as `ACS`, `MDS`, and `SCD`, require local abbreviation expansion before accepting the normalized object.
+- For phenotype-object edges, first separate treatment target, adverse effect, gene/protein phenotype, assay readout, and biomarker contexts.
+- For HPO symptom objects, treat common features such as edema, vomiting, fever, pain, and cognitive impairment as broad review buckets rather than precise disease phenotypes.
+- Flag generic biomolecule mentions (`VEGF`, `TNF`, `growth hormone`, `insulin`, `tau`) that normalize to specific genes without strong lexical support.
