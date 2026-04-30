@@ -762,6 +762,98 @@ Additional taxonomy suggested by chemical/drug-to-gene/protein edges:
     - A drug can be approved for a biomarker-defined therapy or used in an anti-target class without the sentence directly asserting that drug causes a gene/protein change.
     - Detection signal: distinguish target/mechanism verbs from "approved", "treated with", "patients receiving", and cohort eligibility language.
 
+### Gene/protein to gene/protein audit
+
+The gene/protein-to-gene/protein slice contains `359,704` edges. As with chemical/drug-to-gene/protein edges, every row uses `predicate=biolink:affects` and `qualified_predicate=biolink:causes`, and there is no SemMed support.
+
+| Subject category | Object category | Edges | Median evidence count | Max evidence count |
+| --- | --- | ---: | ---: | ---: |
+| `biolink:Gene` | `biolink:Gene` | 297,742 | 1 | 4,624 |
+| `biolink:Protein` | `biolink:Gene` | 59,477 | 2 | 9,741 |
+| `biolink:Gene` | `biolink:Protein` | 1,945 | 1 | 683 |
+| `biolink:Protein` | `biolink:Protein` | 540 | 1 | 692 |
+
+The top object genes are dominated by pathway hubs and family-name targets: `MAPK1`, `TP53`, `TNF`, `AKT1`, TNF-superfamily genes, `INS`, VEGF-family genes, `MAPK3`, `EGF`, `STAT3`, `IL6`, `EGFR`, and PPAR genes. There are also `4,105` self-loop edges in this slice.
+
+Heuristic buckets:
+
+| Audit bucket | Edges | Median evidence count | Max evidence count |
+| --- | ---: | ---: | ---: |
+| cell/model mechanism language | 142,831 | 2 | 9,741 |
+| direct mechanism language | 74,652 | 1 | 1,376 |
+| family or generic gene/protein mention | 70,110 | 2 | 7,828 |
+| biomarker, clinical, or cohort context | 31,226 | 1 | 5,000 |
+| short mention / normalization risk | 29,809 | 1 | 562 |
+| self-loop or same normalized node | 4,105 | 3 | 4,624 |
+| model or assay context | 3,886 | 1 | 1,022 |
+| gene/protein object only | 3,085 | 1 | 150 |
+
+High-count object-mention fan-out is again a major issue:
+
+| Mention | Edges | Normalized objects | Examples |
+| --- | ---: | ---: | --- |
+| `TNF` | 22,090 | 11 | `TNF`, `TNFSF12`, `TNFSF13`, `TNFSF13B`, `TNFSF18`, `TNFSF4`, `TNFSF8`, `TNFSF9`, `CD40LG`, `CD70`, `EDA` |
+| `VEGF` | 5,865 | 4 | `VEGFA`, `VEGFB`, `VEGFC`, `VEGFD` |
+| `PPAR` | 3,018 | 3 | `PPARA`, `PPARD`, `PPARG` |
+| `calcineurin` | 1,803 | 5 | `PPP3CA`, `PPP3CB`, `PPP3CC`, `PPP3R1`, `PPP3R2` |
+| `PD-1` | 1,352 | 3 | `PDCD1`, `RPL17`, `SPATA2` |
+| `COX-2` / `COX2` | 975 | 2 | `PTGS2`, `MT-CO2` |
+
+Good or mostly good mechanism examples:
+
+| Edge | Evidence read |
+| --- | --- |
+| `alteplase -> PLG` | The evidence describes tissue plasminogen activator in stroke thrombolysis context; the relation is protein-drug/biologic to plasminogen biology rather than a simple gene regulation claim. |
+| `bevacizumab -> VEGFA` | The evidence describes bevacizumab as an anti-VEGF antibody. |
+| `Herceptin/trastuzumab -> ERBB2` | The evidence describes trastuzumab as a HER2/neu monoclonal antibody. |
+| `MDX-1106/nivolumab -> PDCD1` | The evidence describes nivolumab as a PD-1 antibody. |
+| `tocilizumab -> IL6` | The evidence describes tocilizumab binding IL-6 receptors and inhibiting IL-6 biological activity. |
+| `cyclosporine -> calcineurin genes` | The evidence describes cyclosporine/CsA as a calcineurin inhibitor; useful, but object specificity is split across calcineurin subunit genes. |
+| `LRRTM3 -> APP` | The evidence says siRNA targeting `LRRTM3` inhibited secretion of APP-related amyloid peptides in cells overexpressing APP. |
+
+Useful but semantically shifted examples:
+
+| Edge | Issue |
+| --- | --- |
+| `VEGFA -> VEGFA` | Many self-loop examples arise from generic `VEGF` mentions; these can be useful statements about VEGF biology but are not informative pairwise edges. |
+| `VEGFA/VEGFB/VEGFC/VEGFD` cross-products | Generic `VEGF` mentions are repeatedly mapped to multiple VEGF-family genes, creating many pairwise edges from one family-level statement. |
+| `cyclosporine -> PPP3CA/PPP3CB/PPP3CC/PPP3R1/PPP3R2` | The text usually says `calcineurin`; the normalized object fan-out to subunits may be useful only at family/complex level. |
+| `D-glucose/INS`-like biology from the chemical slice has an analogue here: hormone/protein mentions often land on gene nodes even when the text is about secretion, abundance, or protein activity. |
+
+Likely false positives or normalization artifacts:
+
+| Edge | Issue |
+| --- | --- |
+| `bevacizumab -> VEGFB`, `bevacizumab -> VEGFC`, `bevacizumab -> VEGFD` | Object mention is generic `VEGF`; the direct therapeutic target is usually VEGF-A unless the source explicitly names another family member. |
+| `MDX-1106/nivolumab -> RPL17` and `MDX-1106/nivolumab -> SPATA2` | Object mention is `PD-1`; the useful target is `PDCD1`, not unrelated genes. |
+| `GRAP2 -> MAPK1` | Subject mention `p38` and object mention `MAPK` make this a MAPK-family ambiguity rather than a confident `GRAP2 -> MAPK1` edge. |
+| `TNF`-family cross-products | Generic `TNF` mentions fan out to `TNFSF*`, `CD40LG`, `CD70`, and `EDA`, even when the source is about TNF-alpha. |
+| `VEGF` self-loops and cross-products | Generic family mentions create both self-loops and pairwise edges among VEGF-family genes. |
+| `IL10 -> GSR` | Object mention `Gr-1` is an immune-cell marker, not glutathione-disulfide reductase `GSR`. |
+| `MM-121/seribantumab -> S1PR5` | Object mention `NRG1` is the relevant ligand/context; normalization to `S1PR5` is not supported by the evidence. |
+
+Additional taxonomy suggested by gene/protein-to-gene/protein edges:
+
+36. **Molecular family terms should often remain family-level**
+    - `TNF`, `VEGF`, `PPAR`, `calcineurin`, `MAPK`, and `PD-1` often support a family/complex/pathway assertion, not a specific normalized gene pair.
+    - Detection signal: if a mention maps to multiple sibling genes across many edges, require exact member naming before keeping specific pairwise edges.
+
+37. **Self-loops can be biologically meaningful but graph-poor**
+    - A self-loop like `VEGFA -> VEGFA` may reflect useful VEGF biology, but it is usually not an actionable causal edge in a knowledge graph.
+    - Detection signal: separate self-loops into a text evidence bucket rather than treating them as standard pairwise interactions.
+
+38. **Therapeutic biologics are categorized as proteins**
+    - Monoclonal antibodies and biologics such as bevacizumab, trastuzumab, nivolumab, tocilizumab, alteplase, and cyclosporine-like entries behave more like drugs than endogenous proteins.
+    - Detection signal: split therapeutic-agent subjects from endogenous gene/protein subjects before mechanism scoring.
+
+39. **Pathway/cohort assertions become pairwise causal edges**
+    - Sentences about pathway inhibition, checkpoint blockade, angiogenesis, or patient treatment often imply a pathway relationship, but not every normalized subject-object pair is directly asserted.
+    - Detection signal: distinguish "X pathway inhibitor", "anti-Y therapy", and "patients receiving Z" from direct molecular regulation.
+
+40. **Marker names and cluster labels collide with genes**
+    - Examples such as `Gr-1` can normalize to unrelated gene symbols.
+    - Detection signal: short marker-like mentions with hyphens, digits, or immune-cell context need entity-type validation.
+
 ### Candidate filters to try next
 
 - Flag edges where the extracted subject/object mention is shorter than 4 characters.
@@ -780,3 +872,4 @@ Additional taxonomy suggested by chemical/drug-to-gene/protein edges:
 - For gene/protein-to-phenotype edges, split direct variant phenotype, disease-feature inheritance, biomarker/expression, model/assay, and biologic-therapeutic contexts before scoring precision.
 - For chemical/drug-to-phenotype edges, split symptom treatment, adverse/toxic effect, preclinical assay readout, and weak exposure/cohort contexts.
 - For chemical/drug-to-gene/protein edges, separate direct target activity, expression/abundance change, biomarker/cohort context, generic family mention, and methods/protocol context.
+- For gene/protein-to-gene/protein edges, separate family/complex-level assertions, self-loops, therapeutic biologics, direct molecular regulation, and pathway/cohort context.
