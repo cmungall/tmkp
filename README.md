@@ -564,6 +564,105 @@ Additional taxonomy suggested by gene/protein-to-phenotype edges:
     - Biologics such as botulinum toxin, bevacizumab, ranibizumab, IL-2, denosumab, and BCG vaccine are categorized as `biolink:Protein`, but their phenotype edges are treatment or adverse-event assertions.
     - Detection signal: separate therapeutic-agent semantics from gene/protein biology before estimating precision.
 
+### Chemical/drug to phenotype audit
+
+The chemical/drug-to-HPO slice contains `19,575` edges. This is a useful clinical signal slice, but it should be split into symptom treatment, adverse/toxic effects, model-system readouts, and normalization artifacts before use.
+
+| Subject category | Predicate | Edges | Edges with SemMed support | Median evidence count | Max evidence count |
+| --- | --- | ---: | ---: | ---: | ---: |
+| `biolink:SmallMolecule` | `biolink:contributes_to` | 9,509 | 0 | 1 | 498 |
+| `biolink:SmallMolecule` | `biolink:treats_or_applied_or_studied_to_treat` | 7,260 | 297 | 1 | 1,802 |
+| `biolink:ChemicalEntity` | `biolink:contributes_to` | 1,128 | 0 | 1 | 212 |
+| `biolink:ChemicalEntity` | `biolink:treats_or_applied_or_studied_to_treat` | 967 | 4 | 1 | 219 |
+| `biolink:MolecularMixture` | `biolink:contributes_to` | 353 | 0 | 1 | 165 |
+| `biolink:MolecularMixture` | `biolink:treats_or_applied_or_studied_to_treat` | 259 | 7 | 1 | 1,408 |
+| `biolink:ChemicalMixture` | mixed | 97 | 0 | 1 | 140 |
+| `biolink:ComplexMolecularMixture` | `biolink:contributes_to` | 2 | 0 | 1.5 | 2 |
+
+Top HPO objects are broad symptom terms: `Edema` (`2,095` edges), `Vomiting` (`1,754`), `Fever` (`1,203`), `Abdominal pain` (`1,101`), `Nausea and vomiting` (`888`), `Cognitive impairment` (`866`), `Drowsiness` (`569`), `Pain` (`520`), `Ventricular arrhythmia` (`518`), and `Growth delay` (`499`).
+
+Heuristic buckets:
+
+| Audit bucket | Edges | Median evidence count | Max evidence count |
+| --- | ---: | ---: | ---: |
+| adverse, induced, or toxic phenotype | 5,855 | 2 | 498 |
+| symptom treatment or management language | 5,534 | 2 | 1,802 |
+| short mention / normalization risk | 3,339 | 1 | 533 |
+| model or assay readout | 1,636 | 1 | 70 |
+| phenotype object only | 1,420 | 1 | 238 |
+| broad symptom object only | 1,153 | 1 | 427 |
+| cohort, exposure, or comorbidity context | 638 | 1 | 57 |
+
+Good or mostly good symptom-treatment examples:
+
+| Edge | Evidence read |
+| --- | --- |
+| `Somatotropin -> Short stature` | The evidence describes recombinant human growth hormone being used to treat short stature. |
+| `Simvastatin -> Hypercholesterolemia` | The evidence says simvastatin treatment is effective in isolated or mixed hypercholesterolemia. |
+| `Atorvastatin -> Hypercholesterolemia` | The evidence describes atorvastatin treatment in familial and nonfamilial hypercholesterolemia cohorts. |
+| `Morphine -> Pain` | The evidence describes intrathecal morphine for chronic pain. |
+| `Ondansetron -> Nausea and vomiting` | The evidence describes ondansetron use for acute chemotherapy-associated nausea and vomiting. |
+| `Melatonin -> Sleep abnormality` | The evidence describes melatonin as a treatment for sleep disturbances. |
+| `Dronabinol -> Spasticity` | The evidence reports treatment effects on spasticity in a dronabinol group. |
+| `Cannabidiol -> Spasticity` | The evidence describes THC/CBD drug use to treat muscle spasticity in multiple sclerosis. |
+| `Furosemide -> Edema` | The evidence describes furosemide being given to treat edema due to nephrotic syndrome. |
+| `Valproic acid -> Absence Seizure` | The evidence discusses valproate treatment effects in absence seizure context. |
+
+Useful adverse, induced, or toxic phenotype examples:
+
+| Edge | Evidence read |
+| --- | --- |
+| `Pioglitazone -> Edema` | The evidence says thiazolidinediones including pioglitazone are associated with fluid retention and edema. |
+| `Cisplatin -> Nausea and vomiting` | The evidence lists nausea and vomiting among cisplatin toxicities. |
+| `Cisplatin -> Tinnitus` | The evidence describes cisplatin-induced ototoxicity including tinnitus. |
+| `Ethanol -> Growth delay` | The evidence says excessive ethanol exposure during pregnancy could lead to growth retardation as part of fetal alcohol syndrome. |
+| `Imatinib -> Edema` | The evidence lists edema as an imatinib side effect. |
+| `Amlodipine -> Edema` | The evidence reports edema associated with amlodipine use. |
+| `Morphine -> Nausea and vomiting` | The evidence lists nausea and vomiting among morphine side effects. |
+| `Methotrexate -> Vomiting` | The evidence lists vomiting among common methotrexate side effects. |
+| `Metformin -> Vomiting` | The evidence describes gastrointestinal side effects including vomiting. |
+| `Carbamazepine -> Absence Seizure` | The evidence discusses carbamazepine aggravation of absence seizures. |
+
+Model-system or assay readouts that should not be treated as clinical phenotype assertions without review:
+
+| Edge | Issue |
+| --- | --- |
+| `Histamine -> Edema` | The evidence describes rat paw edema induced by inflammatory mediators. This is a pharmacology model readout. |
+| `Formaldehyde -> Edema` | The evidence describes formalin-induced paw edema in rats. |
+| `Serotonin -> Edema` | The evidence describes 5-HT-induced paw edema in an experimental model. |
+| `Bradykinin -> Edema` | The evidence describes mediator-induced edema models. |
+| `Capsaicin -> Edema` | The evidence describes capsaicin-induced ear edema in mice. |
+| `sodium oxybate -> Absence Seizure` | The evidence describes GHB-induced absence seizures in mouse/rat models. |
+
+Likely false positives or normalization artifacts:
+
+| Edge | Issue |
+| --- | --- |
+| `Methyldopa -> Impaired Vision` and `Methyldopa -> Visual loss` | Subject mention `AMD` means age-related macular degeneration, not alpha-methyldopa. |
+| `Pentaerythritol tetranitrate -> Fever` | Subject mention `ten` comes from the phrase "ten patients", not the nitrate drug. |
+| `Histidine -> Fever` and `Histidine -> Vomiting` | Subject mention `his` is a pronoun, not histidine. |
+| `Dextromethorphan -> Edema` | Subject mention `DEX` refers to dexamethasone in the evidence, not dextromethorphan. |
+| `solution -> Edema` | Subject mention `solution` is a generic experimental exposure, not a useful chemical entity. |
+| `Acetaminophen -> Fever` | The evidence says a patient with fever had been treated with paracetamol; this is compatible with treatment/exposure, but weaker than a direct efficacy assertion. |
+
+Additional taxonomy suggested by chemical/drug-to-phenotype edges:
+
+27. **Symptom treatment and adverse-effect edges share the same HPO objects**
+    - The same phenotype object can appear as a treatment target (`pain`, `nausea`, `spasticity`) or as an adverse effect (`vomiting`, `edema`, `arrhythmia`).
+    - Detection signal: predicate plus local verbs are both needed; object name alone is not enough.
+
+28. **Pharmacology assay readouts look like patient phenotypes**
+    - Paw edema, ear edema, formalin/carrageenan models, and induced seizure models are often valid experimental observations but not clinical phenotype assertions.
+    - Detection signal: animal/model/assay phrases should route these to a preclinical/mechanistic bucket.
+
+29. **Pronoun and ordinary-word normalization errors**
+    - Examples include `his` -> histidine and `ten` -> pentaerythritol tetranitrate.
+    - Detection signal: lowercase common words or numerals used as subject mentions should require strong entity context before acceptance.
+
+30. **Drug abbreviation reuse needs local expansion**
+    - Examples include `AMD`, `DEX`, `VPA`, `CBZ`, `THC`, `CBD`, `GHB`, and `ASA`; some are valid in context and some are not.
+    - Detection signal: short drug mentions should be checked against local expansion and surrounding disease/assay context.
+
 ### Candidate filters to try next
 
 - Flag edges where the extracted subject/object mention is shorter than 4 characters.
@@ -580,3 +679,4 @@ Additional taxonomy suggested by gene/protein-to-phenotype edges:
 - For HPO symptom objects, treat common features such as edema, vomiting, fever, pain, and cognitive impairment as broad review buckets rather than precise disease phenotypes.
 - Flag generic biomolecule mentions (`VEGF`, `TNF`, `growth hormone`, `insulin`, `tau`) that normalize to specific genes without strong lexical support.
 - For gene/protein-to-phenotype edges, split direct variant phenotype, disease-feature inheritance, biomarker/expression, model/assay, and biologic-therapeutic contexts before scoring precision.
+- For chemical/drug-to-phenotype edges, split symptom treatment, adverse/toxic effect, preclinical assay readout, and weak exposure/cohort contexts.
