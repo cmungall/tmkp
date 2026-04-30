@@ -663,6 +663,105 @@ Additional taxonomy suggested by chemical/drug-to-phenotype edges:
     - Examples include `AMD`, `DEX`, `VPA`, `CBZ`, `THC`, `CBD`, `GHB`, and `ASA`; some are valid in context and some are not.
     - Detection signal: short drug mentions should be checked against local expansion and surrounding disease/assay context.
 
+### Chemical/drug to gene/protein audit
+
+The chemical/drug-to-gene/protein slice is much larger than the clinical object slices: `587,444` edges. Every row in this slice uses `predicate=biolink:affects` and `qualified_predicate=biolink:causes`. There is no SemMed support in this slice.
+
+| Subject category | Object category | Edges | Median evidence count | Max evidence count |
+| --- | --- | ---: | ---: | ---: |
+| `biolink:SmallMolecule` | `biolink:Gene` | 479,398 | 2 | 35,042 |
+| `biolink:ChemicalEntity` | `biolink:Gene` | 82,676 | 1 | 4,082 |
+| `biolink:MolecularMixture` | `biolink:Gene` | 13,040 | 2 | 1,879 |
+| `biolink:ChemicalMixture` | `biolink:Gene` | 7,837 | 2 | 2,790 |
+| `biolink:SmallMolecule` | `biolink:Protein` | 3,691 | 1 | 540 |
+| other chemical/protein combinations | `biolink:Protein` | 784 | 1 | 113 |
+| `biolink:ComplexMolecularMixture` | `biolink:Gene` | 18 | 1 | 3 |
+
+Overall, `582,969` edges point to genes and `4,475` point to proteins. The top subject nodes include many broad or highly reused chemical names: `D-glucose`, `solution`, `Ethanol`, `doxycycline`, `ligand`, `Myricetin`, `Cisplatin`, `Tretinoin`, `Sirolimus`, `Cyclic AMP`, `Dexamethasone`, and `Tamoxifen`.
+
+Heuristic buckets:
+
+| Audit bucket | Edges | Median evidence count | Max evidence count |
+| --- | ---: | ---: | ---: |
+| direct mechanism language | 276,429 | 1 | 7,566 |
+| cell/model mechanism language | 131,716 | 3 | 7,302 |
+| family or generic gene/protein mention | 62,644 | 4 | 35,042 |
+| biomarker, clinical, or cohort context | 59,893 | 1 | 3,163 |
+| short mention / normalization risk | 27,066 | 1 | 391 |
+| generic chemical subject | 20,879 | 2 | 2,886 |
+| gene/protein object only | 4,471 | 1 | 204 |
+| model or assay context | 4,346 | 1 | 309 |
+
+High-count gene/protein mention fan-out is a major source of error:
+
+| Mention | Edges | Normalized objects | Examples |
+| --- | ---: | ---: | --- |
+| `TNF` | 32,446 | 11 | `TNF`, `TNFSF12`, `TNFSF13`, `TNFSF13B`, `TNFSF18`, `TNFSF4`, `TNFSF8`, `TNFSF9`, `CD40LG`, `CD70`, `EDA` |
+| `VEGF` | 7,293 | 4 | `VEGFA`, `VEGFB`, `VEGFC`, `VEGFD` |
+| `PPAR` | 4,096 | 3 | `PPARA`, `PPARD`, `PPARG` |
+| `COX-2` / `COX2` | 3,662 | 2 | `PTGS2`, `MT-CO2` |
+| `PD-1` | 1,527 | 3 | `PDCD1`, `RPL17`, `SPATA2` |
+
+Good or mostly good mechanism examples:
+
+| Edge | Evidence read |
+| --- | --- |
+| `LY-294002 -> AKT1` | The evidence says LY294002 blocks Akt phosphorylation. |
+| `Gefitinib -> EGFR` | The evidence describes gefitinib as an anti-EGF receptor agent. |
+| `Erlotinib -> EGFR` | The evidence describes erlotinib inhibiting EGFR tyrosine kinase activity. |
+| `Cetuximab -> EGFR` | The evidence says cetuximab inhibits EGFR and downstream ERK activation. |
+| `Lapatinib -> ERBB2` and `Lapatinib -> EGFR` | The evidence describes lapatinib as a dual HER2/EGFR inhibitor. |
+| `Palbociclib -> CDK4` | The evidence discusses palbociclib as a CDK4/6 inhibitor. |
+| `Sulforaphane -> NFE2L2` | The evidence says sulforaphane activates the Nrf2 antioxidant-response pathway. |
+| `Dasatinib -> SRC` | The evidence describes dasatinib as a Src inhibitor. |
+| `Trichostatin A -> Histone H4 protein` | The evidence reports increased histone H4 acetylation after HDAC inhibitor treatment. |
+| `Valproic acid -> SMN protein` | The evidence reports VPA increasing SMN protein levels in a cell model. |
+| `Fremanezumab -> CGRP` and `Galcanezumab -> CGRP` | The evidence describes CGRP-pathway targeting in migraine therapeutics. |
+
+Useful but semantically shifted examples:
+
+| Edge | Issue |
+| --- | --- |
+| `D-glucose -> INS` | The evidence is about glucose-induced insulin secretion. That is biologically meaningful, but the object is the `INS` gene while the text mention is insulin hormone/protein. |
+| `Infliximab -> TNF` | The anti-TNF mechanism is useful, but the same `TNF` mention is also propagated to many TNF-superfamily genes. |
+| `Resveratrol -> SIRT1` | The evidence discusses SIRT1/resveratrol pathway links, but some supporting text is broad review or pathway context rather than a direct binding/activation result. |
+| `Celecoxib -> PTGS2` | The COX-2 inhibitor relation is useful, but related `COX2` mentions also map to `MT-CO2`, creating false edges. |
+
+Likely false positives or normalization artifacts:
+
+| Edge | Issue |
+| --- | --- |
+| `Pembrolizumab -> RPL17` and `Pembrolizumab -> SPATA2` | Object mention is `PD-1`; the useful target is `PDCD1`, not unrelated genes. |
+| `Infliximab -> TNFSF18`, `Infliximab -> CD40LG`, `Infliximab -> CD70` | Object mention is generic `TNF`; it fans out to multiple TNF-superfamily genes. |
+| `Celecoxib -> MT-CO2` | Object mention is `COX2`; in this pharmacology context it should map to `PTGS2`, not mitochondrial `MT-CO2`. |
+| `Methyldopa -> CXCR4` | Subject mention is `AMD` from AMD3100, a CXCR4 antagonist, not alpha-methyldopa. |
+| `Snail, unspecified -> CDH1` | Subject mention `Snail` is a transcription factor in EMT context, not a chemical/drug. |
+| `solution -> ALB` | Subject mention is saline/solution in buffer text, and object mention is serum albumin; this is reagent/protocol context. |
+| `Cefaclor -> TNF` and `Cefaclor -> CCL4` | Subject mention `CCL` is a chemokine prefix, not the antibiotic cefaclor. |
+| `Dextromethorphan -> IL6` and `Dextromethorphan -> TNF` | Subject mention `Dex` usually refers to dexamethasone in these inflammatory-context examples, not dextromethorphan. |
+
+Additional taxonomy suggested by chemical/drug-to-gene/protein edges:
+
+31. **Generic gene-family mentions fan out to many specific genes**
+    - `TNF`, `VEGF`, `PPAR`, `PD-1`, and `COX2` can generate many normalized objects from one family or ambiguous mention.
+    - Detection signal: if one mention maps to multiple gene nodes across many edges, keep only exact synonym-compatible targets or route to a family-level concept.
+
+32. **Gene nodes often represent protein or hormone mentions**
+    - `insulin`, `EGFR`, `CGRP`, `SMN`, and `SIRT1` text often refers to protein abundance, secretion, inhibition, or signaling, while the normalized node may be a gene.
+    - Detection signal: split gene-expression assertions from protein activity, secretion, abundance, and therapeutic target assertions.
+
+33. **Protocol/reagent context creates mechanism-looking edges**
+    - Saline, serum albumin, solution, ligand, acid, and similar terms can appear in methods or buffer descriptions and become chemical mechanism subjects.
+    - Detection signal: methods/protocol terms such as "cultured", "buffer", "blocked with", "staining", and "coverslips" should down-rank edge claims.
+
+34. **Drug and gene abbreviations collide in both directions**
+    - Examples include `CCL` -> cefaclor, `Dex` -> dextromethorphan, `AMD` -> methyldopa, and `COX2` -> `MT-CO2`.
+    - Detection signal: short mentions need local expansion and entity-type checks on both subject and object.
+
+35. **Clinical treatment context is not always a molecular mechanism claim**
+    - A drug can be approved for a biomarker-defined therapy or used in an anti-target class without the sentence directly asserting that drug causes a gene/protein change.
+    - Detection signal: distinguish target/mechanism verbs from "approved", "treated with", "patients receiving", and cohort eligibility language.
+
 ### Candidate filters to try next
 
 - Flag edges where the extracted subject/object mention is shorter than 4 characters.
@@ -680,3 +779,4 @@ Additional taxonomy suggested by chemical/drug-to-phenotype edges:
 - Flag generic biomolecule mentions (`VEGF`, `TNF`, `growth hormone`, `insulin`, `tau`) that normalize to specific genes without strong lexical support.
 - For gene/protein-to-phenotype edges, split direct variant phenotype, disease-feature inheritance, biomarker/expression, model/assay, and biologic-therapeutic contexts before scoring precision.
 - For chemical/drug-to-phenotype edges, split symptom treatment, adverse/toxic effect, preclinical assay readout, and weak exposure/cohort contexts.
+- For chemical/drug-to-gene/protein edges, separate direct target activity, expression/abundance change, biomarker/cohort context, generic family mention, and methods/protocol context.
