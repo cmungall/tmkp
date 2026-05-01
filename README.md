@@ -13,6 +13,8 @@ downloads/tmkp/2026_04_21/tmkp.duckdb
 - `scripts/load_tmkp_duckdb.sql` loads extracted KGX JSONL into DuckDB.
 - `notebooks/tmkp_category_summary.ipynb` summarizes nodes, edges, sources, qualifiers, evidence, and category flows.
 - `notebooks/tmkp_category_summary.html` is the rendered notebook.
+- `slides/tmkp_audit_findings.md` is a Marp slide deck summarizing the audit findings.
+- `slides/tmkp_audit_findings.html` is the rendered slide deck.
 
 ## Data release
 
@@ -84,6 +86,14 @@ uv run python -m jupyter nbconvert --to html \
   --output-dir notebooks
 ```
 
+Render slides:
+
+```sh
+marp slides/tmkp_audit_findings.md \
+  --html \
+  --output slides/tmkp_audit_findings.html
+```
+
 ## Quick DuckDB examples
 
 ```sh
@@ -110,6 +120,24 @@ LIMIT 25;
 ## Notes
 
 Initial checks found that actual KGX counts match `graph-metadata.json`: `32,276` nodes and `1,861,988` edges. The archive has no duplicate node IDs or edge IDs and no dangling edge endpoints. The rendered notebook includes grouped summaries and quality checks by category.
+
+## Findings summary
+
+The main audit finding is that TMKP is useful as a text-mined assertion and evidence index, but the normalized KGX edges should not be consumed as curated truth without filtering or review.
+
+High-level findings:
+
+- `supporting_text` is usually literal source text from PubMed/PMC, not a generated paraphrase. The hard problem is whether the normalized edge matches that text.
+- High-value signals are present, including strong gene-disease, drug-disease, drug-phenotype, and molecular mechanism examples.
+- Normalization errors are the dominant failure mode. Short mentions and abbreviations such as `ACS`, `MDS`, `SCD`, `DSS`, `AMD`, `DEX`, `CCL`, `ADH1`, `Asp`, `ten`, and `his` need local context.
+- Molecular family terms are often forced into over-specific pairwise edges. Examples include `TNF`, `VEGF`, `PPAR`, `calcineurin`, `PD-1`, and `COX2`.
+- Predicates are broad. `treats_or_applied_or_studied_to_treat` mixes true treatment, trial context, cohort exposure, and weak usage statements. `contributes_to` mixes adverse events, risk, exposure, teratogenicity, and true causation.
+- There are no direct `Disease -> PhenotypicFeature` or reverse edges in this KGX release.
+- Common HPO objects such as edema, fever, vomiting, pain, cognitive impairment, and growth delay mix treatment targets, adverse effects, assay readouts, and disease manifestations.
+- Negation and hedging are not reliably represented in the normalized edge. For example, `CALR3 -> cardiomyopathy` is encoded as a positive `contributes_to` assertion even though the evidence questions monogenic causality.
+- High evidence count can amplify systematic normalization errors, especially for generic `TNF`, `VEGF`, `PD-1`, and `COX2` mentions.
+
+Practical interpretation: use TMKP as a stratified review layer. The audit taxonomy suggests review queues for likely treatment, adverse/risk, Mendelian candidate, molecular mechanism, normalization-risk, model/assay, biomarker/cohort, and negation/hedging contexts.
 
 ## Preliminary evidence audit
 
