@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-002-1501,codex-manual,2026-05-04,unsupported,bad,good,wrong_subject_context,Azadirachta indica was used for vomiting not Glycyrrhiza glabra.
+tmkp-2026-04-21-edge-audit-batch-002-1502,codex-manual,2026-05-04,supported,good,good,,Perindopril with indapamide reduced cognitive decline.
+tmkp-2026-04-21-edge-audit-batch-002-1503,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Visual loss was temporally associated with amodiaquine treatment.
+tmkp-2026-04-21-edge-audit-batch-002-1504,codex-manual,2026-05-04,partially_supported,good,bad,normalization_error,Guanosine decreased disability but disability was normalized to confusion.
+tmkp-2026-04-21-edge-audit-batch-002-1505,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,DMSA and zinc treatment reduced neurological deterioration.
+tmkp-2026-04-21-edge-audit-batch-002-1506,codex-manual,2026-05-04,supported,good,good,,Ginseng was described as helping with weight loss.
+tmkp-2026-04-21-edge-audit-batch-002-1507,codex-manual,2026-05-04,partially_supported,partial,good,treatment_context,Methylprednisolone was given after worsening muscular weakness.
+tmkp-2026-04-21-edge-audit-batch-002-1508,codex-manual,2026-05-04,supported,good,good,,Butyrate ameliorated cognitive deficits.
+tmkp-2026-04-21-edge-audit-batch-002-1509,codex-manual,2026-05-04,supported,good,good,,Aliskiren suppressed hypertension and blood-pressure pathology.
+tmkp-2026-04-21-edge-audit-batch-002-1510,codex-manual,2026-05-04,supported,good,good,,Lercanidipine was linked to reduced cognitive impairment risk.
+tmkp-2026-04-21-edge-audit-batch-002-1511,codex-manual,2026-05-04,supported,good,good,,Mizoribine add-on reduced edema.
+tmkp-2026-04-21-edge-audit-batch-002-1512,codex-manual,2026-05-04,supported,good,good,,Dolasetron prevents postoperative nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1513,codex-manual,2026-05-04,supported,good,good,,Dilmapimod was evaluated for neuropathic pain.
+tmkp-2026-04-21-edge-audit-batch-002-1514,codex-manual,2026-05-04,unsupported,bad,good,wrong_indication_context,Propranolol treated ataxia while absence seizures were treated with ethosuximide.
+tmkp-2026-04-21-edge-audit-batch-002-1515,codex-manual,2026-05-04,supported,good,good,,Quinapril treatment regressed ventricular dilatation.
+tmkp-2026-04-21-edge-audit-batch-002-1516,codex-manual,2026-05-04,supported,good,good,,Dextromethorphan reduced phantom limb pain.
+tmkp-2026-04-21-edge-audit-batch-002-1517,codex-manual,2026-05-04,supported,good,good,,Magnesium supplementation was favorable in hypercalciuria.
+tmkp-2026-04-21-edge-audit-batch-002-1518,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,No visual impairment occurred and apixaban reduced DVT risk.
+tmkp-2026-04-21-edge-audit-batch-002-1519,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Skeletal anomalies were teratogenic effects of itraconazole.
+tmkp-2026-04-21-edge-audit-batch-002-1520,codex-manual,2026-05-04,partially_supported,partial,good,symptom_context,Ceftriaxone was tried for Borrelia symptoms including joint pain.
+tmkp-2026-04-21-edge-audit-batch-002-1521,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,S-ketamine was investigated in tinnitus models.
+tmkp-2026-04-21-edge-audit-batch-002-1522,codex-manual,2026-05-04,unsupported,bad,good,medical_history_context,Hyperuricemia was medical history while bicalutamide treated prostate cancer.
+tmkp-2026-04-21-edge-audit-batch-002-1523,codex-manual,2026-05-04,supported,good,good,generic_subject,Antioxidants were reviewed in mild cognitive impairment trials.
+tmkp-2026-04-21-edge-audit-batch-002-1524,codex-manual,2026-05-04,supported,good,good,,Tetrahydrobiopterin diminished muscular hypotonia.
+tmkp-2026-04-21-edge-audit-batch-002-1525,codex-manual,2026-05-04,partially_supported,partial,good,symptom_context,Suramin treated infection after fever onset.
+tmkp-2026-04-21-edge-audit-batch-002-1526,codex-manual,2026-05-04,supported,good,good,generic_subject,HDAC inhibitors prevented functions relevant to edema development.
+tmkp-2026-04-21-edge-audit-batch-002-1527,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Pramipexole increased drowsiness ratings.
+tmkp-2026-04-21-edge-audit-batch-002-1528,codex-manual,2026-05-04,supported,good,good,,Cefpodoxime was used to treat fever and sore throat.
+tmkp-2026-04-21-edge-audit-batch-002-1529,codex-manual,2026-05-04,unsupported,bad,good,comparative_risk_context,Ofloxacin had reduced arrhythmia risk compared with cefixime.
+tmkp-2026-04-21-edge-audit-batch-002-1530,codex-manual,2026-05-04,unsupported,bad,good,wrong_indication_context,ACTH was used for infantile spasms while valproic acid was used for absence seizures.
+tmkp-2026-04-21-edge-audit-batch-002-1531,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Propranolol was ineffective in preventing motor seizures.
+tmkp-2026-04-21-edge-audit-batch-002-1532,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,DEX implant referred to dexamethasone not dextromethorphan.
+tmkp-2026-04-21-edge-audit-batch-002-1533,codex-manual,2026-05-04,partially_supported,good,partial,related_drug_context,Temsirolimus as a rapamycin analogue reduced ventricular dilatation markers.
+tmkp-2026-04-21-edge-audit-batch-002-1534,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Mycophenolate mofetil with methylprednisolone improved vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1535,codex-manual,2026-05-04,supported,good,good,,Methyclothiazide was studied in chronic edema.
+tmkp-2026-04-21-edge-audit-batch-002-1536,codex-manual,2026-05-04,supported,good,good,,Eucalyptus oil reduced edema formation.
+tmkp-2026-04-21-edge-audit-batch-002-1537,codex-manual,2026-05-04,unsupported,bad,good,wrong_indication_context,GLPG0492 targeted atrophy consecutive to coma rather than coma itself.
+tmkp-2026-04-21-edge-audit-batch-002-1538,codex-manual,2026-05-04,supported,good,good,,Buspirone normalized basal pain and pain sensitivity.
+tmkp-2026-04-21-edge-audit-batch-002-1539,codex-manual,2026-05-04,supported,good,good,,Ginseng is used to reduce abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-002-1540,codex-manual,2026-05-04,partially_supported,partial,good,broad_population_context,Moclobemide showed modest results in elderly people including those with cognitive deficits.
+tmkp-2026-04-21-edge-audit-batch-002-1541,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Vomiting was an azithromycin adverse effect.
+tmkp-2026-04-21-edge-audit-batch-002-1542,codex-manual,2026-05-04,supported,good,good,,Atorvastatin may protect against early neurological deterioration.
+tmkp-2026-04-21-edge-audit-batch-002-1543,codex-manual,2026-05-04,supported,good,good,,Kushen is used for fever.
+tmkp-2026-04-21-edge-audit-batch-002-1544,codex-manual,2026-05-04,unsupported,bad,good,wrong_drug_context,Ondansetron was added for nausea and vomiting not montelukast.
+tmkp-2026-04-21-edge-audit-batch-002-1545,codex-manual,2026-05-04,unsupported,bad,good,study_probe_context,Adrenaline was administered as a response probe in patients.
+tmkp-2026-04-21-edge-audit-batch-002-1546,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Betaine rescued axis defect but not head edema.
+tmkp-2026-04-21-edge-audit-batch-002-1547,codex-manual,2026-05-04,partially_supported,partial,good,disease_treatment_context,Prednisone was started after SLE with oral ulcers.
+tmkp-2026-04-21-edge-audit-batch-002-1548,codex-manual,2026-05-04,unsupported,bad,bad,generic_subject,Biomarkers were clinical-care tools and not tinnitus treatment.
+tmkp-2026-04-21-edge-audit-batch-002-1549,codex-manual,2026-05-04,unsupported,bad,good,diagnostic_context,Dopamine was used as a stimulation-testing probe in short stature.
+tmkp-2026-04-21-edge-audit-batch-002-1550,codex-manual,2026-05-04,supported,good,good,,Peppermint capsules reduced abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-002-1551,codex-manual,2026-05-04,unsupported,bad,good,wrong_indication_context,Iron treated anemia while weight loss was a presenting symptom.
+tmkp-2026-04-21-edge-audit-batch-002-1552,codex-manual,2026-05-04,supported,good,good,,Vitamin B12 replacement resolved brain atrophy.
+tmkp-2026-04-21-edge-audit-batch-002-1553,codex-manual,2026-05-04,supported,good,good,,Physostigmine is recommended for severe cases including coma.
+tmkp-2026-04-21-edge-audit-batch-002-1554,codex-manual,2026-05-04,partially_supported,partial,good,procedure_context,Calcium phosphate injection volume in edema area affected outcomes.
+tmkp-2026-04-21-edge-audit-batch-002-1555,codex-manual,2026-05-04,supported,good,good,,Ruxolitinib reduced symptom score including abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-002-1556,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention,Date was a common word and abdominal pain was a pazopanib adverse event.
+tmkp-2026-04-21-edge-audit-batch-002-1557,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Tacrolimus contributed to arrhythmia risk with amiodarone.
+tmkp-2026-04-21-edge-audit-batch-002-1558,codex-manual,2026-05-04,supported,good,good,,Flupirtine reduced duration and severity of febrile seizures.
+tmkp-2026-04-21-edge-audit-batch-002-1559,codex-manual,2026-05-04,supported,good,good,,Phellinus linteus pretreatment reduced ventricular arrhythmias.
+tmkp-2026-04-21-edge-audit-batch-002-1560,codex-manual,2026-05-04,unsupported,bad,good,comorbidity_context,Sleep disturbances were comorbid trial context for DCS.
+tmkp-2026-04-21-edge-audit-batch-002-1561,codex-manual,2026-05-04,unsupported,bad,good,wrong_indication_context,Oxygen treated oxygen saturation while ondansetron treated nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1562,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,MMF was mycophenolate mofetil not monomethyl fumarate.
+tmkp-2026-04-21-edge-audit-batch-002-1563,codex-manual,2026-05-04,supported,good,good,,Doxycycline successfully treated Lyme carditis with left bundle branch block.
+tmkp-2026-04-21-edge-audit-batch-002-1564,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Bethanechol had no dose-dependent effect on fever.
+tmkp-2026-04-21-edge-audit-batch-002-1565,codex-manual,2026-05-04,unsupported,bad,good,medical_history_context,Cognitive impairment was patient history while on chronic carbidopa.
+tmkp-2026-04-21-edge-audit-batch-002-1566,codex-manual,2026-05-04,supported,good,good,,Metamizole is an analgesic used to treat cancer pain.
+tmkp-2026-04-21-edge-audit-batch-002-1567,codex-manual,2026-05-04,unsupported,bad,good,model_or_assay_context,Homocysteine was used to induce generalized seizures.
+tmkp-2026-04-21-edge-audit-batch-002-1568,codex-manual,2026-05-04,supported,good,good,,Ketorolac reduced sleep disturbances.
+tmkp-2026-04-21-edge-audit-batch-002-1569,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Morphine combination lowered growth retardation as a side effect.
+tmkp-2026-04-21-edge-audit-batch-002-1570,codex-manual,2026-05-04,unsupported,bad,bad,generic_subject,Biomarkers were clinical indicators not treatment for sleep disturbance.
+tmkp-2026-04-21-edge-audit-batch-002-1571,codex-manual,2026-05-04,supported,good,good,,Ruxolitinib improved MPN-related bone pain.
+tmkp-2026-04-21-edge-audit-batch-002-1572,codex-manual,2026-05-04,supported,good,good,generic_subject,Clonazepam as a benzodiazepine is approved for petit mal seizures.
+tmkp-2026-04-21-edge-audit-batch-002-1573,codex-manual,2026-05-04,unsupported,bad,bad,location_collision,Turkey was a country in a family study.
+tmkp-2026-04-21-edge-audit-batch-002-1574,codex-manual,2026-05-04,supported,good,good,,Imipramine antiarrhythmic range was studied in ventricular arrhythmias.
+tmkp-2026-04-21-edge-audit-batch-002-1575,codex-manual,2026-05-04,supported,good,good,,Parthenolide attenuated edema response.
+tmkp-2026-04-21-edge-audit-batch-002-1576,codex-manual,2026-05-04,supported,good,good,,Nedocromil improved sleep disturbance symptoms.
+tmkp-2026-04-21-edge-audit-batch-002-1577,codex-manual,2026-05-04,supported,good,good,,Gallopamil was studied for protection against ventricular arrhythmia.
+tmkp-2026-04-21-edge-audit-batch-002-1578,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Vomiting was a clofarabine regimen toxicity.
+tmkp-2026-04-21-edge-audit-batch-002-1579,codex-manual,2026-05-04,unsupported,bad,good,risk_factor_context,Hypoalbuminemia was a baseline risk factor in participants.
+tmkp-2026-04-21-edge-audit-batch-002-1580,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Dextromethorphan proconvulsant effects were being investigated.
+tmkp-2026-04-21-edge-audit-batch-002-1581,codex-manual,2026-05-04,supported,good,good,,Febrile seizure episodes responded to oxcarbazepine.
+tmkp-2026-04-21-edge-audit-batch-002-1582,codex-manual,2026-05-04,unclear,unclear,good,comparative_outcome_context,Warfarin impact on neurological deterioration was compared but not as treatment.
+tmkp-2026-04-21-edge-audit-batch-002-1583,codex-manual,2026-05-04,supported,good,good,,Catechin reduced paw edema.
+tmkp-2026-04-21-edge-audit-batch-002-1584,codex-manual,2026-05-04,supported,good,good,,Aspirin reduced risk of gastrointestinal tract tumors.
+tmkp-2026-04-21-edge-audit-batch-002-1585,codex-manual,2026-05-04,supported,good,good,,Captopril prevents progression of ventricular dilatation.
+tmkp-2026-04-21-edge-audit-batch-002-1586,codex-manual,2026-05-04,supported,good,good,,Ibudilast slowed brain atrophy.
+tmkp-2026-04-21-edge-audit-batch-002-1587,codex-manual,2026-05-04,supported,good,good,,Chloral hydrate was permitted for behavior disturbances.
+tmkp-2026-04-21-edge-audit-batch-002-1588,codex-manual,2026-05-04,supported,good,good,,Mexiletine was used to treat ventricular arrhythmia.
+tmkp-2026-04-21-edge-audit-batch-002-1589,codex-manual,2026-05-04,supported,good,good,,Dichlorphenamide reduced paw edema.
+tmkp-2026-04-21-edge-audit-batch-002-1590,codex-manual,2026-05-04,supported,good,good,,Clonazepam had reported efficacy for neuropathic pain.
+tmkp-2026-04-21-edge-audit-batch-002-1591,codex-manual,2026-05-04,supported,good,good,,Acetyl-L-carnitine reverses pain.
+tmkp-2026-04-21-edge-audit-batch-002-1592,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Drowsiness was a dexchlorpheniramine side effect.
+tmkp-2026-04-21-edge-audit-batch-002-1593,codex-manual,2026-05-04,supported,good,good,,Hydroxyzine with granisetron was evaluated for nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1594,codex-manual,2026-05-04,unsupported,bad,good,wrong_indication_context,Hypoxemia correction was separate from furosemide administration.
+tmkp-2026-04-21-edge-audit-batch-002-1595,codex-manual,2026-05-04,supported,good,good,,Propyphenazone combination medicine is used for fever.
+tmkp-2026-04-21-edge-audit-batch-002-1596,codex-manual,2026-05-04,supported,good,good,,RTX-mediated ablation reduced skin inflammation.
+tmkp-2026-04-21-edge-audit-batch-002-1597,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Meloxicam with pridinol is indicated for muscular contractures.
+tmkp-2026-04-21-edge-audit-batch-002-1598,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_context,AOAA partially reversed brain atrophy effects in a model.
+tmkp-2026-04-21-edge-audit-batch-002-1599,codex-manual,2026-05-04,supported,good,good,,EGCG reversed cognitive deficit.
+tmkp-2026-04-21-edge-audit-batch-002-1600,codex-manual,2026-05-04,supported,good,good,,Omeprazole pretreatment reduced edema.

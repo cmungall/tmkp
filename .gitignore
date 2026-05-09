@@ -1,5 +1,6 @@
 /downloads/
 /.venv/
+/site/
 /.ipynb_checkpoints/
 **/.ipynb_checkpoints/
 *.duckdb
@@ -11,4 +12,15 @@
 *.tsv.gz
 *.csv
 *.csv.gz
-
+!audits/
+!audits/*.csv
+!audits/*.md
+!audits/*.yml
+!evaluations/
+!evaluations/*.csv
+!evaluations/*.md
+!evaluations/*.yml
+!evaluations/**/
+!evaluations/**/*.csv
+!evaluations/**/*.md
+!evaluations/**/*.yml

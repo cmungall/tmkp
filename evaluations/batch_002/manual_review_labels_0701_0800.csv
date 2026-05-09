@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-002-0701,codex-manual,2026-05-04,supported,good,good,,Supplemental oxygen therapy was given for respiratory disease.
+tmkp-2026-04-21-edge-audit-batch-002-0702,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Etifoxine attenuated brain inflammation.
+tmkp-2026-04-21-edge-audit-batch-002-0703,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Selenomethionine was ineffective in suppressing prostate tumor growth.
+tmkp-2026-04-21-edge-audit-batch-002-0704,codex-manual,2026-05-04,supported,good,good,,Imidafenacin efficacy and safety were evaluated in COPD patients.
+tmkp-2026-04-21-edge-audit-batch-002-0705,codex-manual,2026-05-04,supported,good,good,,Cytarabine was part of chemotherapy for juvenile myelomonocytic leukemia.
+tmkp-2026-04-21-edge-audit-batch-002-0706,codex-manual,2026-05-04,supported,good,good,,Amikacin is used to treat septic arthritis.
+tmkp-2026-04-21-edge-audit-batch-002-0707,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_context,Folate treatment partially reduced abnormal plasma protein content in uremia.
+tmkp-2026-04-21-edge-audit-batch-002-0708,codex-manual,2026-05-04,partially_supported,partial,good,treatment_of_complication,Manidipine treated hypertension in CKD patients.
+tmkp-2026-04-21-edge-audit-batch-002-0709,codex-manual,2026-05-04,unsupported,bad,good,treatment_of_other_condition,Salbutamol treated asthma while hay fever was patient history.
+tmkp-2026-04-21-edge-audit-batch-002-0710,codex-manual,2026-05-04,partially_supported,partial,partial,generic_subject,A mixture was traditionally used against diarrhea.
+tmkp-2026-04-21-edge-audit-batch-002-0711,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,CAD means coronary artery disease not cold agglutinin disease.
+tmkp-2026-04-21-edge-audit-batch-002-0712,codex-manual,2026-05-04,unsupported,bad,good,treatment_of_other_condition,Epinastine treated allergic conjunctivitis in patients with dry eye risk.
+tmkp-2026-04-21-edge-audit-batch-002-0713,codex-manual,2026-05-04,partially_supported,partial,good,diagnostic_context,Methylene blue was used as a staining test in bladder tumor patients.
+tmkp-2026-04-21-edge-audit-batch-002-0714,codex-manual,2026-05-04,supported,good,good,combination_treatment_context,Tegafur was part of therapy for malignant astrocytoma.
+tmkp-2026-04-21-edge-audit-batch-002-0715,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,Ten is an ordinary patient count not pentaerythritol tetranitrate.
+tmkp-2026-04-21-edge-audit-batch-002-0716,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Propofol promoted migration and invasion of squamous cell carcinoma cells.
+tmkp-2026-04-21-edge-audit-batch-002-0717,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_context,Nocodazole effects were studied in erythroleukemia cells.
+tmkp-2026-04-21-edge-audit-batch-002-0718,codex-manual,2026-05-04,partially_supported,partial,partial,generic_object|drug_delivery_context,Polyester nanoparticles were developed as tumor targeting carriers.
+tmkp-2026-04-21-edge-audit-batch-002-0719,codex-manual,2026-05-04,supported,good,good,combination_treatment_context,Prednisolone was part of therapy for adult erythroleukemia.
+tmkp-2026-04-21-edge-audit-batch-002-0720,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,DDS means drug delivery systems not dapsone.
+tmkp-2026-04-21-edge-audit-batch-002-0721,codex-manual,2026-05-04,supported,good,good,,Luteolin effects include alleviation of anxiety.
+tmkp-2026-04-21-edge-audit-batch-002-0722,codex-manual,2026-05-04,supported,good,good,,Chloramphenicol may treat scrub typhus associated hemophagocytic syndrome.
+tmkp-2026-04-21-edge-audit-batch-002-0723,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_context,Carbamazepine was protective in frontotemporal dementia models.
+tmkp-2026-04-21-edge-audit-batch-002-0724,codex-manual,2026-05-04,supported,good,good,,Methotrexate maintenance therapy controlled malabsorption syndrome.
+tmkp-2026-04-21-edge-audit-batch-002-0725,codex-manual,2026-05-04,supported,good,partial,generic_object,Forskolin inhibited metastatic tumor formation.
+tmkp-2026-04-21-edge-audit-batch-002-0726,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_context,Obstructive sleep apnea was a risk context for buprenorphine use.
+tmkp-2026-04-21-edge-audit-batch-002-0727,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,TMD means temporomandibular disorder not tibial muscular dystrophy.
+tmkp-2026-04-21-edge-audit-batch-002-0728,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Antiviral agents were cytotoxic to glioma cells expressing HSV thymidine kinase.
+tmkp-2026-04-21-edge-audit-batch-002-0729,codex-manual,2026-05-04,partially_supported,partial,good,diagnostic_context,FDG was used for clinical management of metastatic melanoma.
+tmkp-2026-04-21-edge-audit-batch-002-0730,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Calcitriol analog had anti inflammatory properties in experimental colitis.
+tmkp-2026-04-21-edge-audit-batch-002-0731,codex-manual,2026-05-04,supported,good,good,,Octreotide may be useful in treatment of pancreatic disorders.
+tmkp-2026-04-21-edge-audit-batch-002-0732,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Ewing sarcoma cell lines were treated with etoposide.
+tmkp-2026-04-21-edge-audit-batch-002-0733,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,CHM means Chinese herbal medicine not choroideremia.
+tmkp-2026-04-21-edge-audit-batch-002-0734,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,MFS means metastasis free survival not Marfan syndrome.
+tmkp-2026-04-21-edge-audit-batch-002-0735,codex-manual,2026-05-04,partially_supported,partial,bad,generic_subject,Motexafin gadolinium as an electron acceptor enhances cancer radiotherapy.
+tmkp-2026-04-21-edge-audit-batch-002-0736,codex-manual,2026-05-04,supported,good,good,combination_treatment_context,Cytarabine was part of chemotherapy for chronic lymphocytic leukemia.
+tmkp-2026-04-21-edge-audit-batch-002-0737,codex-manual,2026-05-04,supported,good,good,,Cladribine regimen produced clinical improvement of Langerhans cell sarcoma.
+tmkp-2026-04-21-edge-audit-batch-002-0738,codex-manual,2026-05-04,supported,good,good,,Isolated dystonia had a dramatic response to low dose levodopa.
+tmkp-2026-04-21-edge-audit-batch-002-0739,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,AMD3100 is not methyldopa.
+tmkp-2026-04-21-edge-audit-batch-002-0740,codex-manual,2026-05-04,supported,good,good,,Patients with active arthritis were treated with levamisole.
+tmkp-2026-04-21-edge-audit-batch-002-0741,codex-manual,2026-05-04,supported,good,good,drug_delivery_context,Gold nanorods were studied in osteosarcoma therapy.
+tmkp-2026-04-21-edge-audit-batch-002-0742,codex-manual,2026-05-04,partially_supported,partial,partial,model_or_assay_context,COX-2 inhibitor treatment reduced seizures in a model.
+tmkp-2026-04-21-edge-audit-batch-002-0743,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|biomarker_or_expression_context,Biomarker is not a treatment for ampullary adenocarcinoma.
+tmkp-2026-04-21-edge-audit-batch-002-0744,codex-manual,2026-05-04,partially_supported,partial,good,hypothesized_treatment,Carvedilol combination therapy was proposed to prevent alcoholic liver disease.
+tmkp-2026-04-21-edge-audit-batch-002-0745,codex-manual,2026-05-04,partially_supported,partial,partial,prevention_context|model_or_assay_context,Nimesulide was shown to prevent bladder cancer in models.
+tmkp-2026-04-21-edge-audit-batch-002-0746,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,BPD means borderline personality disorder not bronchopulmonary dysplasia.
+tmkp-2026-04-21-edge-audit-batch-002-0747,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,III1-C peptide is not C-peptide.
+tmkp-2026-04-21-edge-audit-batch-002-0748,codex-manual,2026-05-04,supported,good,good,,Clindamycin was prescribed for dacryoadenitis.
+tmkp-2026-04-21-edge-audit-batch-002-0749,codex-manual,2026-05-04,supported,good,good,,Chidamide had antitumor activity in liver cancer.
+tmkp-2026-04-21-edge-audit-batch-002-0750,codex-manual,2026-05-04,unsupported,bad,good,model_or_assay_context,Adenine behavior was studied in breast cancer cells.
+tmkp-2026-04-21-edge-audit-batch-002-0751,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Caffeine with lactate augmented Pax7.
+tmkp-2026-04-21-edge-audit-batch-002-0752,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Formalin injection induced CREB phosphorylation but object is ATF2.
+tmkp-2026-04-21-edge-audit-batch-002-0753,codex-manual,2026-05-04,unsupported,bad,bad,pathway_context|normalization_error,Calcium pathway is context and MIP-1 is not ZNF667.
+tmkp-2026-04-21-edge-audit-batch-002-0754,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,MDA-19 suppressed VEGF but subject and object are overnormalized.
+tmkp-2026-04-21-edge-audit-batch-002-0755,codex-manual,2026-05-04,supported,good,good,,IL-4 suppressed NLRP3 inflammasome activation.
+tmkp-2026-04-21-edge-audit-batch-002-0756,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,TRP is disease context and TNF is a biomarker.
+tmkp-2026-04-21-edge-audit-batch-002-0757,codex-manual,2026-05-04,unsupported,bad,good,method_or_reagent_context,Buffer was used for antibody incubation.
+tmkp-2026-04-21-edge-audit-batch-002-0758,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Lubiprostone prevented stress decreased claudin-1.
+tmkp-2026-04-21-edge-audit-batch-002-0759,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Chlorpromazine activated p38 pathway but object is GRAP2.
+tmkp-2026-04-21-edge-audit-batch-002-0760,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,CDV infection is not cidofovir treatment.
+tmkp-2026-04-21-edge-audit-batch-002-0761,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Tyrosine phosphorylation site was normalized to TYR gene.
+tmkp-2026-04-21-edge-audit-batch-002-0762,codex-manual,2026-05-04,unsupported,bad,bad,inverse_relation|normalization_error,PPAR blocks responses to bFGF and object is PPARD family fanout.
+tmkp-2026-04-21-edge-audit-batch-002-0763,codex-manual,2026-05-04,supported,good,good,,Etodolac decreased COX-2 expression.
+tmkp-2026-04-21-edge-audit-batch-002-0764,codex-manual,2026-05-04,supported,good,good,exposure_context,Pollution mixture downregulated FDFT1 transcript.
+tmkp-2026-04-21-edge-audit-batch-002-0765,codex-manual,2026-05-04,supported,good,good,,Estrogen upregulated IRF5 protein levels.
+tmkp-2026-04-21-edge-audit-batch-002-0766,codex-manual,2026-05-04,supported,good,good,,Calcium signaling promoted NeuroD1 transcription.
+tmkp-2026-04-21-edge-audit-batch-002-0767,codex-manual,2026-05-04,supported,good,good,,Caffeine enhanced CD69 expression.
+tmkp-2026-04-21-edge-audit-batch-002-0768,codex-manual,2026-05-04,supported,good,good,,Roflumilast induced FANCD2 foci.
+tmkp-2026-04-21-edge-audit-batch-002-0769,codex-manual,2026-05-04,partially_supported,partial,good,weak_effect_context,Osimertinib trended to increase IRS1 association.
+tmkp-2026-04-21-edge-audit-batch-002-0770,codex-manual,2026-05-04,supported,good,partial,family_mention_fanout,An antifungal drug inhibited Gli reporter activity.
+tmkp-2026-04-21-edge-audit-batch-002-0771,codex-manual,2026-05-04,supported,good,good,,Minocycline reduced CD14 positive monocyte populations.
+tmkp-2026-04-21-edge-audit-batch-002-0772,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,DHC is a flavonoid compound not dihydrocodeine.
+tmkp-2026-04-21-edge-audit-batch-002-0773,codex-manual,2026-05-04,supported,good,good,,Lactic acid reduced MCT2 protein level.
+tmkp-2026-04-21-edge-audit-batch-002-0774,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Sds23 and Ssp1 are gene contexts not dodecyl sulfate affecting SENP6.
+tmkp-2026-04-21-edge-audit-batch-002-0775,codex-manual,2026-05-04,supported,good,good,,Rapamycin diminished MCT4 induction.
+tmkp-2026-04-21-edge-audit-batch-002-0776,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Hep-2 is a cell line and not EPHB6.
+tmkp-2026-04-21-edge-audit-batch-002-0777,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Drospirenone decreased PPAR gamma expression but object is PPARA.
+tmkp-2026-04-21-edge-audit-batch-002-0778,codex-manual,2026-05-04,supported,good,good,,Dabrafenib reduced E2F4 levels.
+tmkp-2026-04-21-edge-audit-batch-002-0779,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,TKTL1 knockdown decreased NADPH levels.
+tmkp-2026-04-21-edge-audit-batch-002-0780,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Fenretinide upregulated Wnt5a but object is WNT5B.
+tmkp-2026-04-21-edge-audit-batch-002-0781,codex-manual,2026-05-04,supported,good,good,,Resveratrol increased AT2R expression.
+tmkp-2026-04-21-edge-audit-batch-002-0782,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Genistein increased Hes1 but object is HESX1.
+tmkp-2026-04-21-edge-audit-batch-002-0783,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Dinaciclib abolished p-MED1 but object is CWC15.
+tmkp-2026-04-21-edge-audit-batch-002-0784,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,MIP-1 alpha is not TNPO1 and MVA-B variant context is specific.
+tmkp-2026-04-21-edge-audit-batch-002-0785,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|biomarker_or_expression_context,Biomarker is ordinary assay context and not a chemical agent.
+tmkp-2026-04-21-edge-audit-batch-002-0786,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Efavirenz increased ALP but ALP is not NAT10.
+tmkp-2026-04-21-edge-audit-batch-002-0787,codex-manual,2026-05-04,partially_supported,partial,good,pathway_context,Estrogen affected regulation involving DDX5 co-regulator factors.
+tmkp-2026-04-21-edge-audit-batch-002-0788,codex-manual,2026-05-04,supported,good,good,,Teriflunomide increased cleaved caspase 3.
+tmkp-2026-04-21-edge-audit-batch-002-0789,codex-manual,2026-05-04,supported,good,good,,Dutasteride downregulated TFF3 expression.
+tmkp-2026-04-21-edge-audit-batch-002-0790,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,LAMA is a cell line name not LAMA1.
+tmkp-2026-04-21-edge-audit-batch-002-0791,codex-manual,2026-05-04,supported,good,good,,Pilocarpine reduced TIMP-2 expression.
+tmkp-2026-04-21-edge-audit-batch-002-0792,codex-manual,2026-05-04,partially_supported,partial,partial,family_mention_fanout,Androstenedione increased VEGF mRNA but object is VEGFD.
+tmkp-2026-04-21-edge-audit-batch-002-0793,codex-manual,2026-05-04,supported,good,good,,Sunitinib increased PIM-1 expression.
+tmkp-2026-04-21-edge-audit-batch-002-0794,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,THP-1 is a monocyte cell line not UMOD.
+tmkp-2026-04-21-edge-audit-batch-002-0795,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,ASC-treated groups affected MMP-1 and subject normalization is unsupported.
+tmkp-2026-04-21-edge-audit-batch-002-0796,codex-manual,2026-05-04,supported,good,good,,NAD+ boosting therapy stimulated Fndc5 irisin.
+tmkp-2026-04-21-edge-audit-batch-002-0797,codex-manual,2026-05-04,supported,good,good,,Alpha aminobutyric acid delayed the gamma to beta globin switch.
+tmkp-2026-04-21-edge-audit-batch-002-0798,codex-manual,2026-05-04,supported,good,good,,Linoleic acid restored HMG-CoA reductase activity toward normal.
+tmkp-2026-04-21-edge-audit-batch-002-0799,codex-manual,2026-05-04,supported,good,good,,Estradiol decreased Alb mRNA level.
+tmkp-2026-04-21-edge-audit-batch-002-0800,codex-manual,2026-05-04,supported,good,good,,cAMP activation is obligatory for Sgk transcription.

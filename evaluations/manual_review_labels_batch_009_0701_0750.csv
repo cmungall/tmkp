@@ -1,0 +1,51 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-001-0701,codex-manual,2026-05-04,supported,good,good,,Evofosfamide was investigated in phase II trials for soft tissue sarcoma.
+tmkp-2026-04-21-edge-audit-batch-001-0702,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|method_or_reagent_only,HSA is serum albumin rather than X linked hydrocephalus.
+tmkp-2026-04-21-edge-audit-batch-001-0703,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_only|adverse_event_context,Peripheral neuropathy was an exclusion criterion rather than a pemetrexed target.
+tmkp-2026-04-21-edge-audit-batch-001-0704,codex-manual,2026-05-04,unsupported,bad,partial,biomarker_or_expression_only|model_or_assay_only,Hydrogen peroxide altered integrin expression in promyelocytic leukemia.
+tmkp-2026-04-21-edge-audit-batch-001-0705,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_only,Calcitriol reduced glioblastoma cell growth in vitro.
+tmkp-2026-04-21-edge-audit-batch-001-0706,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_only|list_or_cross_product,Rosiglitazone and hepatitis C appeared in covariate lists.
+tmkp-2026-04-21-edge-audit-batch-001-0707,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_only,Urokinase was a positive control in a rat cerebral ischemia model.
+tmkp-2026-04-21-edge-audit-batch-001-0708,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,ALS is a plant disease context rather than amyotrophic lateral sclerosis.
+tmkp-2026-04-21-edge-audit-batch-001-0709,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_only,10 hydroxycamptothecin inhibited esophageal squamous cell carcinoma growth in models.
+tmkp-2026-04-21-edge-audit-batch-001-0710,codex-manual,2026-05-04,partially_supported,partial,partial,model_or_assay_only|related_chemical_context,HBsAg based immunization attenuated Alzheimer model progression.
+tmkp-2026-04-21-edge-audit-batch-001-0711,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_only|biomarker_or_expression_only,Ellagic acid altered metabolism in endometrial cancer cells.
+tmkp-2026-04-21-edge-audit-batch-001-0712,codex-manual,2026-05-04,unsupported,bad,partial,cohort_or_exposure_only|treatment_of_other_condition,Cefotaxime treated pneumonia in a patient with HIV.
+tmkp-2026-04-21-edge-audit-batch-001-0713,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|biomarker_or_expression_only,CCL5 and SCD are gene or enzyme contexts rather than cefaclor and Schnyder disease.
+tmkp-2026-04-21-edge-audit-batch-001-0714,codex-manual,2026-05-04,partially_supported,partial,partial,supportive_care_context,Potassium supplementation may be required in proximal renal tubular acidosis.
+tmkp-2026-04-21-edge-audit-batch-001-0715,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_only|treatment_of_complication,TMP SMX prevented infections in neutropenic patients rather than treating neutropenia.
+tmkp-2026-04-21-edge-audit-batch-001-0716,codex-manual,2026-05-04,supported,good,good,combination_exposure,Pazopanib combination therapy was evaluated for fallopian tube cancer.
+tmkp-2026-04-21-edge-audit-batch-001-0717,codex-manual,2026-05-04,unsupported,bad,good,treatment_of_complication|model_or_assay_only,Mibefradil was studied for arrhythmias induced by myocardial ischemia.
+tmkp-2026-04-21-edge-audit-batch-001-0718,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_only|supportive_care_context,Calcium supplemented osteopenia in premature newborns with growth restriction.
+tmkp-2026-04-21-edge-audit-batch-001-0719,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,SDS is a rating score rather than Shwachman Diamond syndrome.
+tmkp-2026-04-21-edge-audit-batch-001-0720,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|related_chemical_context,Phloroglucinol derivatives were proposed against HIV not HIV associated nephropathy.
+tmkp-2026-04-21-edge-audit-batch-001-0721,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_only,Bryostatin ameliorated experimental colitis in mice.
+tmkp-2026-04-21-edge-audit-batch-001-0722,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_only|negation_or_hedging,Palbociclib suppressed B cell lymphoma cell lines at high concentrations.
+tmkp-2026-04-21-edge-audit-batch-001-0723,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_only|combination_exposure,Telmisartan plus 5 FU reduced muscle atrophy in a model.
+tmkp-2026-04-21-edge-audit-batch-001-0724,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|model_or_assay_only,AMI is not acute motor axonal neuropathy in this aloe vera animal study.
+tmkp-2026-04-21-edge-audit-batch-001-0725,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,AHA is the American Heart Association rather than acetohydroxamic acid.
+tmkp-2026-04-21-edge-audit-batch-001-0726,codex-manual,2026-05-04,partially_supported,partial,good,negation_or_hedging,Mefloquine was suggested as a candidate for cervical cancer treatment.
+tmkp-2026-04-21-edge-audit-batch-001-0727,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_only,Lobaplatin arrested cell cycle progression in HCC cells.
+tmkp-2026-04-21-edge-audit-batch-001-0728,codex-manual,2026-05-04,partially_supported,partial,good,supportive_care_context,Calcium alginate supplement efficiency was studied in viral hepatitis patients.
+tmkp-2026-04-21-edge-audit-batch-001-0729,codex-manual,2026-05-04,partially_supported,partial,good,negation_or_hedging|model_or_assay_only,Hesperidin was only indirectly proposed for vitreous degeneration strategies.
+tmkp-2026-04-21-edge-audit-batch-001-0730,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,PCP means primary care physician rather than phencyclidine.
+tmkp-2026-04-21-edge-audit-batch-001-0731,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,TNT means total neoadjuvant therapy rather than trinitrotoluene.
+tmkp-2026-04-21-edge-audit-batch-001-0732,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,BMD is bone mineral density rather than Becker muscular dystrophy.
+tmkp-2026-04-21-edge-audit-batch-001-0733,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_only|combination_exposure,HDAC inhibitors showed synergy across sarcoma cell lines.
+tmkp-2026-04-21-edge-audit-batch-001-0734,codex-manual,2026-05-04,partially_supported,partial,good,inverse_or_protective_context,Myricetin showed potential protection against cataract formation.
+tmkp-2026-04-21-edge-audit-batch-001-0735,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_only,Locally applied isosorbide decreased bone resorption in rat periodontitis.
+tmkp-2026-04-21-edge-audit-batch-001-0736,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_only,Tamoxifen reduced extracellular matrix proteins in scleroderma fibroblast cultures.
+tmkp-2026-04-21-edge-audit-batch-001-0737,codex-manual,2026-05-04,supported,good,good,combination_exposure,Tandutinib plus bevacizumab was registered to treat recurrent brain tumors.
+tmkp-2026-04-21-edge-audit-batch-001-0738,codex-manual,2026-05-04,supported,good,good,,Sotagliflozin trials were extended to type 2 diabetes.
+tmkp-2026-04-21-edge-audit-batch-001-0739,codex-manual,2026-05-04,supported,good,good,,Alogliptin treatment showed benefit against early diabetic nephropathy.
+tmkp-2026-04-21-edge-audit-batch-001-0740,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product|treatment_of_other_condition,Nebivolol likely treated hypertension while rosuvastatin treated hyperlipidemia.
+tmkp-2026-04-21-edge-audit-batch-001-0741,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,IPS is intermittent photic stimulation rather than ichthyosis prematurity syndrome.
+tmkp-2026-04-21-edge-audit-batch-001-0742,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,GAD1 deficiency is not generalized anxiety disorder.
+tmkp-2026-04-21-edge-audit-batch-001-0743,codex-manual,2026-05-04,unsupported,bad,good,mechanism_context,Adenosine affected signaling in Graves disease thyroid tissue.
+tmkp-2026-04-21-edge-audit-batch-001-0744,codex-manual,2026-05-04,partially_supported,partial,partial,method_or_reagent_only|generic_object,Magnesium oxide nanoflakes were drug carriers for generic cancer therapy.
+tmkp-2026-04-21-edge-audit-batch-001-0745,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|mechanism_context,Adenosine receptor biology suggested targets but the normalized subject is a nucleotide residue.
+tmkp-2026-04-21-edge-audit-batch-001-0746,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product,Amphotericin B was in a broad nanoformulation list not specific cardiovascular therapy.
+tmkp-2026-04-21-edge-audit-batch-001-0747,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|biomarker_or_expression_only,PCD is programmed cell death rather than primary ciliary dyskinesia.
+tmkp-2026-04-21-edge-audit-batch-001-0748,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,IHH is infantile hepatic haemangioma rather than hemiconvulsion hemiplegia syndrome.
+tmkp-2026-04-21-edge-audit-batch-001-0749,codex-manual,2026-05-04,partially_supported,good,partial,generic_object,Everolimus managed refractory meningioma but pediatric specificity is not shown.
+tmkp-2026-04-21-edge-audit-batch-001-0750,codex-manual,2026-05-04,supported,good,good,,Prazosin was included among therapies for renal hypertension.

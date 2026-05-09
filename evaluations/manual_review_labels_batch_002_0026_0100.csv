@@ -1,0 +1,76 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-001-0026,codex-manual,2026-05-04,partially_supported,good,partial,generic_subject,Text says goiter depends on female sexual hormones but subject is very broad hormone.
+tmkp-2026-04-21-edge-audit-batch-001-0027,codex-manual,2026-05-04,unsupported,bad,partial,model_or_assay_only|predicate_overbroad,Calcium ionophore stimulated rat basophilic leukemia cells but is not asserted to contribute to leukemia.
+tmkp-2026-04-21-edge-audit-batch-001-0028,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|predicate_overbroad,Methicillin-sensitive describes Staphylococcus aureus sepsis and not exposure to meticillin.
+tmkp-2026-04-21-edge-audit-batch-001-0029,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,MAD means maximum acceptable dose and not mandibuloacral dysplasia.
+tmkp-2026-04-21-edge-audit-batch-001-0030,codex-manual,2026-05-04,unclear,unclear,good,cohort_or_exposure_only,Text only states the study sought to evaluate digoxin use and colorectal cancer risk.
+tmkp-2026-04-21-edge-audit-batch-001-0031,codex-manual,2026-05-04,unsupported,partial,bad,normalization_error|generic_object,Text supports malignant neoplasm progression as an adverse event but not childhood malignant neoplasm.
+tmkp-2026-04-21-edge-audit-batch-001-0032,codex-manual,2026-05-04,partially_supported,partial,good,cohort_or_exposure_only|negation_or_hedging,Text reports an observed association needing further evaluation.
+tmkp-2026-04-21-edge-audit-batch-001-0033,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|negation_or_hedging,BMD means bone mineral density and it did not change after treatment.
+tmkp-2026-04-21-edge-audit-batch-001-0034,codex-manual,2026-05-04,unsupported,bad,good,model_or_assay_only|inverse_or_protective,Nicergoline was evaluated in a canine thrombosis model and the text does not assert it causes thrombosis.
+tmkp-2026-04-21-edge-audit-batch-001-0035,codex-manual,2026-05-04,partially_supported,good,good,model_or_assay_only,Diethyldithiocarbamate induced gastric ulcers in rats so the model context limits the edge.
+tmkp-2026-04-21-edge-audit-batch-001-0036,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,Date is used as a common word in reported to date and not as the normalized subject.
+tmkp-2026-04-21-edge-audit-batch-001-0037,codex-manual,2026-05-04,partially_supported,partial,good,negation_or_hedging|adverse_event_signal,Serious atrial fibrillation adverse events were higher but overall AF incidence was not significantly different.
+tmkp-2026-04-21-edge-audit-batch-001-0038,codex-manual,2026-05-04,supported,good,good,,Text directly says chronic cutaneous lupus erythematosus was induced by palbociclib.
+tmkp-2026-04-21-edge-audit-batch-001-0039,codex-manual,2026-05-04,partially_supported,partial,partial,cohort_or_exposure_only|generic_object,Text links amphetamine-class abuse deaths with heart disease among causes of death.
+tmkp-2026-04-21-edge-audit-batch-001-0040,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,SCM means split cord malformation and not spectinomycin.
+tmkp-2026-04-21-edge-audit-batch-001-0041,codex-manual,2026-05-04,partially_supported,good,good,model_or_assay_only,Text says genistein increases breast tumor growth in rodent models.
+tmkp-2026-04-21-edge-audit-batch-001-0042,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Renal failure was noted in patients treated with gentamicin and clindamycin.
+tmkp-2026-04-21-edge-audit-batch-001-0043,codex-manual,2026-05-04,supported,good,good,,Text says acute tubular necrosis was most likely attributable to toluene exposure.
+tmkp-2026-04-21-edge-audit-batch-001-0044,codex-manual,2026-05-04,partially_supported,partial,partial,predicate_overbroad,Evidence asserts aluminum in vaccinations as a risk for seizures but object epilepsy is broader.
+tmkp-2026-04-21-edge-audit-batch-001-0045,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Case report follows initiation of tipranavir with ritonavir.
+tmkp-2026-04-21-edge-audit-batch-001-0046,codex-manual,2026-05-04,supported,good,good,,Text directly describes dihydralazine induced hepatitis.
+tmkp-2026-04-21-edge-audit-batch-001-0047,codex-manual,2026-05-04,partially_supported,partial,good,cohort_or_exposure_only|generic_object,Manganese was associated with respiratory disease but the object is broad.
+tmkp-2026-04-21-edge-audit-batch-001-0048,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|predicate_overbroad,Text discusses pituitary lesions caused by MTX associated lymphoproliferative disease and not hypophysitis.
+tmkp-2026-04-21-edge-audit-batch-001-0049,codex-manual,2026-05-04,partially_supported,partial,partial,list_or_cross_product|generic_subject,Yeasts are included in a long infectious list for acalculous cholecystitis.
+tmkp-2026-04-21-edge-audit-batch-001-0050,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,AHA is an antibody context and not acetohydroxamic acid.
+tmkp-2026-04-21-edge-audit-batch-001-0051,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure|list_or_cross_product,Cerebral ischemia is listed as a verubulin or carboplatin related adverse event.
+tmkp-2026-04-21-edge-audit-batch-001-0052,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,PAH means pulmonary arterial hypertension and not aminohippuric acid.
+tmkp-2026-04-21-edge-audit-batch-001-0053,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,HHT means hereditary hemorrhagic telangiectasia and not omacetaxine.
+tmkp-2026-04-21-edge-audit-batch-001-0054,codex-manual,2026-05-04,supported,good,good,,Text says chlorine or other drinking water chemicals influence colorectal cancer development.
+tmkp-2026-04-21-edge-audit-batch-001-0055,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,PEG IFN and APS are not macrogol and autoimmune polyendocrinopathy.
+tmkp-2026-04-21-edge-audit-batch-001-0056,codex-manual,2026-05-04,partially_supported,partial,good,negation_or_hedging,Text says rosiglitazone might promote bladder cancer but causality remains uncertain.
+tmkp-2026-04-21-edge-audit-batch-001-0057,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_only,Prednisolone treatment is background and optic neuropathy is secondary to aspergillosis.
+tmkp-2026-04-21-edge-audit-batch-001-0058,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|generic_subject,Ligand is a nonspecific common term in a cell activation context.
+tmkp-2026-04-21-edge-audit-batch-001-0059,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Scleroderma-like syndrome occurred during treatment with carbidopa plus other drugs.
+tmkp-2026-04-21-edge-audit-batch-001-0060,codex-manual,2026-05-04,supported,good,good,,Text says tobacco is related to higher risk of diabetes and hyperglycemia.
+tmkp-2026-04-21-edge-audit-batch-001-0061,codex-manual,2026-05-04,partially_supported,partial,partial,predicate_overbroad,Amiodarone may induce a thyrotoxicosis resembling Graves disease.
+tmkp-2026-04-21-edge-audit-batch-001-0062,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,PCV2 is a virus and not penciclovir.
+tmkp-2026-04-21-edge-audit-batch-001-0063,codex-manual,2026-05-04,supported,good,good,,Text says DCA toxic effects including cataract are due to oxalic acid production.
+tmkp-2026-04-21-edge-audit-batch-001-0064,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,AHD means antihyperglycemic drug and not Alpers syndrome.
+tmkp-2026-04-21-edge-audit-batch-001-0065,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,PDS is an electrophysiologic event term and not Ehlers-Danlos syndrome.
+tmkp-2026-04-21-edge-audit-batch-001-0066,codex-manual,2026-05-04,supported,good,good,,Text says urticaria and angioedema occurred due to antimicrobial agents mainly amoxicillin.
+tmkp-2026-04-21-edge-audit-batch-001-0067,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,Ten is part of ten-year follow-up and not pentaerythritol tetranitrate.
+tmkp-2026-04-21-edge-audit-batch-001-0068,codex-manual,2026-05-04,partially_supported,partial,good,adverse_event_signal,Albendazole was stopped if adverse events including hypersensitivity occurred.
+tmkp-2026-04-21-edge-audit-batch-001-0069,codex-manual,2026-05-04,partially_supported,partial,good,negation_or_hedging,Text says aluminium has been linked tentatively to autism spectrum disorder.
+tmkp-2026-04-21-edge-audit-batch-001-0070,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,DCI means delayed cerebral ischemia and not ductal breast carcinoma in situ.
+tmkp-2026-04-21-edge-audit-batch-001-0071,codex-manual,2026-05-04,unclear,unclear,good,cohort_or_exposure_only,Text says the study assessed association between spina bifida risk and alcohol consumption.
+tmkp-2026-04-21-edge-audit-batch-001-0072,codex-manual,2026-05-04,unclear,unclear,good,negation_or_hedging,Text raises questions about the true risk of tobacco use and pneumonitis.
+tmkp-2026-04-21-edge-audit-batch-001-0073,codex-manual,2026-05-04,supported,good,good,,Text directly says clopidogrel may cause thrombotic thrombocytopenic purpura.
+tmkp-2026-04-21-edge-audit-batch-001-0074,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|negation_or_hedging,Biomarkers were not independently associated with PAD.
+tmkp-2026-04-21-edge-audit-batch-001-0075,codex-manual,2026-05-04,partially_supported,partial,good,cohort_or_exposure_only,Kaposi sarcoma developed after methotrexate in immunosuppressed Reiter syndrome patients.
+tmkp-2026-04-21-edge-audit-batch-001-0076,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Text reports non-significant excess risk for oils other than mineral oil.
+tmkp-2026-04-21-edge-audit-batch-001-0077,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_only,Mycophenolate is differential context and not asserted to cause GVHD.
+tmkp-2026-04-21-edge-audit-batch-001-0078,codex-manual,2026-05-04,supported,good,good,,Text says high HGH levels promote occurrence of rectal cancer and other cancers.
+tmkp-2026-04-21-edge-audit-batch-001-0079,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Text says no published epidemiologic data for green tea and vulval cancer risk.
+tmkp-2026-04-21-edge-audit-batch-001-0080,codex-manual,2026-05-04,supported,good,good,,Text supports lentinan inducing hypersensitivity or positive skin tests.
+tmkp-2026-04-21-edge-audit-batch-001-0081,codex-manual,2026-05-04,supported,good,good,,Text says nitric oxide exacerbates inflammation and hyperplasia.
+tmkp-2026-04-21-edge-audit-batch-001-0082,codex-manual,2026-05-04,unclear,unclear,good,cohort_or_exposure_only,Text reports MDS in a patient with habitual colloidal silver ingestion but does not assert causation.
+tmkp-2026-04-21-edge-audit-batch-001-0083,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_protective,Text says increased peanut intake was associated with low obesity risk.
+tmkp-2026-04-21-edge-audit-batch-001-0084,codex-manual,2026-05-04,partially_supported,partial,partial,related_drug_context,Cardiomyopathy is reported with venlafaxine which is the parent molecule of desvenlafaxine.
+tmkp-2026-04-21-edge-audit-batch-001-0085,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,His is a possessive pronoun and not histidine.
+tmkp-2026-04-21-edge-audit-batch-001-0086,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,SCM is associated with HIV shedding and the normalized subject and object are wrong.
+tmkp-2026-04-21-edge-audit-batch-001-0087,codex-manual,2026-05-04,supported,good,good,,Text directly reports withdrawal syndrome following midazolam infusion.
+tmkp-2026-04-21-edge-audit-batch-001-0088,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,Date is a common word in reported to date and not the normalized subject.
+tmkp-2026-04-21-edge-audit-batch-001-0089,codex-manual,2026-05-04,unsupported,bad,partial,inverse_or_treatment_context,Hormones are treatment context for immune thrombocytopenia and not a cause.
+tmkp-2026-04-21-edge-audit-batch-001-0090,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_only|negation_or_hedging,Text says tyramine is genotoxic in vitro and might promote intestinal cancer.
+tmkp-2026-04-21-edge-audit-batch-001-0091,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Text says no sign of carbamazepine intoxication such as gingival hypertrophy.
+tmkp-2026-04-21-edge-audit-batch-001-0092,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,APS means antiphospholipid syndrome and not adenosine phosphosulfate.
+tmkp-2026-04-21-edge-audit-batch-001-0093,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_only,Hydroxychloroquine exacerbated skin lesions in a patient with arthropathy.
+tmkp-2026-04-21-edge-audit-batch-001-0094,codex-manual,2026-05-04,unsupported,bad,bad,method_or_reagent_only|normalization_error,Media is a culture method term and not multiple epiphyseal dysplasia.
+tmkp-2026-04-21-edge-audit-batch-001-0095,codex-manual,2026-05-04,supported,good,good,,Text says adrenal insufficiency occurred after triamcinolone injection.
+tmkp-2026-04-21-edge-audit-batch-001-0096,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,Nasal cancers were normalized to neonatal abstinence syndrome.
+tmkp-2026-04-21-edge-audit-batch-001-0097,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,PCC means pheochromocytoma and not factor IX complex.
+tmkp-2026-04-21-edge-audit-batch-001-0098,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Serous retinopathy incidence was higher with encorafenib plus binimetinib than encorafenib alone.
+tmkp-2026-04-21-edge-audit-batch-001-0099,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,The evidence is Cushing syndrome on atazanavir therapy but the object is hyperaldosteronism.
+tmkp-2026-04-21-edge-audit-batch-001-0100,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,PCD means programmed cell death and not primary ciliary dyskinesia.

@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-001-1051,codex-manual,2026-05-04,supported,good,good,method_or_reagent_only,Tamoxifen administration deleted Cbfb in conditional mice.
+tmkp-2026-04-21-edge-audit-batch-001-1052,codex-manual,2026-05-04,supported,good,good,,Astaxanthin blocked TNF alpha interaction with TRAF2.
+tmkp-2026-04-21-edge-audit-batch-001-1053,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|inverse_relation,Cascade is signaling context and ADAMTS9 regulates that cascade.
+tmkp-2026-04-21-edge-audit-batch-001-1054,codex-manual,2026-05-04,partially_supported,good,partial,generic_subject,FXR ligand intensified inhibition of Bax overexpression.
+tmkp-2026-04-21-edge-audit-batch-001-1055,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_context,MPA was tested against STK11 KEAP1 mutant cells rather than changing STK11.
+tmkp-2026-04-21-edge-audit-batch-001-1056,codex-manual,2026-05-04,supported,good,partial,normalization_uncertain,Actinomycin D decreased RANKL2 protein.
+tmkp-2026-04-21-edge-audit-batch-001-1057,codex-manual,2026-05-04,partially_supported,good,partial,related_chemical_context,SNAP is a penicillamine derivative that activated IRP2.
+tmkp-2026-04-21-edge-audit-batch-001-1058,codex-manual,2026-05-04,supported,good,good,,Halothane reduced GPIIb IIIa activation.
+tmkp-2026-04-21-edge-audit-batch-001-1059,codex-manual,2026-05-04,supported,good,good,negation_or_hedging,Staurosporine blocked SAG1 recruitment and loss.
+tmkp-2026-04-21-edge-audit-batch-001-1060,codex-manual,2026-05-04,unsupported,good,bad,normalization_error,Glucosamine induced ALP but the normalized object is SLPI.
+tmkp-2026-04-21-edge-audit-batch-001-1061,codex-manual,2026-05-04,unsupported,good,bad,normalization_error,MTA inhibited Th1 responses but the object is NELFCD.
+tmkp-2026-04-21-edge-audit-batch-001-1062,codex-manual,2026-05-04,supported,good,good,combination_exposure,Bovine type I collagen plus serum activated JunB.
+tmkp-2026-04-21-edge-audit-batch-001-1063,codex-manual,2026-05-04,supported,good,good,,Green coffee bean extract reduced galanin mRNA.
+tmkp-2026-04-21-edge-audit-batch-001-1064,codex-manual,2026-05-04,partially_supported,good,partial,family_mention_fanout,Irbesartan decreased VEGF but VEGFA specificity is not shown.
+tmkp-2026-04-21-edge-audit-batch-001-1065,codex-manual,2026-05-04,unsupported,good,bad,normalization_error,Glycerol blocked PDI action but the normalized object is PADI2.
+tmkp-2026-04-21-edge-audit-batch-001-1066,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,Galanin decreased cocaine induced ERK signaling rather than cocaine affecting galanin.
+tmkp-2026-04-21-edge-audit-batch-001-1067,codex-manual,2026-05-04,unsupported,good,bad,family_mention_fanout,Busulphan induced less TNF alpha but not CD40LG.
+tmkp-2026-04-21-edge-audit-batch-001-1068,codex-manual,2026-05-04,unsupported,good,bad,family_mention_fanout,Entinostat increased TNF alpha but not CD70.
+tmkp-2026-04-21-edge-audit-batch-001-1069,codex-manual,2026-05-04,supported,good,good,,Homocysteine induced transglutaminase 2 upregulation.
+tmkp-2026-04-21-edge-audit-batch-001-1070,codex-manual,2026-05-04,supported,good,good,,Emodin downregulated MRP1.
+tmkp-2026-04-21-edge-audit-batch-001-1071,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,MACC1 downregulation sensitized cells to gemcitabine.
+tmkp-2026-04-21-edge-audit-batch-001-1072,codex-manual,2026-05-04,partially_supported,partial,partial,generic_subject,Catechol structural moiety was identified as a Stat3 SH2 inhibitor.
+tmkp-2026-04-21-edge-audit-batch-001-1073,codex-manual,2026-05-04,unsupported,good,bad,normalization_error,EGCG affected PGC1alpha but the normalized object is PPARGC1B.
+tmkp-2026-04-21-edge-audit-batch-001-1074,codex-manual,2026-05-04,supported,good,partial,family_mention_fanout,Doxycycline reduced NRF1 or NRF2 antioxidant response.
+tmkp-2026-04-21-edge-audit-batch-001-1075,codex-manual,2026-05-04,unsupported,good,bad,normalization_error,Olmesartan decreased p38 MAPK activation but the object is GRAP2.
+tmkp-2026-04-21-edge-audit-batch-001-1076,codex-manual,2026-05-04,supported,good,good,,Mosapride inhibited AQP4 expression.
+tmkp-2026-04-21-edge-audit-batch-001-1077,codex-manual,2026-05-04,unsupported,good,bad,family_mention_fanout,PEG increased GSK3 beta phosphorylation but the object is GSK3A.
+tmkp-2026-04-21-edge-audit-batch-001-1078,codex-manual,2026-05-04,unsupported,partial,bad,family_mention_fanout,Pyridostigmine was assessed for TNF alpha reduction but not TNFSF8.
+tmkp-2026-04-21-edge-audit-batch-001-1079,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,Pdi is diaphragm pressure rather than PADI2.
+tmkp-2026-04-21-edge-audit-batch-001-1080,codex-manual,2026-05-04,unsupported,good,bad,family_mention_fanout,Niclosamide inhibited CREB dependent pathways but not CREB3 specifically.
+tmkp-2026-04-21-edge-audit-batch-001-1081,codex-manual,2026-05-04,unsupported,bad,bad,family_mention_fanout,TNF alpha was stimulus and object is TNFSF18.
+tmkp-2026-04-21-edge-audit-batch-001-1082,codex-manual,2026-05-04,unsupported,good,bad,family_mention_fanout,Rhein increased PPAR gamma but the object is PPARA.
+tmkp-2026-04-21-edge-audit-batch-001-1083,codex-manual,2026-05-04,supported,good,partial,normalization_uncertain,Acetic acid induced PCD decreased Mas1 levels.
+tmkp-2026-04-21-edge-audit-batch-001-1084,codex-manual,2026-05-04,supported,good,good,,Enzalutamide decreased DPP4 expression.
+tmkp-2026-04-21-edge-audit-batch-001-1085,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,Sox9 increases collagen II rather than collagen affecting Sox9.
+tmkp-2026-04-21-edge-audit-batch-001-1086,codex-manual,2026-05-04,unsupported,good,bad,normalization_error,Olaparib reduced MCP1 but the normalized object is CAPG.
+tmkp-2026-04-21-edge-audit-batch-001-1087,codex-manual,2026-05-04,supported,good,good,,Curcumin induced GCLM expression.
+tmkp-2026-04-21-edge-audit-batch-001-1088,codex-manual,2026-05-04,supported,good,good,,Gadolinium contrast treatment led to less dermal CD34.
+tmkp-2026-04-21-edge-audit-batch-001-1089,codex-manual,2026-05-04,supported,good,good,,Metformin downregulated GAPD.
+tmkp-2026-04-21-edge-audit-batch-001-1090,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,CHES1 is a gene rather than N cyclohexyltaurine.
+tmkp-2026-04-21-edge-audit-batch-001-1091,codex-manual,2026-05-04,unsupported,bad,bad,list_or_cross_product|normalization_error,Mifepristone inhibited GR while etomoxir inhibited CPT1.
+tmkp-2026-04-21-edge-audit-batch-001-1092,codex-manual,2026-05-04,partially_supported,good,partial,family_mention_fanout,Tropisetron suppressed calcineurin expression without PPP3R1 specificity.
+tmkp-2026-04-21-edge-audit-batch-001-1093,codex-manual,2026-05-04,supported,good,good,,Triapine reduced histone H1 phosphorylation.
+tmkp-2026-04-21-edge-audit-batch-001-1094,codex-manual,2026-05-04,unsupported,good,bad,normalization_error,Chloroquine increased EWS Fli1 lysosomal fraction but the object is FLII.
+tmkp-2026-04-21-edge-audit-batch-001-1095,codex-manual,2026-05-04,partially_supported,partial,good,negation_or_hedging,Ivermectin was a limited proof of concept non GIRK1 channel activator.
+tmkp-2026-04-21-edge-audit-batch-001-1096,codex-manual,2026-05-04,partially_supported,partial,good,negation_or_hedging,Lindane showed only a tendency to increase caspase 3 at low dose.
+tmkp-2026-04-21-edge-audit-batch-001-1097,codex-manual,2026-05-04,unsupported,bad,bad,inverse_relation|normalization_error,Cadmium exposure in yeast induced PDI1 and the object is PADI1.
+tmkp-2026-04-21-edge-audit-batch-001-1098,codex-manual,2026-05-04,supported,good,good,,cAMP induced differentiation enhanced SYF2 expression.
+tmkp-2026-04-21-edge-audit-batch-001-1099,codex-manual,2026-05-04,unsupported,good,bad,normalization_error,Hemin inhibited spectrin association but the subject is Aqua cem.
+tmkp-2026-04-21-edge-audit-batch-001-1100,codex-manual,2026-05-04,supported,good,good,,Sibutramine increased PPAR gamma positive nuclei.
+tmkp-2026-04-21-edge-audit-batch-001-1101,codex-manual,2026-05-04,unsupported,bad,partial,inverse_relation|generic_subject,Calcineurin negatively regulates hormone release.
+tmkp-2026-04-21-edge-audit-batch-001-1102,codex-manual,2026-05-04,supported,good,good,,SOX17 was hypomethylated after resveratrol treatment.
+tmkp-2026-04-21-edge-audit-batch-001-1103,codex-manual,2026-05-04,supported,good,good,,Bardoxolone is used as a KEAP1 NRF2 activator.
+tmkp-2026-04-21-edge-audit-batch-001-1104,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention,Mineral refers to bone mineral density associated with SCD.
+tmkp-2026-04-21-edge-audit-batch-001-1105,codex-manual,2026-05-04,unsupported,bad,bad,inverse_relation|abbreviation_collision,APP treatment changed malondialdehyde levels rather than malondialdehyde affecting APP.
+tmkp-2026-04-21-edge-audit-batch-001-1106,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,AZD7762 synergy with knockdown lowered TopBP1 expression.
+tmkp-2026-04-21-edge-audit-batch-001-1107,codex-manual,2026-05-04,partially_supported,good,partial,family_mention_fanout,WP1066 increased VEGF without VEGFD specificity.
+tmkp-2026-04-21-edge-audit-batch-001-1108,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Mucin secretion text was mapped to secretin.
+tmkp-2026-04-21-edge-audit-batch-001-1109,codex-manual,2026-05-04,unsupported,good,bad,normalization_error,Tagetitoxin inhibited SUP tRNA transcription but the object is SNAP25.
+tmkp-2026-04-21-edge-audit-batch-001-1110,codex-manual,2026-05-04,supported,good,good,,Alcohol feeding increased HYOU1.
+tmkp-2026-04-21-edge-audit-batch-001-1111,codex-manual,2026-05-04,unsupported,good,bad,normalization_error,MIC increased p21 Cip1 but the normalized object is SLC12A9.
+tmkp-2026-04-21-edge-audit-batch-001-1112,codex-manual,2026-05-04,supported,good,good,,Sildenafil counteracted increased Bax expression.
+tmkp-2026-04-21-edge-audit-batch-001-1113,codex-manual,2026-05-04,supported,good,good,,GLP1 receptor agonists inhibit glucagon secretion.
+tmkp-2026-04-21-edge-audit-batch-001-1114,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,APS DE cultures are not adenosine phosphosulfate exposure.
+tmkp-2026-04-21-edge-audit-batch-001-1115,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,Ago2 was required for actinomycin D effect on c myc mRNA.
+tmkp-2026-04-21-edge-audit-batch-001-1116,codex-manual,2026-05-04,partially_supported,partial,good,negation_or_hedging,IL1 alpha increased ADAMTS1 only in IL1RT1 expressing cells.
+tmkp-2026-04-21-edge-audit-batch-001-1117,codex-manual,2026-05-04,supported,good,good,,Erlotinib reduced SOX9 expression.
+tmkp-2026-04-21-edge-audit-batch-001-1118,codex-manual,2026-05-04,unsupported,bad,bad,inverse_relation,Calmodulin stimulated tyrosine phosphorylation rather than tyrosine affecting calmodulin.
+tmkp-2026-04-21-edge-audit-batch-001-1119,codex-manual,2026-05-04,unsupported,good,bad,family_mention_fanout,Hydroxychloroquine decreased TNF alpha but not TNFSF13.
+tmkp-2026-04-21-edge-audit-batch-001-1120,codex-manual,2026-05-04,supported,good,good,,Candesartan reduced TrkB expression.
+tmkp-2026-04-21-edge-audit-batch-001-1121,codex-manual,2026-05-04,supported,good,good,combination_exposure,MMF plus vancomycin decreased LIF.
+tmkp-2026-04-21-edge-audit-batch-001-1122,codex-manual,2026-05-04,supported,good,good,,Thiazolidinedione therapy increased adiponectin.
+tmkp-2026-04-21-edge-audit-batch-001-1123,codex-manual,2026-05-04,unsupported,good,bad,family_mention_fanout,Voriconazole reduced TNF alpha but not TNFSF13.
+tmkp-2026-04-21-edge-audit-batch-001-1124,codex-manual,2026-05-04,unsupported,bad,bad,list_or_cross_product|normalization_error,TNF induced Spp1 and anisomycin did not specifically affect PRIM1.
+tmkp-2026-04-21-edge-audit-batch-001-1125,codex-manual,2026-05-04,supported,good,good,,Alpha ketoisovalerate inhibited branched chain ketoacid dehydrogenase kinase.
+tmkp-2026-04-21-edge-audit-batch-001-1126,codex-manual,2026-05-04,supported,good,good,,Nicotine exposure hypermethylated Syt3.
+tmkp-2026-04-21-edge-audit-batch-001-1127,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|inverse_relation,ETP is endogenous thrombin potential changed by lactadherin.
+tmkp-2026-04-21-edge-audit-batch-001-1128,codex-manual,2026-05-04,unsupported,bad,bad,negation_or_hedging|normalization_error,APS1 was not responsive and the object is NUDT11.
+tmkp-2026-04-21-edge-audit-batch-001-1129,codex-manual,2026-05-04,unsupported,good,bad,normalization_error,Curcumin reduced KLK3 but the normalized object is KLKB1.
+tmkp-2026-04-21-edge-audit-batch-001-1130,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,PAH is pulmonary arterial hypertension and NOS1 is not NOA1.
+tmkp-2026-04-21-edge-audit-batch-001-1131,codex-manual,2026-05-04,supported,good,good,,Eplerenone elevated PPAR alpha.
+tmkp-2026-04-21-edge-audit-batch-001-1132,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,API5 protein activates FGFR1 and is not alpha 1 proteinase inhibitor.
+tmkp-2026-04-21-edge-audit-batch-001-1133,codex-manual,2026-05-04,supported,good,good,,Onapristone increased interleukin 8 production.
+tmkp-2026-04-21-edge-audit-batch-001-1134,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,NMDA stimulus increased Arp2 interaction and is not ketamine.
+tmkp-2026-04-21-edge-audit-batch-001-1135,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention,His is part of prose about a research group rather than histidine.
+tmkp-2026-04-21-edge-audit-batch-001-1136,codex-manual,2026-05-04,partially_supported,partial,good,cohort_or_exposure_context,Milk consumption was associated with increased placental lactogen.
+tmkp-2026-04-21-edge-audit-batch-001-1137,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,HSA Trx altered creatinine outcomes rather than creatinine affecting Trx.
+tmkp-2026-04-21-edge-audit-batch-001-1138,codex-manual,2026-05-04,partially_supported,good,partial,normalization_uncertain,Thio NAD inhibited mitochondrial NADK2.
+tmkp-2026-04-21-edge-audit-batch-001-1139,codex-manual,2026-05-04,supported,good,good,,Simvastatin decreased RAB11 isoprenylation.
+tmkp-2026-04-21-edge-audit-batch-001-1140,codex-manual,2026-05-04,supported,good,good,,Pentoxifylline downregulated TNFR1 mRNA.
+tmkp-2026-04-21-edge-audit-batch-001-1141,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_context,Ponatinib eradicated cells expressing Hes1 rather than affecting Hes1.
+tmkp-2026-04-21-edge-audit-batch-001-1142,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,Trx knockdown altered response to daunomycin.
+tmkp-2026-04-21-edge-audit-batch-001-1143,codex-manual,2026-05-04,partially_supported,partial,partial,generic_object,Docetaxel increased ubiquitin proteasome reporter activity.
+tmkp-2026-04-21-edge-audit-batch-001-1144,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,HGF treatment altered collagen fibers.
+tmkp-2026-04-21-edge-audit-batch-001-1145,codex-manual,2026-05-04,unclear,good,unclear,abbreviation_collision|normalization_uncertain,CIT increased CXCL10 but expansion to citrulline is uncertain.
+tmkp-2026-04-21-edge-audit-batch-001-1146,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Palm oil plus LXR agonist stimulated PRMT3 activity.
+tmkp-2026-04-21-edge-audit-batch-001-1147,codex-manual,2026-05-04,supported,good,good,,17AAG downregulated Wee1.
+tmkp-2026-04-21-edge-audit-batch-001-1148,codex-manual,2026-05-04,unsupported,good,bad,abbreviation_collision|family_mention_fanout,DiC8 upregulated CREB and is not dacarbazine or CREB3.
+tmkp-2026-04-21-edge-audit-batch-001-1149,codex-manual,2026-05-04,supported,good,good,,TTNPB repressed Myf5 less potently than retinoic acid.
+tmkp-2026-04-21-edge-audit-batch-001-1150,codex-manual,2026-05-04,unsupported,good,bad,normalization_error,Ginsenoside Rg1 downregulated cyclin D1 but the object is CCND3.

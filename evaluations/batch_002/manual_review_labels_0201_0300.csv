@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-002-0201,codex-manual,2026-05-04,supported,good,good,,Stevens-Johnson syndrome was induced by modafinil.
+tmkp-2026-04-21-edge-audit-batch-002-0202,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,ATQ does not support tocoquinone causing psychiatric disorder.
+tmkp-2026-04-21-edge-audit-batch-002-0203,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,BES means base exchange reaction not benign exophthalmos syndrome.
+tmkp-2026-04-21-edge-audit-batch-002-0204,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,His is a pronoun and CHA is not the normalized disease.
+tmkp-2026-04-21-edge-audit-batch-002-0205,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_protective_context,Licofelone decreased tumor PCNA staining.
+tmkp-2026-04-21-edge-audit-batch-002-0206,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,AOM is an azoxymethane model context not infectious otitis media.
+tmkp-2026-04-21-edge-audit-batch-002-0207,codex-manual,2026-05-04,supported,good,good,cohort_or_exposure_context,Membranoproliferative glomerulonephritis occurred in a patient treated with carbamazepine.
+tmkp-2026-04-21-edge-audit-batch-002-0208,codex-manual,2026-05-04,supported,good,good,,Cognitive disorder was an adverse event in the vemurafenib arm.
+tmkp-2026-04-21-edge-audit-batch-002-0209,codex-manual,2026-05-04,unsupported,bad,good,treatment_context|negation_or_hedging,The text asks whether telotristat alters valvular heart disease course.
+tmkp-2026-04-21-edge-audit-batch-002-0210,codex-manual,2026-05-04,supported,good,good,,Calcium channel blockers were associated with eczema.
+tmkp-2026-04-21-edge-audit-batch-002-0211,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Takotsubo cardiomyopathy was due to lisdexamfetamine and phentermine combination use.
+tmkp-2026-04-21-edge-audit-batch-002-0212,codex-manual,2026-05-04,unsupported,bad,good,treatment_context|related_chemical_context,SFN treatment is discussed in gentamicin induced kidney injury.
+tmkp-2026-04-21-edge-audit-batch-002-0213,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Bovine casein induced hypersensitivity symptoms in milk allergic mice.
+tmkp-2026-04-21-edge-audit-batch-002-0214,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,PCP means planar cell polarity not phencyclidine.
+tmkp-2026-04-21-edge-audit-batch-002-0215,codex-manual,2026-05-04,partially_supported,partial,good,generic_subject,Hypoglycemic therapy can cause mild gastrointestinal disorders.
+tmkp-2026-04-21-edge-audit-batch-002-0216,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,IDU means injection drug users not idoxuridine.
+tmkp-2026-04-21-edge-audit-batch-002-0217,codex-manual,2026-05-04,unsupported,bad,good,combination_exposure|negation_or_hedging,Neutropenia rates were similar with ciprofloxacin and rifampin.
+tmkp-2026-04-21-edge-audit-batch-002-0218,codex-manual,2026-05-04,partially_supported,partial,partial,generic_object|model_or_assay_context,Bombesin induced generic tumor growth in mice.
+tmkp-2026-04-21-edge-audit-batch-002-0219,codex-manual,2026-05-04,unsupported,bad,good,method_or_reagent_context,Ketamine was used as anesthesia during tumor generation.
+tmkp-2026-04-21-edge-audit-batch-002-0220,codex-manual,2026-05-04,partially_supported,partial,partial,generic_subject,Hormone overproduction from islet cell tumors can cause gastric ulcer disease.
+tmkp-2026-04-21-edge-audit-batch-002-0221,codex-manual,2026-05-04,unsupported,bad,good,contraindication_context,Cardiac disease is patient context for atropine contraindication.
+tmkp-2026-04-21-edge-audit-batch-002-0222,codex-manual,2026-05-04,partially_supported,partial,good,observational_association,Escitalopram use had an observational harmful association with Parkinson disease.
+tmkp-2026-04-21-edge-audit-batch-002-0223,codex-manual,2026-05-04,unsupported,bad,good,biomarker_or_expression_context,Verapamil infusion was used to investigate hyperinsulinemia.
+tmkp-2026-04-21-edge-audit-batch-002-0224,codex-manual,2026-05-04,supported,good,good,,Pivampicillin can cause carnitine deficiency.
+tmkp-2026-04-21-edge-audit-batch-002-0225,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Homocysteine is a risk factor for OCD but object is overnormalized.
+tmkp-2026-04-21-edge-audit-batch-002-0226,codex-manual,2026-05-04,supported,good,good,,Topoisomerase inhibitors may contribute to secondary neoplasms.
+tmkp-2026-04-21-edge-audit-batch-002-0227,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,MCD is an enzyme context not multiple carboxylase deficiency.
+tmkp-2026-04-21-edge-audit-batch-002-0228,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,PCV means polycythemia vera not penciclovir.
+tmkp-2026-04-21-edge-audit-batch-002-0229,codex-manual,2026-05-04,supported,good,good,,Depot medroxyprogesterone acetate may cause urinary tract infection.
+tmkp-2026-04-21-edge-audit-batch-002-0230,codex-manual,2026-05-04,supported,good,good,,Photodermatosis was secondary to hydroxyurea.
+tmkp-2026-04-21-edge-audit-batch-002-0231,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Lyell syndrome was secondary to sulfadoxine pyrimethamine treatment.
+tmkp-2026-04-21-edge-audit-batch-002-0232,codex-manual,2026-05-04,partially_supported,partial,good,risk_factor_context,Methylparaben levels were associated with breast cancer odds.
+tmkp-2026-04-21-edge-audit-batch-002-0233,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,BMD means bone mineral density not vitelliform macular dystrophy.
+tmkp-2026-04-21-edge-audit-batch-002-0234,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,PCC group is not supported as factor IX complex.
+tmkp-2026-04-21-edge-audit-batch-002-0235,codex-manual,2026-05-04,supported,good,good,,Angioedema developed after cefadroxil.
+tmkp-2026-04-21-edge-audit-batch-002-0236,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,MCD is an otic suspension not macular corneal dystrophy.
+tmkp-2026-04-21-edge-audit-batch-002-0237,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,PCD time is not premature centromere division.
+tmkp-2026-04-21-edge-audit-batch-002-0238,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,DES treated mice developed interstitial cell tumors.
+tmkp-2026-04-21-edge-audit-batch-002-0239,codex-manual,2026-05-04,supported,good,good,,Loxoprofen adverse reactions include gastrointestinal disorder.
+tmkp-2026-04-21-edge-audit-batch-002-0240,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_context,Psychiatric disorders are user comorbidity context for hydroxyzine crash risk.
+tmkp-2026-04-21-edge-audit-batch-002-0241,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,ERS means endoplasmic reticulum stress not juvenile idiopathic arthritis.
+tmkp-2026-04-21-edge-audit-batch-002-0242,codex-manual,2026-05-04,supported,good,good,,The text discusses cholesterol associated gallbladder disease.
+tmkp-2026-04-21-edge-audit-batch-002-0243,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_protective_context,Phosphatidylcholine intake was inversely associated with colorectal cancer risk.
+tmkp-2026-04-21-edge-audit-batch-002-0244,codex-manual,2026-05-04,supported,good,good,,Acyclovir induced immune thrombocytopenia has been reported.
+tmkp-2026-04-21-edge-audit-batch-002-0245,codex-manual,2026-05-04,supported,good,good,,Teicoplanin was associated with probable hypersensitivity syndrome.
+tmkp-2026-04-21-edge-audit-batch-002-0246,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Acute hepatitis was associated with atorvastatin and diltiazem coadministration.
+tmkp-2026-04-21-edge-audit-batch-002-0247,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,DSS is a dissociative symptoms scale not severe dengue.
+tmkp-2026-04-21-edge-audit-batch-002-0248,codex-manual,2026-05-04,supported,good,good,,Movement disorder developed on vigabatrin therapy.
+tmkp-2026-04-21-edge-audit-batch-002-0249,codex-manual,2026-05-04,supported,good,good,,Tetracycline induced vasculitis was reported.
+tmkp-2026-04-21-edge-audit-batch-002-0250,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging|cohort_or_exposure_context,Severe events in sickle cell patients were not considered ticagrelor related.
+tmkp-2026-04-21-edge-audit-batch-002-0251,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,DMI is not desipramine in this kidney disease context.
+tmkp-2026-04-21-edge-audit-batch-002-0252,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,CLA is conjugated linoleic acid not clarithromycin.
+tmkp-2026-04-21-edge-audit-batch-002-0253,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_protective_context,Estradiol is described as having an antiarrhythmic effect in Brugada syndrome.
+tmkp-2026-04-21-edge-audit-batch-002-0254,codex-manual,2026-05-04,supported,good,good,,Gold based dental alloys have been associated with oral disease.
+tmkp-2026-04-21-edge-audit-batch-002-0255,codex-manual,2026-05-04,supported,good,good,,Long term carbamazepine use is associated with bone disease.
+tmkp-2026-04-21-edge-audit-batch-002-0256,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,IPA is a disease context and not riboprine.
+tmkp-2026-04-21-edge-audit-batch-002-0257,codex-manual,2026-05-04,partially_supported,partial,good,hypothesized_risk_context,Long term studies were needed to assess obeticholic acid cardiovascular risk.
+tmkp-2026-04-21-edge-audit-batch-002-0258,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,MSD means musculoskeletal disorder not mucosulfatidosis.
+tmkp-2026-04-21-edge-audit-batch-002-0259,codex-manual,2026-05-04,supported,good,good,mechanism_context,Nicotine activation of PLA2 may contribute to retinal degeneration.
+tmkp-2026-04-21-edge-audit-batch-002-0260,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_treatment_context,Nadifloxacin treated infection that included Klebsiella.
+tmkp-2026-04-21-edge-audit-batch-002-0261,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_context,Creatinine correlated with GERD in the analysis.
+tmkp-2026-04-21-edge-audit-batch-002-0262,codex-manual,2026-05-04,partially_supported,partial,partial,list_or_cross_product,Glyphosate was associated with AML in a list context.
+tmkp-2026-04-21-edge-audit-batch-002-0263,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_context,Casein diet was used to produce a consistent kidney disease phenotype in rats.
+tmkp-2026-04-21-edge-audit-batch-002-0264,codex-manual,2026-05-04,supported,good,good,,Voriconazole toxicity included memory loss.
+tmkp-2026-04-21-edge-audit-batch-002-0265,codex-manual,2026-05-04,supported,good,good,combination_exposure,Erythema multiforme developed after amoxicillin clavulanate.
+tmkp-2026-04-21-edge-audit-batch-002-0266,codex-manual,2026-05-04,supported,good,good,,Abnormal mineral water composition or pollution can determine metabolic disorders.
+tmkp-2026-04-21-edge-audit-batch-002-0267,codex-manual,2026-05-04,unsupported,bad,good,biomarker_or_expression_context,Elevated hyaluronan is disease context for hepatitis not a stated cause.
+tmkp-2026-04-21-edge-audit-batch-002-0268,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Caffeine exacerbated renal failure in obese diabetic rats.
+tmkp-2026-04-21-edge-audit-batch-002-0269,codex-manual,2026-05-04,partially_supported,partial,good,negation_or_hedging,Leucine increases may contribute to prostatic intraepithelial neoplasia.
+tmkp-2026-04-21-edge-audit-batch-002-0270,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Halothane injection was used as a drug induced liver injury model.
+tmkp-2026-04-21-edge-audit-batch-002-0271,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Cellulose sulfate increased HIV acquisition not HIV associated nephropathy.
+tmkp-2026-04-21-edge-audit-batch-002-0272,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,AMP and BMD are unrelated athlete and bone density abbreviations.
+tmkp-2026-04-21-edge-audit-batch-002-0273,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_context,High calcium in ALS muscle may contribute to muscle atrophy progression.
+tmkp-2026-04-21-edge-audit-batch-002-0274,codex-manual,2026-05-04,supported,good,good,,Terodiline was associated with cardiac arrhythmias.
+tmkp-2026-04-21-edge-audit-batch-002-0275,codex-manual,2026-05-04,unsupported,bad,good,model_or_assay_context,Cod liver oil was studied as a dietary lipid in daunomycin induced nephropathy.
+tmkp-2026-04-21-edge-audit-batch-002-0276,codex-manual,2026-05-04,supported,good,good,,MTX induced renal injury results in uremia.
+tmkp-2026-04-21-edge-audit-batch-002-0277,codex-manual,2026-05-04,unsupported,bad,good,model_or_assay_context,Dehydroascorbic acid affected oxidative stress in colorectal cancer cells.
+tmkp-2026-04-21-edge-audit-batch-002-0278,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product,Aspergillus fumigatus causes aspergillosis while Candida causes candidemia.
+tmkp-2026-04-21-edge-audit-batch-002-0279,codex-manual,2026-05-04,partially_supported,partial,good,hypothesized_risk_context,Urate may have a contributory role in osteoarthritis pathogenesis.
+tmkp-2026-04-21-edge-audit-batch-002-0280,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Tamoxifen treatment led to lymphoproliferative syndrome in mice.
+tmkp-2026-04-21-edge-audit-batch-002-0281,codex-manual,2026-05-04,supported,good,good,treatment_context,Corneal ulcers were associated with anesthesia.
+tmkp-2026-04-21-edge-audit-batch-002-0282,codex-manual,2026-05-04,supported,good,good,,Aspergillus fumigatus caused mycotic spondylitis.
+tmkp-2026-04-21-edge-audit-batch-002-0283,codex-manual,2026-05-04,partially_supported,partial,good,cohort_or_exposure_context,Nodular goiter occurred during IFN and ribavirin treatment.
+tmkp-2026-04-21-edge-audit-batch-002-0284,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,APS means antiphospholipid syndrome not adenosine phosphosulfate.
+tmkp-2026-04-21-edge-audit-batch-002-0285,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,Balance is ordinary text not isoxaflutole.
+tmkp-2026-04-21-edge-audit-batch-002-0286,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,17-AAG caused increased skeletal tumor incidence in vivo.
+tmkp-2026-04-21-edge-audit-batch-002-0287,codex-manual,2026-05-04,partially_supported,partial,good,exposure_context,Contaminated water may be connected to autoimmune diseases.
+tmkp-2026-04-21-edge-audit-batch-002-0288,codex-manual,2026-05-04,partially_supported,good,partial,normalization_error,Lenvatinib treatment caused diarrhea but the object label is malformed.
+tmkp-2026-04-21-edge-audit-batch-002-0289,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Timothy is part of Timothy syndrome not grass pollen.
+tmkp-2026-04-21-edge-audit-batch-002-0290,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,Ten is an ordinary count not pentaerythritol tetranitrate.
+tmkp-2026-04-21-edge-audit-batch-002-0291,codex-manual,2026-05-04,supported,good,good,,Amiloride exacerbates hyperlipidemia in diabetic patients.
+tmkp-2026-04-21-edge-audit-batch-002-0292,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product,Fibromuscular dysplasia and ergotamine related vasospasm are separate etiologies.
+tmkp-2026-04-21-edge-audit-batch-002-0293,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,IL-4 influences HIV progression and the object is urticaria.
+tmkp-2026-04-21-edge-audit-batch-002-0294,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_protective_context,Lactic acid is described as a health promoting metabolite in colon cancer risk.
+tmkp-2026-04-21-edge-audit-batch-002-0295,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_context,Elevated copper levels have a possible link with chronic periodontitis.
+tmkp-2026-04-21-edge-audit-batch-002-0296,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure|model_or_assay_context,Omeprazole with duodenogastric reflux increased stomach adenocarcinoma in rats.
+tmkp-2026-04-21-edge-audit-batch-002-0297,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation|biomarker_or_expression_context,Heart failure is associated with increased hypoxanthine.
+tmkp-2026-04-21-edge-audit-batch-002-0298,codex-manual,2026-05-04,supported,good,good,,Pyromania was associated with escitalopram.
+tmkp-2026-04-21-edge-audit-batch-002-0299,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_treatment_context,Treatment for arginase deficiency lowers plasma arginine.
+tmkp-2026-04-21-edge-audit-batch-002-0300,codex-manual,2026-05-04,unsupported,bad,bad,list_or_cross_product|normalization_error,Omeprazole and hepatitis C are separate association list items.

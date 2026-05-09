@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-001-2901,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is pronoun not ademetionine.
+tmkp-2026-04-21-edge-audit-batch-001-2902,codex-manual,2026-05-04,unsupported,bad,partial,negation_or_hedging|list_or_cross_product,IFN gamma is co measured and VEGF effect is negated.
+tmkp-2026-04-21-edge-audit-batch-001-2903,codex-manual,2026-05-04,supported,good,good,,Sarcosine treated DCs upregulate CXCR2 and CXCL chemokines.
+tmkp-2026-04-21-edge-audit-batch-001-2904,codex-manual,2026-05-04,supported,good,good,,BTX-A decreases IL-18 protein in DRG.
+tmkp-2026-04-21-edge-audit-batch-001-2905,codex-manual,2026-05-04,supported,good,good,,PDGF-BB reduces FOXO3 mediated transcription.
+tmkp-2026-04-21-edge-audit-batch-001-2906,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|negation_or_hedging,L-NAME did not alter APP and APP is misnormalized to PARP2.
+tmkp-2026-04-21-edge-audit-batch-001-2907,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|culture_medium_context,ESF5 is culture medium and Cdh3 changes come from Cdx2 knockdown.
+tmkp-2026-04-21-edge-audit-batch-001-2908,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|biomarker_context,RECA-1 staining is not RAD51 and thrombin injection is model context.
+tmkp-2026-04-21-edge-audit-batch-001-2909,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is pronoun and PBX3 is altered in Ra cells.
+tmkp-2026-04-21-edge-audit-batch-001-2910,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Factor X-linked inhibitor means XIAP and TNF IFNg induction is not CD70.
+tmkp-2026-04-21-edge-audit-batch-001-2911,codex-manual,2026-05-04,unsupported,bad,good,method_reagent_context,Rabbit is an antibody or reagent source.
+tmkp-2026-04-21-edge-audit-batch-001-2912,codex-manual,2026-05-04,partially_supported,partial,good,genetic_model_context,G-CSF administration expands cells in Nr3c1 model context.
+tmkp-2026-04-21-edge-audit-batch-001-2913,codex-manual,2026-05-04,supported,good,good,,CsA represses Nr4a2 and Nr4a3 transcription.
+tmkp-2026-04-21-edge-audit-batch-001-2914,codex-manual,2026-05-04,unsupported,bad,good,pathway_context,DFMO changes EGF induced Src activity rather than EGF itself.
+tmkp-2026-04-21-edge-audit-batch-001-2915,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is pronoun in concentration phrase.
+tmkp-2026-04-21-edge-audit-batch-001-2916,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Adalimumab decreases MRP8 but MRP8 is S100A8 not ABCC11.
+tmkp-2026-04-21-edge-audit-batch-001-2917,codex-manual,2026-05-04,supported,good,good,,Panitumumab suppresses IL-8 production.
+tmkp-2026-04-21-edge-audit-batch-001-2918,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,PKN2 suppresses IL4 and IL10 rather than IL10 affecting PKN2.
+tmkp-2026-04-21-edge-audit-batch-001-2919,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|biomarker_context,PML is a disease or group label and alanine is lower in that group.
+tmkp-2026-04-21-edge-audit-batch-001-2920,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,PCa means prostate cancer not pidolic acid.
+tmkp-2026-04-21-edge-audit-batch-001-2921,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is pronoun and MDR1 is not DR1.
+tmkp-2026-04-21-edge-audit-batch-001-2922,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|inverse_relation,DT induces IL-10 and TNF mention is misnormalized.
+tmkp-2026-04-21-edge-audit-batch-001-2923,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|model_context,Bleomycin is model context and miR-9 is not MARCHF8.
+tmkp-2026-04-21-edge-audit-batch-001-2924,codex-manual,2026-05-04,partially_supported,partial,good,receptor_context,CGRP signaling uses the CLR and RAMP1 receptor complex.
+tmkp-2026-04-21-edge-audit-batch-001-2925,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,HAase improves TNF production but TNF is misnormalized to TNFSF13B.
+tmkp-2026-04-21-edge-audit-batch-001-2926,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,EGF induces hCG secretion rather than hCG affecting EGF.
+tmkp-2026-04-21-edge-audit-batch-001-2927,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,PCa is prostate cancer context not pidolic acid.
+tmkp-2026-04-21-edge-audit-batch-001-2928,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is pronoun in time phrase.
+tmkp-2026-04-21-edge-audit-batch-001-2929,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is pronoun and NHE1 is reduced in PAG context.
+tmkp-2026-04-21-edge-audit-batch-001-2930,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,TRAP-1 and EGF increase PDGFB rather than PDGFB affecting TRAP1.
+tmkp-2026-04-21-edge-audit-batch-001-2931,codex-manual,2026-05-04,unsupported,bad,good,model_context,Oxytocin is model context and Cx43 is silenced by RNAi.
+tmkp-2026-04-21-edge-audit-batch-001-2932,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is pronoun in time phrase.
+tmkp-2026-04-21-edge-audit-batch-001-2933,codex-manual,2026-05-04,supported,good,good,,IRX-2 matured DCs express higher TAP1.
+tmkp-2026-04-21-edge-audit-batch-001-2934,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Aspartame increases ALP activity but ALP is not ATRNL1.
+tmkp-2026-04-21-edge-audit-batch-001-2935,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Valine is an amino acid residue in a sequence.
+tmkp-2026-04-21-edge-audit-batch-001-2936,codex-manual,2026-05-04,supported,good,good,,PDGF-BB directly inhibits PEDF expression.
+tmkp-2026-04-21-edge-audit-batch-001-2937,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Leptin inhibits PAMM expression but PAMM is not PRXL2A.
+tmkp-2026-04-21-edge-audit-batch-001-2938,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|pathway_context,ASB3 regulates TNF-R2 responses and TNF is misnormalized.
+tmkp-2026-04-21-edge-audit-batch-001-2939,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product,IFIT3 is upregulated by TCR stimulation and IL2RA is co mentioned.
+tmkp-2026-04-21-edge-audit-batch-001-2940,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|inverse_relation,CCR6 cells have increased IL-10 and object is misnormalized to CCRL2.
+tmkp-2026-04-21-edge-audit-batch-001-2941,codex-manual,2026-05-04,supported,good,good,,TUDCA suppresses the TSP-1 and TGF-beta pathway.
+tmkp-2026-04-21-edge-audit-batch-001-2942,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Met appears to be Methoprene-tolerant rather than methionine.
+tmkp-2026-04-21-edge-audit-batch-001-2943,codex-manual,2026-05-04,supported,good,good,,Lanadelumab inhibits plasma kallikrein.
+tmkp-2026-04-21-edge-audit-batch-001-2944,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Phenylalanine is part of fMLP peptide and S1P is unrelated.
+tmkp-2026-04-21-edge-audit-batch-001-2945,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Secukinumab attenuates ALP activity but ALP is not ASRGL1.
+tmkp-2026-04-21-edge-audit-batch-001-2946,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|timepoint_context,PND35 is a timepoint and NGF is decreased there.
+tmkp-2026-04-21-edge-audit-batch-001-2947,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Bevacizumab combination reduces Cdc2 phosphorylation but Cdc2 is CDK1 not POLD1.
+tmkp-2026-04-21-edge-audit-batch-001-2948,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Interferon-alpha2b affects TNF induction but TNF is misnormalized to TNFSF13B.
+tmkp-2026-04-21-edge-audit-batch-001-2949,codex-manual,2026-05-04,unsupported,bad,good,method_reagent_context,Rabbit serum is used for detection of SERINC5.
+tmkp-2026-04-21-edge-audit-batch-001-2950,codex-manual,2026-05-04,supported,good,good,,Leptin reduces hepatic Gcgr signaling.
+tmkp-2026-04-21-edge-audit-batch-001-2951,codex-manual,2026-05-04,unsupported,bad,good,regulatory_site_context,DEC1 acts through Sp1 sites rather than changing SP1 itself.
+tmkp-2026-04-21-edge-audit-batch-001-2952,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is pronoun in activity phrase.
+tmkp-2026-04-21-edge-audit-batch-001-2953,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,HtrA1 inhibits Bmp2 signaling rather than BMP2 causing HTRA1.
+tmkp-2026-04-21-edge-audit-batch-001-2954,codex-manual,2026-05-04,supported,good,good,,NGF treatment decreases Bmpr1a expression.
+tmkp-2026-04-21-edge-audit-batch-001-2955,codex-manual,2026-05-04,partially_supported,partial,partial,family_mention_fanout,Exendin-4 downregulates DGAT expression with generic family mention.
+tmkp-2026-04-21-edge-audit-batch-001-2956,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,CsA decreases CAT-1 protein but CAT-1 is SLC7A1 not CRAT.
+tmkp-2026-04-21-edge-audit-batch-001-2957,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,PCa is prostate cancer context not pidolic acid.
+tmkp-2026-04-21-edge-audit-batch-001-2958,codex-manual,2026-05-04,supported,good,good,,Simtuzumab inhibits LOXL2.
+tmkp-2026-04-21-edge-audit-batch-001-2959,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,IL-3 affects TNF-alpha induced differentiation but TNF is misnormalized.
+tmkp-2026-04-21-edge-audit-batch-001-2960,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is pronoun in effects phrase.
+tmkp-2026-04-21-edge-audit-batch-001-2961,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error|family_mention_fanout,Pancreatin-digested peptide activates PPARgamma but object is PPARD.
+tmkp-2026-04-21-edge-audit-batch-001-2962,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Glutamine decreases ALP blood levels but ALP is not ATRNL1.
+tmkp-2026-04-21-edge-audit-batch-001-2963,codex-manual,2026-05-04,partially_supported,partial,good,rescue_context,Bmi1 overexpression restores proliferation in Atm deficient context.
+tmkp-2026-04-21-edge-audit-batch-001-2964,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,NCT is a trial identifier not N-chlorotaurine.
+tmkp-2026-04-21-edge-audit-batch-001-2965,codex-manual,2026-05-04,partially_supported,partial,partial,exposure_context,Low glutamine with ethanol changes GluR2 and GluR3 expression.
+tmkp-2026-04-21-edge-audit-batch-001-2966,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is pronoun in diabetic rat phrase.
+tmkp-2026-04-21-edge-audit-batch-001-2967,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Thrombin changes Sp1 activation but Sp1 is not DAND5.
+tmkp-2026-04-21-edge-audit-batch-001-2968,codex-manual,2026-05-04,partially_supported,partial,good,negation_or_hedging,Boceprevir CYP1A2 induction is framed as possible.
+tmkp-2026-04-21-edge-audit-batch-001-2969,codex-manual,2026-05-04,supported,good,good,,Adalimumab treatment changes TNFR1 and TNFR2 expression.
+tmkp-2026-04-21-edge-audit-batch-001-2970,codex-manual,2026-05-04,supported,good,partial,family_mention_fanout,rPAF-AH increases VEGF expression but evidence is generic VEGF.
+tmkp-2026-04-21-edge-audit-batch-001-2971,codex-manual,2026-05-04,unsupported,bad,good,parallel_expression_context,Lactase and IGF1R are parallel changes after feces transplant.
+tmkp-2026-04-21-edge-audit-batch-001-2972,codex-manual,2026-05-04,partially_supported,partial,partial,normalization_uncertain,Fibrinogen decreases E-cadherin but Parenogen normalization is uncertain.
+tmkp-2026-04-21-edge-audit-batch-001-2973,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,Relaxin decreases ET-1 rather than ET-1 causing relaxin-2.
+tmkp-2026-04-21-edge-audit-batch-001-2974,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is pronoun in time phrase.
+tmkp-2026-04-21-edge-audit-batch-001-2975,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,Dkk-1 induces IL-10 rather than IL-10 affecting DKK1.
+tmkp-2026-04-21-edge-audit-batch-001-2976,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is pronoun in conditioned medium phrase.
+tmkp-2026-04-21-edge-audit-batch-001-2977,codex-manual,2026-05-04,unsupported,bad,bad,assay_marker_context|normalization_error,Annexin is an apoptosis assay marker not Annexin A8 affecting ANXA1.
+tmkp-2026-04-21-edge-audit-batch-001-2978,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,PGD2 stimulates LH release rather than LH affecting PGD.
+tmkp-2026-04-21-edge-audit-batch-001-2979,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|cell_line_context,ATDC5 is a cell line not TRIM29.
+tmkp-2026-04-21-edge-audit-batch-001-2980,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Natalizumab treated T cells show TNF-alpha increase but TNF is misnormalized.
+tmkp-2026-04-21-edge-audit-batch-001-2981,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Lisinopril downregulates HIF-1alpha but HIF-1 is not SETD2.
+tmkp-2026-04-21-edge-audit-batch-001-2982,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,COMP is described as a thrombin inhibitor rather than thrombin affecting COMP.
+tmkp-2026-04-21-edge-audit-batch-001-2983,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is pronoun in hemisphere phrase.
+tmkp-2026-04-21-edge-audit-batch-001-2984,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,PI-6 is a thrombin inhibitor homolog rather than thrombin induced PI-6.
+tmkp-2026-04-21-edge-audit-batch-001-2985,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,AGRP gene transfer increases NPY rather than NPY affecting AGRP.
+tmkp-2026-04-21-edge-audit-batch-001-2986,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|inverse_relation,Stx increases glutamine release and Stx is not ST8SIA2.
+tmkp-2026-04-21-edge-audit-batch-001-2987,codex-manual,2026-05-04,supported,good,good,,IL-10 reduces HAS3 levels.
+tmkp-2026-04-21-edge-audit-batch-001-2988,codex-manual,2026-05-04,supported,good,good,,Lifitegrast blocks LFA-1 CD18 interaction with ICAM1.
+tmkp-2026-04-21-edge-audit-batch-001-2989,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,PCa is prostate cancer context not pidolic acid.
+tmkp-2026-04-21-edge-audit-batch-001-2990,codex-manual,2026-05-04,supported,good,good,,NPY treated rats have elevated ARF-1.
+tmkp-2026-04-21-edge-audit-batch-001-2991,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is pronoun in animal model phrase.
+tmkp-2026-04-21-edge-audit-batch-001-2992,codex-manual,2026-05-04,supported,good,good,,BCG administrations decrease NLRP9 expression.
+tmkp-2026-04-21-edge-audit-batch-001-2993,codex-manual,2026-05-04,supported,good,good,,Brodalumab blocks IL-17C signaling through IL-17RA.
+tmkp-2026-04-21-edge-audit-batch-001-2994,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,IL-11 is part of cytokine combination expanding CD41 positive cells.
+tmkp-2026-04-21-edge-audit-batch-001-2995,codex-manual,2026-05-04,supported,good,good,,Mogamulizumab restores the CD26 positive CCR4 negative population.
+tmkp-2026-04-21-edge-audit-batch-001-2996,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|inverse_relation,Somatostatin decreases Met-enkephalin and Met is not free methionine.
+tmkp-2026-04-21-edge-audit-batch-001-2997,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Hip is an anatomical location abbreviation not heme iron polypeptide.
+tmkp-2026-04-21-edge-audit-batch-001-2998,codex-manual,2026-05-04,unsupported,bad,good,stimulation_context,IL2 is part of stimulation mix and PGD2 is the active mediator.
+tmkp-2026-04-21-edge-audit-batch-001-2999,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Glutamine stimulates GLP-1 secretion but GLP-1 is not ZGLP1.
+tmkp-2026-04-21-edge-audit-batch-001-3000,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|inverse_relation,TNF reduces GnRH secretion and TNF is misnormalized.

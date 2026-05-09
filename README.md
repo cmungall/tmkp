@@ -13,8 +13,14 @@ downloads/tmkp/2026_04_21/tmkp.duckdb
 - `scripts/load_tmkp_duckdb.sql` loads extracted KGX JSONL into DuckDB.
 - `notebooks/tmkp_category_summary.ipynb` summarizes nodes, edges, sources, qualifiers, evidence, and category flows.
 - `notebooks/tmkp_category_summary.html` is the rendered notebook.
+- `scripts/export_edge_audit.py` exports batch-aware stratified structured edge audit CSVs from DuckDB.
+- `audits/tmkp_edge_audit_2026_04_21_batch_001.csv` contains 3,000 distinct reviewed edge/evidence rows.
+- `audits/tmkp_edge_audit_2026_04_21_batch_002.csv` contains another 3,000 distinct reviewed edge/evidence rows with no edge-ID overlap with batch 001.
+- `evaluations/` contains completed manual-review layers and deterministic rule-score outputs for both audit batches.
 - `slides/tmkp_audit_findings.md` is a Marp slide deck summarizing the audit findings.
 - `slides/tmkp_audit_findings.html` is the rendered slide deck.
+- `slides/tmkp_analysis_recommendations.md` is a detailed Marp deck assessing raw KG trustworthiness with concrete false-positive examples and technical QA recommendations.
+- `slides/tmkp_analysis_recommendations.html` is the rendered recommendations deck.
 
 ## Data release
 
@@ -92,7 +98,67 @@ Render slides:
 marp slides/tmkp_audit_findings.md \
   --html \
   --output slides/tmkp_audit_findings.html
+
+marp slides/tmkp_analysis_recommendations.md \
+  --html \
+  --output slides/tmkp_analysis_recommendations.html
 ```
+
+Export structured audit rows:
+
+```sh
+uv run python scripts/export_edge_audit.py
+```
+
+This writes `audits/tmkp_edge_audit_2026_04_21_batch_001.csv`.
+The CSV has 3,000 distinct edge/evidence rows stratified across major TMKP
+subject/object/predicate slices. Its labels are conservative structured
+assistant review labels based on KGX evidence text, mention spans, and the
+taxonomy below; they are intended as a tracked review artifact and queue for
+human validation, not as a final curated truth set.
+
+Export a non-overlapping second batch:
+
+```sh
+uv run python scripts/export_edge_audit.py \
+  --output audits/tmkp_edge_audit_2026_04_21_batch_002.csv \
+  --batch-id tmkp-2026-04-21-edge-audit-batch-002 \
+  --exclude-audit audits/tmkp_edge_audit_2026_04_21_batch_001.csv \
+  --candidate-multiplier 20
+```
+
+Validate the tracked audit CSV:
+
+```sh
+uv run python scripts/validate_edge_audit.py
+uv run python scripts/validate_edge_audit.py \
+  audits/tmkp_edge_audit_2026_04_21_batch_002.csv \
+  --expected-batch-id tmkp-2026-04-21-edge-audit-batch-002 \
+  --skip-decision-count-check
+```
+
+Initialize and score a manual evaluation layer:
+
+```sh
+uv run python scripts/init_edge_audit_evaluation.py \
+  --audit audits/tmkp_edge_audit_2026_04_21_batch_002.csv \
+  --output evaluations/tmkp_edge_audit_2026_04_21_batch_002_manual_review.csv
+uv run python scripts/apply_edge_audit_manual_labels.py \
+  --review evaluations/tmkp_edge_audit_2026_04_21_batch_002_manual_review.csv \
+  --labels evaluations/batch_002/manual_review_labels_2901_3000.csv
+uv run python scripts/review_edge_audit.py \
+  --review evaluations/tmkp_edge_audit_2026_04_21_batch_002_manual_review.csv \
+  --limit 25
+uv run python scripts/score_edge_audit_rules.py \
+  --review evaluations/tmkp_edge_audit_2026_04_21_batch_002_manual_review.csv \
+  --output evaluations/tmkp_edge_audit_2026_04_21_batch_002_rule_scores.csv
+```
+
+The manual evaluation CSVs are stored at
+`evaluations/tmkp_edge_audit_2026_04_21_batch_001_manual_review.csv` and
+`evaluations/tmkp_edge_audit_2026_04_21_batch_002_manual_review.csv`.
+Each starts with all rows marked `manual_review_status=pending`; rule scores
+are generated only after rows have been manually marked complete.
 
 ## Quick DuckDB examples
 
@@ -886,6 +952,23 @@ Additional taxonomy suggested by gene/protein-to-gene/protein edges:
 
 - Flag edges where the extracted subject/object mention is shorter than 4 characters.
 - Flag edges where the mention string has low lexical similarity to the normalized node name and no obvious synonym/equivalent match.
+- Treat mention-to-node mismatch as an at-risk routing flag, not an automatic
+  rejection. The deterministic check cannot know whether an abbreviation is a
+  valid synonym without reading the local context. It is high-recall QA: across
+  6,000 manually reviewed rows, `mention_mismatch` captured about 72% of manual
+  failures, but many flagged rows were still supported or partially supported.
+  Concrete examples:
+
+  | Case type | Example | Interpretation |
+  | --- | --- | --- |
+  | Clear false positive | `ten` -> pentaerythritol tetranitrate | `ten` came from ordinary text such as "ten patients" or "ten-year follow-up"; reject or quarantine. |
+  | Clear false positive | `his` -> histidine | `his` was a pronoun; reject or quarantine. |
+  | Likely false positive | `BMD` -> vitelliform macular dystrophy 2 | In many contexts `BMD` means bone mineral density; require local expansion. |
+  | Likely false positive | `ACS` -> acrocallosal syndrome or acute chest syndrome | In cardiology contexts `ACS` often means acute coronary syndrome; require local expansion. |
+  | Valid abbreviation | `MTX` -> methotrexate | Keep if the sentence supports methotrexate. |
+  | Valid abbreviation | `G-CSF` -> filgrastim | Keep if the sentence supports granulocyte colony-stimulating factor or filgrastim. |
+  | Partial mismatch | `VEGF` -> `VEGFA` | Do not accept a specific gene edge unless the local text names VEGF-A or an exact synonym. |
+
 - Down-rank or suppress generic disease objects such as `cancer`, `neoplasm`, and especially `syndrome` unless the source text lacks a more specific disease mention.
 - Separate evidence categories: direct causation/mutation, expression/prognosis, model organism, marker/control, and cell-line-only context.
 - Use higher evidence count cautiously: repeated evidence can amplify a systematic normalization error.

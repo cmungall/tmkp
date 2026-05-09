@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-002-1201,codex-manual,2026-05-04,supported,good,good,,Lasmiditan adverse events included muscular weakness.
+tmkp-2026-04-21-edge-audit-batch-002-1202,codex-manual,2026-05-04,partially_supported,partial,good,inverse_context,Decreased estrogen triggered sleep disturbances.
+tmkp-2026-04-21-edge-audit-batch-002-1203,codex-manual,2026-05-04,supported,good,good,,Mepolizumab adverse events included edema.
+tmkp-2026-04-21-edge-audit-batch-002-1204,codex-manual,2026-05-04,supported,good,good,,Homocysteine thiolactone induced generalized seizures.
+tmkp-2026-04-21-edge-audit-batch-002-1205,codex-manual,2026-05-04,supported,good,good,,Cilnidipine adverse effects include vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1206,codex-manual,2026-05-04,supported,good,good,,Vomiting was observed with radium-223.
+tmkp-2026-04-21-edge-audit-batch-002-1207,codex-manual,2026-05-04,partially_supported,partial,good,weak_or_comparator_context,Edema rates with MSDC-0160 were close to placebo and dose inconsistent.
+tmkp-2026-04-21-edge-audit-batch-002-1208,codex-manual,2026-05-04,supported,good,good,,Carbenoxolone caused fetal growth retardation in rats.
+tmkp-2026-04-21-edge-audit-batch-002-1209,codex-manual,2026-05-04,supported,good,good,,Celecoxib adverse events included vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1210,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,CAI was a syndrome abbreviation not carboxyamidotriazole.
+tmkp-2026-04-21-edge-audit-batch-002-1211,codex-manual,2026-05-04,supported,good,good,,Synthetic cathinone ingestion was associated with hyperthermia.
+tmkp-2026-04-21-edge-audit-batch-002-1212,codex-manual,2026-05-04,supported,good,good,,Pyrexia occurred with encorafenib.
+tmkp-2026-04-21-edge-audit-batch-002-1213,codex-manual,2026-05-04,supported,good,good,,Lornoxicam injection produced greater edema than saline.
+tmkp-2026-04-21-edge-audit-batch-002-1214,codex-manual,2026-05-04,unsupported,bad,good,treatment_context,Haloperidol was described as treatment for nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1215,codex-manual,2026-05-04,supported,good,good,,D-allulose ingestion caused abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-002-1216,codex-manual,2026-05-04,supported,good,good,,Curcumin was discontinued due to abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-002-1217,codex-manual,2026-05-04,supported,good,good,,Manipulation of perinatal serotonin levels induced behavioral abnormalities.
+tmkp-2026-04-21-edge-audit-batch-002-1218,codex-manual,2026-05-04,supported,good,good,,Dasatinib re-initiation was followed by recurrent muscle weakness.
+tmkp-2026-04-21-edge-audit-batch-002-1219,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,No renal function abnormality was observed with cefoxitin.
+tmkp-2026-04-21-edge-audit-batch-002-1220,codex-manual,2026-05-04,supported,good,good,,Sirolimus adverse effects include vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1221,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,DHAP was a chemotherapy regimen not dihydroxyacetone phosphate.
+tmkp-2026-04-21-edge-audit-batch-002-1222,codex-manual,2026-05-04,supported,good,good,,Zoledronate infusion preceded severe ocular inflammation.
+tmkp-2026-04-21-edge-audit-batch-002-1223,codex-manual,2026-05-04,supported,good,good,,Carbon monoxide poisoning includes drowsiness.
+tmkp-2026-04-21-edge-audit-batch-002-1224,codex-manual,2026-05-04,partially_supported,partial,good,potential_risk_context,Oxcarbazepine could potentially accelerate cognitive deficits.
+tmkp-2026-04-21-edge-audit-batch-002-1225,codex-manual,2026-05-04,supported,good,good,,Early EGCG administration induced skeletal anomalies in mice.
+tmkp-2026-04-21-edge-audit-batch-002-1226,codex-manual,2026-05-04,unsupported,bad,good,comparator_context,Saline had greater sleep disturbance than ropivacaine infusion.
+tmkp-2026-04-21-edge-audit-batch-002-1227,codex-manual,2026-05-04,supported,good,good,,Methadone was probably related to edema.
+tmkp-2026-04-21-edge-audit-batch-002-1228,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Carmofur with raltitrexed was associated with fever.
+tmkp-2026-04-21-edge-audit-batch-002-1229,codex-manual,2026-05-04,supported,good,good,,Posaconazole risk context included failure to thrive.
+tmkp-2026-04-21-edge-audit-batch-002-1230,codex-manual,2026-05-04,supported,good,good,,Diclofenac exposure caused growth retardation.
+tmkp-2026-04-21-edge-audit-batch-002-1231,codex-manual,2026-05-04,unsupported,bad,bad,pronoun_collision,His was a pronoun not histidine.
+tmkp-2026-04-21-edge-audit-batch-002-1232,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,CPPD was calcium pyrophosphate deposition disease.
+tmkp-2026-04-21-edge-audit-batch-002-1233,codex-manual,2026-05-04,supported,good,good,,Cytosine arabinoside was cited as causing intellectual impairment.
+tmkp-2026-04-21-edge-audit-batch-002-1234,codex-manual,2026-05-04,supported,good,good,,Phencyclidine has been implicated in brain atrophy.
+tmkp-2026-04-21-edge-audit-batch-002-1235,codex-manual,2026-05-04,unclear,unclear,good,exclusion_context,Tinnitus appeared in a toxicity exclusion list rather than a clear capecitabine event.
+tmkp-2026-04-21-edge-audit-batch-002-1236,codex-manual,2026-05-04,supported,good,good,,Tamoxifen hormone therapy may cause joint pain.
+tmkp-2026-04-21-edge-audit-batch-002-1237,codex-manual,2026-05-04,supported,good,good,,Intrauterine pentazocine exposure was associated with growth retardation.
+tmkp-2026-04-21-edge-audit-batch-002-1238,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Trp-P-BF was not tryptophan.
+tmkp-2026-04-21-edge-audit-batch-002-1239,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Streptozotocin administration causes behavioral abnormalities in rats.
+tmkp-2026-04-21-edge-audit-batch-002-1240,codex-manual,2026-05-04,unsupported,bad,good,comparator_context,Joint stiffness was more common compared with raloxifene.
+tmkp-2026-04-21-edge-audit-batch-002-1241,codex-manual,2026-05-04,supported,good,good,,Galantamine administration caused nausea and vomiting in one participant.
+tmkp-2026-04-21-edge-audit-batch-002-1242,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Fluoxetine with olanzapine was associated with short limbs.
+tmkp-2026-04-21-edge-audit-batch-002-1243,codex-manual,2026-05-04,unsupported,bad,good,inverse_context,Suboptimal vitamin D was associated with pain.
+tmkp-2026-04-21-edge-audit-batch-002-1244,codex-manual,2026-05-04,supported,good,good,generic_subject,Angiogenesis inhibitors have vomiting as a major adverse event.
+tmkp-2026-04-21-edge-audit-batch-002-1245,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,DIC was disseminated intravascular coagulation not dacarbazine.
+tmkp-2026-04-21-edge-audit-batch-002-1246,codex-manual,2026-05-04,supported,good,good,,Droperidol is reported as a rare cause of angioedema.
+tmkp-2026-04-21-edge-audit-batch-002-1247,codex-manual,2026-05-04,supported,good,good,,Deslanoside doses produced ventricular arrhythmia.
+tmkp-2026-04-21-edge-audit-batch-002-1248,codex-manual,2026-05-04,supported,good,good,,Montelukast therapy can cause joint pain.
+tmkp-2026-04-21-edge-audit-batch-002-1249,codex-manual,2026-05-04,supported,good,good,,Methotrexate was discontinued due to renal function abnormality.
+tmkp-2026-04-21-edge-audit-batch-002-1250,codex-manual,2026-05-04,supported,good,good,,Pazopanib adverse events included weight loss.
+tmkp-2026-04-21-edge-audit-batch-002-1251,codex-manual,2026-05-04,partially_supported,partial,good,comparator_context,Edema was less severe with calcitriol than calcipotriol.
+tmkp-2026-04-21-edge-audit-batch-002-1252,codex-manual,2026-05-04,supported,good,good,,Gabapentin may produce cognitive deficits.
+tmkp-2026-04-21-edge-audit-batch-002-1253,codex-manual,2026-05-04,supported,good,good,,Gramicidin D treatment induced red blood cell edema.
+tmkp-2026-04-21-edge-audit-batch-002-1254,codex-manual,2026-05-04,supported,good,good,,IV pentamidine commonly produced abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-002-1255,codex-manual,2026-05-04,unsupported,bad,good,wrong_drug_context,Nausea and vomiting were listed for sibutramine rather than orlistat.
+tmkp-2026-04-21-edge-audit-batch-002-1256,codex-manual,2026-05-04,supported,good,good,,Seliciclib dose-limiting toxicities included nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1257,codex-manual,2026-05-04,supported,good,good,,Bombesin caused pancreatic edema.
+tmkp-2026-04-21-edge-audit-batch-002-1258,codex-manual,2026-05-04,supported,good,good,,Lacosamide neurotoxicity included drowsiness.
+tmkp-2026-04-21-edge-audit-batch-002-1259,codex-manual,2026-05-04,supported,good,good,,Chronic trichloroethylene intoxication included mental deterioration.
+tmkp-2026-04-21-edge-audit-batch-002-1260,codex-manual,2026-05-04,unsupported,bad,good,pretreatment_context,Edema was injury-induced and phentolamine was introduced beforehand.
+tmkp-2026-04-21-edge-audit-batch-002-1261,codex-manual,2026-05-04,supported,good,good,,Vilazodone adverse effects included vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1262,codex-manual,2026-05-04,unsupported,bad,good,cohort_context,Hypoxemia occurred during sleep in at-risk patients during remifentanil infusion.
+tmkp-2026-04-21-edge-audit-batch-002-1263,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,PPD means postpartum depression not 4-aminoaniline.
+tmkp-2026-04-21-edge-audit-batch-002-1264,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Etidronate studies reported no skeletal abnormalities.
+tmkp-2026-04-21-edge-audit-batch-002-1265,codex-manual,2026-05-04,supported,good,good,,Igf2 overexpression causes skeletal abnormalities.
+tmkp-2026-04-21-edge-audit-batch-002-1266,codex-manual,2026-05-04,supported,good,good,,Benzydamine oral rinse causes oral pain.
+tmkp-2026-04-21-edge-audit-batch-002-1267,codex-manual,2026-05-04,supported,good,good,,High aldosterone was associated with low plasma renin activity.
+tmkp-2026-04-21-edge-audit-batch-002-1268,codex-manual,2026-05-04,supported,good,good,,Tacrolimus can increase blood pressure.
+tmkp-2026-04-21-edge-audit-batch-002-1269,codex-manual,2026-05-04,supported,good,good,,Rofecoxib and other COX-2 inhibitors can precipitate hyperkalemia.
+tmkp-2026-04-21-edge-audit-batch-002-1270,codex-manual,2026-05-04,supported,good,good,,Terbinafine was followed by fever.
+tmkp-2026-04-21-edge-audit-batch-002-1271,codex-manual,2026-05-04,supported,good,good,,Oxytetracycline therapy was associated with edema.
+tmkp-2026-04-21-edge-audit-batch-002-1272,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Hydrochlorothiazide-triamterene first dose was followed by vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1273,codex-manual,2026-05-04,unclear,unclear,good,study_context,Genital anomalies were studied in phenobarbital-exposed infants but effect was not stated.
+tmkp-2026-04-21-edge-audit-batch-002-1274,codex-manual,2026-05-04,unsupported,bad,good,disease_context,Failure to thrive was part of propionic acidemia despite low amino acid diet.
+tmkp-2026-04-21-edge-audit-batch-002-1275,codex-manual,2026-05-04,supported,good,good,,Linezolid was discontinued due to visual impairment.
+tmkp-2026-04-21-edge-audit-batch-002-1276,codex-manual,2026-05-04,unsupported,bad,good,inverse_context,Decreased GABA correlated with sleep disturbances.
+tmkp-2026-04-21-edge-audit-batch-002-1277,codex-manual,2026-05-04,supported,good,good,,Prenatal valproate exposure is associated with genital anomalies.
+tmkp-2026-04-21-edge-audit-batch-002-1278,codex-manual,2026-05-04,supported,good,good,,Eltrombopag adverse events included vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1279,codex-manual,2026-05-04,partially_supported,good,partial,normalization_uncertain,Procaine penicillin exposure was associated with behavioral changes.
+tmkp-2026-04-21-edge-audit-batch-002-1280,codex-manual,2026-05-04,supported,good,good,,Long-term anesthesia may cause brain atrophy.
+tmkp-2026-04-21-edge-audit-batch-002-1281,codex-manual,2026-05-04,unsupported,bad,good,comparator_context,Ventricular arrhythmia was reported for similar drugs rather than oxatomide.
+tmkp-2026-04-21-edge-audit-batch-002-1282,codex-manual,2026-05-04,supported,good,good,exposure_context,Tobacco worker exposure included fever risk.
+tmkp-2026-04-21-edge-audit-batch-002-1283,codex-manual,2026-05-04,supported,good,good,,Flurothyl inhalation caused myoclonic activity.
+tmkp-2026-04-21-edge-audit-batch-002-1284,codex-manual,2026-05-04,supported,good,good,,Mirtazapine had higher odds of ventricular arrhythmias.
+tmkp-2026-04-21-edge-audit-batch-002-1285,codex-manual,2026-05-04,supported,good,good,,Naltrexone pretreatment exacerbated paw edema.
+tmkp-2026-04-21-edge-audit-batch-002-1286,codex-manual,2026-05-04,unsupported,bad,good,preexisting_condition_context,Renal artery stenosis was a preexisting risk condition.
+tmkp-2026-04-21-edge-audit-batch-002-1287,codex-manual,2026-05-04,supported,good,good,,Nintedanib caused weight loss more often than placebo.
+tmkp-2026-04-21-edge-audit-batch-002-1288,codex-manual,2026-05-04,partially_supported,partial,good,disease_context,Homocysteine accumulated in a disorder with failure to thrive.
+tmkp-2026-04-21-edge-audit-batch-002-1289,codex-manual,2026-05-04,supported,good,good,,Deferasirox reactions included fever.
+tmkp-2026-04-21-edge-audit-batch-002-1290,codex-manual,2026-05-04,supported,good,good,,Voglibose side effects include abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-002-1291,codex-manual,2026-05-04,partially_supported,partial,good,disease_vs_treatment_context,Halofantrine-associated abdominal pain was difficult to distinguish from disease events.
+tmkp-2026-04-21-edge-audit-batch-002-1292,codex-manual,2026-05-04,supported,good,good,,Amifostine side effects include vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1293,codex-manual,2026-05-04,supported,good,good,,Methohexital induced generalized seizure.
+tmkp-2026-04-21-edge-audit-batch-002-1294,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Bortezomib with dexamethasone preceded abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-002-1295,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,PMP means pseudomyxoma peritonei not phosmet.
+tmkp-2026-04-21-edge-audit-batch-002-1296,codex-manual,2026-05-04,supported,good,good,,Isoflurane causes muscular hypotonia.
+tmkp-2026-04-21-edge-audit-batch-002-1297,codex-manual,2026-05-04,supported,good,good,,Clopidogrel reports included abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-002-1298,codex-manual,2026-05-04,supported,good,good,,Higher-dose glycolic acid caused edema.
+tmkp-2026-04-21-edge-audit-batch-002-1299,codex-manual,2026-05-04,supported,good,good,,Pergolide adverse events included vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1300,codex-manual,2026-05-04,supported,good,good,,Mitomycin-C produced vertebral anomaly.

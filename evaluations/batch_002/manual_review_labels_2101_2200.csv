@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-002-2101,codex-manual,2026-05-04,supported,partial,good,biomarker_context,TTF1 is commonly present in lung tumors
+tmkp-2026-04-21-edge-audit-batch-002-2102,codex-manual,2026-05-04,supported,partial,good,association_study_context,ACE I D polymorphism is associated with CFS risk in a Gulf War veteran sample
+tmkp-2026-04-21-edge-audit-batch-002-2103,codex-manual,2026-05-04,supported,good,good,,WNT7B is upregulated in psoriasis and suggested to play a role in pathogenesis
+tmkp-2026-04-21-edge-audit-batch-002-2104,codex-manual,2026-05-04,unsupported,bad,bad,object_normalization_error,Shp1 liver inflammation evidence is not hepatoerythropoietic porphyria support
+tmkp-2026-04-21-edge-audit-batch-002-2105,codex-manual,2026-05-04,supported,good,good,,PNPLA2 loss of function causes NLSDM characterized by cardiomyopathy
+tmkp-2026-04-21-edge-audit-batch-002-2106,codex-manual,2026-05-04,supported,partial,good,generic_object,PALB2 is listed among genes causing Fanconi anemia syndrome
+tmkp-2026-04-21-edge-audit-batch-002-2107,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error|biomarker_context,MDR1 expression is associated with metastasis risk in peritoneal cancer but subject maps badly to DR1
+tmkp-2026-04-21-edge-audit-batch-002-2108,codex-manual,2026-05-04,unsupported,bad,bad,viral_gene_context,Herpes simplex thymidine kinase after glioma gene therapy is not human TK1 encephalitis evidence
+tmkp-2026-04-21-edge-audit-batch-002-2109,codex-manual,2026-05-04,supported,good,good,,PMP22 mutations are associated with demyelinating polyneuropathy
+tmkp-2026-04-21-edge-audit-batch-002-2110,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject,Imp2 glioblastoma stem cell evidence does not support IMPA2
+tmkp-2026-04-21-edge-audit-batch-002-2111,codex-manual,2026-05-04,unsupported,bad,good,cooccurrence_only,Insulin requiring neonatal diabetes and microcephaly cooccur in a patient without edge support
+tmkp-2026-04-21-edge-audit-batch-002-2112,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|family_mention_fanout,TNF and TNFR2 pulmonary tuberculosis evidence is not TNFSF4 support
+tmkp-2026-04-21-edge-audit-batch-002-2113,codex-manual,2026-05-04,unsupported,bad,good,cooccurrence_only|treatment_context,Anti EPOR antibody PRCA occurs in a lymphoma patient but does not support lymphoma contribution
+tmkp-2026-04-21-edge-audit-batch-002-2114,codex-manual,2026-05-04,partially_supported,partial,good,protective_model_context,Wnt1 has cytoprotective effects in Parkinson disease cellular models
+tmkp-2026-04-21-edge-audit-batch-002-2115,codex-manual,2026-05-04,unsupported,bad,bad,amino_acid_mention|wrong_subject,Asp is an amino acid variant in OPRM1 and not A1CF anxiety evidence
+tmkp-2026-04-21-edge-audit-batch-002-2116,codex-manual,2026-05-04,unsupported,bad,bad,object_normalization_error,Nat1 knockout affects insulin sensitivity not hypersensitivity reaction disease
+tmkp-2026-04-21-edge-audit-batch-002-2117,codex-manual,2026-05-04,supported,good,good,,CKAP4 overexpression is associated with poor prognosis in clear cell renal carcinoma
+tmkp-2026-04-21-edge-audit-batch-002-2118,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product_context,CTLA4 is only among evaluated genes and not shown to contribute to albinism
+tmkp-2026-04-21-edge-audit-batch-002-2119,codex-manual,2026-05-04,supported,partial,good,biomarker_context,NGF expression is increased in gallbladder carcinoma epithelium
+tmkp-2026-04-21-edge-audit-batch-002-2120,codex-manual,2026-05-04,partially_supported,partial,bad,wrong_subject|family_mention_fanout,PPAR gamma deficiency causes autoimmune disease features but PPARD is not supported
+tmkp-2026-04-21-edge-audit-batch-002-2121,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_error|object_normalization_error,CRS refers to chronic rhinosinusitis context not congenital rubella syndrome
+tmkp-2026-04-21-edge-audit-batch-002-2122,codex-manual,2026-05-04,supported,partial,good,biomarker_context,Cx43 deficiency is reported in cervical carcinoma cells
+tmkp-2026-04-21-edge-audit-batch-002-2123,codex-manual,2026-05-04,unsupported,bad,good,cooccurrence_only,AFP positive hepatocellular carcinoma and hypermethioninemia are listed clinical features without edge support
+tmkp-2026-04-21-edge-audit-batch-002-2124,codex-manual,2026-05-04,supported,partial,good,biomarker_context,Trichohyalin expression is positive in keratoacanthoma
+tmkp-2026-04-21-edge-audit-batch-002-2125,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|generic_object,Th1 Th2 balance in inflammatory syndrome is not NELFCD support
+tmkp-2026-04-21-edge-audit-batch-002-2126,codex-manual,2026-05-04,supported,partial,good,biomarker_context,Alpha1 antitrypsin is demonstrated in gastric carcinoma tumor cells
+tmkp-2026-04-21-edge-audit-batch-002-2127,codex-manual,2026-05-04,partially_supported,partial,good,genetic_interaction_context,IFT80 is tested for genetic interaction with Bardet Biedl syndrome genes
+tmkp-2026-04-21-edge-audit-batch-002-2128,codex-manual,2026-05-04,supported,good,good,,BRD4 inhibition suppresses HPV16 E6 and enhances cervical cancer chemoresponse
+tmkp-2026-04-21-edge-audit-batch-002-2129,codex-manual,2026-05-04,partially_supported,partial,good,therapeutic_context,TNF alpha suppresses erythropoiesis and is proposed for erythroleukemia treatment
+tmkp-2026-04-21-edge-audit-batch-002-2130,codex-manual,2026-05-04,supported,partial,good,biomarker_context,GSR is listed among anxiety linked genes with altered expression
+tmkp-2026-04-21-edge-audit-batch-002-2131,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product_context,LOXL4 suppresses bladder cancer while kidney carcinoma promotion is tied to other LOX genes
+tmkp-2026-04-21-edge-audit-batch-002-2132,codex-manual,2026-05-04,supported,good,good,,Loss of VGLUT3 expression leads to anxiety associated behaviors
+tmkp-2026-04-21-edge-audit-batch-002-2133,codex-manual,2026-05-04,partially_supported,partial,good,list_context,MKK4 is listed as a metastasis suppressor in a review covering melanoma among other cancers
+tmkp-2026-04-21-edge-audit-batch-002-2134,codex-manual,2026-05-04,supported,good,good,,PARK2 copy number variants contribute to ADHD susceptibility
+tmkp-2026-04-21-edge-audit-batch-002-2135,codex-manual,2026-05-04,supported,partial,good,generic_object,PRK1 expression and signaling are implicated in neoplasms especially prostate carcinoma
+tmkp-2026-04-21-edge-audit-batch-002-2136,codex-manual,2026-05-04,supported,good,good,,Xpa deficient mice display retinal degeneration
+tmkp-2026-04-21-edge-audit-batch-002-2137,codex-manual,2026-05-04,unsupported,bad,bad,measurement_abbreviation_error,FEV1 is a lung function measure and hay fever family history context not FEV gene evidence
+tmkp-2026-04-21-edge-audit-batch-002-2138,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|object_normalization_error,CT1 promotes arterial stiffness and is not SLC6A8 or Arts syndrome support
+tmkp-2026-04-21-edge-audit-batch-002-2139,codex-manual,2026-05-04,supported,partial,good,association_context,GSK3B activity changes are associated with autism spectrum disorders
+tmkp-2026-04-21-edge-audit-batch-002-2140,codex-manual,2026-05-04,supported,partial,good,generic_object|biomarker_context,GPR182 expression is reduced in hepatocellular carcinoma tumor samples
+tmkp-2026-04-21-edge-audit-batch-002-2141,codex-manual,2026-05-04,supported,partial,good,generic_object|biomarker_context,IFIT1 to IFIT3 expression is increased in ALT like tumors
+tmkp-2026-04-21-edge-audit-batch-002-2142,codex-manual,2026-05-04,supported,good,good,,PRL3 overexpression increases migration and invasiveness in uveal melanoma models
+tmkp-2026-04-21-edge-audit-batch-002-2143,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,COX2 prostaglandin synthase evidence is not mitochondrial MT CO2 support
+tmkp-2026-04-21-edge-audit-batch-002-2144,codex-manual,2026-05-04,partially_supported,partial,good,modifier_context,TIMP3 variants increase BAV aortopathy risk in Turner syndrome rather than causing the syndrome
+tmkp-2026-04-21-edge-audit-batch-002-2145,codex-manual,2026-05-04,supported,partial,good,model_context,TGF beta1 may be involved in fibrosis in autoimmune thyroiditis model
+tmkp-2026-04-21-edge-audit-batch-002-2146,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|family_mention_fanout,p38 MAPK pathway evidence does not support GRAP2
+tmkp-2026-04-21-edge-audit-batch-002-2147,codex-manual,2026-05-04,supported,partial,good,generic_object,TIP30 functions as a tumor suppressor in lung adenocarcinogenesis
+tmkp-2026-04-21-edge-audit-batch-002-2148,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product_context,MAML2 fusion is tied to mucoepidermoid carcinoma not papillary thyroid carcinoma
+tmkp-2026-04-21-edge-audit-batch-002-2149,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,COX1 NSAID urticaria context is not mitochondrial MT CO1 support
+tmkp-2026-04-21-edge-audit-batch-002-2150,codex-manual,2026-05-04,unsupported,bad,bad,amino_acid_mention|wrong_subject,Arg is an FGFR2 amino acid mutation in Apert syndrome and not RERE support
+tmkp-2026-04-21-edge-audit-batch-002-2151,codex-manual,2026-05-04,unsupported,bad,good,comparison_context,IL10 treated DCs are a comparator and do not show IL10 causing PIRB
+tmkp-2026-04-21-edge-audit-batch-002-2152,codex-manual,2026-05-04,supported,good,good,,Insm1 inactivation reduces the Tbr2 positive IPC population
+tmkp-2026-04-21-edge-audit-batch-002-2153,codex-manual,2026-05-04,supported,good,good,,Spry1 antagonizes PPAR gamma effects in mesenchymal stem cells
+tmkp-2026-04-21-edge-audit-batch-002-2154,codex-manual,2026-05-04,unsupported,bad,bad,amino_acid_mention,Tyr 985 is a tyrosine residue in leptin receptor signaling not TYR gene
+tmkp-2026-04-21-edge-audit-batch-002-2155,codex-manual,2026-05-04,unsupported,bad,bad,wrong_direction|family_mention_fanout,Smurf2 knockdown changes TNF induced markers but does not cause TNFSF18 or TNF
+tmkp-2026-04-21-edge-audit-batch-002-2156,codex-manual,2026-05-04,partially_supported,partial,good,response_modulation_context,Ubc9 knockdown modulates BMP2 induced differentiation rather than causing BMP2
+tmkp-2026-04-21-edge-audit-batch-002-2157,codex-manual,2026-05-04,unsupported,bad,good,cooccurrence_only,SPRY2 and FBW7 are described separately with no causal relation
+tmkp-2026-04-21-edge-audit-batch-002-2158,codex-manual,2026-05-04,supported,good,good,,Six1 inhibits ERK signaling by upregulating Dusp6
+tmkp-2026-04-21-edge-audit-batch-002-2159,codex-manual,2026-05-04,partially_supported,partial,good,pathway_dependency_context,FGF2 differentiation effects require Notch signaling but direct Notch1 induction is not shown
+tmkp-2026-04-21-edge-audit-batch-002-2160,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|wrong_direction,Hsp70 binds RIP3 in TNF induced death and does not cause TNF
+tmkp-2026-04-21-edge-audit-batch-002-2161,codex-manual,2026-05-04,unsupported,bad,good,wrong_direction,JAK3 mediates IL6 induced differentiation rather than causing IL6
+tmkp-2026-04-21-edge-audit-batch-002-2162,codex-manual,2026-05-04,unsupported,bad,bad,nonhuman_context|cooccurrence_only,Yeast gpr1 tps2 mutant phenotype is not a supported human gene mechanism
+tmkp-2026-04-21-edge-audit-batch-002-2163,codex-manual,2026-05-04,partially_supported,partial,good,response_modulation_context,TGFB1 suppresses differentiation induced by LIF but does not cause LIF
+tmkp-2026-04-21-edge-audit-batch-002-2164,codex-manual,2026-05-04,unsupported,bad,good,parallel_effects_only,PMS1 and MSH2 mutations both destabilize repeats but no causal gene relation is shown
+tmkp-2026-04-21-edge-audit-batch-002-2165,codex-manual,2026-05-04,unsupported,bad,bad,object_normalization_error,Treslin MTBP complex evidence does not support TBP as object
+tmkp-2026-04-21-edge-audit-batch-002-2166,codex-manual,2026-05-04,unsupported,bad,bad,cooccurrence_only|model_context,FoxP3 and synaptotagmin double mutant cells induce myositis without a FOXP3 to SS18 mechanism
+tmkp-2026-04-21-edge-audit-batch-002-2167,codex-manual,2026-05-04,unsupported,bad,good,glossary_only,CCN2 appears in a glossary list and no RANKL mechanism is asserted
+tmkp-2026-04-21-edge-audit-batch-002-2168,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|parallel_effects_only,Loss of Hop or emerin has parallel nuclear effects and Hop is not IFT56
+tmkp-2026-04-21-edge-audit-batch-002-2169,codex-manual,2026-05-04,partially_supported,partial,bad,nonhuman_context|normalization_error,Yeast Gal3p regulates Gal4p transcription but maps badly to human LGALS genes
+tmkp-2026-04-21-edge-audit-batch-002-2170,codex-manual,2026-05-04,unsupported,bad,bad,nonhuman_context|cooccurrence_only,Plant grf mutant expression context does not support human RAPGEF1 to ARHGAP35
+tmkp-2026-04-21-edge-audit-batch-002-2171,codex-manual,2026-05-04,unsupported,bad,good,wrong_direction_or_context,MLL2 overlaps p53 target regions but TP53 causing KMT2D is not shown
+tmkp-2026-04-21-edge-audit-batch-002-2172,codex-manual,2026-05-04,unsupported,bad,good,cell_state_modifier,TNF responses differ by Thy1 cell status but TNF does not cause THY1
+tmkp-2026-04-21-edge-audit-batch-002-2173,codex-manual,2026-05-04,supported,good,good,,AMPK and SIRT1 activation stimulates CPT1 expression
+tmkp-2026-04-21-edge-audit-batch-002-2174,codex-manual,2026-05-04,unsupported,bad,good,phenocopy_context,BDNF phenocopies CCR5 deficiency protection but does not cause CCR5
+tmkp-2026-04-21-edge-audit-batch-002-2175,codex-manual,2026-05-04,unsupported,bad,good,stimulus_context,SNX1 depletion changes MET phosphorylation after HGF stimulation but does not cause HGF
+tmkp-2026-04-21-edge-audit-batch-002-2176,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,TNF sf1a receptor wording is not support for SF1 as a gene object
+tmkp-2026-04-21-edge-audit-batch-002-2177,codex-manual,2026-05-04,unsupported,bad,bad,nonhuman_context|wrong_subject,Yeast ERG11 suppressor context is not KCNH2 or VTN support
+tmkp-2026-04-21-edge-audit-batch-002-2178,codex-manual,2026-05-04,partially_supported,partial,good,cell_population_context,Sirt1 targeting is associated with Foxp3 Treg infiltration in allografts
+tmkp-2026-04-21-edge-audit-batch-002-2179,codex-manual,2026-05-04,unsupported,bad,bad,nonhuman_context|wrong_subject,Yeast plasmid REP and RAF1 regulation does not support human CHM to RAF1
+tmkp-2026-04-21-edge-audit-batch-002-2180,codex-manual,2026-05-04,unsupported,bad,good,parallel_regulation_context,TNF and IL6 downregulate NTCP and OCT1 in parallel rather than NTCP causing OCT1
+tmkp-2026-04-21-edge-audit-batch-002-2181,codex-manual,2026-05-04,unsupported,bad,bad,list_context,RAB14 and RAD23B are listed in separate process groups with no mechanism
+tmkp-2026-04-21-edge-audit-batch-002-2182,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|normalization_error,LAP represses COX2 gene but subject and mitochondrial COX2 normalization are wrong
+tmkp-2026-04-21-edge-audit-batch-002-2183,codex-manual,2026-05-04,supported,good,good,,Akt activation induces lipogenesis by activating the SREBP1 pathway
+tmkp-2026-04-21-edge-audit-batch-002-2184,codex-manual,2026-05-04,partially_supported,partial,good,pathway_requirement_context,TGFB1 response requires Cdc42 signaling but direct causation of Cdc42 is not shown
+tmkp-2026-04-21-edge-audit-batch-002-2185,codex-manual,2026-05-04,unsupported,bad,bad,wrong_object|negated_context,NBS1 mediates repression even without JMJD6 and is not NLRP2
+tmkp-2026-04-21-edge-audit-batch-002-2186,codex-manual,2026-05-04,supported,good,good,,Abr restricts spinogenesis by inhibiting Rac1 activation
+tmkp-2026-04-21-edge-audit-batch-002-2187,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_error|wrong_object,SASP is a phenotype and PD1 blockade context is not RPL17 support
+tmkp-2026-04-21-edge-audit-batch-002-2188,codex-manual,2026-05-04,unsupported,bad,partial,rescue_context,MAPK activation rescues PATL2 mutant oocytes but does not cause PATL2
+tmkp-2026-04-21-edge-audit-batch-002-2189,codex-manual,2026-05-04,unsupported,bad,good,wrong_direction,Sam68 complex regulates CCND1 promoter rather than CCND1 causing Sam68
+tmkp-2026-04-21-edge-audit-batch-002-2190,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject,Interleukin 27 evidence is not IL17D causing IL27
+tmkp-2026-04-21-edge-audit-batch-002-2191,codex-manual,2026-05-04,supported,good,good,,TIP30 interacts with Tat and stimulates Tat activated transcription
+tmkp-2026-04-21-edge-audit-batch-002-2192,codex-manual,2026-05-04,unsupported,bad,good,glossary_only,AP1 and HIF2A appear in a glossary without a mechanism assertion
+tmkp-2026-04-21-edge-audit-batch-002-2193,codex-manual,2026-05-04,unsupported,bad,good,self_edge,APC2 mutant rescue activity does not support a causal APC2 to APC2 mechanism
+tmkp-2026-04-21-edge-audit-batch-002-2194,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|same_mention_collision,Hcp1 antigen restimulation is not SLC46A1 or PDE7A evidence
+tmkp-2026-04-21-edge-audit-batch-002-2195,codex-manual,2026-05-04,unsupported,bad,bad,amino_acid_mention|wrong_object,Met1 is a polyubiquitin linkage term not GZMM
+tmkp-2026-04-21-edge-audit-batch-002-2196,codex-manual,2026-05-04,partially_supported,partial,good,indirect_pathway_context,HER2 activation stimulates VEGF presumably via HIF1A
+tmkp-2026-04-21-edge-audit-batch-002-2197,codex-manual,2026-05-04,partially_supported,partial,bad,wrong_subject,p68 promotes beta catenin transcription but p68 is not TKT
+tmkp-2026-04-21-edge-audit-batch-002-2198,codex-manual,2026-05-04,partially_supported,partial,bad,wrong_subject|pathway_context,TNF induced caspase activation depends on TRADD but subject maps to TNFSF4
+tmkp-2026-04-21-edge-audit-batch-002-2199,codex-manual,2026-05-04,partially_supported,partial,good,expression_context,Pbx1 expression is measured in FLT3 ITD cells after Pbx1 knockdown
+tmkp-2026-04-21-edge-audit-batch-002-2200,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject,HSPA1A promotes proliferation through TLR2 but subject is normalized to EHMT2

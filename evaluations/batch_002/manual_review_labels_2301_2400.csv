@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-002-2301,codex-manual,2026-05-04,unsupported,bad,good,method_context,COXII and calreticulin are antibody reagents with no causal relation
+tmkp-2026-04-21-edge-audit-batch-002-2302,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject,S1P stimulation affects ZO1 localization but subject maps to NHERF2
+tmkp-2026-04-21-edge-audit-batch-002-2303,codex-manual,2026-05-04,unsupported,bad,bad,amino_acid_mention,K81R is a mutation in EAF2 and not KRT81
+tmkp-2026-04-21-edge-audit-batch-002-2304,codex-manual,2026-05-04,unsupported,bad,good,parallel_effects_only,Claudin5 and occludin are co-suppressed but no causal relation is shown
+tmkp-2026-04-21-edge-audit-batch-002-2305,codex-manual,2026-05-04,supported,good,good,,NPM1 potentiates androgen receptor action through direct interaction
+tmkp-2026-04-21-edge-audit-batch-002-2306,codex-manual,2026-05-04,unsupported,bad,bad,nonhuman_context|wrong_object,C elegans fog mutant context does not support TOB1 to SUPT5H
+tmkp-2026-04-21-edge-audit-batch-002-2307,codex-manual,2026-05-04,supported,good,good,,IL6 upregulates motility through activation of Src signaling
+tmkp-2026-04-21-edge-audit-batch-002-2308,codex-manual,2026-05-04,supported,partial,partial,peptide_vs_gene_context,Angiotensin II activates ELK1 downstream signaling
+tmkp-2026-04-21-edge-audit-batch-002-2309,codex-manual,2026-05-04,partially_supported,partial,bad,object_normalization_error,Negative genetic interaction is between PBRM1 and BAP1 not MAGI1
+tmkp-2026-04-21-edge-audit-batch-002-2310,codex-manual,2026-05-04,partially_supported,partial,good,apoptosis_cascade_context,Apaf1 upregulation and DFF45 activation occur in the same apoptosis cascade
+tmkp-2026-04-21-edge-audit-batch-002-2311,codex-manual,2026-05-04,unsupported,bad,good,knockout_rescue_context,IL15 pretreatment restores cytokines in IRF1 knockout grafts but does not cause IRF1
+tmkp-2026-04-21-edge-audit-batch-002-2312,codex-manual,2026-05-04,supported,good,good,,Tbx1 interacts with Srf and promotes proteasome mediated degradation
+tmkp-2026-04-21-edge-audit-batch-002-2313,codex-manual,2026-05-04,unsupported,bad,good,parallel_effects_only,Fgf15 and Fgf8 have opposite effects on shared targets but no Fgf15 to Fgf8 edge
+tmkp-2026-04-21-edge-audit-batch-002-2314,codex-manual,2026-05-04,unsupported,bad,bad,wrong_object|stimulus_context,ROCK1 is critical in TNF stimulated signaling but does not cause TNFSF12
+tmkp-2026-04-21-edge-audit-batch-002-2315,codex-manual,2026-05-04,unsupported,bad,bad,wrong_object|response_modulation_context,RGC32 promotes TNF induced cell interaction but does not cause TNFSF9
+tmkp-2026-04-21-edge-audit-batch-002-2316,codex-manual,2026-05-04,unsupported,bad,bad,response_context|wrong_object,Hsp27 alters response to TNF induction but does not cause CD40LG
+tmkp-2026-04-21-edge-audit-batch-002-2317,codex-manual,2026-05-04,unsupported,bad,good,parallel_pathway_effects,Dusp6 and Sef are separate negative regulators with no causal relation
+tmkp-2026-04-21-edge-audit-batch-002-2318,codex-manual,2026-05-04,unsupported,bad,good,list_context,TLR5 and RBP1 are in induced gene lists without a causal edge
+tmkp-2026-04-21-edge-audit-batch-002-2319,codex-manual,2026-05-04,supported,good,good,,PIAS1 coactivates CP2c and CP2b mediated alpha globin expression
+tmkp-2026-04-21-edge-audit-batch-002-2320,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|wrong_object,Beta arrestin 2 scaffold for MIP1 beta chemotaxis is not SAG to MIPEP
+tmkp-2026-04-21-edge-audit-batch-002-2321,codex-manual,2026-05-04,unsupported,bad,good,wrong_direction,TSG6 requires CD44 for anti inflammatory effect but CD44 does not cause TSG6
+tmkp-2026-04-21-edge-audit-batch-002-2322,codex-manual,2026-05-04,supported,good,good,,Resistin binds CAP1 receptor and activates downstream inflammatory pathways
+tmkp-2026-04-21-edge-audit-batch-002-2323,codex-manual,2026-05-04,partially_supported,partial,good,protein_complex_context,Ppp6c regulates Aurora A bound to TPX2 rather than directly causing TPX2
+tmkp-2026-04-21-edge-audit-batch-002-2324,codex-manual,2026-05-04,unsupported,bad,bad,nonhuman_context|object_normalization_error,C elegans gpn lon genetic interaction does not map to human LONP1
+tmkp-2026-04-21-edge-audit-batch-002-2325,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|parallel_effects_only,CCR2 and CCR4 antagonists are parallel migration inhibitors and RETSAT is unsupported
+tmkp-2026-04-21-edge-audit-batch-002-2326,codex-manual,2026-05-04,unsupported,bad,bad,glossary_only,ST2 and tumor necrosis factor receptor terms appear in a glossary only
+tmkp-2026-04-21-edge-audit-batch-002-2327,codex-manual,2026-05-04,unsupported,bad,bad,wrong_object|stimulus_context,APE1 antibody modifies TNF stimulated VCAM response but does not cause TNFSF12
+tmkp-2026-04-21-edge-audit-batch-002-2328,codex-manual,2026-05-04,supported,partial,bad,object_family_context,ELK1 SRF activates cyclin D transcription but object is CCND2 specific
+tmkp-2026-04-21-edge-audit-batch-002-2329,codex-manual,2026-05-04,partially_supported,partial,good,response_modulation_context,YAP1 overexpression suppresses apoptosis mediated by MST1
+tmkp-2026-04-21-edge-audit-batch-002-2330,codex-manual,2026-05-04,unsupported,bad,good,combination_therapy_context,PDL1 blockade and CD27 agonism are combined therapies with no causal edge
+tmkp-2026-04-21-edge-audit-batch-002-2331,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject,NRG1 demyelination response in Hsp70 knockout cultures is not GDF15 support
+tmkp-2026-04-21-edge-audit-batch-002-2332,codex-manual,2026-05-04,partially_supported,partial,good,pathway_modulation_context,ALDH2 stabilizes PDL1 by inhibiting SPOP mediated ubiquitination
+tmkp-2026-04-21-edge-audit-batch-002-2333,codex-manual,2026-05-04,supported,good,good,,IL6 modulates JAK STAT signaling and induces STAT1 binding to the PPARA promoter
+tmkp-2026-04-21-edge-audit-batch-002-2334,codex-manual,2026-05-04,unsupported,bad,bad,method_context,Cre ERT2 and CRISPR Cas9 methods do not support MAPK3 to CTNND1
+tmkp-2026-04-21-edge-audit-batch-002-2335,codex-manual,2026-05-04,supported,good,good,,Runx1 deficiency causes Ebf1 downregulation during B cell development
+tmkp-2026-04-21-edge-audit-batch-002-2336,codex-manual,2026-05-04,unsupported,bad,bad,object_normalization_error,Grg3 acts with Pdx1 but object is normalized to PDHX
+tmkp-2026-04-21-edge-audit-batch-002-2337,codex-manual,2026-05-04,supported,good,good,,MCPIP induces COX2 among HIF1A target genes
+tmkp-2026-04-21-edge-audit-batch-002-2338,codex-manual,2026-05-04,partially_supported,partial,bad,family_mention_fanout,mPGES1 PGE2 signaling promotes VEGF release but VEGFD is not specific
+tmkp-2026-04-21-edge-audit-batch-002-2339,codex-manual,2026-05-04,unsupported,bad,good,method_context,Serum albumin is used for blocking and FAS is an antibody target
+tmkp-2026-04-21-edge-audit-batch-002-2340,codex-manual,2026-05-04,partially_supported,partial,good,pathway_dependency_context,WNT10B response is abolished by interfering with HMGA2
+tmkp-2026-04-21-edge-audit-batch-002-2341,codex-manual,2026-05-04,unsupported,bad,good,parallel_roles_only,PLAG1 and PLAGL1 are described as having different tumor roles without a causal edge
+tmkp-2026-04-21-edge-audit-batch-002-2342,codex-manual,2026-05-04,unsupported,bad,good,model_driver_context,Wnt1 Cre is a model driver and not caused by ITPR1
+tmkp-2026-04-21-edge-audit-batch-002-2343,codex-manual,2026-05-04,unsupported,bad,good,treatment_context,Renin angiotensin blockers are treatment context and not caused by PLA2R1
+tmkp-2026-04-21-edge-audit-batch-002-2344,codex-manual,2026-05-04,unsupported,bad,good,response_dependency_context,Nfatc4 knockout affects TNF mediated apoptosis but does not cause TNF
+tmkp-2026-04-21-edge-audit-batch-002-2345,codex-manual,2026-05-04,unsupported,bad,bad,chemical_vs_gene_error,AZ1 activates p53 in cells but is not TINAGL1
+tmkp-2026-04-21-edge-audit-batch-002-2346,codex-manual,2026-05-04,unsupported,bad,good,glossary_only,CCND1 and CEBP terms appear in a glossary
+tmkp-2026-04-21-edge-audit-batch-002-2347,codex-manual,2026-05-04,partially_supported,partial,bad,family_mention_fanout,Defective CFTR dependent CREB activation is shown but object CREB3 is not specific
+tmkp-2026-04-21-edge-audit-batch-002-2348,codex-manual,2026-05-04,partially_supported,partial,bad,family_mention_fanout,VEGF signaling is associated with lower PTEN but VEGFB is not specific
+tmkp-2026-04-21-edge-audit-batch-002-2349,codex-manual,2026-05-04,partially_supported,partial,good,response_modulation_context,uPA deficiency modifies Angiotensin II induced aneurysm rupture
+tmkp-2026-04-21-edge-audit-batch-002-2350,codex-manual,2026-05-04,supported,good,good,,Resistin triggers VEGF C dependent lymphangiogenesis via c Src signaling
+tmkp-2026-04-21-edge-audit-batch-002-2351,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|stimulus_context,Exo2 attenuates SDF1 induced ARF1 activation but is not XRN1 causing CXCL12
+tmkp-2026-04-21-edge-audit-batch-002-2352,codex-manual,2026-05-04,unsupported,bad,bad,parallel_measurement_context,TNF and NOS2 are measured together after ligation with no causal edge
+tmkp-2026-04-21-edge-audit-batch-002-2353,codex-manual,2026-05-04,supported,partial,good,pathway_context,uPA uPAR downregulation suppresses angiogenesis partly through angiopoietin 1 AKT pathway inhibition
+tmkp-2026-04-21-edge-audit-batch-002-2354,codex-manual,2026-05-04,unsupported,bad,bad,same_mention_collision,LIP1 mention is mapped to both subject and object with no causal relation
+tmkp-2026-04-21-edge-audit-batch-002-2355,codex-manual,2026-05-04,unsupported,bad,bad,list_context,E2f1 and Plau are in a downregulated gene cluster and PLG is not supported
+tmkp-2026-04-21-edge-audit-batch-002-2356,codex-manual,2026-05-04,partially_supported,partial,good,cell_population_context,Mpc1 loss in LGR5 positive cells expands the stem cell compartment
+tmkp-2026-04-21-edge-audit-batch-002-2357,codex-manual,2026-05-04,unsupported,bad,bad,wrong_direction|promoter_context,Pdx1 promoter drives VEGF overexpression and VEGFD is not specific
+tmkp-2026-04-21-edge-audit-batch-002-2358,codex-manual,2026-05-04,unsupported,bad,good,cooccurrence_only,ALDH positive cells and SPHK1 overexpression are related cancer stem cell contexts without ALDH causing SPHK1
+tmkp-2026-04-21-edge-audit-batch-002-2359,codex-manual,2026-05-04,unsupported,bad,good,stimulus_context,VEGFR2 enhances E selectin induction with TNF but does not cause TNF
+tmkp-2026-04-21-edge-audit-batch-002-2360,codex-manual,2026-05-04,unsupported,bad,bad,object_overgeneralized,USP13 deubiquitinates Ubl4A rather than causing RPS27A ubiquitin
+tmkp-2026-04-21-edge-audit-batch-002-2361,codex-manual,2026-05-04,unsupported,bad,bad,wrong_object|treatment_context,ALP is treatment context and not SLPI
+tmkp-2026-04-21-edge-audit-batch-002-2362,codex-manual,2026-05-04,unsupported,bad,bad,wrong_object,TNF regulated gene cluster context does not show TNF causing TNIP1
+tmkp-2026-04-21-edge-audit-batch-002-2363,codex-manual,2026-05-04,unsupported,bad,good,rescue_context,DDX11 overexpression reverses E2F1 loss effects but does not cause E2F1
+tmkp-2026-04-21-edge-audit-batch-002-2364,codex-manual,2026-05-04,unsupported,bad,bad,knockout_context,Angiotensin II response in UCP2 knockout mice does not show AGT causing UCP2
+tmkp-2026-04-21-edge-audit-batch-002-2365,codex-manual,2026-05-04,partially_supported,partial,good,protein_interaction_context,Bach2 Batf interactions block the Batf amplification loop
+tmkp-2026-04-21-edge-audit-batch-002-2366,codex-manual,2026-05-04,partially_supported,partial,bad,family_mention_fanout,PPAR delta activation acts through TGF beta Smad3 but subject is PPARA
+tmkp-2026-04-21-edge-audit-batch-002-2367,codex-manual,2026-05-04,unsupported,bad,good,parallel_coreceptors_only,LRP6 and LRP5 are alternate Wnt coreceptors with no causal relation
+tmkp-2026-04-21-edge-audit-batch-002-2368,codex-manual,2026-05-04,unsupported,bad,bad,domain_mention_only,UHRF1 contains a ubiquitin like domain and does not cause RPS27A
+tmkp-2026-04-21-edge-audit-batch-002-2369,codex-manual,2026-05-04,partially_supported,partial,bad,ubiquitin_process_context,MUL1 regulates targets through ubiquitin mediated degradation but not UBA52 specifically
+tmkp-2026-04-21-edge-audit-batch-002-2370,codex-manual,2026-05-04,supported,good,good,,ADAR3 competes with ADAR2 to inhibit RNA editing
+tmkp-2026-04-21-edge-audit-batch-002-2371,codex-manual,2026-05-04,unsupported,bad,bad,genotype_notation_error,Fpn1Alb notation is not ALB as a causal gene object
+tmkp-2026-04-21-edge-audit-batch-002-2372,codex-manual,2026-05-04,partially_supported,partial,bad,ubiquitin_process_context,RIG1 ubiquitylation is blocked but RPS27A ubiquitin is overgeneralized
+tmkp-2026-04-21-edge-audit-batch-002-2373,codex-manual,2026-05-04,unsupported,bad,bad,wrong_object,Ang II hypertrophy is modulated by miR98 and cyclin D2 not MLXIP
+tmkp-2026-04-21-edge-audit-batch-002-2374,codex-manual,2026-05-04,supported,partial,good,pathway_context,SASH1 inhibits EMT through the PI3K Akt pathway
+tmkp-2026-04-21-edge-audit-batch-002-2375,codex-manual,2026-05-04,unsupported,bad,bad,method_context,Cas9 is a genome editing method and not BCAR1
+tmkp-2026-04-21-edge-audit-batch-002-2376,codex-manual,2026-05-04,partially_supported,partial,good,nonhuman_model_context,Drosophila sds22 gain of function is tested in a RasV12 scrib tumor model
+tmkp-2026-04-21-edge-audit-batch-002-2377,codex-manual,2026-05-04,unsupported,bad,bad,measurement_abbreviation_error,ALP is alkaline phosphatase marker and not NAT10
+tmkp-2026-04-21-edge-audit-batch-002-2378,codex-manual,2026-05-04,unsupported,bad,good,wrong_direction,CRY1 suppresses Per1 promoter transactivation rather than PER1 causing CRY1
+tmkp-2026-04-21-edge-audit-batch-002-2379,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|stimulus_context,ELK3 in VEGF induced angiogenesis is not KCNH4 causing VEGFB
+tmkp-2026-04-21-edge-audit-batch-002-2380,codex-manual,2026-05-04,unsupported,bad,good,self_edge,Trpm2 knockout disease model does not support a self causal gene mechanism
+tmkp-2026-04-21-edge-audit-batch-002-2381,codex-manual,2026-05-04,partially_supported,partial,good,response_modulation_context,CGRP inhibits IL1 beta mediated bone resorption
+tmkp-2026-04-21-edge-audit-batch-002-2382,codex-manual,2026-05-04,unsupported,bad,bad,response_context|wrong_object,Apelin improves signaling in TNF treated mice but does not cause CD40LG
+tmkp-2026-04-21-edge-audit-batch-002-2383,codex-manual,2026-05-04,partially_supported,partial,good,genetic_interaction_context,Col6a1 knockout restores tissue function in Antxr2 deficient uterus
+tmkp-2026-04-21-edge-audit-batch-002-2384,codex-manual,2026-05-04,unsupported,bad,bad,reporter_context|object_normalization_error,GAL1 is a reporter promoter context and not LGALS1
+tmkp-2026-04-21-edge-audit-batch-002-2385,codex-manual,2026-05-04,unsupported,bad,bad,method_context,Cas9 is a genome editing method and not CTNND1
+tmkp-2026-04-21-edge-audit-batch-002-2386,codex-manual,2026-05-04,unsupported,bad,good,parallel_effects_only,Catalase or SOD2 overexpression each promotes luminal filling with no causal relation
+tmkp-2026-04-21-edge-audit-batch-002-2387,codex-manual,2026-05-04,unsupported,bad,good,parallel_mutant_context,En1 and En2 mutant studies do not show EN2 causing EN1
+tmkp-2026-04-21-edge-audit-batch-002-2388,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|ubiquitin_process_context,Ubp6 ubiquitin proteasome context does not support SGTA to RPS27A
+tmkp-2026-04-21-edge-audit-batch-002-2389,codex-manual,2026-05-04,partially_supported,partial,good,stimulus_response_context,SNX16 affects EGF induced EGFR degradation and signaling
+tmkp-2026-04-21-edge-audit-batch-002-2390,codex-manual,2026-05-04,unsupported,bad,bad,wrong_object,BCAS2 acts through estrogen receptor AF1 and AF2 regions not IFNGR2
+tmkp-2026-04-21-edge-audit-batch-002-2391,codex-manual,2026-05-04,unsupported,bad,bad,nonhuman_context|self_edge,gat2 mutant biofilm phenotype is not a human SLC6A13 self mechanism
+tmkp-2026-04-21-edge-audit-batch-002-2392,codex-manual,2026-05-04,partially_supported,partial,bad,family_mention_fanout,CRP suppresses TNF alpha but object maps to TNFSF12
+tmkp-2026-04-21-edge-audit-batch-002-2393,codex-manual,2026-05-04,supported,good,good,,TauT is downregulated by p53 in renal proximal tubule cells
+tmkp-2026-04-21-edge-audit-batch-002-2394,codex-manual,2026-05-04,supported,partial,good,pathway_axis_context,Act1 modulates the IL23 IL21 STAT3 axis
+tmkp-2026-04-21-edge-audit-batch-002-2395,codex-manual,2026-05-04,partially_supported,partial,bad,family_mention_fanout,HSP70 activates TLR2 and TLR4 signaling but HSPA9 is not specific
+tmkp-2026-04-21-edge-audit-batch-002-2396,codex-manual,2026-05-04,unsupported,bad,bad,method_context,Annexin PI staining is an assay and not ANXA1 causing GRP78
+tmkp-2026-04-21-edge-audit-batch-002-2397,codex-manual,2026-05-04,unsupported,bad,bad,wrong_object,IL20R cytokines inhibit IL17A but object IL17B is not supported
+tmkp-2026-04-21-edge-audit-batch-002-2398,codex-manual,2026-05-04,supported,good,good,,Vps2 and Vps24 form filaments and Vps2 Vps24 enhances Did2 recruitment
+tmkp-2026-04-21-edge-audit-batch-002-2399,codex-manual,2026-05-04,partially_supported,partial,bad,family_mention_fanout,RBL2 forms a repressor complex with inhibitory E2Fs but not E2F7 specifically
+tmkp-2026-04-21-edge-audit-batch-002-2400,codex-manual,2026-05-04,partially_supported,partial,bad,object_normalization_error,Galectin1 suppression deactivates Ras Raf ERK pathway but object maps to ZHX2

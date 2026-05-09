@@ -1,0 +1,51 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-001-2751,codex-manual,2026-05-04,unsupported,bad,good,cohort_baseline_context,Sleep disturbances were baseline features in RA patients receiving tocilizumab
+tmkp-2026-04-21-edge-audit-batch-001-2752,codex-manual,2026-05-04,unsupported,bad,good,co_feature_context,Nasal abnormalities are co-mentioned with short stature and GH level variation
+tmkp-2026-04-21-edge-audit-batch-001-2753,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,RECQL4 germline mutations are associated with pigment changes
+tmkp-2026-04-21-edge-audit-batch-001-2754,codex-manual,2026-05-04,supported,good,good,adverse_event_context,Visual loss occurred after cyclosporine
+tmkp-2026-04-21-edge-audit-batch-001-2755,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,CHED disorder causes visual impairment but subject is CDK13
+tmkp-2026-04-21-edge-audit-batch-001-2756,codex-manual,2026-05-04,supported,good,good,adverse_event_context,Ziconotide is associated with nausea and vomiting
+tmkp-2026-04-21-edge-audit-batch-001-2757,codex-manual,2026-05-04,supported,good,good,adverse_event_context,Protamine administration was followed by generalized erythema
+tmkp-2026-04-21-edge-audit-batch-001-2758,codex-manual,2026-05-04,unsupported,bad,good,predicate_mismatch|adverse_event_context,Fever is an adverse effect of Ad5-nCoV and not a treatment target
+tmkp-2026-04-21-edge-audit-batch-001-2759,codex-manual,2026-05-04,unsupported,bad,good,biomarker_or_expression_only,C-reactive protein was elevated in a visual loss case
+tmkp-2026-04-21-edge-audit-batch-001-2760,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Hyperactive describes ENaC activity and not behavioral hyperactivity
+tmkp-2026-04-21-edge-audit-batch-001-2761,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Insulin-induced protein 2 candidate region is not INS
+tmkp-2026-04-21-edge-audit-batch-001-2762,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,ACOX2 deficiency includes cognitive impairment
+tmkp-2026-04-21-edge-audit-batch-001-2763,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,IGFR1 trisomy causes overgrowth but subject is FCGR1A
+tmkp-2026-04-21-edge-audit-batch-001-2764,codex-manual,2026-05-04,supported,good,good,model_phenotype_context,Gli3 knockout mice have tongue abnormalities
+tmkp-2026-04-21-edge-audit-batch-001-2765,codex-manual,2026-05-04,partially_supported,partial,good,modifier_context,ABCA4 mutations may alter progression of PRPH2 macular dystrophy
+tmkp-2026-04-21-edge-audit-batch-001-2766,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,SCA7 is characterized by progressive cerebellar ataxia
+tmkp-2026-04-21-edge-audit-batch-001-2767,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is a pronoun in foot deformity treatment context and not ademetionine
+tmkp-2026-04-21-edge-audit-batch-001-2768,codex-manual,2026-05-04,partially_supported,partial,good,autoimmune_context,Nova-2 is an autoimmune target in opsoclonus myoclonus ataxia patients
+tmkp-2026-04-21-edge-audit-batch-001-2769,codex-manual,2026-05-04,unsupported,bad,good,wrong_comparator,Muscle weakness is described for long-chain deficiency compared with MCAD
+tmkp-2026-04-21-edge-audit-batch-001-2770,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,Homozygous CFTR mutation patient had failure to thrive
+tmkp-2026-04-21-edge-audit-batch-001-2771,codex-manual,2026-05-04,partially_supported,partial,good,adverse_event_context,Vomiting occurred with hypercalcemia after denosumab cessation
+tmkp-2026-04-21-edge-audit-batch-001-2772,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,REN mutations cause hypouricosuric hyperuricemia
+tmkp-2026-04-21-edge-audit-batch-001-2773,codex-manual,2026-05-04,partially_supported,partial,good,contiguous_deletion_context,Deletion encompassing CHRM3 occurred in a child with short stature
+tmkp-2026-04-21-edge-audit-batch-001-2774,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,DNM2 mutations cause centronuclear myopathy with muscle weakness
+tmkp-2026-04-21-edge-audit-batch-001-2775,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_context,BLVRA protein is upregulated in Alzheimer disease and mild cognitive impairment
+tmkp-2026-04-21-edge-audit-batch-001-2776,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,OFD1 truncating mutations cause syndrome with lip abnormalities
+tmkp-2026-04-21-edge-audit-batch-001-2777,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,C-reactive protein was normal in the developmental delay case
+tmkp-2026-04-21-edge-audit-batch-001-2778,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,PHF6 defects are reported in patients with dental anomalies
+tmkp-2026-04-21-edge-audit-batch-001-2779,codex-manual,2026-05-04,supported,good,partial,family_mention_fanout,Colony-stimulating factor levels were elevated with leukocytosis
+tmkp-2026-04-21-edge-audit-batch-001-2780,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,PCA means patient-controlled analgesia and not pidolic acid
+tmkp-2026-04-21-edge-audit-batch-001-2781,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,Cryopyrin-associated periodic syndrome is linked with fever
+tmkp-2026-04-21-edge-audit-batch-001-2782,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Pin refers to pin-tract complications and not DYNLL1
+tmkp-2026-04-21-edge-audit-batch-001-2783,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|list_or_cross_product,Sonic hedgehog pathway and separate edema phenotype do not support IHH
+tmkp-2026-04-21-edge-audit-batch-001-2784,codex-manual,2026-05-04,unsupported,bad,good,case_context,HER2 status is noted in a cancer case with pleural effusion
+tmkp-2026-04-21-edge-audit-batch-001-2785,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Pkd2 heterozygous mice show vascular abnormalities but subject is PRKD2
+tmkp-2026-04-21-edge-audit-batch-001-2786,codex-manual,2026-05-04,partially_supported,partial,partial,family_mention_fanout,Study examines relationship between VEGF and cognitive impairment
+tmkp-2026-04-21-edge-audit-batch-001-2787,codex-manual,2026-05-04,supported,good,good,mechanism_context,VEGF promotes vascular permeability and ocular inflammation
+tmkp-2026-04-21-edge-audit-batch-001-2788,codex-manual,2026-05-04,supported,good,good,adverse_event_context,Tinnitus occurred during plasmapheresis with human serum albumin
+tmkp-2026-04-21-edge-audit-batch-001-2789,codex-manual,2026-05-04,unsupported,bad,good,wrong_gene,Smad3 mutants show skeletal abnormalities and not Smad2
+tmkp-2026-04-21-edge-audit-batch-001-2790,codex-manual,2026-05-04,supported,good,good,treatment_context,Rasburicase was used for hyperuricemia
+tmkp-2026-04-21-edge-audit-batch-001-2791,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,PINK1 mutation may be responsible for early cognitive impairment
+tmkp-2026-04-21-edge-audit-batch-001-2792,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,GATA5 mutations were reported with genital anomalies
+tmkp-2026-04-21-edge-audit-batch-001-2793,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same is a temporal phrase and not ademetionine
+tmkp-2026-04-21-edge-audit-batch-001-2794,codex-manual,2026-05-04,partially_supported,partial,partial,family_mention_fanout,BMPR signaling dysregulation may contribute to cerebellar abnormalities
+tmkp-2026-04-21-edge-audit-batch-001-2795,codex-manual,2026-05-04,supported,good,good,adverse_event_context,Albiglutide use has increased frequency of nausea and vomiting
+tmkp-2026-04-21-edge-audit-batch-001-2796,codex-manual,2026-05-04,supported,good,partial,family_mention_fanout,CREB activation is involved in skeletal overgrowth
+tmkp-2026-04-21-edge-audit-batch-001-2797,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error|treatment_context,Tat-biliverdin reductase A modulates inflammatory edema model but subject is TAT
+tmkp-2026-04-21-edge-audit-batch-001-2798,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,TNFRSF1B variation is associated with hypercholesterolemia and subject is TNFSF4
+tmkp-2026-04-21-edge-audit-batch-001-2799,codex-manual,2026-05-04,supported,good,good,model_phenotype_context,ADAR1 knockout mice show growth retardation
+tmkp-2026-04-21-edge-audit-batch-001-2800,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,p15 is a chromosome band and not FABP4

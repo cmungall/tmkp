@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-001-1301,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,DAP is a regimen rather than amifampridine.
+tmkp-2026-04-21-edge-audit-batch-001-1302,codex-manual,2026-05-04,supported,good,good,,Gossypol ingestion is linked to genital abnormalities.
+tmkp-2026-04-21-edge-audit-batch-001-1303,codex-manual,2026-05-04,unsupported,good,bad,normalization_error,Scopolamine produced drowsiness but the normalized subject is LSM 1330.
+tmkp-2026-04-21-edge-audit-batch-001-1304,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_resistance_context,Growth retardation is from thyroid hormone resistance.
+tmkp-2026-04-21-edge-audit-batch-001-1305,codex-manual,2026-05-04,supported,good,good,,Dapsone induced recurrent ventricular arrhythmia.
+tmkp-2026-04-21-edge-audit-batch-001-1306,codex-manual,2026-05-04,supported,good,good,,Entecavir toxicities include fever.
+tmkp-2026-04-21-edge-audit-batch-001-1307,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product,Tinnitus was listed with naproxen rather than paracetamol.
+tmkp-2026-04-21-edge-audit-batch-001-1308,codex-manual,2026-05-04,supported,good,good,negation_or_hedging,Higher physostigmine dosage is likely to cause vomiting.
+tmkp-2026-04-21-edge-audit-batch-001-1309,codex-manual,2026-05-04,supported,good,good,,Meperidine injection preceded involuntary arm movement.
+tmkp-2026-04-21-edge-audit-batch-001-1310,codex-manual,2026-05-04,supported,good,good,,Progesterone side effects include drowsiness.
+tmkp-2026-04-21-edge-audit-batch-001-1311,codex-manual,2026-05-04,supported,good,good,,Zoledronic acid side effects include increased bone pain.
+tmkp-2026-04-21-edge-audit-batch-001-1312,codex-manual,2026-05-04,partially_supported,partial,good,cohort_or_exposure_context,Abdominal pain occurred in a patient receiving carbamazepine.
+tmkp-2026-04-21-edge-audit-batch-001-1313,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_context,Edema continued after hydroxychloroquine and prednisolone treatment.
+tmkp-2026-04-21-edge-audit-batch-001-1314,codex-manual,2026-05-04,supported,good,good,,Everolimus patients had more arthralgia or myalgia.
+tmkp-2026-04-21-edge-audit-batch-001-1315,codex-manual,2026-05-04,supported,good,good,,High phosphate levels lead to basal ganglia calcifications.
+tmkp-2026-04-21-edge-audit-batch-001-1316,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product,Joint pain belonged to pyrazinamide in a respectively list.
+tmkp-2026-04-21-edge-audit-batch-001-1317,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Fever occurred with docetaxel vinorelbine treatment.
+tmkp-2026-04-21-edge-audit-batch-001-1318,codex-manual,2026-05-04,supported,good,good,,Teduglutide adverse events included abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-001-1319,codex-manual,2026-05-04,supported,good,good,,Long term chloroquine treatment causes corneal opacity.
+tmkp-2026-04-21-edge-audit-batch-001-1320,codex-manual,2026-05-04,partially_supported,partial,partial,generic_subject,Nutrient intake was linked broadly to abdominal pain in gluten intolerance risk.
+tmkp-2026-04-21-edge-audit-batch-001-1321,codex-manual,2026-05-04,supported,good,good,combination_exposure,Galunisertib plus radiochemotherapy arm reported vomiting.
+tmkp-2026-04-21-edge-audit-batch-001-1322,codex-manual,2026-05-04,supported,good,good,,Nelarabine adverse effects include drowsiness.
+tmkp-2026-04-21-edge-audit-batch-001-1323,codex-manual,2026-05-04,supported,good,good,,Soft tissue edema occurred in metocurine treated patients.
+tmkp-2026-04-21-edge-audit-batch-001-1324,codex-manual,2026-05-04,supported,good,good,,Fever was reported after daprodustat.
+tmkp-2026-04-21-edge-audit-batch-001-1325,codex-manual,2026-05-04,supported,good,good,,Auranofin use resulted in nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-001-1326,codex-manual,2026-05-04,supported,good,good,,Liraglutide adverse events include vomiting.
+tmkp-2026-04-21-edge-audit-batch-001-1327,codex-manual,2026-05-04,supported,good,good,,Generalized tonic clonic seizures occurred after ondansetron injection.
+tmkp-2026-04-21-edge-audit-batch-001-1328,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Amoxicillin combination regimen adverse effects included arthralgia.
+tmkp-2026-04-21-edge-audit-batch-001-1329,codex-manual,2026-05-04,unsupported,bad,bad,inverse_or_treatment_context,Tumor growth delay is a therapeutic cancer response not developmental growth delay.
+tmkp-2026-04-21-edge-audit-batch-001-1330,codex-manual,2026-05-04,supported,good,good,,Fever occurred after starting tolterodine.
+tmkp-2026-04-21-edge-audit-batch-001-1331,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_treatment_context,Lopinavir ritonavir was associated with shorter fever duration or no effect.
+tmkp-2026-04-21-edge-audit-batch-001-1332,codex-manual,2026-05-04,supported,good,good,,Halofantrine post dosing side effects included vomiting.
+tmkp-2026-04-21-edge-audit-batch-001-1333,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,BIA is an arthritis model rather than the chemical subject.
+tmkp-2026-04-21-edge-audit-batch-001-1334,codex-manual,2026-05-04,supported,good,good,,High resveratrol consumption caused anal pruritus.
+tmkp-2026-04-21-edge-audit-batch-001-1335,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,No furosemide inner ear side effects such as tinnitus occurred.
+tmkp-2026-04-21-edge-audit-batch-001-1336,codex-manual,2026-05-04,supported,good,good,,Aspirin or COX1 inhibitors can trigger ocular pruritus.
+tmkp-2026-04-21-edge-audit-batch-001-1337,codex-manual,2026-05-04,supported,good,good,,Miglustat side effects include weight loss.
+tmkp-2026-04-21-edge-audit-batch-001-1338,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_treatment_context,Edema recurred during prednisone taper rather than as prednisone toxicity.
+tmkp-2026-04-21-edge-audit-batch-001-1339,codex-manual,2026-05-04,supported,good,good,,Elevated cortisol causes muscle weakness.
+tmkp-2026-04-21-edge-audit-batch-001-1340,codex-manual,2026-05-04,partially_supported,partial,good,cohort_or_exposure_context,Clozapine users showed more behavioral disturbances.
+tmkp-2026-04-21-edge-audit-batch-001-1341,codex-manual,2026-05-04,partially_supported,partial,good,negation_or_hedging,Anecdotal evidence indicates epinephrine is a visual loss risk factor.
+tmkp-2026-04-21-edge-audit-batch-001-1342,codex-manual,2026-05-04,supported,good,good,,Pharmacologic testosterone doses are associated with sleep disturbances.
+tmkp-2026-04-21-edge-audit-batch-001-1343,codex-manual,2026-05-04,supported,good,good,,Pentoxifylline dose limiting toxicity included nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-001-1344,codex-manual,2026-05-04,supported,good,good,,Sevoflurane induction was followed by marked edema.
+tmkp-2026-04-21-edge-audit-batch-001-1345,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_treatment_context,Phenobarbital was used to treat seizures.
+tmkp-2026-04-21-edge-audit-batch-001-1346,codex-manual,2026-05-04,supported,good,good,,Large dose castor oil may cause vomiting.
+tmkp-2026-04-21-edge-audit-batch-001-1347,codex-manual,2026-05-04,supported,good,good,,Neostigmine side effects include abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-001-1348,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,IAD is an intervention arm rather than inosine pranobex.
+tmkp-2026-04-21-edge-audit-batch-001-1349,codex-manual,2026-05-04,partially_supported,good,partial,generic_subject,Endosulfan pesticide ingestion caused generalized tonic clonic seizures.
+tmkp-2026-04-21-edge-audit-batch-001-1350,codex-manual,2026-05-04,supported,good,good,,Acyclovir reactions include nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-001-1351,codex-manual,2026-05-04,supported,good,good,generic_subject,Antipsychotic agents can cause malignant syndrome with hyperthermia.
+tmkp-2026-04-21-edge-audit-batch-001-1352,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_protective_context,Hydrogen inhalation reduced vomiting.
+tmkp-2026-04-21-edge-audit-batch-001-1353,codex-manual,2026-05-04,supported,good,good,,Carisoprodol induced myoclonic encephalopathy.
+tmkp-2026-04-21-edge-audit-batch-001-1354,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,NVP is nausea and vomiting of pregnancy rather than nevirapine.
+tmkp-2026-04-21-edge-audit-batch-001-1355,codex-manual,2026-05-04,supported,good,good,,Edema has been reported with amisulpride.
+tmkp-2026-04-21-edge-audit-batch-001-1356,codex-manual,2026-05-04,supported,good,good,,Fexofenadine was reported with ventricular arrhythmia.
+tmkp-2026-04-21-edge-audit-batch-001-1357,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Caffeine with ephedrine was associated with hyperthermia.
+tmkp-2026-04-21-edge-audit-batch-001-1358,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Cetirizine abdominal pain was not different from placebo.
+tmkp-2026-04-21-edge-audit-batch-001-1359,codex-manual,2026-05-04,supported,good,good,,Increased oxycodone levels increased drowsiness.
+tmkp-2026-04-21-edge-audit-batch-001-1360,codex-manual,2026-05-04,supported,good,good,,Angiotensin II accumulation may cause vascular abnormalities.
+tmkp-2026-04-21-edge-audit-batch-001-1361,codex-manual,2026-05-04,partially_supported,good,good,combination_exposure,Quinine plus sulfadoxine pyrimethamine caused more nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-001-1362,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|inverse_or_protective_context,Travoprost drowsiness was uncommon and subject normalized to idose.
+tmkp-2026-04-21-edge-audit-batch-001-1363,codex-manual,2026-05-04,partially_supported,partial,good,cohort_or_exposure_context,Propranolol and atenolol users had mental impairment.
+tmkp-2026-04-21-edge-audit-batch-001-1364,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_deficiency_context,Low gibberellic acid under metal toxicity correlated with growth retardation.
+tmkp-2026-04-21-edge-audit-batch-001-1365,codex-manual,2026-05-04,supported,good,good,,Carbachol induced deep bradycardia.
+tmkp-2026-04-21-edge-audit-batch-001-1366,codex-manual,2026-05-04,supported,good,good,negation_or_hedging,Nefopam may cause postoperative nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-001-1367,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_metabolic_context,Gout involves abnormal metabolism of uric acid.
+tmkp-2026-04-21-edge-audit-batch-001-1368,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_metabolic_context,The statement is about abnormal metabolism of cholesterol.
+tmkp-2026-04-21-edge-audit-batch-001-1369,codex-manual,2026-05-04,partially_supported,good,good,combination_exposure,High dose diazepam caused muscle hypotonia with 8 OH DPAT.
+tmkp-2026-04-21-edge-audit-batch-001-1370,codex-manual,2026-05-04,supported,good,good,,Desipramine side effects include drowsiness.
+tmkp-2026-04-21-edge-audit-batch-001-1371,codex-manual,2026-05-04,supported,good,good,,Topiramate exposed pregnancies included micrognathia.
+tmkp-2026-04-21-edge-audit-batch-001-1372,codex-manual,2026-05-04,partially_supported,partial,good,cohort_or_exposure_context,Melatonin was positively associated with abdominal pain in IBS.
+tmkp-2026-04-21-edge-audit-batch-001-1373,codex-manual,2026-05-04,unsupported,bad,good,treatment_of_other_condition,Excess tramadol rather than tapentadol led to seizures.
+tmkp-2026-04-21-edge-audit-batch-001-1374,codex-manual,2026-05-04,supported,good,good,,Toluene causes cognitive impairment.
+tmkp-2026-04-21-edge-audit-batch-001-1375,codex-manual,2026-05-04,supported,good,good,,Prenatal dibutyl phthalate exposure was associated with language delay.
+tmkp-2026-04-21-edge-audit-batch-001-1376,codex-manual,2026-05-04,partially_supported,partial,good,withdrawal_context,Testosterone withdrawal after chronic intake includes joint pain.
+tmkp-2026-04-21-edge-audit-batch-001-1377,codex-manual,2026-05-04,supported,good,good,,Pentazocine side effects were mainly dizziness and drowsiness.
+tmkp-2026-04-21-edge-audit-batch-001-1378,codex-manual,2026-05-04,supported,good,good,,Carbon monoxide is implicated in febrile seizure pathogenesis.
+tmkp-2026-04-21-edge-audit-batch-001-1379,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Calcium gluconate and vitamin D preceded hypercalcemia syndrome with vomiting.
+tmkp-2026-04-21-edge-audit-batch-001-1380,codex-manual,2026-05-04,supported,good,good,,Ventricular arrhythmia risk was measured after ondansetron administration.
+tmkp-2026-04-21-edge-audit-batch-001-1381,codex-manual,2026-05-04,supported,good,good,,Introduced air caused coma in patients.
+tmkp-2026-04-21-edge-audit-batch-001-1382,codex-manual,2026-05-04,supported,good,good,,Thyroxine exacerbates absence seizures.
+tmkp-2026-04-21-edge-audit-batch-001-1383,codex-manual,2026-05-04,supported,good,good,list_or_cross_product,Acitretin and retinoids can increase vomiting risk.
+tmkp-2026-04-21-edge-audit-batch-001-1384,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_treatment_context,Pyridostigmine may control drowsiness from anticholinergic side effects.
+tmkp-2026-04-21-edge-audit-batch-001-1385,codex-manual,2026-05-04,supported,good,good,,Doxepin during breastfeeding caused infant muscle hypotonia.
+tmkp-2026-04-21-edge-audit-batch-001-1386,codex-manual,2026-05-04,partially_supported,partial,good,cohort_or_exposure_context,Micrognathia was associated with untreated epilepsy and CBZ treatment.
+tmkp-2026-04-21-edge-audit-batch-001-1387,codex-manual,2026-05-04,supported,good,good,,Sunitinib lab abnormalities included hyperuricemia.
+tmkp-2026-04-21-edge-audit-batch-001-1388,codex-manual,2026-05-04,supported,good,good,,Turpentine poisoning symptoms include vomiting.
+tmkp-2026-04-21-edge-audit-batch-001-1389,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Nausea and vomiting were more frequent with diclofenac misoprostol.
+tmkp-2026-04-21-edge-audit-batch-001-1390,codex-manual,2026-05-04,partially_supported,partial,good,inverse_or_comparator_context,Demoxytocin patients had vomiting but less often than PGE2 patients.
+tmkp-2026-04-21-edge-audit-batch-001-1391,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_protective_context,Proguanil recipients had fewer fever episodes.
+tmkp-2026-04-21-edge-audit-batch-001-1392,codex-manual,2026-05-04,supported,good,good,model_or_assay_only,High dose IV oxymorphone caused hypoxemia in dogs.
+tmkp-2026-04-21-edge-audit-batch-001-1393,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,No association was found between famotidine use and visual impairment.
+tmkp-2026-04-21-edge-audit-batch-001-1394,codex-manual,2026-05-04,supported,good,good,,High aluminium levels are associated with vomiting.
+tmkp-2026-04-21-edge-audit-batch-001-1395,codex-manual,2026-05-04,supported,good,good,,Allopurinol complications included abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-001-1396,codex-manual,2026-05-04,supported,good,good,combination_exposure,Sulfametopyrazine induced agranulocytosis in a combination product.
+tmkp-2026-04-21-edge-audit-batch-001-1397,codex-manual,2026-05-04,supported,good,good,negation_or_hedging,Resveratrol may lead to weight loss.
+tmkp-2026-04-21-edge-audit-batch-001-1398,codex-manual,2026-05-04,supported,good,good,,Haloperidol induced persistent EPS including myoclonus.
+tmkp-2026-04-21-edge-audit-batch-001-1399,codex-manual,2026-05-04,supported,good,good,,Cerebral atrophy was reported in a patient treated with ifosfamide.
+tmkp-2026-04-21-edge-audit-batch-001-1400,codex-manual,2026-05-04,supported,good,good,,Plerixafor related adverse events included abdominal pain.

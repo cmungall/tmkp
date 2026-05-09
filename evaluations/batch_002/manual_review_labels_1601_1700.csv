@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-002-1601,codex-manual,2026-05-04,supported,good,good,,Magnesium sulfate infusion was reported for refractory spasticity.
+tmkp-2026-04-21-edge-audit-batch-002-1602,codex-manual,2026-05-04,unsupported,bad,bad,statistical_notation_context,I2 was a heterogeneity statistic not iodine.
+tmkp-2026-04-21-edge-audit-batch-002-1603,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Abdominal pain was a donepezil adverse effect.
+tmkp-2026-04-21-edge-audit-batch-002-1604,codex-manual,2026-05-04,partially_supported,good,partial,generic_subject,GABA-enhancing drugs were studied against generalized tonic-clonic seizures.
+tmkp-2026-04-21-edge-audit-batch-002-1605,codex-manual,2026-05-04,supported,good,good,,Thyrotropin-releasing hormone improves myoclonus epilepsy.
+tmkp-2026-04-21-edge-audit-batch-002-1606,codex-manual,2026-05-04,supported,good,good,,C1 inhibitor treats hereditary angioneurotic edema.
+tmkp-2026-04-21-edge-audit-batch-002-1607,codex-manual,2026-05-04,supported,good,good,,Miransertib is investigated for overgrowth diseases.
+tmkp-2026-04-21-edge-audit-batch-002-1608,codex-manual,2026-05-04,supported,good,good,,Memantine has been used for phantom limb pain.
+tmkp-2026-04-21-edge-audit-batch-002-1609,codex-manual,2026-05-04,supported,good,good,,Naproxen is used to treat fever.
+tmkp-2026-04-21-edge-audit-batch-002-1610,codex-manual,2026-05-04,supported,good,good,,Detomidine was evaluated in horses with abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-002-1611,codex-manual,2026-05-04,supported,good,good,,Rolipram ameliorated edema severity in pancreatitis.
+tmkp-2026-04-21-edge-audit-batch-002-1612,codex-manual,2026-05-04,partially_supported,partial,good,indirect_treatment_context,Flunarizine targeted perfusion in a condition with cognitive deficits.
+tmkp-2026-04-21-edge-audit-batch-002-1613,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Abnormal pigmentation was higher with S-1 plus anlotinib.
+tmkp-2026-04-21-edge-audit-batch-002-1614,codex-manual,2026-05-04,unclear,unclear,good,hypothesis_context,Future studies were proposed for phosphorus and short stature.
+tmkp-2026-04-21-edge-audit-batch-002-1615,codex-manual,2026-05-04,unsupported,bad,good,mechanism_context,Aldosterone mediated electrophysiology in patients with ventricular arrhythmias.
+tmkp-2026-04-21-edge-audit-batch-002-1616,codex-manual,2026-05-04,supported,good,good,,Basil oil has been used to treat fever.
+tmkp-2026-04-21-edge-audit-batch-002-1617,codex-manual,2026-05-04,supported,good,good,,Pyrroloquinoline quinone inhibited paw edema.
+tmkp-2026-04-21-edge-audit-batch-002-1618,codex-manual,2026-05-04,supported,good,good,,Cortisol replacement improved sleep disturbance.
+tmkp-2026-04-21-edge-audit-batch-002-1619,codex-manual,2026-05-04,supported,good,good,,Tibolone is used to reduce cognitive deficits.
+tmkp-2026-04-21-edge-audit-batch-002-1620,codex-manual,2026-05-04,unsupported,bad,good,wrong_indication_context,Omeprazole was treatment in a patient with existing ocular myasthenia.
+tmkp-2026-04-21-edge-audit-batch-002-1621,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Aspirin reduced stroke or death after neurological disability but disability was normalized to confusion.
+tmkp-2026-04-21-edge-audit-batch-002-1622,codex-manual,2026-05-04,unsupported,bad,good,wrong_subject_context,Mirtazapine was the drug proposed for mood disorders with weight loss.
+tmkp-2026-04-21-edge-audit-batch-002-1623,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Cyclophosphamide conditioning could explain dental abnormalities.
+tmkp-2026-04-21-edge-audit-batch-002-1624,codex-manual,2026-05-04,supported,good,good,,Prazosin efficacy was evaluated for sleep disturbance.
+tmkp-2026-04-21-edge-audit-batch-002-1625,codex-manual,2026-05-04,supported,good,good,,Ranitidine partially decreased edema formation.
+tmkp-2026-04-21-edge-audit-batch-002-1626,codex-manual,2026-05-04,supported,good,good,,Azimilide is developed to treat ventricular arrhythmias.
+tmkp-2026-04-21-edge-audit-batch-002-1627,codex-manual,2026-05-04,supported,good,good,,Mipomersen was investigated for familial hypercholesterolemia.
+tmkp-2026-04-21-edge-audit-batch-002-1628,codex-manual,2026-05-04,unsupported,bad,good,outcome_monitoring_context,Weight loss was monitored in influenza model after peramivir.
+tmkp-2026-04-21-edge-audit-batch-002-1629,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Amlodipine valsartan and HCTZ attenuated hyperkalemia.
+tmkp-2026-04-21-edge-audit-batch-002-1630,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Corticosteroid and azathioprine treatment reduced tinnitus.
+tmkp-2026-04-21-edge-audit-batch-002-1631,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Cloxacillin with cefixime was used for fever and neutropenia.
+tmkp-2026-04-21-edge-audit-batch-002-1632,codex-manual,2026-05-04,unsupported,bad,good,wrong_indication_context,Ketamine was used for pain control while steroids preceded edema improvement.
+tmkp-2026-04-21-edge-audit-batch-002-1633,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention,Ten was a count of subjects not pentaerythritol tetranitrate.
+tmkp-2026-04-21-edge-audit-batch-002-1634,codex-manual,2026-05-04,supported,good,good,,Fluconazole treatment can avoid visual impairment.
+tmkp-2026-04-21-edge-audit-batch-002-1635,codex-manual,2026-05-04,supported,good,good,,Adjunctive dexamethasone lessens cognitive sequelae.
+tmkp-2026-04-21-edge-audit-batch-002-1636,codex-manual,2026-05-04,supported,good,good,,Mevalonic acid was used in familial hypercholesterolemia patients.
+tmkp-2026-04-21-edge-audit-batch-002-1637,codex-manual,2026-05-04,supported,good,good,,Phentermine topiramate was prescribed for weight loss.
+tmkp-2026-04-21-edge-audit-batch-002-1638,codex-manual,2026-05-04,supported,good,good,,Zinc protoporphyrin partially alleviated edema.
+tmkp-2026-04-21-edge-audit-batch-002-1639,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Dextrose was part of a cocktail for neonatal hyperkalemia.
+tmkp-2026-04-21-edge-audit-batch-002-1640,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,dTMP with dCMP attenuated growth retardation.
+tmkp-2026-04-21-edge-audit-batch-002-1641,codex-manual,2026-05-04,supported,good,good,,Venlafaxine may manage sleep dysfunction.
+tmkp-2026-04-21-edge-audit-batch-002-1642,codex-manual,2026-05-04,supported,good,good,,Clidinium may help abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-002-1643,codex-manual,2026-05-04,supported,good,good,,Rasagiline use was associated with lower apathy scores.
+tmkp-2026-04-21-edge-audit-batch-002-1644,codex-manual,2026-05-04,partially_supported,partial,good,infection_context,Trimethoprim-sulfamethoxazole was used for cellulitic erythema and edema.
+tmkp-2026-04-21-edge-audit-batch-002-1645,codex-manual,2026-05-04,supported,good,good,,Telmisartan was studied to reduce brain atrophy progression.
+tmkp-2026-04-21-edge-audit-batch-002-1646,codex-manual,2026-05-04,supported,good,good,,Magnesium sulfate reduced myoclonic muscle movement severity.
+tmkp-2026-04-21-edge-audit-batch-002-1647,codex-manual,2026-05-04,partially_supported,partial,good,formulation_context,Deoxycholate formulation showed activity against paw edema.
+tmkp-2026-04-21-edge-audit-batch-002-1648,codex-manual,2026-05-04,supported,good,good,,Hydrocodone is a primary drug for pain treatment.
+tmkp-2026-04-21-edge-audit-batch-002-1649,codex-manual,2026-05-04,supported,good,good,,Aminopyrine partially inhibited edema.
+tmkp-2026-04-21-edge-audit-batch-002-1650,codex-manual,2026-05-04,unclear,unclear,good,model_or_assay_context,Dextromethorphan was evaluated in ataxic-gait mice but result was not shown.
+tmkp-2026-04-21-edge-audit-batch-002-1651,codex-manual,2026-05-04,supported,good,good,,GPER mediated metastatic spread of renal cancer.
+tmkp-2026-04-21-edge-audit-batch-002-1652,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,HML referred to HERV-K family not CLEC10A.
+tmkp-2026-04-21-edge-audit-batch-002-1653,codex-manual,2026-05-04,supported,good,good,generic_object,MBTPS2 mutations cause a syndrome spectrum.
+tmkp-2026-04-21-edge-audit-batch-002-1654,codex-manual,2026-05-04,partially_supported,partial,good,cell_line_context,LC3B accumulated in colorectal cancer cells during necroptosis.
+tmkp-2026-04-21-edge-audit-batch-002-1655,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,BAP1 mutation was associated with malignant peripheral nerve sheath tumor.
+tmkp-2026-04-21-edge-audit-batch-002-1656,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_context,Ubiquitin-related peptide biosynthesis was observed in pituitary tumors.
+tmkp-2026-04-21-edge-audit-batch-002-1657,codex-manual,2026-05-04,unsupported,bad,good,treatment_context,Tissue-type plasminogen activator lysed thrombus in a lymphoma patient.
+tmkp-2026-04-21-edge-audit-batch-002-1658,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Dependent referred to androgen dependence not a disease.
+tmkp-2026-04-21-edge-audit-batch-002-1659,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,LAP was laparoscopic resection not CPAP.
+tmkp-2026-04-21-edge-audit-batch-002-1660,codex-manual,2026-05-04,supported,good,good,,S100A2 overexpression is a prognostic marker in colorectal cancer.
+tmkp-2026-04-21-edge-audit-batch-002-1661,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_context,CD34 was studied as a marker in atypical neurofibroma.
+tmkp-2026-04-21-edge-audit-batch-002-1662,codex-manual,2026-05-04,unsupported,bad,good,inverse_context,Deafness induced GluR2 upregulation.
+tmkp-2026-04-21-edge-audit-batch-002-1663,codex-manual,2026-05-04,supported,good,good,,Slc52a3 knockout mice developed hypoglycemia.
+tmkp-2026-04-21-edge-audit-batch-002-1664,codex-manual,2026-05-04,supported,good,good,,MOZ-TIF2 fusion was demonstrated in acute myeloid leukemia.
+tmkp-2026-04-21-edge-audit-batch-002-1665,codex-manual,2026-05-04,unsupported,bad,good,wrong_object_context,MMP2 and HPV infection were associated with malignant transformation.
+tmkp-2026-04-21-edge-audit-batch-002-1666,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,PRX3 knockdown reduced mesothelioma proliferation.
+tmkp-2026-04-21-edge-audit-batch-002-1667,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,GSD meant gallstone disease not glycogen storage disease.
+tmkp-2026-04-21-edge-audit-batch-002-1668,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_context,Periostin affected hypertrophic scar fibroblasts.
+tmkp-2026-04-21-edge-audit-batch-002-1669,codex-manual,2026-05-04,partially_supported,good,bad,normalization_error,TNF alpha was associated with autism but normalized to CD70.
+tmkp-2026-04-21-edge-audit-batch-002-1670,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,SAT1 variants were associated with anxiety but subject was SLC38A1.
+tmkp-2026-04-21-edge-audit-batch-002-1671,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,TRAF-1 was associated with renal cell carcinoma not TNFSF8.
+tmkp-2026-04-21-edge-audit-batch-002-1672,codex-manual,2026-05-04,supported,good,good,,L-PGDS expression was found in ovarian cancers.
+tmkp-2026-04-21-edge-audit-batch-002-1673,codex-manual,2026-05-04,partially_supported,partial,good,treatment_inference_context,Endothelin-A receptor antagonism retarded nephropathy progression.
+tmkp-2026-04-21-edge-audit-batch-002-1674,codex-manual,2026-05-04,unsupported,bad,good,protective_context,IL-10 production suppressed autoimmune encephalitis models.
+tmkp-2026-04-21-edge-audit-batch-002-1675,codex-manual,2026-05-04,unsupported,bad,good,associated_protein_context,NBS1 is the Nijmegen breakage syndrome gene and associates with RAD50.
+tmkp-2026-04-21-edge-audit-batch-002-1676,codex-manual,2026-05-04,partially_supported,partial,good,multi_cancer_context,PSMD4 knockdown affected pathways in multiple cancer cell lines including lung cancer.
+tmkp-2026-04-21-edge-audit-batch-002-1677,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_context,PITX1 was upregulated in lung cancer cell lines after treatment.
+tmkp-2026-04-21-edge-audit-batch-002-1678,codex-manual,2026-05-04,unclear,unclear,good,model_or_assay_context,REG3A transgenic and protein models were used after colitis induction.
+tmkp-2026-04-21-edge-audit-batch-002-1679,codex-manual,2026-05-04,supported,good,good,generic_object,CD2AP-deficient mice developed nephritic syndrome.
+tmkp-2026-04-21-edge-audit-batch-002-1680,codex-manual,2026-05-04,supported,good,good,,T cell protein tyrosine phosphatase deficiency caused synovitis.
+tmkp-2026-04-21-edge-audit-batch-002-1681,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,neu referred to HER2 not NEU1.
+tmkp-2026-04-21-edge-audit-batch-002-1682,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,MUC1 was a biomarker of colorectal adenocarcinoma but subject was MUC22.
+tmkp-2026-04-21-edge-audit-batch-002-1683,codex-manual,2026-05-04,unsupported,bad,bad,cell_line_normalization,PC-9 was a lung cancer cell line not PCSK9.
+tmkp-2026-04-21-edge-audit-batch-002-1684,codex-manual,2026-05-04,unsupported,bad,good,cell_marker_context,CD4 marked T-cell lymphomas rather than myeloproliferative disorder.
+tmkp-2026-04-21-edge-audit-batch-002-1685,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,LRSAM1 ubiquitin ligase was associated with CMT2P.
+tmkp-2026-04-21-edge-audit-batch-002-1686,codex-manual,2026-05-04,supported,good,good,,SMC4 contributed to glioma cell aggressiveness.
+tmkp-2026-04-21-edge-audit-batch-002-1687,codex-manual,2026-05-04,supported,good,good,,TGF-beta type II receptor isoforms contribute to AML.
+tmkp-2026-04-21-edge-audit-batch-002-1688,codex-manual,2026-05-04,supported,good,good,,SIRT5 promotes tumorigenesis in colorectal cancer.
+tmkp-2026-04-21-edge-audit-batch-002-1689,codex-manual,2026-05-04,supported,good,good,,Geminin expression was studied in malignant brain tumors.
+tmkp-2026-04-21-edge-audit-batch-002-1690,codex-manual,2026-05-04,supported,good,good,,CARD15 NOD2 was associated with psoriatic arthritis.
+tmkp-2026-04-21-edge-audit-batch-002-1691,codex-manual,2026-05-04,unsupported,bad,good,list_context,OFD1 and Meckel syndrome were separate listed monogenic syndromes.
+tmkp-2026-04-21-edge-audit-batch-002-1692,codex-manual,2026-05-04,supported,good,good,,NSD1 has recurrent loss-of-function mutations in hematological malignancies.
+tmkp-2026-04-21-edge-audit-batch-002-1693,codex-manual,2026-05-04,supported,good,good,,HDAC4 haploinsufficiency causes brachydactyly mental retardation syndrome.
+tmkp-2026-04-21-edge-audit-batch-002-1694,codex-manual,2026-05-04,supported,good,good,,IL18BP levels are elevated in chronic liver disease.
+tmkp-2026-04-21-edge-audit-batch-002-1695,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_context,HRH1 was expressed in brain cancer tissues.
+tmkp-2026-04-21-edge-audit-batch-002-1696,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,ALP markers were compared against benign prostatic hyperplasia.
+tmkp-2026-04-21-edge-audit-batch-002-1697,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,RCC meant renal cell carcinoma not refractory cytopenia of childhood.
+tmkp-2026-04-21-edge-audit-batch-002-1698,codex-manual,2026-05-04,supported,good,good,,RASSF2 promoter methylation is detected in colorectal cancer.
+tmkp-2026-04-21-edge-audit-batch-002-1699,codex-manual,2026-05-04,supported,good,good,,FOLR1 overexpression correlates with breast tumors and poor prognosis.
+tmkp-2026-04-21-edge-audit-batch-002-1700,codex-manual,2026-05-04,supported,good,good,,Loss of ZIP13 function causes Ehlers-Danlos syndrome.

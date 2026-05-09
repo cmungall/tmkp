@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-001-1526,codex-manual,2026-05-04,supported,good,good,treatment_context,infliximab was evaluated to treat cancer cachexia
+tmkp-2026-04-21-edge-audit-batch-001-1527,codex-manual,2026-05-04,supported,good,good,model_or_assay_context|treatment_context,glycine prevented myocardial necrosis in rat heart
+tmkp-2026-04-21-edge-audit-batch-001-1528,codex-manual,2026-05-04,supported,good,good,model_or_assay_context|treatment_context,17-AAG treatment reduced motor neuron degeneration
+tmkp-2026-04-21-edge-audit-batch-001-1529,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment,dextrose was part of combined intravenous treatment for hyperosmolar coma
+tmkp-2026-04-21-edge-audit-batch-001-1530,codex-manual,2026-05-04,supported,good,good,model_or_assay_context|treatment_context,rosiglitazone ameliorated cognitive impairment
+tmkp-2026-04-21-edge-audit-batch-001-1531,codex-manual,2026-05-04,supported,good,good,treatment_context,levothyroxine therapy abated ventricular arrhythmias
+tmkp-2026-04-21-edge-audit-batch-001-1532,codex-manual,2026-05-04,partially_supported,partial,good,treatment_of_other_condition|symptom_context,sodium stibogluconate managed cases where fever was a presenting symptom
+tmkp-2026-04-21-edge-audit-batch-001-1533,codex-manual,2026-05-04,partially_supported,partial,good,treatment_of_other_condition|symptom_context,vortioxetine treated major depression associated with tinnitus
+tmkp-2026-04-21-edge-audit-batch-001-1534,codex-manual,2026-05-04,supported,good,good,treatment_context,nitrates improved ventricular dilation
+tmkp-2026-04-21-edge-audit-batch-001-1535,codex-manual,2026-05-04,unsupported,bad,good,model_or_assay_only|cohort_or_exposure_only,captopril was studied in models that included increased blood pressure
+tmkp-2026-04-21-edge-audit-batch-001-1536,codex-manual,2026-05-04,supported,good,good,treatment_context,pranoprofen gel reduced edema size
+tmkp-2026-04-21-edge-audit-batch-001-1537,codex-manual,2026-05-04,supported,good,good,treatment_context,erythema decreased after povidone iodine treatment
+tmkp-2026-04-21-edge-audit-batch-001-1538,codex-manual,2026-05-04,partially_supported,partial,good,heterogeneous_cohort|combination_treatment,allopurinol was used in stone formers with hypercalciuria or hyperuricosuria
+tmkp-2026-04-21-edge-audit-batch-001-1539,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment|symptom_context,hydroxyzine was allowed on demand for worsening symptoms including edema
+tmkp-2026-04-21-edge-audit-batch-001-1540,codex-manual,2026-05-04,partially_supported,good,partial,related_material_context,rosemary relieved erythema but the normalized subject is rosemary oil
+tmkp-2026-04-21-edge-audit-batch-001-1541,codex-manual,2026-05-04,unsupported,bad,bad,comparator_context|generic_subject|normalization_error,saline was comparator and MNCs reduced brain atrophy
+tmkp-2026-04-21-edge-audit-batch-001-1542,codex-manual,2026-05-04,supported,good,good,treatment_context,dichloroacetate ameliorated edema
+tmkp-2026-04-21-edge-audit-batch-001-1543,codex-manual,2026-05-04,supported,good,good,treatment_context,rapamycin reduced edema
+tmkp-2026-04-21-edge-audit-batch-001-1544,codex-manual,2026-05-04,supported,good,good,treatment_context,idebenone is described as treating visual impairment
+tmkp-2026-04-21-edge-audit-batch-001-1545,codex-manual,2026-05-04,supported,good,good,treatment_context,miconazole was used for cutaneous infections
+tmkp-2026-04-21-edge-audit-batch-001-1546,codex-manual,2026-05-04,supported,good,good,treatment_context,ginger has medicinal use for treatment of fever
+tmkp-2026-04-21-edge-audit-batch-001-1547,codex-manual,2026-05-04,unsupported,bad,good,adverse_event_context,idarubicin treatment preceded pulmonary infiltration
+tmkp-2026-04-21-edge-audit-batch-001-1548,codex-manual,2026-05-04,partially_supported,partial,good,treatment_of_other_condition,lacosamide treated juvenile myoclonic epilepsy rather than myoclonus directly
+tmkp-2026-04-21-edge-audit-batch-001-1549,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,TSA is surgery context rather than trichostatin A
+tmkp-2026-04-21-edge-audit-batch-001-1550,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,IDU refers to a population measure not idoxuridine
+tmkp-2026-04-21-edge-audit-batch-001-1551,codex-manual,2026-05-04,supported,good,good,treatment_context,diplopia disappeared after tetracosactide administration
+tmkp-2026-04-21-edge-audit-batch-001-1552,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|negation_or_hedging,sodium is part of valproate sodium and the seizures had no response
+tmkp-2026-04-21-edge-audit-batch-001-1553,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,ten is a count of patients not pentaerythritol tetranitrate
+tmkp-2026-04-21-edge-audit-batch-001-1554,codex-manual,2026-05-04,supported,good,good,treatment_context,aflibercept improved edema
+tmkp-2026-04-21-edge-audit-batch-001-1555,codex-manual,2026-05-04,supported,good,good,treatment_context,isradipine substitution reduced edema rates
+tmkp-2026-04-21-edge-audit-batch-001-1556,codex-manual,2026-05-04,supported,good,good,study_context|treatment_context,topiramate was evaluated for typical absence seizures
+tmkp-2026-04-21-edge-audit-batch-001-1557,codex-manual,2026-05-04,partially_supported,good,good,combination_treatment,vitamin E was part of combined therapy improving visual loss
+tmkp-2026-04-21-edge-audit-batch-001-1558,codex-manual,2026-05-04,partially_supported,good,partial,related_material_context,olive fruit and oil are used for abdominal pain but subject is leaf
+tmkp-2026-04-21-edge-audit-batch-001-1559,codex-manual,2026-05-04,partially_supported,partial,good,symptom_improvement_context,DEX administration reduced prior drowsiness and other symptoms
+tmkp-2026-04-21-edge-audit-batch-001-1560,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,felbinac failed to inhibit edema
+tmkp-2026-04-21-edge-audit-batch-001-1561,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_only,pravastatin was present in a statin group with cognitive deficits
+tmkp-2026-04-21-edge-audit-batch-001-1562,codex-manual,2026-05-04,unsupported,bad,good,adverse_event_context,imipenem cilastatin warning includes myoclonic activity
+tmkp-2026-04-21-edge-audit-batch-001-1563,codex-manual,2026-05-04,supported,good,good,treatment_context,amantadine has been administered to patients with spasticity
+tmkp-2026-04-21-edge-audit-batch-001-1564,codex-manual,2026-05-04,unsupported,bad,good,adverse_event_context|treatment_of_other_condition,polymyxin B treats infection while corneal opacity may occur after treatment
+tmkp-2026-04-21-edge-audit-batch-001-1565,codex-manual,2026-05-04,supported,good,good,study_context|treatment_context,triflusal was tested in mild cognitive impairment
+tmkp-2026-04-21-edge-audit-batch-001-1566,codex-manual,2026-05-04,supported,good,good,treatment_context,clebopride prevented nausea and vomiting
+tmkp-2026-04-21-edge-audit-batch-001-1567,codex-manual,2026-05-04,supported,good,good,treatment_context,lamivudine treatment reduced edema
+tmkp-2026-04-21-edge-audit-batch-001-1568,codex-manual,2026-05-04,supported,good,good,model_or_assay_context|treatment_context,clioquinol corrected cognitive deficits in mice
+tmkp-2026-04-21-edge-audit-batch-001-1569,codex-manual,2026-05-04,partially_supported,partial,good,inference_context|treatment_of_other_condition,deferasirox controls iron burden related to growth problems but does not directly treat growth delay
+tmkp-2026-04-21-edge-audit-batch-001-1570,codex-manual,2026-05-04,unsupported,bad,good,adverse_event_context,infliximab adverse events included vomiting
+tmkp-2026-04-21-edge-audit-batch-001-1571,codex-manual,2026-05-04,supported,good,good,treatment_context,modafinil decreased edema
+tmkp-2026-04-21-edge-audit-batch-001-1572,codex-manual,2026-05-04,supported,good,good,treatment_context,andrographolide attenuated cognitive deficits
+tmkp-2026-04-21-edge-audit-batch-001-1573,codex-manual,2026-05-04,unsupported,bad,good,related_treatment_context,tinnitus improved after tacrolimus discontinuation and sirolimus was alternative therapy context
+tmkp-2026-04-21-edge-audit-batch-001-1574,codex-manual,2026-05-04,partially_supported,good,partial,object_mismatch,timolol treats intraocular hypertonia but object label is broader hypertonia
+tmkp-2026-04-21-edge-audit-batch-001-1575,codex-manual,2026-05-04,partially_supported,partial,good,treatment_of_other_condition,antiviral agents treat infections that cause visual loss
+tmkp-2026-04-21-edge-audit-batch-001-1576,codex-manual,2026-05-04,supported,good,good,treatment_context,aminophylline was used in neonatal apnea management
+tmkp-2026-04-21-edge-audit-batch-001-1577,codex-manual,2026-05-04,partially_supported,partial,good,symptom_context|combination_treatment,indomethacin therapy relieved headache associated with visual loss
+tmkp-2026-04-21-edge-audit-batch-001-1578,codex-manual,2026-05-04,unsupported,bad,good,withdrawal_context,MTX dose reduction was followed by skin nodule regression
+tmkp-2026-04-21-edge-audit-batch-001-1579,codex-manual,2026-05-04,unsupported,bad,good,treatment_of_other_condition,calcium channel blockers treated hypertension associated with renal artery stenosis
+tmkp-2026-04-21-edge-audit-batch-001-1580,codex-manual,2026-05-04,supported,good,good,model_or_assay_context|treatment_context,mTOR inhibitors reversed macrocephaly in mice
+tmkp-2026-04-21-edge-audit-batch-001-1581,codex-manual,2026-05-04,supported,good,good,treatment_context,granisetron was used to treat nausea and vomiting
+tmkp-2026-04-21-edge-audit-batch-001-1582,codex-manual,2026-05-04,supported,good,good,model_or_assay_context|treatment_context,quercetin reduced body weight loss in mice
+tmkp-2026-04-21-edge-audit-batch-001-1583,codex-manual,2026-05-04,supported,good,good,treatment_context,dextran sulfate LDL apheresis is used in familial hypercholesterolemia
+tmkp-2026-04-21-edge-audit-batch-001-1584,codex-manual,2026-05-04,unsupported,bad,good,treatment_of_other_condition|symptom_context,gentamicin treated suspected meningitis and drowsiness was a presenting symptom
+tmkp-2026-04-21-edge-audit-batch-001-1585,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,isoproterenol decreased resolution of edema
+tmkp-2026-04-21-edge-audit-batch-001-1586,codex-manual,2026-05-04,unsupported,bad,good,comparator_context|adverse_event_context,EVG was comparator with lower sleep disturbance rates than DTG
+tmkp-2026-04-21-edge-audit-batch-001-1587,codex-manual,2026-05-04,unsupported,bad,good,model_or_assay_only,cocaine effects on seizure susceptibility were investigated
+tmkp-2026-04-21-edge-audit-batch-001-1588,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product|predicate_overbroad,estrogen appears in a prognosis drug list not as ventricular arrhythmia treatment
+tmkp-2026-04-21-edge-audit-batch-001-1589,codex-manual,2026-05-04,supported,good,good,model_or_assay_context|treatment_context,betaine supplementation reduced cerebellar abnormalities
+tmkp-2026-04-21-edge-audit-batch-001-1590,codex-manual,2026-05-04,unsupported,bad,good,inference_context,further study was needed for DHA effects on weight loss
+tmkp-2026-04-21-edge-audit-batch-001-1591,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging|related_chemical_context,phencyclidine type antagonists are precluded from clinical use
+tmkp-2026-04-21-edge-audit-batch-001-1592,codex-manual,2026-05-04,supported,good,good,treatment_context,tetracycline agents improved ocular inflammation
+tmkp-2026-04-21-edge-audit-batch-001-1593,codex-manual,2026-05-04,supported,good,good,treatment_context,itraconazole treated Malassezia overgrowth
+tmkp-2026-04-21-edge-audit-batch-001-1594,codex-manual,2026-05-04,supported,good,good,treatment_context,tirasemtiv is being developed for muscle weakness and wasting
+tmkp-2026-04-21-edge-audit-batch-001-1595,codex-manual,2026-05-04,supported,good,good,treatment_context,venlafaxine reduced pain intensity
+tmkp-2026-04-21-edge-audit-batch-001-1596,codex-manual,2026-05-04,supported,good,good,treatment_context,antifungal drugs are clinical treatment for cutaneous infections
+tmkp-2026-04-21-edge-audit-batch-001-1597,codex-manual,2026-05-04,supported,good,good,treatment_context,EPA improved sleep disturbance
+tmkp-2026-04-21-edge-audit-batch-001-1598,codex-manual,2026-05-04,supported,good,good,treatment_context,pancuronium was used to treat muscular hyperactivity
+tmkp-2026-04-21-edge-audit-batch-001-1599,codex-manual,2026-05-04,supported,good,good,treatment_context,ricinoleic acid formulation reduced edema
+tmkp-2026-04-21-edge-audit-batch-001-1600,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,date is calendar recording context not a treatment
+tmkp-2026-04-21-edge-audit-batch-001-1601,codex-manual,2026-05-04,unsupported,bad,good,adverse_event_context,5-fluorouracil can cause mental deterioration
+tmkp-2026-04-21-edge-audit-batch-001-1602,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_only,azithromycin therapy was not associated with mortality and did not treat muscle weakness
+tmkp-2026-04-21-edge-audit-batch-001-1603,codex-manual,2026-05-04,supported,good,good,treatment_context,hymecromone reduced abdominal pain intensity
+tmkp-2026-04-21-edge-audit-batch-001-1604,codex-manual,2026-05-04,unsupported,bad,good,adverse_event_context|treatment_of_other_condition,acyclovir was empiric therapy and gait ataxia developed despite treatment
+tmkp-2026-04-21-edge-audit-batch-001-1605,codex-manual,2026-05-04,supported,good,good,treatment_context,edema was reduced after epinastine treatment
+tmkp-2026-04-21-edge-audit-batch-001-1606,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,NAA analogue context is not 1-naphthaleneacetic acid
+tmkp-2026-04-21-edge-audit-batch-001-1607,codex-manual,2026-05-04,supported,good,good,study_context|treatment_context,flurbiprofen was studied for sleep disturbance in active rheumatoid arthritis
+tmkp-2026-04-21-edge-audit-batch-001-1608,codex-manual,2026-05-04,partially_supported,good,good,combination_treatment,ofloxacin plus ornidazole reduced abdominal pain
+tmkp-2026-04-21-edge-audit-batch-001-1609,codex-manual,2026-05-04,supported,good,good,study_context|treatment_context,minocycline was tested to attenuate visual impairment
+tmkp-2026-04-21-edge-audit-batch-001-1610,codex-manual,2026-05-04,unsupported,bad,good,adverse_event_context,surfactant can cause refractory hypoxemia
+tmkp-2026-04-21-edge-audit-batch-001-1611,codex-manual,2026-05-04,unsupported,bad,bad,cohort_or_exposure_only|object_mismatch,pentobarbital dose requirements were assessed in children with disability
+tmkp-2026-04-21-edge-audit-batch-001-1612,codex-manual,2026-05-04,supported,good,good,study_context|treatment_context,ibuprofen trial aimed to prevent recurrent febrile seizures
+tmkp-2026-04-21-edge-audit-batch-001-1613,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,TMP did not reverse generalized seizure phenotypes
+tmkp-2026-04-21-edge-audit-batch-001-1614,codex-manual,2026-05-04,partially_supported,good,partial,related_exposure_context,zinc biofortified wheat reduced days with vomiting
+tmkp-2026-04-21-edge-audit-batch-001-1615,codex-manual,2026-05-04,supported,good,good,treatment_context,otilonium reduced abdominal pain
+tmkp-2026-04-21-edge-audit-batch-001-1616,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_only|treatment_context,testosterone treatment changed markers in children with short stature
+tmkp-2026-04-21-edge-audit-batch-001-1617,codex-manual,2026-05-04,supported,good,good,model_or_assay_context|treatment_context,DHT ameliorated edema
+tmkp-2026-04-21-edge-audit-batch-001-1618,codex-manual,2026-05-04,supported,good,good,treatment_context,gemcitabine clinical response reduced weight loss
+tmkp-2026-04-21-edge-audit-batch-001-1619,codex-manual,2026-05-04,supported,good,good,treatment_context,theophylline may be candidate treatment for cachexia
+tmkp-2026-04-21-edge-audit-batch-001-1620,codex-manual,2026-05-04,supported,good,good,model_or_assay_context|treatment_context,candesartan ameliorated body weight loss
+tmkp-2026-04-21-edge-audit-batch-001-1621,codex-manual,2026-05-04,partially_supported,partial,good,negation_or_hedging|treatment_context,THIP had analgesic effect but could not be used due to side effects
+tmkp-2026-04-21-edge-audit-batch-001-1622,codex-manual,2026-05-04,supported,good,good,treatment_context,vitamin B6 reduced vomiting severity
+tmkp-2026-04-21-edge-audit-batch-001-1623,codex-manual,2026-05-04,partially_supported,partial,good,treatment_of_other_condition,propiverine improved urinary symptoms associated with neurogenic bladder
+tmkp-2026-04-21-edge-audit-batch-001-1624,codex-manual,2026-05-04,supported,good,good,treatment_context,Atropa belladonna inhibited edema
+tmkp-2026-04-21-edge-audit-batch-001-1625,codex-manual,2026-05-04,supported,good,good,model_or_assay_context|treatment_context,puerarin ameliorated cognitive impairment

@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-002-0301,codex-manual,2026-05-04,partially_supported,partial,partial,related_product_context,Propolis applications include neurodermatitis but quercetin support is indirect.
+tmkp-2026-04-21-edge-audit-batch-002-0302,codex-manual,2026-05-04,partially_supported,partial,good,pharmacology_context,Glycopyrronium had a therapeutic index for hypotension and bradycardia.
+tmkp-2026-04-21-edge-audit-batch-002-0303,codex-manual,2026-05-04,partially_supported,bad,good,diagnostic_context,Indocyanine green was tested in vulvar cancer as a procedure aid.
+tmkp-2026-04-21-edge-audit-batch-002-0304,codex-manual,2026-05-04,supported,good,good,,Polymers can reduce coagulation and thrombosis.
+tmkp-2026-04-21-edge-audit-batch-002-0305,codex-manual,2026-05-04,supported,good,good,,Dabrafenib and trametinib are being studied for low grade glioma.
+tmkp-2026-04-21-edge-audit-batch-002-0306,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_context,Temozolomide altered biomarkers in breast tumors.
+tmkp-2026-04-21-edge-audit-batch-002-0307,codex-manual,2026-05-04,supported,good,good,,Acanthamoeba keratitis isolates were treated with fluconazole.
+tmkp-2026-04-21-edge-audit-batch-002-0308,codex-manual,2026-05-04,supported,good,good,,Tanakan efficacy was established in hypoxic ischemic encephalopathy.
+tmkp-2026-04-21-edge-audit-batch-002-0309,codex-manual,2026-05-04,partially_supported,partial,good,hypothesized_treatment,Amrinone could be beneficial for asthma treatment.
+tmkp-2026-04-21-edge-audit-batch-002-0310,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,TAK-243 was tested on cutaneous squamous cell carcinoma cell lines.
+tmkp-2026-04-21-edge-audit-batch-002-0311,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,DEX means dexamethasone not dextromethorphan.
+tmkp-2026-04-21-edge-audit-batch-002-0312,codex-manual,2026-05-04,supported,good,good,study_protocol_context,Lipoic acid efficacy in erectile dysfunction is the subject of a review protocol.
+tmkp-2026-04-21-edge-audit-batch-002-0313,codex-manual,2026-05-04,unsupported,bad,good,adverse_event_context,Sunitinib was correlated with pancreatitis as an adverse association.
+tmkp-2026-04-21-edge-audit-batch-002-0314,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Sodium acetate in a short chain fatty acid mixture decreased proteinuria.
+tmkp-2026-04-21-edge-audit-batch-002-0315,codex-manual,2026-05-04,unsupported,bad,bad,cohort_or_exposure_context|normalization_error,Voriconazole treated CNS lesions in an SLE patient.
+tmkp-2026-04-21-edge-audit-batch-002-0316,codex-manual,2026-05-04,supported,good,good,combination_treatment_context,PALA was used as active biomodulation of fluorouracil for colorectal cancer.
+tmkp-2026-04-21-edge-audit-batch-002-0317,codex-manual,2026-05-04,partially_supported,partial,good,hypothesized_treatment,cAMP accumulating compounds could reduce neuropsychiatric symptoms.
+tmkp-2026-04-21-edge-audit-batch-002-0318,codex-manual,2026-05-04,unsupported,bad,good,model_or_assay_context,Zeranol implantation was used to study tumor formation.
+tmkp-2026-04-21-edge-audit-batch-002-0319,codex-manual,2026-05-04,partially_supported,partial,good,supportive_care_context,Sargramostim was an adjunct to chemotherapy for germ cell tumors.
+tmkp-2026-04-21-edge-audit-batch-002-0320,codex-manual,2026-05-04,partially_supported,partial,partial,generic_object,Cabozantinib responses were observed against generic brain disease.
+tmkp-2026-04-21-edge-audit-batch-002-0321,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|biomarker_or_expression_context,Biomarker is not a treatment for PID.
+tmkp-2026-04-21-edge-audit-batch-002-0322,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,MDS means myelodysplastic syndrome not Miller-Dieker syndrome.
+tmkp-2026-04-21-edge-audit-batch-002-0323,codex-manual,2026-05-04,unsupported,bad,good,treatment_of_other_condition,Cortone acetate was started for adrenal insufficiency not central hypothyroidism.
+tmkp-2026-04-21-edge-audit-batch-002-0324,codex-manual,2026-05-04,supported,good,good,,2X-121 entered a phase 2 clinical trial for pancreatic cancer.
+tmkp-2026-04-21-edge-audit-batch-002-0325,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_context,Sodium nitrite suppressed delayed type hypersensitivity.
+tmkp-2026-04-21-edge-audit-batch-002-0326,codex-manual,2026-05-04,supported,good,good,,Angiotensin 1-7 protects against brain ischemia.
+tmkp-2026-04-21-edge-audit-batch-002-0327,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_context,Sertraline induced apoptosis in lung adenocarcinoma cells.
+tmkp-2026-04-21-edge-audit-batch-002-0328,codex-manual,2026-05-04,supported,good,good,,Mesalazine treatment was studied in colorectal polyp patients.
+tmkp-2026-04-21-edge-audit-batch-002-0329,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product,Bicalutamide belongs to the prostate disease area not type 2 diabetes treatment.
+tmkp-2026-04-21-edge-audit-batch-002-0330,codex-manual,2026-05-04,supported,good,good,,Squamous cell carcinoma was successfully treated with intralesional cidofovir.
+tmkp-2026-04-21-edge-audit-batch-002-0331,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Rosuvastatin subjects were explicitly without fragile X syndrome.
+tmkp-2026-04-21-edge-audit-batch-002-0332,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Thiazolidinedione reduced metastasis in a mouse model of rectal cancer.
+tmkp-2026-04-21-edge-audit-batch-002-0333,codex-manual,2026-05-04,unsupported,bad,good,model_or_assay_context,ZSTK474 blocked NK cell killing of a lymphoma target cell line.
+tmkp-2026-04-21-edge-audit-batch-002-0334,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Luminal breast cancer cell lines responded to GSK690693.
+tmkp-2026-04-21-edge-audit-batch-002-0335,codex-manual,2026-05-04,unsupported,bad,good,inverse_deficiency_context,Zinc deficiency was associated with restless leg syndrome.
+tmkp-2026-04-21-edge-audit-batch-002-0336,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,AMD3100 and SCID mouse model context do not support methyldopa.
+tmkp-2026-04-21-edge-audit-batch-002-0337,codex-manual,2026-05-04,supported,good,good,,PRI-724 was in a clinical trial for acute myeloid leukemia.
+tmkp-2026-04-21-edge-audit-batch-002-0338,codex-manual,2026-05-04,supported,good,good,,Fluocortolone was used in treatment for uveitis.
+tmkp-2026-04-21-edge-audit-batch-002-0339,codex-manual,2026-05-04,supported,good,good,,Brivanib showed activity against hepatocellular cancer.
+tmkp-2026-04-21-edge-audit-batch-002-0340,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Phenylbutyrate was tested for growth inhibition in cervical cancer cells.
+tmkp-2026-04-21-edge-audit-batch-002-0341,codex-manual,2026-05-04,supported,good,partial,related_disease_context,Cefbuperazone was given for urinary tract infections including acute cystitis context.
+tmkp-2026-04-21-edge-audit-batch-002-0342,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Tamoxifen inhibited differentiated thyroid cancer growth.
+tmkp-2026-04-21-edge-audit-batch-002-0343,codex-manual,2026-05-04,supported,good,good,,Ursodeoxycholic acid was used as adjuvant therapy for gallstone disease.
+tmkp-2026-04-21-edge-audit-batch-002-0344,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Dalcetrapib had neither harmful nor beneficial effects on atherosclerosis progression.
+tmkp-2026-04-21-edge-audit-batch-002-0345,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,AMD is a dosing strategy not age related macular degeneration.
+tmkp-2026-04-21-edge-audit-batch-002-0346,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,CASCADE is a clopidogrel coronary trial not flufenoxuron.
+tmkp-2026-04-21-edge-audit-batch-002-0347,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_adverse_context,Amprolium induced thiamine deficiency rather than treating beriberi.
+tmkp-2026-04-21-edge-audit-batch-002-0348,codex-manual,2026-05-04,partially_supported,partial,partial,related_disease_context,Roux stasis syndrome improved with tegaserod.
+tmkp-2026-04-21-edge-audit-batch-002-0349,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_context,Oxaliplatin was a prior chemotherapy factor impairing liver regeneration.
+tmkp-2026-04-21-edge-audit-batch-002-0350,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,PFT is a kefir product not bentiromide.
+tmkp-2026-04-21-edge-audit-batch-002-0351,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Oxypurinol reduced focal ischemic brain injury in rats.
+tmkp-2026-04-21-edge-audit-batch-002-0352,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Media is ordinary text not multiple epiphyseal dysplasia.
+tmkp-2026-04-21-edge-audit-batch-002-0353,codex-manual,2026-05-04,partially_supported,partial,good,treatment_of_complication,Gallium nitrate treated hypercalcemia associated with parathyroid carcinoma.
+tmkp-2026-04-21-edge-audit-batch-002-0354,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,CRD response is not chylomicron retention disease.
+tmkp-2026-04-21-edge-audit-batch-002-0355,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|treatment_of_other_condition,APS means antiphospholipid syndrome and phenprocoumon was anticoagulation after thrombosis.
+tmkp-2026-04-21-edge-audit-batch-002-0356,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Intravitreal cephalothin treated bacterial endophthalmitis in rabbits.
+tmkp-2026-04-21-edge-audit-batch-002-0357,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Uridine had cardioprotective effects in myocardial ischemia reperfusion rats.
+tmkp-2026-04-21-edge-audit-batch-002-0358,codex-manual,2026-05-04,partially_supported,partial,good,studied_context,25-hydroxycholesterol was investigated with outcomes including hepatocellular cancer.
+tmkp-2026-04-21-edge-audit-batch-002-0359,codex-manual,2026-05-04,supported,good,good,,Cefiderocol efficacy is being evaluated for bacterial pneumonia.
+tmkp-2026-04-21-edge-audit-batch-002-0360,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,TCC is a chemotherapy protocol not thiocolchicoside.
+tmkp-2026-04-21-edge-audit-batch-002-0361,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Chrysin has antiproliferative activity in oral cavity cancer cells.
+tmkp-2026-04-21-edge-audit-batch-002-0362,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_adverse_context,Estrogen promotes mammary tumor growth and inflammatory cancer context.
+tmkp-2026-04-21-edge-audit-batch-002-0363,codex-manual,2026-05-04,unsupported,bad,good,pathway_context,Cholesterol rescued medulloblastoma pathway activation rather than treating disease.
+tmkp-2026-04-21-edge-audit-batch-002-0364,codex-manual,2026-05-04,supported,good,good,,Paclitaxel was part of chemotherapy for inflammatory myofibroblastic tumor.
+tmkp-2026-04-21-edge-audit-batch-002-0365,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,hES means human embryonic stem cells not hetastarch.
+tmkp-2026-04-21-edge-audit-batch-002-0366,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,TBD means tubulin binding drugs not this compound.
+tmkp-2026-04-21-edge-audit-batch-002-0367,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,ATC is an immunotherapy combination not timonacic.
+tmkp-2026-04-21-edge-audit-batch-002-0368,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,AVN944 was tested on human prostate cancer cells.
+tmkp-2026-04-21-edge-audit-batch-002-0369,codex-manual,2026-05-04,unsupported,bad,good,model_or_assay_context,Deoxycorticosterone acetate was used to create a heart failure model.
+tmkp-2026-04-21-edge-audit-batch-002-0370,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_context,Sildenafil guidance is for men with cardiac disease.
+tmkp-2026-04-21-edge-audit-batch-002-0371,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,Solution is ordinary text for PCSK9 inhibitor treatment.
+tmkp-2026-04-21-edge-audit-batch-002-0372,codex-manual,2026-05-04,supported,good,good,,Antifungal drugs treat cryptococcal meningitis.
+tmkp-2026-04-21-edge-audit-batch-002-0373,codex-manual,2026-05-04,partially_supported,partial,partial,combination_treatment_context,Ox bezoar mixture lowered hyperlipidemia in rabbits.
+tmkp-2026-04-21-edge-audit-batch-002-0374,codex-manual,2026-05-04,supported,good,good,,Fluvoxamine has evidence of efficacy in social anxiety disorder.
+tmkp-2026-04-21-edge-audit-batch-002-0375,codex-manual,2026-05-04,supported,good,good,,Harmine treatment attenuated brain edema.
+tmkp-2026-04-21-edge-audit-batch-002-0376,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Medical is a generic word not multiple epiphyseal dysplasia.
+tmkp-2026-04-21-edge-audit-batch-002-0377,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_context,All trans retinoic acid inhibited growth in a malignant nerve sheath tumor cell line.
+tmkp-2026-04-21-edge-audit-batch-002-0378,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|biomarker_or_expression_context,Biomarkers are studied for major depressive disorder not mal de Debarquement.
+tmkp-2026-04-21-edge-audit-batch-002-0379,codex-manual,2026-05-04,unsupported,bad,good,treatment_of_other_condition,Calcium channel blockers control blood pressure while other therapies correct hypokalemia.
+tmkp-2026-04-21-edge-audit-batch-002-0380,codex-manual,2026-05-04,partially_supported,partial,good,cohort_or_exposure_context,MTX exposure occurred in a rheumatoid vasculitis patient.
+tmkp-2026-04-21-edge-audit-batch-002-0381,codex-manual,2026-05-04,unsupported,bad,good,risk_factor_context,Red meat consumption was analyzed for endometrial cancer risk not treatment.
+tmkp-2026-04-21-edge-audit-batch-002-0382,codex-manual,2026-05-04,supported,good,good,,Flavopiridol showed efficacy across hematologic malignancies.
+tmkp-2026-04-21-edge-audit-batch-002-0383,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Hesperetin supplementation suppressed colon cancer formation markers.
+tmkp-2026-04-21-edge-audit-batch-002-0384,codex-manual,2026-05-04,unsupported,bad,bad,cohort_or_exposure_context|normalization_error,Dydrogesterone was used in PCOD ovulation context not androgen excess treatment.
+tmkp-2026-04-21-edge-audit-batch-002-0385,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Vitamin B6 was part of supplementation that maintained visual acuity in dry AMD.
+tmkp-2026-04-21-edge-audit-batch-002-0386,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Phenformin induced cell death in a head and neck cancer model.
+tmkp-2026-04-21-edge-audit-batch-002-0387,codex-manual,2026-05-04,supported,good,good,,ATL patients received cyclophosphamide.
+tmkp-2026-04-21-edge-audit-batch-002-0388,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Colon cancer cells responded to sunitinib.
+tmkp-2026-04-21-edge-audit-batch-002-0389,codex-manual,2026-05-04,supported,good,good,supportive_care_context,Busulfan is used to precondition hematologic disorder patients before transplant.
+tmkp-2026-04-21-edge-audit-batch-002-0390,codex-manual,2026-05-04,partially_supported,partial,good,treatment_of_symptom,Bupivacaine managed rectal cancer pain rather than treating the cancer.
+tmkp-2026-04-21-edge-audit-batch-002-0391,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,AICAR protected against hepatic injury not porphyria.
+tmkp-2026-04-21-edge-audit-batch-002-0392,codex-manual,2026-05-04,supported,good,good,combination_treatment_context,Cisplatin was combined with recombinant methioninase against colon tumors.
+tmkp-2026-04-21-edge-audit-batch-002-0393,codex-manual,2026-05-04,supported,good,good,,Fludrocortisone efficacy was examined for chronic fatigue syndrome.
+tmkp-2026-04-21-edge-audit-batch-002-0394,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product,Olanzapine and hepatic encephalopathy are separate list items.
+tmkp-2026-04-21-edge-audit-batch-002-0395,codex-manual,2026-05-04,partially_supported,partial,good,prevention_context,Blueberry supplementation was studied in mild cognitive impairment as dementia risk context.
+tmkp-2026-04-21-edge-audit-batch-002-0396,codex-manual,2026-05-04,supported,good,good,combination_treatment_context,MVA p53 virus is used with chemotherapy to treat ovarian cancer.
+tmkp-2026-04-21-edge-audit-batch-002-0397,codex-manual,2026-05-04,unsupported,bad,good,surgical_anesthesia_context,Dexmedetomidine was used during lung cancer surgery.
+tmkp-2026-04-21-edge-audit-batch-002-0398,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Drugs targeting adenosine receptors are in trials for bladder pain syndrome.
+tmkp-2026-04-21-edge-audit-batch-002-0399,codex-manual,2026-05-04,supported,good,partial,generic_subject,Hormonal therapy was used for metastatic prostatic acinar adenocarcinoma.
+tmkp-2026-04-21-edge-audit-batch-002-0400,codex-manual,2026-05-04,unsupported,bad,good,adverse_event_context,Saquinavir was linked to osteoporosis as an adverse effect of HAART.

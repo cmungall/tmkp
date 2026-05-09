@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-002-2901,codex-manual,2026-05-04,supported,good,good,,L-NAME enhanced MYPT-1 phosphorylation
+tmkp-2026-04-21-edge-audit-batch-002-2902,codex-manual,2026-05-04,partially_supported,partial,good,indirect_mechanism,Protamine sulfate injury increased nephrin interaction with lamellipodin
+tmkp-2026-04-21-edge-audit-batch-002-2903,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary text and SPK04 is not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2904,codex-manual,2026-05-04,partially_supported,good,bad,object_normalization_error,Thrombin affects ARP2 complex but not ANGPTL2
+tmkp-2026-04-21-edge-audit-batch-002-2905,codex-manual,2026-05-04,unsupported,bad,bad,species_context,Rabbit is a source species while GSNAP affects NHE3
+tmkp-2026-04-21-edge-audit-batch-002-2906,codex-manual,2026-05-04,supported,good,good,,Alemtuzumab increased Foxp3 positive T cell frequency
+tmkp-2026-04-21-edge-audit-batch-002-2907,codex-manual,2026-05-04,partially_supported,partial,good,combination_context,BMP2 with ATRA inhibited Acp5 expression
+tmkp-2026-04-21-edge-audit-batch-002-2908,codex-manual,2026-05-04,unsupported,bad,bad,object_abbreviation_false_positive,ARC is an ACR response criterion not the ARC gene
+tmkp-2026-04-21-edge-audit-batch-002-2909,codex-manual,2026-05-04,unsupported,bad,bad,object_normalization_error,Bleomycin context concerns APE1 interaction not RPLP0
+tmkp-2026-04-21-edge-audit-batch-002-2910,codex-manual,2026-05-04,partially_supported,good,bad,object_family_normalization_error,NPY increased PPARgamma markers not PPARD specifically
+tmkp-2026-04-21-edge-audit-batch-002-2911,codex-manual,2026-05-04,supported,good,good,,hCG decreased TLR4 in corpus luteum
+tmkp-2026-04-21-edge-audit-batch-002-2912,codex-manual,2026-05-04,unsupported,bad,good,direction_error,HCII inhibits thrombin rather than thrombin causing HCII
+tmkp-2026-04-21-edge-audit-batch-002-2913,codex-manual,2026-05-04,partially_supported,good,bad,object_normalization_error,G-CSF stimulates Raf-1 activation not BRAF
+tmkp-2026-04-21-edge-audit-batch-002-2914,codex-manual,2026-05-04,partially_supported,good,bad,object_normalization_error,Interferon gamma inhibits AMAC-1 expression but AMAC-1 is misnormalized
+tmkp-2026-04-21-edge-audit-batch-002-2915,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary timing text not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2916,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary text in RMD1 context not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2917,codex-manual,2026-05-04,unsupported,bad,bad,direction_error,CAP7 peptides block prothrombin conversion to thrombin
+tmkp-2026-04-21-edge-audit-batch-002-2918,codex-manual,2026-05-04,supported,good,good,animal_model,Ulinastatin increased proliferative activity of CD4 T lymphocytes
+tmkp-2026-04-21-edge-audit-batch-002-2919,codex-manual,2026-05-04,supported,good,partial,object_family_normalization_partial,Leptin upregulates phospholipase A2 activity and protein levels
+tmkp-2026-04-21-edge-audit-batch-002-2920,codex-manual,2026-05-04,supported,good,good,,L-Phenylalanine activates GPR142
+tmkp-2026-04-21-edge-audit-batch-002-2921,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary spheroid context not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2922,codex-manual,2026-05-04,unsupported,bad,bad,direction_error|object_normalization_error,Ang II signaling affects calmodulin kinase rather than calmodulin causing AGT
+tmkp-2026-04-21-edge-audit-batch-002-2923,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary phrase and 4-phenylbutyrate affects Pex19
+tmkp-2026-04-21-edge-audit-batch-002-2924,codex-manual,2026-05-04,supported,good,good,,Baminercept therapy decreased CCL19
+tmkp-2026-04-21-edge-audit-batch-002-2925,codex-manual,2026-05-04,unsupported,bad,bad,subject_abbreviation_false_positive,Val12 is an HRAS mutation not valine exposure
+tmkp-2026-04-21-edge-audit-batch-002-2926,codex-manual,2026-05-04,partially_supported,good,bad,object_normalization_error,Botulinum toxin reduced TNF-alpha expression not TNFSF13B
+tmkp-2026-04-21-edge-audit-batch-002-2927,codex-manual,2026-05-04,unsupported,bad,bad,subject_abbreviation_false_positive|object_normalization_error,MET-1 is not methionine and MIP-1 is not ZNF667
+tmkp-2026-04-21-edge-audit-batch-002-2928,codex-manual,2026-05-04,supported,good,good,,IL-10-mediated inhibition of Fut2 expression is stated
+tmkp-2026-04-21-edge-audit-batch-002-2929,codex-manual,2026-05-04,unsupported,bad,good,carrier_context,BRCA1 is mutation-carrier context not a denosumab target
+tmkp-2026-04-21-edge-audit-batch-002-2930,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary transcriptional-signature text not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2931,codex-manual,2026-05-04,supported,good,good,,Fibrinogen downregulated IFNAR1 expression and signaling
+tmkp-2026-04-21-edge-audit-batch-002-2932,codex-manual,2026-05-04,unsupported,bad,good,direction_error,Fibronectin and SIP1 are co-observed EMT genes not causal subject-object pair
+tmkp-2026-04-21-edge-audit-batch-002-2933,codex-manual,2026-05-04,unsupported,bad,bad,direction_error|object_normalization_error,PACAP activates tPA and related genes rather than tPA causing PACAP
+tmkp-2026-04-21-edge-audit-batch-002-2934,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is regional text not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2935,codex-manual,2026-05-04,supported,good,good,,Phe treatment downexpressed glutamine synthetase transcripts
+tmkp-2026-04-21-edge-audit-batch-002-2936,codex-manual,2026-05-04,unsupported,bad,bad,subject_abbreviation_false_positive|direction_error,PCA is procoagulant activity context and annexin V is inhibitory
+tmkp-2026-04-21-edge-audit-batch-002-2937,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary timing text not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2938,codex-manual,2026-05-04,unsupported,bad,bad,subject_normalization_error|direction_error,TPA is phorbol ester context and annexin A6 inhibits its signaling
+tmkp-2026-04-21-edge-audit-batch-002-2939,codex-manual,2026-05-04,unsupported,bad,bad,object_normalization_error,Cyclosporine blocks calcineurin in SEC2 activation but SEC2 is not FUT2
+tmkp-2026-04-21-edge-audit-batch-002-2940,codex-manual,2026-05-04,supported,good,good,,Erythropoietin upregulates KDR Flk-1 expression
+tmkp-2026-04-21-edge-audit-batch-002-2941,codex-manual,2026-05-04,unsupported,bad,bad,context_error|object_normalization_error,CD36 knockdown affected CD36 in bleomycin-treated cells
+tmkp-2026-04-21-edge-audit-batch-002-2942,codex-manual,2026-05-04,unsupported,bad,good,direction_error,GALP stimulated release of neuropeptide Y
+tmkp-2026-04-21-edge-audit-batch-002-2943,codex-manual,2026-05-04,supported,good,good,model_context,Bacitracin reduced downstream glucosylation of Rac1
+tmkp-2026-04-21-edge-audit-batch-002-2944,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same treatment refers to an unspecified prior treatment not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2945,codex-manual,2026-05-04,unsupported,bad,good,co_list_context,CDKN2A and HIC1 are both listed as methylated genes
+tmkp-2026-04-21-edge-audit-batch-002-2946,codex-manual,2026-05-04,unsupported,bad,bad,subject_abbreviation_false_positive|direction_error,Met is c-Met receptor and Sema4D activates it
+tmkp-2026-04-21-edge-audit-batch-002-2947,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary signal-context text not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2948,codex-manual,2026-05-04,partially_supported,partial,good,indirect_mechanism,Erythropoietin signaling indirectly inactivates PPA2 via IEX-1
+tmkp-2026-04-21-edge-audit-batch-002-2949,codex-manual,2026-05-04,partially_supported,partial,good,limited_effect,Melphalan increased BCLAF1 association with HPV16 DNA while total levels were unaffected
+tmkp-2026-04-21-edge-audit-batch-002-2950,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is concentration text not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2951,codex-manual,2026-05-04,supported,good,good,,Interferon gamma down-regulates CXCL6
+tmkp-2026-04-21-edge-audit-batch-002-2952,codex-manual,2026-05-04,partially_supported,partial,good,indirect_mechanism,Exendin-4 modulates APP processing through alpha-secretase activity
+tmkp-2026-04-21-edge-audit-batch-002-2953,codex-manual,2026-05-04,unsupported,bad,bad,subject_abbreviation_false_positive,PCa means prostate cancer not pidolic acid
+tmkp-2026-04-21-edge-audit-batch-002-2954,codex-manual,2026-05-04,unsupported,bad,good,receptor_ligand_mismatch,Thrombin is a PAR-1 ligand while CXCL13 activates CXCR5
+tmkp-2026-04-21-edge-audit-batch-002-2955,codex-manual,2026-05-04,unsupported,bad,good,binding_region_context,Exendin-4 affected methylation near Sp1 sites but not Sp1 itself
+tmkp-2026-04-21-edge-audit-batch-002-2956,codex-manual,2026-05-04,partially_supported,good,bad,object_normalization_error,Anifrolumab inhibits TNF but TNF was normalized to CD40LG
+tmkp-2026-04-21-edge-audit-batch-002-2957,codex-manual,2026-05-04,supported,good,good,animal_model,CERA ameliorated increased desmin expression
+tmkp-2026-04-21-edge-audit-batch-002-2958,codex-manual,2026-05-04,unsupported,bad,bad,subject_normalization_error|direction_error,Am-2 compounds inhibit TPA-induced activation and TPA is phorbol context
+tmkp-2026-04-21-edge-audit-batch-002-2959,codex-manual,2026-05-04,partially_supported,good,bad,object_normalization_error,BMP-2 caused accumulation of p21CIP1 but CIP1 is misnormalized
+tmkp-2026-04-21-edge-audit-batch-002-2960,codex-manual,2026-05-04,partially_supported,good,bad,object_normalization_error,Bevacizumab decreased MIP-1 cytokines but MIP-1 is misnormalized
+tmkp-2026-04-21-edge-audit-batch-002-2961,codex-manual,2026-05-04,unsupported,bad,bad,subject_abbreviation_false_positive,PCa means prostate cancer not pidolic acid
+tmkp-2026-04-21-edge-audit-batch-002-2962,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary phrase in NF-kB and NFAT2 activation context
+tmkp-2026-04-21-edge-audit-batch-002-2963,codex-manual,2026-05-04,unsupported,bad,bad,subject_abbreviation_false_positive,Sam68 knockout context is not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2964,codex-manual,2026-05-04,partially_supported,partial,partial,pathway_level,TUDCA promoted hedgehog pathway signaling rather than IHH specifically
+tmkp-2026-04-21-edge-audit-batch-002-2965,codex-manual,2026-05-04,unsupported,bad,bad,direction_error|object_normalization_error,TNF upregulated fibronectin rather than fibronectin causing TNF
+tmkp-2026-04-21-edge-audit-batch-002-2966,codex-manual,2026-05-04,partially_supported,good,bad,object_normalization_error,Bevacizumab treatment increased NOP53 but NOP53 is misnormalized
+tmkp-2026-04-21-edge-audit-batch-002-2967,codex-manual,2026-05-04,unclear,good,unclear,ambiguous_subject_abbreviation,ASP treatment upregulated Gpx2 but ASP expansion is unclear
+tmkp-2026-04-21-edge-audit-batch-002-2968,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary timing text while DPM upregulated GPX4
+tmkp-2026-04-21-edge-audit-batch-002-2969,codex-manual,2026-05-04,supported,good,good,,CHRNA7 activates the JAK2 STAT3 SOX2 pathway
+tmkp-2026-04-21-edge-audit-batch-002-2970,codex-manual,2026-05-04,supported,good,good,,Tralokinumab blocks binding to IL-13Ra2
+tmkp-2026-04-21-edge-audit-batch-002-2971,codex-manual,2026-05-04,supported,good,good,,Taurine preserves SOD2 expression and activity
+tmkp-2026-04-21-edge-audit-batch-002-2972,codex-manual,2026-05-04,supported,good,good,cell_model,BMP-2 decreased CD30 expression
+tmkp-2026-04-21-edge-audit-batch-002-2973,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary expression comparison text not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2974,codex-manual,2026-05-04,supported,good,good,cell_model,Luteinizing hormone treatment decreased Mek1 phosphorylation
+tmkp-2026-04-21-edge-audit-batch-002-2975,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary comparison text not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2976,codex-manual,2026-05-04,supported,good,good,,Cyclosporin A decreased MKP-1 protein levels
+tmkp-2026-04-21-edge-audit-batch-002-2977,codex-manual,2026-05-04,unsupported,bad,bad,subject_abbreviation_false_positive,PCa means prostate cancer not pidolic acid
+tmkp-2026-04-21-edge-audit-batch-002-2978,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same enhancer is ordinary text not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2979,codex-manual,2026-05-04,unsupported,bad,bad,direction_error|object_normalization_error,ILP feeding altered Asp neurotransmitter levels rather than Asp causing XIAP
+tmkp-2026-04-21-edge-audit-batch-002-2980,codex-manual,2026-05-04,supported,good,good,,Cyclosporine A reduces claudin-2 levels
+tmkp-2026-04-21-edge-audit-batch-002-2981,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same cytokines is ordinary text not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2982,codex-manual,2026-05-04,unsupported,bad,bad,subject_abbreviation_false_positive,PCa means prostate cancer not pidolic acid
+tmkp-2026-04-21-edge-audit-batch-002-2983,codex-manual,2026-05-04,unsupported,good,bad,subject_normalization_error,L-ASP likely refers to asparaginase not aspartic acid
+tmkp-2026-04-21-edge-audit-batch-002-2984,codex-manual,2026-05-04,partially_supported,partial,good,combination_context,TMPRSS2 suppression occurred with reparixin co-treatment in bleomycin mice
+tmkp-2026-04-21-edge-audit-batch-002-2985,codex-manual,2026-05-04,unsupported,good,bad,subject_normalization_error,TPA-treated skin increased Ccl5 but TPA is phorbol context
+tmkp-2026-04-21-edge-audit-batch-002-2986,codex-manual,2026-05-04,supported,good,good,,Exendin-4 stimulated somatostatin secretion
+tmkp-2026-04-21-edge-audit-batch-002-2987,codex-manual,2026-05-04,unsupported,bad,good,cofactor_context,NGF increased neuropod length while artemin was a separate ligand
+tmkp-2026-04-21-edge-audit-batch-002-2988,codex-manual,2026-05-04,partially_supported,partial,good,heterodimer_context,BMP-2/6 induced SOX17 and related markers
+tmkp-2026-04-21-edge-audit-batch-002-2989,codex-manual,2026-05-04,partially_supported,good,bad,object_normalization_error,tPA increased MIP-2 but MIP-2 is misnormalized
+tmkp-2026-04-21-edge-audit-batch-002-2990,codex-manual,2026-05-04,supported,good,good,model_context,Interferon gamma decreased GFAP mRNA in rat brain slices
+tmkp-2026-04-21-edge-audit-batch-002-2991,codex-manual,2026-05-04,unsupported,bad,bad,subject_normalization_error|object_normalization_error,TPA-induced Pin1 phosphorylation used phorbol context and Pin1 is misnormalized
+tmkp-2026-04-21-edge-audit-batch-002-2992,codex-manual,2026-05-04,unsupported,bad,good,direction_error,P2Y2 activates nerve growth factor signaling
+tmkp-2026-04-21-edge-audit-batch-002-2993,codex-manual,2026-05-04,partially_supported,good,bad,subject_normalization_error,Calcitonin induces uPA activity but subject is normalized as CGRP
+tmkp-2026-04-21-edge-audit-batch-002-2994,codex-manual,2026-05-04,supported,good,partial,object_family_normalization_partial,BMP-2 inhibits E2F expression and activity
+tmkp-2026-04-21-edge-audit-batch-002-2995,codex-manual,2026-05-04,supported,good,good,,Nerve growth factor induces SOD2 expression
+tmkp-2026-04-21-edge-audit-batch-002-2996,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same cluster is ordinary text not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2997,codex-manual,2026-05-04,unsupported,bad,good,peptide_component_context,Phenylalanine is only part of a chemotactic peptide and catalase inhibits the signal
+tmkp-2026-04-21-edge-audit-batch-002-2998,codex-manual,2026-05-04,unsupported,bad,good,direction_error,Fibronectin is increased in a HEY1-high group rather than causing HEY1
+tmkp-2026-04-21-edge-audit-batch-002-2999,codex-manual,2026-05-04,supported,good,good,animal_model,L-methionine treatment lowered transferrin levels
+tmkp-2026-04-21-edge-audit-batch-002-3000,codex-manual,2026-05-04,unsupported,bad,bad,direction_error|object_normalization_error,Cop-1 therapy induced IL-10 rather than IL-10 causing Cop-1

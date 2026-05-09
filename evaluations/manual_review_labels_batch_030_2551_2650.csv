@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-001-2551,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|model_allele_context,PLAP is a Tmeff2 reporter allele and not PAPOLA
+tmkp-2026-04-21-edge-audit-batch-001-2552,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|toxin_context,DTX-1 is dinophysistoxin and not the DTX1 gene
+tmkp-2026-04-21-edge-audit-batch-001-2553,codex-manual,2026-05-04,supported,good,good,mechanism_context,AQP3 is activated by pathogenic factors involved in retinal edema
+tmkp-2026-04-21-edge-audit-batch-001-2554,codex-manual,2026-05-04,partially_supported,partial,good,linkage_context,CHRNA7 is a candidate gene near a juvenile myoclonic epilepsy linkage signal
+tmkp-2026-04-21-edge-audit-batch-001-2555,codex-manual,2026-05-04,supported,good,good,model_phenotype_context,Myo6 mutant mice exhibit vestibular dysfunction
+tmkp-2026-04-21-edge-audit-batch-001-2556,codex-manual,2026-05-04,supported,good,good,adverse_event_context,SF1126 adverse events include vomiting
+tmkp-2026-04-21-edge-audit-batch-001-2557,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,LIFR molecular diagnosis is linked with joint contracture
+tmkp-2026-04-21-edge-audit-batch-001-2558,codex-manual,2026-05-04,partially_supported,partial,good,syndrome_context,PITX3 is involved in a syndrome-like phenotype including sleep disturbance
+tmkp-2026-04-21-edge-audit-batch-001-2559,codex-manual,2026-05-04,supported,good,partial,disease_locus_context,SHFM3 FBXW4 locus is tied to abnormal limb development
+tmkp-2026-04-21-edge-audit-batch-001-2560,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product|wrong_object,MUC4 is linked to neonatal diarrhea while edema disease is listed with FUT1
+tmkp-2026-04-21-edge-audit-batch-001-2561,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,Neurotrypsin deficiency causes severe mental retardation
+tmkp-2026-04-21-edge-audit-batch-001-2562,codex-manual,2026-05-04,partially_supported,partial,good,treatment_context,Dopamine D2 receptor antagonist controls migraine nausea and vomiting
+tmkp-2026-04-21-edge-audit-batch-001-2563,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|pathway_context,Rap signaling defects are discussed but subject is LRPAP1
+tmkp-2026-04-21-edge-audit-batch-001-2564,codex-manual,2026-05-04,partially_supported,partial,good,cohort_context,One reported QRICH1 mutation patient had short stature
+tmkp-2026-04-21-edge-audit-batch-001-2565,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,OPA1 mutations are associated with severe disease including hypertonia
+tmkp-2026-04-21-edge-audit-batch-001-2566,codex-manual,2026-05-04,partially_supported,partial,good,contiguous_deletion_context,EXOC6B deletion was reported with another deletion in a boy with joint contractures
+tmkp-2026-04-21-edge-audit-batch-001-2567,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,SLC4A11 deficits are linked with CHED corneal edema
+tmkp-2026-04-21-edge-audit-batch-001-2568,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,Titinopathy phenotype includes prominent contractures
+tmkp-2026-04-21-edge-audit-batch-001-2569,codex-manual,2026-05-04,supported,good,good,model_phenotype_context,GluR2 null mice are susceptible to absence seizures
+tmkp-2026-04-21-edge-audit-batch-001-2570,codex-manual,2026-05-04,partially_supported,partial,partial,normalization_uncertain|biomarker_association,Fibrinogen levels are associated with cognitive deficits
+tmkp-2026-04-21-edge-audit-batch-001-2571,codex-manual,2026-05-04,supported,good,good,mechanism_context,Ang-1 enhances rheumatoid synovium overgrowth
+tmkp-2026-04-21-edge-audit-batch-001-2572,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Sch is from Henoch-Schonlein purpura and not NF2
+tmkp-2026-04-21-edge-audit-batch-001-2573,codex-manual,2026-05-04,unsupported,bad,good,biomarker_or_expression_only,Alcohol caused behavioral abnormalities with VEGF upregulation as an associated marker
+tmkp-2026-04-21-edge-audit-batch-001-2574,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|family_mention_fanout,PPARgamma interaction is in a Yulink heart failure study and subject is PPARA
+tmkp-2026-04-21-edge-audit-batch-001-2575,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_context,E-selectin is upregulated in an inflammatory edema response
+tmkp-2026-04-21-edge-audit-batch-001-2576,codex-manual,2026-05-04,supported,good,good,adverse_event_context,Cyclosporin may be associated with growth retardation
+tmkp-2026-04-21-edge-audit-batch-001-2577,codex-manual,2026-05-04,supported,good,good,model_phenotype_context,Fmr1 knockout mice display cognitive deficits
+tmkp-2026-04-21-edge-audit-batch-001-2578,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,FMR1 premutation phenotypes include sleep disturbances
+tmkp-2026-04-21-edge-audit-batch-001-2579,codex-manual,2026-05-04,supported,good,good,mechanism_context,Piezo1 activation mediates edema formation
+tmkp-2026-04-21-edge-audit-batch-001-2580,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,Activating SHP-2 mutations cause Noonan syndrome with learning disabilities
+tmkp-2026-04-21-edge-audit-batch-001-2581,codex-manual,2026-05-04,unsupported,bad,good,case_context,GSTT1 genotype is reported in ifosfamide nephrotoxicity but not causal for growth retardation
+tmkp-2026-04-21-edge-audit-batch-001-2582,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|case_context,ACE levels in neurosarcoidosis case do not support AGT causing visual loss
+tmkp-2026-04-21-edge-audit-batch-001-2583,codex-manual,2026-05-04,supported,good,good,adverse_event_context,Abciximab side effects include abdominal pain
+tmkp-2026-04-21-edge-audit-batch-001-2584,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,SGLT2 causes familial renal glycosuria but subject is SLC5A4
+tmkp-2026-04-21-edge-audit-batch-001-2585,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|immune_context,Th1-mediated uveitis causes visual loss but subject is NELFCD
+tmkp-2026-04-21-edge-audit-batch-001-2586,codex-manual,2026-05-04,unsupported,bad,good,binding_context,Claudin 16 mutation causes hypercalciuria and affects binding to ZO-1
+tmkp-2026-04-21-edge-audit-batch-001-2587,codex-manual,2026-05-04,supported,good,good,model_phenotype_context,Cln7 knockout mice show growth retardation
+tmkp-2026-04-21-edge-audit-batch-001-2588,codex-manual,2026-05-04,partially_supported,partial,good,contiguous_deletion_context,Partial deletion including GATA3 occurred in a patient with epicanthic folds
+tmkp-2026-04-21-edge-audit-batch-001-2589,codex-manual,2026-05-04,supported,good,good,model_phenotype_context,Hs6st1-null mice exhibit growth retardation
+tmkp-2026-04-21-edge-audit-batch-001-2590,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|family_mention_fanout,TNFRSF1B variation is discussed and subject is EDA
+tmkp-2026-04-21-edge-audit-batch-001-2591,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Hsf1 knockout mice exhibit growth retardation but subject is SF1
+tmkp-2026-04-21-edge-audit-batch-001-2592,codex-manual,2026-05-04,supported,good,good,mechanism_context,Casp2 tau cleavage mediates cognitive deficits
+tmkp-2026-04-21-edge-audit-batch-001-2593,codex-manual,2026-05-04,unsupported,bad,good,wrong_gene,KCNJ1 and ADAMTS15 are proposed for renal anomalies not ETS1
+tmkp-2026-04-21-edge-audit-batch-001-2594,codex-manual,2026-05-04,unsupported,bad,good,case_title_context,Growth hormone secretion impairment is co-mentioned in a Kallmann case title
+tmkp-2026-04-21-edge-audit-batch-001-2595,codex-manual,2026-05-04,partially_supported,partial,good,association_context,PPARgamma Pro12Ala is associated with cognitive impairment among other diseases
+tmkp-2026-04-21-edge-audit-batch-001-2596,codex-manual,2026-05-04,supported,good,good,model_phenotype_context,LINGO-1 knockout reduces behavioral abnormalities
+tmkp-2026-04-21-edge-audit-batch-001-2597,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,Foxn1 compound heterozygous mutations cause thymic hypoplasia
+tmkp-2026-04-21-edge-audit-batch-001-2598,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|organism_context,GAS is Group A Streptococcus and not GAST
+tmkp-2026-04-21-edge-audit-batch-001-2599,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,NAA15 loss-of-function variants include delayed speech
+tmkp-2026-04-21-edge-audit-batch-001-2600,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,MLL2 refers to KMT2D in Kabuki syndrome and not KMT2B
+tmkp-2026-04-21-edge-audit-batch-001-2601,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,Hypoxemia upregulates AT1a receptors
+tmkp-2026-04-21-edge-audit-batch-001-2602,codex-manual,2026-05-04,partially_supported,partial,good,treatment_target_context,TRPV3 antagonists are studied for treatment of pain
+tmkp-2026-04-21-edge-audit-batch-001-2603,codex-manual,2026-05-04,supported,good,good,model_phenotype_context,Col2a1 mutation is linked with mandibular growth retardation
+tmkp-2026-04-21-edge-audit-batch-001-2604,codex-manual,2026-05-04,unsupported,bad,good,inverse_trigger_context,Fever increases risk in MCAD deficiency rather than ACADM causing fever
+tmkp-2026-04-21-edge-audit-batch-001-2605,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|model_context,p300 KIX mutation disrupts CREB binding and subject is ATF2
+tmkp-2026-04-21-edge-audit-batch-001-2606,codex-manual,2026-05-04,partially_supported,partial,good,pathway_context,PDZK1 controls lipoprotein receptor activity affecting lipoprotein metabolism
+tmkp-2026-04-21-edge-audit-batch-001-2607,codex-manual,2026-05-04,unsupported,bad,good,adverse_event_context|predicate_mismatch,BCG regimen affects fever as a side effect rather than treating fever
+tmkp-2026-04-21-edge-audit-batch-001-2608,codex-manual,2026-05-04,supported,good,good,adverse_event_context,Trebananib toxicities include upper abdominal pain
+tmkp-2026-04-21-edge-audit-batch-001-2609,codex-manual,2026-05-04,partially_supported,partial,good,treatment_indication_context,Canakinumab was started in a patient with severe growth retardation among indications
+tmkp-2026-04-21-edge-audit-batch-001-2610,codex-manual,2026-05-04,supported,good,good,adverse_event_context,Oxytocin caused a contracture in the experiment
+tmkp-2026-04-21-edge-audit-batch-001-2611,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Nodal describes AV-nodal blockage and not the NODAL gene
+tmkp-2026-04-21-edge-audit-batch-001-2612,codex-manual,2026-05-04,unsupported,bad,bad,domain_name_context,Src homology domain wording is not SRC gene involvement
+tmkp-2026-04-21-edge-audit-batch-001-2613,codex-manual,2026-05-04,partially_supported,partial,good,contiguous_rearrangement_context,Rearrangement including HMGA2 is associated with growth retardation
+tmkp-2026-04-21-edge-audit-batch-001-2614,codex-manual,2026-05-04,unsupported,bad,good,biomarker_or_expression_only,H5N1 caused hypoxemia and increased IL6 as an inflammatory marker
+tmkp-2026-04-21-edge-audit-batch-001-2615,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,ACP5 mutations were reported in a child with spasticity
+tmkp-2026-04-21-edge-audit-batch-001-2616,codex-manual,2026-05-04,unsupported,bad,good,case_context,Prothrombin time is one case feature and does not cause growth retardation
+tmkp-2026-04-21-edge-audit-batch-001-2617,codex-manual,2026-05-04,supported,good,good,mechanism_context,Reduced S-nitrosylation of NDEL1 mediates neurodevelopmental abnormalities
+tmkp-2026-04-21-edge-audit-batch-001-2618,codex-manual,2026-05-04,supported,good,good,model_phenotype_context,MDC1 knockout mice exhibit growth retardation
+tmkp-2026-04-21-edge-audit-batch-001-2619,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Cox-2 is associated with fever but subject is mitochondrial MT-CO2
+tmkp-2026-04-21-edge-audit-batch-001-2620,codex-manual,2026-05-04,supported,good,good,treatment_context,Intrathecal baclofen is used for spasticity
+tmkp-2026-04-21-edge-audit-batch-001-2621,codex-manual,2026-05-04,unsupported,bad,good,cre_driver_context,Mx1 promoter-driven Cre caused disruption and is not MX1 gene effect
+tmkp-2026-04-21-edge-audit-batch-001-2622,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,IGHMBP2 mutations cause progressive spinal motor neuron degeneration
+tmkp-2026-04-21-edge-audit-batch-001-2623,codex-manual,2026-05-04,unsupported,bad,good,predicate_mismatch|diet_context,Phenylalanine-free diet prevents mental disability rather than phenylalanine treating it
+tmkp-2026-04-21-edge-audit-batch-001-2624,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,Intracranial basal ganglia calcifications were described in a POLG1 mutation patient
+tmkp-2026-04-21-edge-audit-batch-001-2625,codex-manual,2026-05-04,partially_supported,partial,good,hypothesis_context,GABRB3 abnormal expression could be responsible for generalized seizure type
+tmkp-2026-04-21-edge-audit-batch-001-2626,codex-manual,2026-05-04,unsupported,bad,good,cohort_condition_context,Hypoalbuminemia is a clinical condition for daptomycin monitoring
+tmkp-2026-04-21-edge-audit-batch-001-2627,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,SPTBN2 mutations manifest with cognitive impairment
+tmkp-2026-04-21-edge-audit-batch-001-2628,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|clinical_score_context,TNF was measured with neuropathy disability score and subject is TNFSF13B
+tmkp-2026-04-21-edge-audit-batch-001-2629,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Myelin basic protein induced EAE includes edema but subject is PRG2
+tmkp-2026-04-21-edge-audit-batch-001-2630,codex-manual,2026-05-04,supported,good,good,model_phenotype_context,PTHrP knock-in mice develop skeletal growth retardation
+tmkp-2026-04-21-edge-audit-batch-001-2631,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,MLC1 loss causes macrocephaly but subject is MYL4
+tmkp-2026-04-21-edge-audit-batch-001-2632,codex-manual,2026-05-04,partially_supported,partial,good,association_context,KCC2 expression alterations are associated with behavioral abnormalities
+tmkp-2026-04-21-edge-audit-batch-001-2633,codex-manual,2026-05-04,supported,good,good,treatment_context,Creatine supplementation delays weight loss in HD mice
+tmkp-2026-04-21-edge-audit-batch-001-2634,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,RIT1 mutation patients are reported with growth retardation
+tmkp-2026-04-21-edge-audit-batch-001-2635,codex-manual,2026-05-04,supported,good,good,treatment_context,Leptin has anticonvulsant effects in generalized seizure models
+tmkp-2026-04-21-edge-audit-batch-001-2636,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Same refers to the same drugs and not ademetionine
+tmkp-2026-04-21-edge-audit-batch-001-2637,codex-manual,2026-05-04,supported,good,good,model_phenotype_context,ALS2 knockout mice show upper motor neuron defects consistent with spasticity
+tmkp-2026-04-21-edge-audit-batch-001-2638,codex-manual,2026-05-04,supported,good,good,cohort_context,GJB2 mutation related patients have increased vestibular dysfunction
+tmkp-2026-04-21-edge-audit-batch-001-2639,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|treatment_context,MF-7 is a treatment formula and not F7
+tmkp-2026-04-21-edge-audit-batch-001-2640,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,IFIH1 mutation patient has basal ganglia calcification
+tmkp-2026-04-21-edge-audit-batch-001-2641,codex-manual,2026-05-04,supported,good,good,model_phenotype_context,LCN2 knockout mice have less brain atrophy after ICH
+tmkp-2026-04-21-edge-audit-batch-001-2642,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,NLRP3 gain-of-function variants cause CAPS with fever
+tmkp-2026-04-21-edge-audit-batch-001-2643,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,STAT3 mutations cause HIES with dental abnormalities
+tmkp-2026-04-21-edge-audit-batch-001-2644,codex-manual,2026-05-04,supported,good,good,treatment_context,Adding valine improves or corrects growth retardation
+tmkp-2026-04-21-edge-audit-batch-001-2645,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,PRRT2-associated phenotypes include childhood absence seizures
+tmkp-2026-04-21-edge-audit-batch-001-2646,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Text concerns cardiac muscle contraction and not joint contracture
+tmkp-2026-04-21-edge-audit-batch-001-2647,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,GRIN2D is linked to developmental and epileptic encephalopathy
+tmkp-2026-04-21-edge-audit-batch-001-2648,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,NR2F1 alterations cause syndrome with intellectual and developmental disabilities
+tmkp-2026-04-21-edge-audit-batch-001-2649,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Trp is an amino acid substitution in PSEN1 and not TBPL1
+tmkp-2026-04-21-edge-audit-batch-001-2650,codex-manual,2026-05-04,supported,good,good,clinical_variant_context,GALT deficiency classic galactosemia is characterized by failure to thrive

@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-002-1401,codex-manual,2026-05-04,supported,good,good,,Busulfan has been implicated in dental anomalies.
+tmkp-2026-04-21-edge-audit-batch-002-1402,codex-manual,2026-05-04,supported,good,good,,Phenobarbital hypersensitivity syndrome includes fever.
+tmkp-2026-04-21-edge-audit-batch-002-1403,codex-manual,2026-05-04,supported,good,good,generic_subject,Pesticide exposure can cause vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1404,codex-manual,2026-05-04,unsupported,bad,bad,pronoun_collision,His was a pronoun not histidine.
+tmkp-2026-04-21-edge-audit-batch-002-1405,codex-manual,2026-05-04,supported,good,good,,Fosfomycin adverse effects include vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1406,codex-manual,2026-05-04,unsupported,bad,good,inverse_context,Declining androgen secretion was associated with cognitive impairment.
+tmkp-2026-04-21-edge-audit-batch-002-1407,codex-manual,2026-05-04,supported,good,good,,Carisoprodol intoxication can cause hypertonia.
+tmkp-2026-04-21-edge-audit-batch-002-1408,codex-manual,2026-05-04,supported,good,good,,Glycerol-triggered renal failure included hypoalbuminemia.
+tmkp-2026-04-21-edge-audit-batch-002-1409,codex-manual,2026-05-04,partially_supported,partial,good,comparator_context,Fever was lower with paromomycin than amphotericin B.
+tmkp-2026-04-21-edge-audit-batch-002-1410,codex-manual,2026-05-04,supported,good,good,,Large-dose berberine can cause abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-002-1411,codex-manual,2026-05-04,supported,good,good,,Lovastatin is a hypolipidemic drug.
+tmkp-2026-04-21-edge-audit-batch-002-1412,codex-manual,2026-05-04,supported,good,good,,5-fluorouracil was listed among drugs with tinnitus side effects.
+tmkp-2026-04-21-edge-audit-batch-002-1413,codex-manual,2026-05-04,supported,good,good,,Rifapentine side effects included edema.
+tmkp-2026-04-21-edge-audit-batch-002-1414,codex-manual,2026-05-04,supported,good,good,,Paliperidone adverse events included tachycardia.
+tmkp-2026-04-21-edge-audit-batch-002-1415,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Oxaliplatin with 5-FU preceded pulmonary infiltrates.
+tmkp-2026-04-21-edge-audit-batch-002-1416,codex-manual,2026-05-04,supported,good,good,,Succinylcholine induced contractures in susceptible animals.
+tmkp-2026-04-21-edge-audit-batch-002-1417,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,The text says no previous acute visual loss association with mefloquine.
+tmkp-2026-04-21-edge-audit-batch-002-1418,codex-manual,2026-05-04,unsupported,bad,good,resistance_context,Cisplatin-resistant cells showed growth retardation.
+tmkp-2026-04-21-edge-audit-batch-002-1419,codex-manual,2026-05-04,supported,good,good,,Distigmine may cause nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1420,codex-manual,2026-05-04,partially_supported,partial,good,comparator_context,Cilomilast safety was compared with roflumilast adverse effects.
+tmkp-2026-04-21-edge-audit-batch-002-1421,codex-manual,2026-05-04,supported,good,good,,High choline intake can cause vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1422,codex-manual,2026-05-04,supported,good,good,,Trimethoprim can trigger fever.
+tmkp-2026-04-21-edge-audit-batch-002-1423,codex-manual,2026-05-04,supported,good,good,,Azithromycin use was associated with ventricular arrhythmia risk.
+tmkp-2026-04-21-edge-audit-batch-002-1424,codex-manual,2026-05-04,supported,good,good,,Drowsiness was higher in the flurazepam group.
+tmkp-2026-04-21-edge-audit-batch-002-1425,codex-manual,2026-05-04,supported,good,good,,Drowsiness occurred more often on naltrexone than placebo.
+tmkp-2026-04-21-edge-audit-batch-002-1426,codex-manual,2026-05-04,supported,good,good,,Metoclopramide inhibited edema.
+tmkp-2026-04-21-edge-audit-batch-002-1427,codex-manual,2026-05-04,partially_supported,partial,good,treatment_context,Diphenhydramine was discussed as a sleep disturbance treatment but less useful due toxicity.
+tmkp-2026-04-21-edge-audit-batch-002-1428,codex-manual,2026-05-04,supported,good,good,,Rasagiline treatment was studied for sleep disturbances in PD.
+tmkp-2026-04-21-edge-audit-batch-002-1429,codex-manual,2026-05-04,unsupported,bad,good,wrong_indication_context,UFT treated malignancy while vomiting was due to pyloric stenosis.
+tmkp-2026-04-21-edge-audit-batch-002-1430,codex-manual,2026-05-04,partially_supported,partial,good,stabilization_context,Tolvaptan therapy showed no worsening of ventricular dilatation.
+tmkp-2026-04-21-edge-audit-batch-002-1431,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,Levobupivacaine was studied for reducing postoperative nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1432,codex-manual,2026-05-04,unsupported,bad,good,side_effect_assessment_context,Fexofenadine effects on drowsiness were compared as a side-effect measure.
+tmkp-2026-04-21-edge-audit-batch-002-1433,codex-manual,2026-05-04,unsupported,bad,good,rescue_medication_context,Bisacodyl was rescue medication while abdominal pain was an endpoint.
+tmkp-2026-04-21-edge-audit-batch-002-1434,codex-manual,2026-05-04,unsupported,bad,good,medical_history_context,Hypercholesterolemia was medical history and pemetrexed was cancer treatment.
+tmkp-2026-04-21-edge-audit-batch-002-1435,codex-manual,2026-05-04,unclear,unclear,good,study_population_context,Solifenacin was given to volunteers with mild cognitive impairment but not clearly to treat it.
+tmkp-2026-04-21-edge-audit-batch-002-1436,codex-manual,2026-05-04,unsupported,bad,bad,pronoun_collision,His was a pronoun not histidine.
+tmkp-2026-04-21-edge-audit-batch-002-1437,codex-manual,2026-05-04,supported,good,good,,Ethotoin effectiveness was compared in motor seizures.
+tmkp-2026-04-21-edge-audit-batch-002-1438,codex-manual,2026-05-04,supported,good,good,,Pirfenidone was used in patients with capsular contracture.
+tmkp-2026-04-21-edge-audit-batch-002-1439,codex-manual,2026-05-04,supported,good,good,,Minocycline reduced hyperactivity in a mouse model.
+tmkp-2026-04-21-edge-audit-batch-002-1440,codex-manual,2026-05-04,supported,good,good,,Mirabegron treated neurogenic bladder.
+tmkp-2026-04-21-edge-audit-batch-002-1441,codex-manual,2026-05-04,supported,good,good,,Alcohol sclerotherapy treats simple renal cysts.
+tmkp-2026-04-21-edge-audit-batch-002-1442,codex-manual,2026-05-04,supported,good,good,,Cashew nut administration reduced edema formation.
+tmkp-2026-04-21-edge-audit-batch-002-1443,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Trabectedin extended survival without affecting cachexia.
+tmkp-2026-04-21-edge-audit-batch-002-1444,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Apigenin with ampicillin relieved edema.
+tmkp-2026-04-21-edge-audit-batch-002-1445,codex-manual,2026-05-04,supported,good,good,,Isosorbide effects on tinnitus were evaluated in Meniere disease.
+tmkp-2026-04-21-edge-audit-batch-002-1446,codex-manual,2026-05-04,supported,good,good,,Losartan suppressed ocular inflammation.
+tmkp-2026-04-21-edge-audit-batch-002-1447,codex-manual,2026-05-04,supported,good,good,,Surfactant plus desipramine prevented edema.
+tmkp-2026-04-21-edge-audit-batch-002-1448,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Remifentanil with propofol was used to prevent postoperative nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1449,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Drowsiness was a medication side effect not treated by propranolol.
+tmkp-2026-04-21-edge-audit-batch-002-1450,codex-manual,2026-05-04,partially_supported,partial,partial,generic_subject|protective_context,Antioxidant nutrients reduce progression toward visual impairment.
+tmkp-2026-04-21-edge-audit-batch-002-1451,codex-manual,2026-05-04,supported,good,good,,Betamethasone phosphate inhibited edema weight.
+tmkp-2026-04-21-edge-audit-batch-002-1452,codex-manual,2026-05-04,supported,good,good,,Lisuride showed efficacy on sleep disturbances.
+tmkp-2026-04-21-edge-audit-batch-002-1453,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Abdominal pain was a benznidazole side effect.
+tmkp-2026-04-21-edge-audit-batch-002-1454,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,API did not refer to alpha-1-proteinase inhibitor.
+tmkp-2026-04-21-edge-audit-batch-002-1455,codex-manual,2026-05-04,supported,good,good,,Alginate microcapsule modification reduced overgrowth.
+tmkp-2026-04-21-edge-audit-batch-002-1456,codex-manual,2026-05-04,supported,good,good,,Fasudil partially suppressed absence seizures.
+tmkp-2026-04-21-edge-audit-batch-002-1457,codex-manual,2026-05-04,supported,good,good,generic_subject,HDAC inhibitors are promising treatments for cognitive deficits.
+tmkp-2026-04-21-edge-audit-batch-002-1458,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Vomiting was a chemotherapy adverse effect.
+tmkp-2026-04-21-edge-audit-batch-002-1459,codex-manual,2026-05-04,supported,good,good,,Low dose paclitaxel had anti-nociceptive effect on bone cancer pain.
+tmkp-2026-04-21-edge-audit-batch-002-1460,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,Dex was likely dexamethasone in an antiemetic regimen not dextromethorphan.
+tmkp-2026-04-21-edge-audit-batch-002-1461,codex-manual,2026-05-04,supported,good,good,,GABA stimulation reduced edema.
+tmkp-2026-04-21-edge-audit-batch-002-1462,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Nausea and vomiting were managed with ondansetron metoclopramide and pantoprazole.
+tmkp-2026-04-21-edge-audit-batch-002-1463,codex-manual,2026-05-04,unsupported,bad,good,wrong_indication_context,Kanamycin treated urinary infection in neurogenic bladder patients.
+tmkp-2026-04-21-edge-audit-batch-002-1464,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention,Balance was a concept not isoxaflutole.
+tmkp-2026-04-21-edge-audit-batch-002-1465,codex-manual,2026-05-04,supported,good,good,,Oxcarbazepine was given to patients with disabling spasticity.
+tmkp-2026-04-21-edge-audit-batch-002-1466,codex-manual,2026-05-04,supported,good,good,,Metoclopramide and ranitidine were evaluated for bradycardia episodes.
+tmkp-2026-04-21-edge-audit-batch-002-1467,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Hypoesthesia was a moxifloxacin side effect.
+tmkp-2026-04-21-edge-audit-batch-002-1468,codex-manual,2026-05-04,supported,good,good,,Safflower extract has been used for mental deterioration.
+tmkp-2026-04-21-edge-audit-batch-002-1469,codex-manual,2026-05-04,supported,good,good,,Ketotifen alleviated spontaneous pain.
+tmkp-2026-04-21-edge-audit-batch-002-1470,codex-manual,2026-05-04,supported,good,good,,Hydroxycarbamide role in preventing cognitive impairment is being studied.
+tmkp-2026-04-21-edge-audit-batch-002-1471,codex-manual,2026-05-04,supported,good,good,,Pyrexia resolved with augmented amoxicillin.
+tmkp-2026-04-21-edge-audit-batch-002-1472,codex-manual,2026-05-04,supported,good,good,,Hyaluronic acid fillers can improve hypoplastic mandibles.
+tmkp-2026-04-21-edge-audit-batch-002-1473,codex-manual,2026-05-04,supported,good,good,,Acute tinnitus is treated with cortisone.
+tmkp-2026-04-21-edge-audit-batch-002-1474,codex-manual,2026-05-04,supported,good,good,,Kojic acid is used for abnormal skin pigmentation.
+tmkp-2026-04-21-edge-audit-batch-002-1475,codex-manual,2026-05-04,supported,good,good,,Maropitant reduced vomiting incidence.
+tmkp-2026-04-21-edge-audit-batch-002-1476,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Vomiting was a selinexor adverse event.
+tmkp-2026-04-21-edge-audit-batch-002-1477,codex-manual,2026-05-04,supported,good,good,,Candesartan was associated with reduced edema.
+tmkp-2026-04-21-edge-audit-batch-002-1478,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,ALA was alpha lipoic acid not linolenic acid.
+tmkp-2026-04-21-edge-audit-batch-002-1479,codex-manual,2026-05-04,supported,good,good,,Proglumetacin treated articular pain.
+tmkp-2026-04-21-edge-audit-batch-002-1480,codex-manual,2026-05-04,partially_supported,partial,partial,broad_treatment_context,Opium-containing medications were listed for sleep disturbances.
+tmkp-2026-04-21-edge-audit-batch-002-1481,codex-manual,2026-05-04,supported,good,good,,Raloxifene improved joint pain.
+tmkp-2026-04-21-edge-audit-batch-002-1482,codex-manual,2026-05-04,supported,good,good,,Etretinate improved arthralgia.
+tmkp-2026-04-21-edge-audit-batch-002-1483,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Thalidomide caused palate abnormalities.
+tmkp-2026-04-21-edge-audit-batch-002-1484,codex-manual,2026-05-04,supported,good,good,,Dimethyl fumarate prevented edema formation.
+tmkp-2026-04-21-edge-audit-batch-002-1485,codex-manual,2026-05-04,partially_supported,partial,good,syndrome_context,Phellodendron was part of an herbal combination for damp-heat symptoms including vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1486,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Vomiting occurred during clozapine treatment.
+tmkp-2026-04-21-edge-audit-batch-002-1487,codex-manual,2026-05-04,supported,good,good,,Bumetanide was proposed as therapy for cognitive deficits.
+tmkp-2026-04-21-edge-audit-batch-002-1488,codex-manual,2026-05-04,unsupported,bad,good,association_context,Fructose intake was only marginally associated with lower cognitive impairment.
+tmkp-2026-04-21-edge-audit-batch-002-1489,codex-manual,2026-05-04,unsupported,bad,good,confounder_context,Phenothiazine was a medication-use covariate.
+tmkp-2026-04-21-edge-audit-batch-002-1490,codex-manual,2026-05-04,supported,good,good,,Ouabain prevented sympathetic nerve hyperactivity.
+tmkp-2026-04-21-edge-audit-batch-002-1491,codex-manual,2026-05-04,supported,good,good,,Rapamycin decreased macrocephaly in a PTEN knockout model.
+tmkp-2026-04-21-edge-audit-batch-002-1492,codex-manual,2026-05-04,partially_supported,partial,good,treatment_context,Cefuroxime was administered after edematous skin lesions appeared.
+tmkp-2026-04-21-edge-audit-batch-002-1493,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Anesthesia was avoided to limit growth retardation.
+tmkp-2026-04-21-edge-audit-batch-002-1494,codex-manual,2026-05-04,unsupported,bad,good,wrong_indication_context,Phenobarbital was maintenance therapy after no fever or seizures.
+tmkp-2026-04-21-edge-audit-batch-002-1495,codex-manual,2026-05-04,supported,good,good,,Atropine abolished bradycardia.
+tmkp-2026-04-21-edge-audit-batch-002-1496,codex-manual,2026-05-04,supported,good,good,,Levothyroxine increase improved bradycardia.
+tmkp-2026-04-21-edge-audit-batch-002-1497,codex-manual,2026-05-04,supported,good,good,,Sultiame treated absence seizures.
+tmkp-2026-04-21-edge-audit-batch-002-1498,codex-manual,2026-05-04,unsupported,bad,good,adverse_or_risk_context,Edema was a megestrol acetate side effect.
+tmkp-2026-04-21-edge-audit-batch-002-1499,codex-manual,2026-05-04,supported,good,good,,Dexmedetomidine was effective in prevention and treatment of ventricular arrhythmias.
+tmkp-2026-04-21-edge-audit-batch-002-1500,codex-manual,2026-05-04,partially_supported,partial,good,study_context,Lamotrigine was studied in people with severe mental retardation and behavioral problems.

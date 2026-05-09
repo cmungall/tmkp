@@ -1,0 +1,78 @@
+release_version: 2026_04_21
+batches:
+  - audit_batch_id: tmkp-2026-04-21-edge-audit-batch-001
+    file: audits/tmkp_edge_audit_2026_04_21_batch_001.csv
+    rows: 3000
+    distinct_edges: 3000
+    reviewer: codex
+    audit_method: assistant_structured_evidence_review_v1
+    audited_at: 2026-05-04
+    source_database: downloads/tmkp/2026_04_21/tmkp.duckdb
+    source_release: https://kgx-storage.rtx.ai/releases/tmkp/2026_04_21/
+    decision_counts:
+      needs_review: 2068
+      partially_supported: 848
+      supported: 65
+      unsupported: 19
+    stratum_counts:
+      gene_disease_contributes: 500
+      chemical_disease_treatment: 450
+      chemical_gene_mechanism: 450
+      gene_gene_mechanism: 400
+      chemical_disease_contributes: 300
+      gene_phenotype: 250
+      chemical_phenotype_treatment: 225
+      chemical_phenotype_contributes: 225
+      protein_disease: 100
+      protein_gene_mechanism: 100
+  - audit_batch_id: tmkp-2026-04-21-edge-audit-batch-002
+    file: audits/tmkp_edge_audit_2026_04_21_batch_002.csv
+    rows: 3000
+    distinct_edges: 3000
+    reviewer: codex
+    audit_method: assistant_structured_evidence_review_v1
+    audited_at: 2026-05-04
+    source_database: downloads/tmkp/2026_04_21/tmkp.duckdb
+    source_release: https://kgx-storage.rtx.ai/releases/tmkp/2026_04_21/
+    excludes:
+      - audits/tmkp_edge_audit_2026_04_21_batch_001.csv
+    decision_counts:
+      needs_review: 2106
+      partially_supported: 825
+      supported: 51
+      unsupported: 18
+    stratum_counts:
+      gene_disease_contributes: 500
+      chemical_disease_treatment: 450
+      chemical_gene_mechanism: 450
+      gene_gene_mechanism: 400
+      chemical_disease_contributes: 300
+      gene_phenotype: 250
+      chemical_phenotype_contributes: 225
+      chemical_phenotype_treatment: 225
+      protein_disease: 100
+      protein_gene_mechanism: 100
+required_nonempty_columns:
+  - audit_id
+  - audit_batch_id
+  - release_version
+  - audited_at
+  - reviewer
+  - audit_method
+  - audit_decision
+  - audit_confidence
+  - audit_note
+  - stratum
+  - edge_id
+  - subject_id
+  - subject_name
+  - subject_category
+  - predicate
+  - object_id
+  - object_name
+  - object_category
+  - source_xref
+  - study_result_id
+  - subject_mention
+  - object_mention
+  - supporting_text

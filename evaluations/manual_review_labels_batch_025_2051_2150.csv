@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-001-2051,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,Mon and CAD are not TRIM33 and cold agglutinin disease here
+tmkp-2026-04-21-edge-audit-batch-001-2052,codex-manual,2026-05-04,supported,good,good,mechanism_context,CD14 monocytes were proposed in HIV neurological disorder pathogenesis
+tmkp-2026-04-21-edge-audit-batch-001-2053,codex-manual,2026-05-04,supported,good,good,prognostic_association,PEA3 expression correlated with late stage metastatic disease
+tmkp-2026-04-21-edge-audit-batch-001-2054,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_only,DAPK2 low expression was seen in AML samples
+tmkp-2026-04-21-edge-audit-batch-001-2055,codex-manual,2026-05-04,unsupported,bad,bad,chemical_context|normalization_error,CYH33 inhibitor evidence does not support CMA1
+tmkp-2026-04-21-edge-audit-batch-001-2056,codex-manual,2026-05-04,partially_supported,partial,good,pathway_context,Drp1 oxidoreduction was linked to vascular diseases associated with diabetes
+tmkp-2026-04-21-edge-audit-batch-001-2057,codex-manual,2026-05-04,unsupported,bad,good,treatment_context,somatostatin analogs treated hypoglycemia from adrenal tumors
+tmkp-2026-04-21-edge-audit-batch-001-2058,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,infection suppressed growth hormone concentrations
+tmkp-2026-04-21-edge-audit-batch-001-2059,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,serum amyloid P component role in systemic amyloidosis was examined in model
+tmkp-2026-04-21-edge-audit-batch-001-2060,codex-manual,2026-05-04,supported,good,good,genetic_model_context,CD1d knockout prolonged parasitemia
+tmkp-2026-04-21-edge-audit-batch-001-2061,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|wrong_gene,RPA1 lymphoma context was normalized to RPLP1
+tmkp-2026-04-21-edge-audit-batch-001-2062,codex-manual,2026-05-04,partially_supported,partial,partial,family_mention_fanout|viral_entry_context,PRRSV enters target cells via clathrin-mediated endocytosis
+tmkp-2026-04-21-edge-audit-batch-001-2063,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_context,Wee1 protein stabilization occurred in leukemia cell line treatment mechanism
+tmkp-2026-04-21-edge-audit-batch-001-2064,codex-manual,2026-05-04,unsupported,bad,bad,list_or_cross_product|object_mismatch,VKORC1 variants related to thromboembolism drug reactions not HIV or urticaria
+tmkp-2026-04-21-edge-audit-batch-001-2065,codex-manual,2026-05-04,unsupported,bad,bad,family_mention_fanout|object_mismatch,VEGF elevated plasma cell disorder evidence does not support VEGFD or paraneoplastic neurologic syndrome
+tmkp-2026-04-21-edge-audit-batch-001-2066,codex-manual,2026-05-04,supported,good,good,pathway_context,15-LOX-1 plays role in inflammatory lung diseases including asthma
+tmkp-2026-04-21-edge-audit-batch-001-2067,codex-manual,2026-05-04,unsupported,bad,bad,family_mention_fanout|normalization_error,TNF-alpha variants in exfoliation syndrome do not support TNFSF18
+tmkp-2026-04-21-edge-audit-batch-001-2068,codex-manual,2026-05-04,unsupported,bad,bad,viral_gene_context|normalization_error,LMP1 lymphoma evidence was normalized to PDLIM7
+tmkp-2026-04-21-edge-audit-batch-001-2069,codex-manual,2026-05-04,supported,good,good,host_factor_context,HSPA5 is an essential host factor for Ebola virus infection
+tmkp-2026-04-21-edge-audit-batch-001-2070,codex-manual,2026-05-04,supported,good,good,genetic_model_context,NHERF1 deficient mice developed non-obstructive hydrocephalus
+tmkp-2026-04-21-edge-audit-batch-001-2071,codex-manual,2026-05-04,supported,good,good,mechanism_context,TRIM37 overexpression promoted pancreatic cancer growth and migration
+tmkp-2026-04-21-edge-audit-batch-001-2072,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,nodal describes lymphoma location not NODAL gene
+tmkp-2026-04-21-edge-audit-batch-001-2073,codex-manual,2026-05-04,partially_supported,partial,partial,generic_object|inverse_or_tumor_suppressor_context,UTRN antisense expression induced transformation consistent with tumor suppressor role
+tmkp-2026-04-21-edge-audit-batch-001-2074,codex-manual,2026-05-04,supported,good,good,mechanism_context,SGEF expression altered EGFR degradation in prostate cancer cells
+tmkp-2026-04-21-edge-audit-batch-001-2075,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_only,Spry2 protein decreased in liver cancer and correlated with poor prognosis
+tmkp-2026-04-21-edge-audit-batch-001-2076,codex-manual,2026-05-04,partially_supported,partial,partial,generic_object|biomarker_or_expression_only,POTEE is a cancer-testis antigen expressed in many cancers
+tmkp-2026-04-21-edge-audit-batch-001-2077,codex-manual,2026-05-04,supported,good,good,genetic_association,RAD51C loss of function variants are associated with familial ovarian cancer
+tmkp-2026-04-21-edge-audit-batch-001-2078,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_only,Dio3 locus was repressed in lung tumor infiltrating immune cells
+tmkp-2026-04-21-edge-audit-batch-001-2079,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_only,L-ficolin serum was higher in hepatitis C patients
+tmkp-2026-04-21-edge-audit-batch-001-2080,codex-manual,2026-05-04,supported,good,good,biomarker_or_expression_context,GAL3ST2 was more strongly expressed in metastatic tumors
+tmkp-2026-04-21-edge-audit-batch-001-2081,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|wrong_gene,BAP1 thyroid adenoma evidence was normalized to RNF2
+tmkp-2026-04-21-edge-audit-batch-001-2082,codex-manual,2026-05-04,unsupported,bad,bad,object_mismatch|family_mention_fanout,VEGF in non-small-cell lung carcinoma does not support VEGFB to SMA
+tmkp-2026-04-21-edge-audit-batch-001-2083,codex-manual,2026-05-04,supported,good,good,genetic_association,FADS1 polymorphisms were studied in autism susceptibility
+tmkp-2026-04-21-edge-audit-batch-001-2084,codex-manual,2026-05-04,supported,good,good,genetic_model_context,BCL6 is overexpressed in DLBCL and transgenic mice develop DLBCL
+tmkp-2026-04-21-edge-audit-batch-001-2085,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_context,HSF2 DNA-binding activity was characterized in embryonal carcinoma cells
+tmkp-2026-04-21-edge-audit-batch-001-2086,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_tumor_suppressor_context,TIMP-2 overexpression reduced melanoma growth
+tmkp-2026-04-21-edge-audit-batch-001-2087,codex-manual,2026-05-04,partially_supported,partial,good,inference_context,zebrafish model may inform DNM2-related neurologic disease
+tmkp-2026-04-21-edge-audit-batch-001-2088,codex-manual,2026-05-04,unsupported,bad,bad,cell_line_context|normalization_error,MED-1 is part of medulloblastoma cell line name
+tmkp-2026-04-21-edge-audit-batch-001-2089,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|wrong_gene,NOS1 restless legs evidence was normalized to NOA1
+tmkp-2026-04-21-edge-audit-batch-001-2090,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|object_mismatch,AIPI is alpha-I-antiproteinase deficiency not autoimmune pancreatitis
+tmkp-2026-04-21-edge-audit-batch-001-2091,codex-manual,2026-05-04,partially_supported,partial,partial,generic_object|candidate_gene_context,ETNK2 was a candidate tumor suppressor gene
+tmkp-2026-04-21-edge-audit-batch-001-2092,codex-manual,2026-05-04,supported,good,good,prognostic_association,MMP-9 expression correlated with worse pancreatic ductal carcinoma prognosis
+tmkp-2026-04-21-edge-audit-batch-001-2093,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|wrong_gene,PAP pancreatic ductal adenocarcinoma evidence does not support PDAP1
+tmkp-2026-04-21-edge-audit-batch-001-2094,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,CN-1 is Crigler-Najjar type 1 not CNDP1
+tmkp-2026-04-21-edge-audit-batch-001-2095,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,MAP refers to polyposis context not SGSM3
+tmkp-2026-04-21-edge-audit-batch-001-2096,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_only,Beclin-1 mRNA levels were lower in otitis media with effusion
+tmkp-2026-04-21-edge-audit-batch-001-2097,codex-manual,2026-05-04,supported,good,good,genetic_model_context,Apobec1 isoform contributes to atherosclerosis
+tmkp-2026-04-21-edge-audit-batch-001-2098,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|wrong_gene,mcm2 DLBCL marker evidence was normalized to MCM7
+tmkp-2026-04-21-edge-audit-batch-001-2099,codex-manual,2026-05-04,supported,good,good,mechanism_context,aromatase expression may play role in lung cancer oncogenesis
+tmkp-2026-04-21-edge-audit-batch-001-2100,codex-manual,2026-05-04,supported,good,good,mechanism_context,RUVBL2 is essential for oncogenic c-MYB function in AML
+tmkp-2026-04-21-edge-audit-batch-001-2101,codex-manual,2026-05-04,unsupported,bad,bad,viral_promoter_context|normalization_error,BCR2 promoter in EBV transcript context does not support BCR
+tmkp-2026-04-21-edge-audit-batch-001-2102,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|wrong_gene,TXNDC5 prostate cancer growth evidence was normalized to TXN2
+tmkp-2026-04-21-edge-audit-batch-001-2103,codex-manual,2026-05-04,supported,good,good,mechanism_context,IL-6 expression plays important role in osteoarthritis pathogenesis
+tmkp-2026-04-21-edge-audit-batch-001-2104,codex-manual,2026-05-04,supported,good,good,model_or_assay_context,SMS2 altered ceramide synthesis was associated with depressive disorder
+tmkp-2026-04-21-edge-audit-batch-001-2105,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_context,Foxo1 mutant induced myogenic conversion of teratocarcinoma cells
+tmkp-2026-04-21-edge-audit-batch-001-2106,codex-manual,2026-05-04,partially_supported,partial,partial,family_mention_fanout|pathway_context,MAPK ERK signaling is linked to Wilms tumor
+tmkp-2026-04-21-edge-audit-batch-001-2107,codex-manual,2026-05-04,unsupported,bad,bad,list_or_cross_product|object_mismatch,insulin resistance was separate from Majeed syndrome in the list
+tmkp-2026-04-21-edge-audit-batch-001-2108,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_differentiation_context,Frizzled9 signaling reversed transformation in lung cancer cells
+tmkp-2026-04-21-edge-audit-batch-001-2109,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|object_mismatch,RCC is renal cell carcinoma not refractory cytopenia of childhood
+tmkp-2026-04-21-edge-audit-batch-001-2110,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,PHS means prostaglandin H synthase not Pallister-Hall syndrome
+tmkp-2026-04-21-edge-audit-batch-001-2111,codex-manual,2026-05-04,partially_supported,partial,good,contiguous_gene_context,deletions containing ANKRD11 and other genes had congenital heart defects
+tmkp-2026-04-21-edge-audit-batch-001-2112,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_only,albumin level was a feature in pulmonary infection patients with leucopenia
+tmkp-2026-04-21-edge-audit-batch-001-2113,codex-manual,2026-05-04,supported,good,good,genetic_association,GRK5 was hypothesized to contribute to malaria pathogenesis
+tmkp-2026-04-21-edge-audit-batch-001-2114,codex-manual,2026-05-04,unsupported,bad,partial,object_mismatch|family_mention_fanout,VEGF pathway is clear cell RCC context but object is nonpapillary RCC
+tmkp-2026-04-21-edge-audit-batch-001-2115,codex-manual,2026-05-04,partially_supported,partial,good,prognostic_association,SOX7 promoter methylation correlated with poor prognosis in MDS
+tmkp-2026-04-21-edge-audit-batch-001-2116,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|wrong_gene,DEP-1 cancer driver evidence was normalized to DDX3X
+tmkp-2026-04-21-edge-audit-batch-001-2117,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|object_mismatch,IBD is isobutyryl-CoA dehydrogenase context not inflammatory bowel disease
+tmkp-2026-04-21-edge-audit-batch-001-2118,codex-manual,2026-05-04,unsupported,bad,bad,object_mismatch,pituitary HPA axis activation is not hypophysitis
+tmkp-2026-04-21-edge-audit-batch-001-2119,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|wrong_gene,MID1 hypospadias evidence was normalized to MPG
+tmkp-2026-04-21-edge-audit-batch-001-2120,codex-manual,2026-05-04,supported,good,good,mechanism_context,TLR4 signaling promoted non-small cell lung cancer metastasis
+tmkp-2026-04-21-edge-audit-batch-001-2121,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_context,LonP1 upregulation changed metabolism in colon tumor cells
+tmkp-2026-04-21-edge-audit-batch-001-2122,codex-manual,2026-05-04,partially_supported,partial,partial,generic_object|biomarker_or_expression_only,PAX8-PPAR rearrangement was used in carcinoma differentiation
+tmkp-2026-04-21-edge-audit-batch-001-2123,codex-manual,2026-05-04,partially_supported,partial,good,inverse_or_deficiency_context,HBEGF is downregulated in preeclampsia pregnancy disorder
+tmkp-2026-04-21-edge-audit-batch-001-2124,codex-manual,2026-05-04,supported,good,good,genetic_association,HOXA13 loss of function caused syndactyly
+tmkp-2026-04-21-edge-audit-batch-001-2125,codex-manual,2026-05-04,supported,good,good,genetic_association,ABCC6 loss of function was associated with beta thalassemia context
+tmkp-2026-04-21-edge-audit-batch-001-2126,codex-manual,2026-05-04,unclear,unclear,good,insufficient_evidence,text only describes studying FMR1 expansion in autoimmune disease patients
+tmkp-2026-04-21-edge-audit-batch-001-2127,codex-manual,2026-05-04,supported,good,good,genetic_association,CARS2 mutations lead to movement disorder
+tmkp-2026-04-21-edge-audit-batch-001-2128,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_only,TLR9 mRNA was measured in aplastic anemia stem cells
+tmkp-2026-04-21-edge-audit-batch-001-2129,codex-manual,2026-05-04,unsupported,bad,bad,family_mention_fanout|normalization_error,TNF malaria hypoglycemia evidence does not support TNFSF8
+tmkp-2026-04-21-edge-audit-batch-001-2130,codex-manual,2026-05-04,supported,good,good,genetic_model_context,Smad4 mutant mice had severe sensorineural hearing loss
+tmkp-2026-04-21-edge-audit-batch-001-2131,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|wrong_gene,SHIP-1 gout evidence was normalized to ZNF541
+tmkp-2026-04-21-edge-audit-batch-001-2132,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,Ags means antigens and does not support MFGE8
+tmkp-2026-04-21-edge-audit-batch-001-2133,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_tumor_suppressor_context,lamin B1 acts as tumor suppressor in lung cancer
+tmkp-2026-04-21-edge-audit-batch-001-2134,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product|object_mismatch,TTF-1 expression belongs to posterior pituitary tumor spectrum not meningioma
+tmkp-2026-04-21-edge-audit-batch-001-2135,codex-manual,2026-05-04,partially_supported,partial,good,inverse_or_tumor_suppressor_context,ACP6 expression was reduced in ovarian cancer tumors
+tmkp-2026-04-21-edge-audit-batch-001-2136,codex-manual,2026-05-04,unsupported,bad,bad,amino_acid_mention|normalization_error,Arg mutation notation does not support ABL2
+tmkp-2026-04-21-edge-audit-batch-001-2137,codex-manual,2026-05-04,supported,good,good,genetic_model_context,NUP98-PMX1 mice developed CML-like phenotype
+tmkp-2026-04-21-edge-audit-batch-001-2138,codex-manual,2026-05-04,supported,good,good,pathway_context,AML transcription factors cooperate with Smad3
+tmkp-2026-04-21-edge-audit-batch-001-2139,codex-manual,2026-05-04,unsupported,bad,bad,gene_name_context|family_mention_fanout,PML protein and E2F target genes do not support E2F1 to APL
+tmkp-2026-04-21-edge-audit-batch-001-2140,codex-manual,2026-05-04,unsupported,bad,good,viral_process_context,EGF receptor downregulation during adenovirus infection does not support EGF contribution
+tmkp-2026-04-21-edge-audit-batch-001-2141,codex-manual,2026-05-04,unsupported,bad,bad,mouse_construct_context|normalization_error,TET-1 is a Tie-1 promoter mouse model name not TET1
+tmkp-2026-04-21-edge-audit-batch-001-2142,codex-manual,2026-05-04,partially_supported,partial,partial,generic_object|inverse_or_tumor_suppressor_context,OSGIN1 common form functioned as a tumor suppressor
+tmkp-2026-04-21-edge-audit-batch-001-2143,codex-manual,2026-05-04,supported,good,good,genetic_association,WNT7A partial loss of function causes Fuhrmann syndrome
+tmkp-2026-04-21-edge-audit-batch-001-2144,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|wrong_gene,DRB1 vasculitis risk evidence was normalized to RBM45
+tmkp-2026-04-21-edge-audit-batch-001-2145,codex-manual,2026-05-04,supported,good,good,genetic_association,DOK7 mutations underlie limb-girdle myasthenia neuromuscular disease
+tmkp-2026-04-21-edge-audit-batch-001-2146,codex-manual,2026-05-04,unsupported,bad,bad,viral_context|normalization_error,PPV infection antibody evidence does not support PPP6C
+tmkp-2026-04-21-edge-audit-batch-001-2147,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_only,haptoglobin glycoform was elevated in colon cancer sera
+tmkp-2026-04-21-edge-audit-batch-001-2148,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|wrong_gene,Tim9 deafness-dystonia context was normalized to TIMM10B
+tmkp-2026-04-21-edge-audit-batch-001-2149,codex-manual,2026-05-04,partially_supported,partial,partial,biomarker_or_expression_only,thymidine kinase isoenzymes were purified from acute monocytic leukemia leukocytes
+tmkp-2026-04-21-edge-audit-batch-001-2150,codex-manual,2026-05-04,unsupported,bad,bad,disease_abbreviation_context|normalization_error,PML is leukemia disease context not PML gene contribution to glioblastoma

@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-001-0201,codex-manual,2026-05-04,partially_supported,good,partial,combination_exposure|normalization_error,Text supports toxic hepatitis from Chinese skullcap and black catechu but Gambir is only approximate.
+tmkp-2026-04-21-edge-audit-batch-001-0202,codex-manual,2026-05-04,supported,good,good,,PF-04447943 group reported more gastrointestinal adverse events including diarrhea.
+tmkp-2026-04-21-edge-audit-batch-001-0203,codex-manual,2026-05-04,partially_supported,partial,partial,cohort_or_exposure_only|generic_subject,Occupational metal exposure was evaluated for brain cancer risk.
+tmkp-2026-04-21-edge-audit-batch-001-0204,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Trophoblast tumor growth is stated to be estrogen independent.
+tmkp-2026-04-21-edge-audit-batch-001-0205,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|common_word_mention|normalization_error,DSS is a cancer subtype or survival context and not severe dengue.
+tmkp-2026-04-21-edge-audit-batch-001-0206,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure|negation_or_hedging,DEET with other agents is suspected for Gulf War syndrome but controversy remains.
+tmkp-2026-04-21-edge-audit-batch-001-0207,codex-manual,2026-05-04,supported,good,good,,Pseudomembranous colitis is associated with chemotherapeutic agents such as 5-fluorouracil.
+tmkp-2026-04-21-edge-audit-batch-001-0208,codex-manual,2026-05-04,partially_supported,partial,good,negation_or_hedging,High-dose tamoxifen was considered a possible heart failure risk and lower dose was used.
+tmkp-2026-04-21-edge-audit-batch-001-0209,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,OAS means oligoadenylate synthetase and not microphthalmia with limb anomalies.
+tmkp-2026-04-21-edge-audit-batch-001-0210,codex-manual,2026-05-04,supported,good,good,,DHT was effective in causing testicular atrophy.
+tmkp-2026-04-21-edge-audit-batch-001-0211,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_treatment_context,Retinal degeneration progressed despite hydroxocobalamin treatment.
+tmkp-2026-04-21-edge-audit-batch-001-0212,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|generic_subject,Ligand is a nonspecific term in a prostate tumor cell activation context.
+tmkp-2026-04-21-edge-audit-batch-001-0213,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|generic_subject,Ligand is a nonspecific term in bladder cancer cell migration context.
+tmkp-2026-04-21-edge-audit-batch-001-0214,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,SOD means antioxidant enzyme and not segmental odontomaxillary dysplasia.
+tmkp-2026-04-21-edge-audit-batch-001-0215,codex-manual,2026-05-04,unclear,unclear,good,negation_or_hedging,NO was related to eczema in a pollutant study but causality was not proven.
+tmkp-2026-04-21-edge-audit-batch-001-0216,codex-manual,2026-05-04,partially_supported,partial,good,cohort_or_exposure_only,Hepatitis occurred long after cladribine and amid other events.
+tmkp-2026-04-21-edge-audit-batch-001-0217,codex-manual,2026-05-04,partially_supported,good,good,model_or_assay_only,DHA administration increased granulosa cell tumor incidence in experimental data.
+tmkp-2026-04-21-edge-audit-batch-001-0218,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|list_or_cross_product,Hand-foot syndrome and diarrhea were normalized to trichohepatoenteric syndrome.
+tmkp-2026-04-21-edge-audit-batch-001-0219,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,The subject is cholesterol-lowering agents rather than cholesterol.
+tmkp-2026-04-21-edge-audit-batch-001-0220,codex-manual,2026-05-04,supported,good,good,,Text explicitly discusses colon tumor enhancement by genistein.
+tmkp-2026-04-21-edge-audit-batch-001-0221,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,DCA appears to be a bile acid species and not dichloroacetic acid.
+tmkp-2026-04-21-edge-audit-batch-001-0222,codex-manual,2026-05-04,partially_supported,partial,partial,generic_subject,Xenobiotic compounds are proposed to interfere with fertility.
+tmkp-2026-04-21-edge-audit-batch-001-0223,codex-manual,2026-05-04,supported,good,good,,Text says oculogyric crisis due to domperidone therapy.
+tmkp-2026-04-21-edge-audit-batch-001-0224,codex-manual,2026-05-04,partially_supported,good,partial,generic_object,Gentamicin therapy can cause a Bartter-like nephrotoxic syndrome.
+tmkp-2026-04-21-edge-audit-batch-001-0225,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_deficiency_context,Dermatitis occurred after discontinuation of DGLA.
+tmkp-2026-04-21-edge-audit-batch-001-0226,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Text supports HIV transcription activation and not HIV-associated nephropathy.
+tmkp-2026-04-21-edge-audit-batch-001-0227,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,Dipyridamole promoted ethanol-induced ataxia.
+tmkp-2026-04-21-edge-audit-batch-001-0228,codex-manual,2026-05-04,supported,good,good,,Phenylephrine exposure can produce generalized eczema after previous contact eczema.
+tmkp-2026-04-21-edge-audit-batch-001-0229,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure,SMX-TMP use is linked with long-term neurologic disorders in a neonatal context.
+tmkp-2026-04-21-edge-audit-batch-001-0230,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,CAS is not cold agglutinin disease in this context.
+tmkp-2026-04-21-edge-audit-batch-001-0231,codex-manual,2026-05-04,supported,good,good,,Text says nitric oxide may cause headache and migraine.
+tmkp-2026-04-21-edge-audit-batch-001-0232,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,CMD means crystal methamphetamine dependence and not campomelic dysplasia.
+tmkp-2026-04-21-edge-audit-batch-001-0233,codex-manual,2026-05-04,supported,good,good,,5-ASA administration is associated with adverse effects including hepatitis.
+tmkp-2026-04-21-edge-audit-batch-001-0234,codex-manual,2026-05-04,supported,good,good,,Arecoline is implicated in periodontitis.
+tmkp-2026-04-21-edge-audit-batch-001-0235,codex-manual,2026-05-04,partially_supported,partial,partial,predicate_overbroad,Theophylline caused tactile visual and auditory hypersensitivity rather than hypersensitivity disease.
+tmkp-2026-04-21-edge-audit-batch-001-0236,codex-manual,2026-05-04,supported,good,good,,High plasma squalene could represent a CAD risk factor.
+tmkp-2026-04-21-edge-audit-batch-001-0237,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,AAA is aneurysm repair context and not acute annular outer retinopathy.
+tmkp-2026-04-21-edge-audit-batch-001-0238,codex-manual,2026-05-04,supported,good,good,,Vemurafenib was discontinued due to cardiomyopathy.
+tmkp-2026-04-21-edge-audit-batch-001-0239,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,SJS refers to Stevens-Johnson syndrome and not Schwartz-Jampel syndrome.
+tmkp-2026-04-21-edge-audit-batch-001-0240,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,No differences were identified for new colorectal cancer diagnoses.
+tmkp-2026-04-21-edge-audit-batch-001-0241,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Adverse event frequency including acute kidney injury was similar and no unexpected xenon reactions occurred.
+tmkp-2026-04-21-edge-audit-batch-001-0242,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_only,Renal failure is a baseline comparison and not attributed to biguanide use.
+tmkp-2026-04-21-edge-audit-batch-001-0243,codex-manual,2026-05-04,supported,good,good,,Genital ulcers developed during colchicine treatment.
+tmkp-2026-04-21-edge-audit-batch-001-0244,codex-manual,2026-05-04,supported,good,good,,The MORE trial revealed increased incidence of endometrial polyps with raloxifene.
+tmkp-2026-04-21-edge-audit-batch-001-0245,codex-manual,2026-05-04,unsupported,bad,good,model_or_assay_only,Text compares soybean effects in a disease model and does not assert soybean causes disease.
+tmkp-2026-04-21-edge-audit-batch-001-0246,codex-manual,2026-05-04,unsupported,bad,good,biomarker_or_expression_only,Growth hormone increased as a response to hypoglycaemia and is not causal.
+tmkp-2026-04-21-edge-audit-batch-001-0247,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_treatment_context,Voriconazole is being used for fungal meningitis.
+tmkp-2026-04-21-edge-audit-batch-001-0248,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,Balance is a common word and not isoxaflutole.
+tmkp-2026-04-21-edge-audit-batch-001-0249,codex-manual,2026-05-04,partially_supported,bad,good,biomarker_or_expression_only,DHEA-S elevation is a biomarker raising concern for adrenal tumor.
+tmkp-2026-04-21-edge-audit-batch-001-0250,codex-manual,2026-05-04,partially_supported,partial,partial,related_chemical_context,Contact eczema is due to potassium gold cyanide and not potassium alone.
+tmkp-2026-04-21-edge-audit-batch-001-0251,codex-manual,2026-05-04,partially_supported,good,good,model_or_assay_only,Thiacloprid induces uterine tumors in rats.
+tmkp-2026-04-21-edge-audit-batch-001-0252,codex-manual,2026-05-04,supported,good,good,,Iron is described as aggravating neurological disorders.
+tmkp-2026-04-21-edge-audit-batch-001-0253,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Skin rash is associated with icodextrin and not guanabenz.
+tmkp-2026-04-21-edge-audit-batch-001-0254,codex-manual,2026-05-04,partially_supported,partial,partial,related_exposure_context,Dermatitis is due to preservative in gum arabic so Acacia is only exposure context.
+tmkp-2026-04-21-edge-audit-batch-001-0255,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,CMC is a treatment component in a rat model and not chronic mucocutaneous candidiasis.
+tmkp-2026-04-21-edge-audit-batch-001-0256,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Object mention is genetic errors and not epithelial recurrent erosion dystrophy.
+tmkp-2026-04-21-edge-audit-batch-001-0257,codex-manual,2026-05-04,partially_supported,good,good,model_or_assay_only,Tenoxicam-induced gastropathy is shown in rats.
+tmkp-2026-04-21-edge-audit-batch-001-0258,codex-manual,2026-05-04,supported,good,good,,Dermatomyositis was triggered and exacerbated by oral 5-fluorouracil.
+tmkp-2026-04-21-edge-audit-batch-001-0259,codex-manual,2026-05-04,partially_supported,good,good,combination_exposure|model_or_assay_only,Arecoline with 4-NQO produced carcinoma lesions in mice.
+tmkp-2026-04-21-edge-audit-batch-001-0260,codex-manual,2026-05-04,partially_supported,partial,partial,predicate_overbroad,Lidocaine caused temporary visual loss rather than permanent blindness.
+tmkp-2026-04-21-edge-audit-batch-001-0261,codex-manual,2026-05-04,partially_supported,good,good,combination_exposure,TEN occurred after trimethoprim and sulfamethoxazole.
+tmkp-2026-04-21-edge-audit-batch-001-0262,codex-manual,2026-05-04,supported,good,good,,Severe pancytopenia occurred during temozolomide therapy.
+tmkp-2026-04-21-edge-audit-batch-001-0263,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_only,Higher C-peptide levels from insulin resistance were associated with gastric cancer risk.
+tmkp-2026-04-21-edge-audit-batch-001-0264,codex-manual,2026-05-04,supported,good,good,,Tenofovir has been reported to lead to Fanconi syndrome.
+tmkp-2026-04-21-edge-audit-batch-001-0265,codex-manual,2026-05-04,supported,good,good,,Gastrointestinal disorders are consistently reported in patients receiving dasatinib.
+tmkp-2026-04-21-edge-audit-batch-001-0266,codex-manual,2026-05-04,supported,good,good,,Retinal edema followed vaginal administration of sulfanilamide.
+tmkp-2026-04-21-edge-audit-batch-001-0267,codex-manual,2026-05-04,supported,good,good,,Ethanolamine oleate may cause hemoglobinuria.
+tmkp-2026-04-21-edge-audit-batch-001-0268,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,PCG is not penicillin in this anterior segment dysgenesis context.
+tmkp-2026-04-21-edge-audit-batch-001-0269,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Text is about normal epididymis development and not epididymitis.
+tmkp-2026-04-21-edge-audit-batch-001-0270,codex-manual,2026-05-04,supported,good,good,,Nelfinavir might cause thyroid hyperplasia.
+tmkp-2026-04-21-edge-audit-batch-001-0271,codex-manual,2026-05-04,unclear,unclear,good,negation_or_hedging,It has yet to be established whether chlorogenic acid is associated with hypersensitivity reactions.
+tmkp-2026-04-21-edge-audit-batch-001-0272,codex-manual,2026-05-04,supported,good,good,,Clinical study discovered tienilic acid-induced hepatitis.
+tmkp-2026-04-21-edge-audit-batch-001-0273,codex-manual,2026-05-04,partially_supported,partial,good,related_exposure_context,Vasculitis is caused by levamisole used as an adulterant in cocaine.
+tmkp-2026-04-21-edge-audit-batch-001-0274,codex-manual,2026-05-04,partially_supported,good,good,model_or_assay_only,Daunomycin-induced nephropathy is studied in mice.
+tmkp-2026-04-21-edge-audit-batch-001-0275,codex-manual,2026-05-04,partially_supported,good,good,model_or_assay_only,Asparagine injection caused transient hyperglycemia in mice.
+tmkp-2026-04-21-edge-audit-batch-001-0276,codex-manual,2026-05-04,supported,good,good,,Increased ammonia levels cause subsequent diseases including Reye syndrome.
+tmkp-2026-04-21-edge-audit-batch-001-0277,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,CMX001 is not cefmenoxime.
+tmkp-2026-04-21-edge-audit-batch-001-0278,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Text says no association between caffeine-containing beverages and liver cancer risk.
+tmkp-2026-04-21-edge-audit-batch-001-0279,codex-manual,2026-05-04,partially_supported,good,good,model_or_assay_only,Ammonia exposure caused susceptibility to infection in shrimp.
+tmkp-2026-04-21-edge-audit-batch-001-0280,codex-manual,2026-05-04,unclear,unclear,good,negation_or_hedging,Text says little is known about long-term cardiovascular effects of chlorine exposure.
+tmkp-2026-04-21-edge-audit-batch-001-0281,codex-manual,2026-05-04,unsupported,bad,partial,predicate_overbroad,Cardiomyopathy syndrome is a disease of Atlantic salmon and not caused by salmon.
+tmkp-2026-04-21-edge-audit-batch-001-0282,codex-manual,2026-05-04,unsupported,bad,good,inverse_or_protective,Higher magnesium intake was related to reduced cognitive disorder risk.
+tmkp-2026-04-21-edge-audit-batch-001-0283,codex-manual,2026-05-04,supported,good,good,,Chronic diarrhea occurred after starting pembrolizumab.
+tmkp-2026-04-21-edge-audit-batch-001-0284,codex-manual,2026-05-04,partially_supported,partial,good,monitoring_context,Phenobarbital treatment requires monitoring for hypokalemia.
+tmkp-2026-04-21-edge-audit-batch-001-0285,codex-manual,2026-05-04,supported,good,good,,Title reports hepatoma initiating and promoting effects of gossypol.
+tmkp-2026-04-21-edge-audit-batch-001-0286,codex-manual,2026-05-04,supported,good,good,,Memory impairment is listed among salvinorin A side effects.
+tmkp-2026-04-21-edge-audit-batch-001-0287,codex-manual,2026-05-04,supported,good,good,,Text directly says cidofovir-induced end-stage renal failure.
+tmkp-2026-04-21-edge-audit-batch-001-0288,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,DMSO is mentioned as solvent for anticancer drugs and osteosarcoma is not the caused object.
+tmkp-2026-04-21-edge-audit-batch-001-0289,codex-manual,2026-05-04,supported,good,good,,Orthostatic hypotension occurs frequently after anesthesia.
+tmkp-2026-04-21-edge-audit-batch-001-0290,codex-manual,2026-05-04,partially_supported,partial,good,cohort_or_exposure_only,Patient used pravastatin and developed chronic renal failure requiring dialysis.
+tmkp-2026-04-21-edge-audit-batch-001-0291,codex-manual,2026-05-04,partially_supported,good,good,negation_or_hedging,Desogestrel contraceptives have been associated with higher VTE risk but findings are controversial.
+tmkp-2026-04-21-edge-audit-batch-001-0292,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_or_expression_only,Serum magnesium ion level is associated with noise-induced hearing loss risk.
+tmkp-2026-04-21-edge-audit-batch-001-0293,codex-manual,2026-05-04,partially_supported,partial,good,model_or_assay_only,Muscle degeneration lesions were less severe for ketorolac than other NSAIDs.
+tmkp-2026-04-21-edge-audit-batch-001-0294,codex-manual,2026-05-04,supported,good,good,,Hydrogenated soy lecithin solution evoked transient thrombocytopenia.
+tmkp-2026-04-21-edge-audit-batch-001-0295,codex-manual,2026-05-04,partially_supported,partial,good,combination_exposure|model_or_assay_only,Elacridar with ivermectin led to seizures in animals.
+tmkp-2026-04-21-edge-audit-batch-001-0296,codex-manual,2026-05-04,supported,good,good,,Attributable anesthetic adverse events included arrhythmia.
+tmkp-2026-04-21-edge-audit-batch-001-0297,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,His is a possessive pronoun and not histidine.
+tmkp-2026-04-21-edge-audit-batch-001-0298,codex-manual,2026-05-04,supported,good,good,,Text discusses liver disease induced by bendazac.
+tmkp-2026-04-21-edge-audit-batch-001-0299,codex-manual,2026-05-04,partially_supported,partial,partial,cohort_or_exposure_only,Hypersensitivity was temporally associated with chocolate consumption.
+tmkp-2026-04-21-edge-audit-batch-001-0300,codex-manual,2026-05-04,partially_supported,partial,partial,related_exposure_context,High-pressure helium oxygen mixture leads to high pressure neurological syndrome.

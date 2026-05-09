@@ -1,0 +1,16 @@
+.admonition,
+.callout {
+  border-left: 0.35rem solid #2563eb;
+}
+
+table {
+  font-size: 0.92rem;
+}
+
+code {
+  white-space: nowrap;
+}
+
+.wy-nav-content {
+  max-width: 1120px;
+}

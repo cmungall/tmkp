@@ -1,0 +1,26 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-001-1626,codex-manual,2026-05-04,supported,good,good,model_or_assay_context|treatment_context,DHT alleviated body weight loss
+tmkp-2026-04-21-edge-audit-batch-001-1627,codex-manual,2026-05-04,supported,good,good,study_context|treatment_context,l-dopa was reported useful for refractory absence seizures
+tmkp-2026-04-21-edge-audit-batch-001-1628,codex-manual,2026-05-04,partially_supported,partial,good,adverse_event_context|study_context,encainide was an antiarrhythmic in ventricular arrhythmia patients but had increased mortality
+tmkp-2026-04-21-edge-audit-batch-001-1629,codex-manual,2026-05-04,partially_supported,partial,good,treatment_of_other_condition|phenotype_manifestation,infliximab treats rheumatoid arthritis and hand deformities may have decreased
+tmkp-2026-04-21-edge-audit-batch-001-1630,codex-manual,2026-05-04,unsupported,bad,good,cohort_or_exposure_only,risdiplam study included patients with contractures as baseline characteristics
+tmkp-2026-04-21-edge-audit-batch-001-1631,codex-manual,2026-05-04,supported,good,good,model_or_assay_context|treatment_context,ceruletide improved ataxic gait
+tmkp-2026-04-21-edge-audit-batch-001-1632,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment,muscle weakness improved after prednisone naproxen and methotrexate
+tmkp-2026-04-21-edge-audit-batch-001-1633,codex-manual,2026-05-04,supported,good,good,treatment_context,fever alleviation with laninamivir was comparable in influenza treatment context
+tmkp-2026-04-21-edge-audit-batch-001-1634,codex-manual,2026-05-04,supported,good,good,treatment_context,ozone was used for tinnitus therapy
+tmkp-2026-04-21-edge-audit-batch-001-1635,codex-manual,2026-05-04,supported,good,good,treatment_context,naratriptan relieved nausea and vomiting
+tmkp-2026-04-21-edge-audit-batch-001-1636,codex-manual,2026-05-04,supported,good,good,treatment_context,roxithromycin was given for cough fever and anorexia
+tmkp-2026-04-21-edge-audit-batch-001-1637,codex-manual,2026-05-04,unsupported,bad,good,model_or_assay_only|cohort_or_exposure_only,estradiol mitigated changes in models that included hypercholesterolemia
+tmkp-2026-04-21-edge-audit-batch-001-1638,codex-manual,2026-05-04,partially_supported,partial,good,related_exposure_context,potassium in milk could ameliorate increased blood pressure among risk factors
+tmkp-2026-04-21-edge-audit-batch-001-1639,codex-manual,2026-05-04,supported,good,good,treatment_context,licorice is used to treat limb contracture
+tmkp-2026-04-21-edge-audit-batch-001-1640,codex-manual,2026-05-04,supported,good,good,treatment_context,propacetamol antipyretic effect may prevent recurrent febrile seizures
+tmkp-2026-04-21-edge-audit-batch-001-1641,codex-manual,2026-05-04,unsupported,bad,good,adverse_event_context|comparator_context,pemetrexed had fewer neutropenic fever episodes as chemotherapy toxicity context
+tmkp-2026-04-21-edge-audit-batch-001-1642,codex-manual,2026-05-04,supported,good,good,treatment_context,prednisolone improved back pain
+tmkp-2026-04-21-edge-audit-batch-001-1643,codex-manual,2026-05-04,unsupported,bad,good,treatment_of_other_condition|cohort_or_exposure_only,ramipril reduced CRP in patients with hypercholesterolemia
+tmkp-2026-04-21-edge-audit-batch-001-1644,codex-manual,2026-05-04,supported,good,good,treatment_context,coenzyme Q10 improved muscular weakness
+tmkp-2026-04-21-edge-audit-batch-001-1645,codex-manual,2026-05-04,supported,good,good,treatment_context,amitriptyline has been used for hyperactivity disorder
+tmkp-2026-04-21-edge-audit-batch-001-1646,codex-manual,2026-05-04,partially_supported,partial,good,outcome_measure_context,doxazosin treatment groups were compared for pain episodes
+tmkp-2026-04-21-edge-audit-batch-001-1647,codex-manual,2026-05-04,unsupported,bad,good,comparator_context,maropitant reduced vomiting compared with acepromazine or saline
+tmkp-2026-04-21-edge-audit-batch-001-1648,codex-manual,2026-05-04,partially_supported,good,partial,related_chemical_context,catechin reduced risk of cognitive impairment but normalized subject is cianidanol
+tmkp-2026-04-21-edge-audit-batch-001-1649,codex-manual,2026-05-04,unsupported,bad,partial,negation_or_hedging|related_treatment_context,IVIg was insufficient to improve muscle weakness and CY improved symptoms
+tmkp-2026-04-21-edge-audit-batch-001-1650,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,zinc complex reduced edema but normalized subject is velmanase alfa

@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-002-1301,codex-manual,2026-05-04,supported,good,good,,Warfarin side effects included epistaxis.
+tmkp-2026-04-21-edge-audit-batch-002-1302,codex-manual,2026-05-04,unsupported,bad,good,protective_context,Folate supplementation decreased limb abnormalities.
+tmkp-2026-04-21-edge-audit-batch-002-1303,codex-manual,2026-05-04,supported,good,good,,EGCG has hypolipidemic activity.
+tmkp-2026-04-21-edge-audit-batch-002-1304,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,SCP was a patient group abbreviation not sulfachlorpyridazine.
+tmkp-2026-04-21-edge-audit-batch-002-1305,codex-manual,2026-05-04,supported,good,good,,Phenylacetic acid induces vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1306,codex-manual,2026-05-04,unsupported,bad,good,wrong_object_context,Uric acid causes hyperuricemia while potassium causes hyperkalemia.
+tmkp-2026-04-21-edge-audit-batch-002-1307,codex-manual,2026-05-04,unsupported,bad,good,treatment_context,Serine treatment improved spasticity.
+tmkp-2026-04-21-edge-audit-batch-002-1308,codex-manual,2026-05-04,supported,good,good,,Guanfacine adverse effects included sleep disturbance.
+tmkp-2026-04-21-edge-audit-batch-002-1309,codex-manual,2026-05-04,supported,good,good,,Colchicine side effects include nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1310,codex-manual,2026-05-04,supported,good,good,,Valproate exposure was associated with micrognathia.
+tmkp-2026-04-21-edge-audit-batch-002-1311,codex-manual,2026-05-04,supported,good,good,,KCl bolus caused transient hyperkalemia.
+tmkp-2026-04-21-edge-audit-batch-002-1312,codex-manual,2026-05-04,supported,good,good,,Brain iron accumulation leads to spasticity.
+tmkp-2026-04-21-edge-audit-batch-002-1313,codex-manual,2026-05-04,supported,good,good,,Phenol-treated face showed edema.
+tmkp-2026-04-21-edge-audit-batch-002-1314,codex-manual,2026-05-04,supported,good,good,,Nitrous oxide was associated with generalized seizures.
+tmkp-2026-04-21-edge-audit-batch-002-1315,codex-manual,2026-05-04,supported,good,good,,Cisplatin-induced neuropathy includes pain.
+tmkp-2026-04-21-edge-audit-batch-002-1316,codex-manual,2026-05-04,supported,good,good,,Cysteamine adverse events include vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1317,codex-manual,2026-05-04,partially_supported,partial,good,confounded_context,Gemcitabine combination therapy occurred in a patient with abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-002-1318,codex-manual,2026-05-04,supported,good,good,,Captopril patients developed erythematous eruption.
+tmkp-2026-04-21-edge-audit-batch-002-1319,codex-manual,2026-05-04,supported,good,good,comparator_context,Midazolam had higher sleep disturbance than melatonin.
+tmkp-2026-04-21-edge-audit-batch-002-1320,codex-manual,2026-05-04,unsupported,bad,good,withdrawal_context,Seizure occurred after magnesium was stopped.
+tmkp-2026-04-21-edge-audit-batch-002-1321,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,ASC was a disease abbreviation not N-acetylsulfanilyl chloride.
+tmkp-2026-04-21-edge-audit-batch-002-1322,codex-manual,2026-05-04,supported,good,good,,ZD6126 side effects included vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1323,codex-manual,2026-05-04,supported,good,good,,Vincristine-induced hyponatremia resulted in coma.
+tmkp-2026-04-21-edge-audit-batch-002-1324,codex-manual,2026-05-04,unsupported,bad,good,inverse_context,Lack of vitamin B12 predisposes to failure to thrive.
+tmkp-2026-04-21-edge-audit-batch-002-1325,codex-manual,2026-05-04,supported,good,good,,Pimozide can cause ventricular arrhythmias.
+tmkp-2026-04-21-edge-audit-batch-002-1326,codex-manual,2026-05-04,supported,good,good,,Digoxin use was listed as a hyperkalemia risk factor.
+tmkp-2026-04-21-edge-audit-batch-002-1327,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,MDA campaigns were mass drug administration campaigns.
+tmkp-2026-04-21-edge-audit-batch-002-1328,codex-manual,2026-05-04,supported,good,good,,Edema resolved after fluconazole dose was decreased.
+tmkp-2026-04-21-edge-audit-batch-002-1329,codex-manual,2026-05-04,supported,good,good,,Primidone exposure was included among drugs linked to skeletal abnormalities.
+tmkp-2026-04-21-edge-audit-batch-002-1330,codex-manual,2026-05-04,supported,good,good,,Elevated calcium is associated with muscle weakness.
+tmkp-2026-04-21-edge-audit-batch-002-1331,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Seizure occurred after coadministration of posaconazole and vincristine.
+tmkp-2026-04-21-edge-audit-batch-002-1332,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,NAC-only treatment did not increase skeletal abnormalities.
+tmkp-2026-04-21-edge-audit-batch-002-1333,codex-manual,2026-05-04,unsupported,bad,good,comparator_context,Hypercholesterolemia was more common with anastrozole than tamoxifen.
+tmkp-2026-04-21-edge-audit-batch-002-1334,codex-manual,2026-05-04,partially_supported,good,partial,normalization_uncertain,IL-4 expression was associated with sleep disturbance.
+tmkp-2026-04-21-edge-audit-batch-002-1335,codex-manual,2026-05-04,unsupported,bad,good,negation_or_hedging,Motor seizures were not detected after levetiracetam.
+tmkp-2026-04-21-edge-audit-batch-002-1336,codex-manual,2026-05-04,unsupported,bad,partial,background_medication_context,Cholecalciferol was background therapy and seizure occurred with hypocalcemia after lansoprazole.
+tmkp-2026-04-21-edge-audit-batch-002-1337,codex-manual,2026-05-04,supported,good,good,,Trimetazidine side effects include vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1338,codex-manual,2026-05-04,supported,good,good,,Paroxetine dose increase was followed by dysarthria.
+tmkp-2026-04-21-edge-audit-batch-002-1339,codex-manual,2026-05-04,supported,good,good,,Chronic metoclopramide use can cause involuntary movements.
+tmkp-2026-04-21-edge-audit-batch-002-1340,codex-manual,2026-05-04,unsupported,bad,good,inverse_context,Avoidance of cow milk was associated with small stature.
+tmkp-2026-04-21-edge-audit-batch-002-1341,codex-manual,2026-05-04,supported,good,good,,Imipenem side effects include myoclonic activity.
+tmkp-2026-04-21-edge-audit-batch-002-1342,codex-manual,2026-05-04,supported,good,good,,Valproic acid caused reversible brain atrophy.
+tmkp-2026-04-21-edge-audit-batch-002-1343,codex-manual,2026-05-04,unsupported,bad,good,treatment_context,Piperacillin tazobactam was recommended for UTI with associated sepsis.
+tmkp-2026-04-21-edge-audit-batch-002-1344,codex-manual,2026-05-04,unsupported,bad,good,treatment_context,Edema resolved after amikacin treatment.
+tmkp-2026-04-21-edge-audit-batch-002-1345,codex-manual,2026-05-04,partially_supported,good,partial,normalization_uncertain,Vitamin D3 induced hypercalciuria but subject was ergocalciferol.
+tmkp-2026-04-21-edge-audit-batch-002-1346,codex-manual,2026-05-04,supported,good,good,,ACTH treatment was followed by ventricular arrhythmia.
+tmkp-2026-04-21-edge-audit-batch-002-1347,codex-manual,2026-05-04,partially_supported,partial,good,comparator_context,Side effects were described as similar to MPA.
+tmkp-2026-04-21-edge-audit-batch-002-1348,codex-manual,2026-05-04,supported,good,good,,Omeprazole caused fever.
+tmkp-2026-04-21-edge-audit-batch-002-1349,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,DST was not dihydrostreptomycin in this context.
+tmkp-2026-04-21-edge-audit-batch-002-1350,codex-manual,2026-05-04,unsupported,bad,good,disease_context,Edema was due to nephrotic syndrome while on mycophenolate mofetil.
+tmkp-2026-04-21-edge-audit-batch-002-1351,codex-manual,2026-05-04,unclear,unclear,good,monitoring_context,Behavioral changes were monitored after minocycline but causation was not stated.
+tmkp-2026-04-21-edge-audit-batch-002-1352,codex-manual,2026-05-04,supported,good,good,,Tramadol serious adverse events included abdominal pain.
+tmkp-2026-04-21-edge-audit-batch-002-1353,codex-manual,2026-05-04,unsupported,bad,bad,location_collision,Turkey was a travel location not a chemical.
+tmkp-2026-04-21-edge-audit-batch-002-1354,codex-manual,2026-05-04,supported,good,good,,Erythematous lesions were a possible pirfenidone side effect.
+tmkp-2026-04-21-edge-audit-batch-002-1355,codex-manual,2026-05-04,supported,good,good,coexposure_context,Tobacco abuse is associated with visual impairment.
+tmkp-2026-04-21-edge-audit-batch-002-1356,codex-manual,2026-05-04,supported,good,good,,Calcitriol derivatives induce weight loss in mice.
+tmkp-2026-04-21-edge-audit-batch-002-1357,codex-manual,2026-05-04,supported,good,good,,Probenecid toxicities include fever.
+tmkp-2026-04-21-edge-audit-batch-002-1358,codex-manual,2026-05-04,supported,good,good,,Tachycardia developed during encainide therapy.
+tmkp-2026-04-21-edge-audit-batch-002-1359,codex-manual,2026-05-04,supported,good,good,,Polysorbate 80 produced bacterial overgrowth in mice.
+tmkp-2026-04-21-edge-audit-batch-002-1360,codex-manual,2026-05-04,partially_supported,good,partial,generic_subject,3-Mercaptopropionic acid induced generalized tonic-clonic seizures.
+tmkp-2026-04-21-edge-audit-batch-002-1361,codex-manual,2026-05-04,supported,good,good,,Yohimbine ingestion caused vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1362,codex-manual,2026-05-04,supported,good,good,,Nausea and vomiting were higher with letrozole.
+tmkp-2026-04-21-edge-audit-batch-002-1363,codex-manual,2026-05-04,supported,good,good,,Irbesartan initiation was followed by edema.
+tmkp-2026-04-21-edge-audit-batch-002-1364,codex-manual,2026-05-04,unsupported,bad,good,protective_context,Olive oil use was associated with lower odds of cognitive deficit.
+tmkp-2026-04-21-edge-audit-batch-002-1365,codex-manual,2026-05-04,supported,good,good,,Nepafenac trials reported nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1366,codex-manual,2026-05-04,supported,good,good,,Subjects had sleep disturbance while on lovastatin.
+tmkp-2026-04-21-edge-audit-batch-002-1367,codex-manual,2026-05-04,partially_supported,partial,good,coexposure_context,Vision loss followed interferon and ribavirin intake.
+tmkp-2026-04-21-edge-audit-batch-002-1368,codex-manual,2026-05-04,supported,good,good,,Albendazole side effects include vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1369,codex-manual,2026-05-04,supported,good,good,,Foscarnet administration was associated with nausea and vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1370,codex-manual,2026-05-04,unsupported,bad,bad,pronoun_collision,His was a pronoun not histidine.
+tmkp-2026-04-21-edge-audit-batch-002-1371,codex-manual,2026-05-04,unsupported,bad,good,baseline_comorbidity_context,Abnormal renal function was more common at baseline among warfarin initiators.
+tmkp-2026-04-21-edge-audit-batch-002-1372,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,MVA did not refer to modified vaccinia ankara.
+tmkp-2026-04-21-edge-audit-batch-002-1373,codex-manual,2026-05-04,supported,good,good,,Fast bumetanide bolus carried tinnitus risk.
+tmkp-2026-04-21-edge-audit-batch-002-1374,codex-manual,2026-05-04,supported,good,good,,Diatrizoate enhanced pulmonary edema in dehydrated rats.
+tmkp-2026-04-21-edge-audit-batch-002-1375,codex-manual,2026-05-04,supported,good,good,,5-FU treatment was associated with oral ulceration.
+tmkp-2026-04-21-edge-audit-batch-002-1376,codex-manual,2026-05-04,supported,good,good,,Excess retinoic acid induced cognitive deficits in an animal model.
+tmkp-2026-04-21-edge-audit-batch-002-1377,codex-manual,2026-05-04,partially_supported,partial,good,combination_treatment_context,Agranulocytosis occurred during meprobamate and promazine therapy.
+tmkp-2026-04-21-edge-audit-batch-002-1378,codex-manual,2026-05-04,unsupported,bad,good,treatment_context,Enoxaparin was continued to treat possible visual loss etiology.
+tmkp-2026-04-21-edge-audit-batch-002-1379,codex-manual,2026-05-04,supported,good,good,,ATRA use was followed by tinnitus.
+tmkp-2026-04-21-edge-audit-batch-002-1380,codex-manual,2026-05-04,unsupported,bad,bad,generic_subject,Biomarkers were study variables and not a chemical exposure.
+tmkp-2026-04-21-edge-audit-batch-002-1381,codex-manual,2026-05-04,supported,good,good,,Acetic acid exposure caused behavioral changes.
+tmkp-2026-04-21-edge-audit-batch-002-1382,codex-manual,2026-05-04,supported,good,good,,Iopromide administration caused vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1383,codex-manual,2026-05-04,supported,good,good,,Bupropion-induced severe leukocytosis.
+tmkp-2026-04-21-edge-audit-batch-002-1384,codex-manual,2026-05-04,partially_supported,partial,good,coexposure_context,Abdominal pain occurred after ingesting colchicine and furosemide.
+tmkp-2026-04-21-edge-audit-batch-002-1385,codex-manual,2026-05-04,supported,good,good,,PGI2 potentiated edema.
+tmkp-2026-04-21-edge-audit-batch-002-1386,codex-manual,2026-05-04,supported,good,good,,Alcohol intake is associated with erectile dysfunction.
+tmkp-2026-04-21-edge-audit-batch-002-1387,codex-manual,2026-05-04,supported,good,good,,Aldosterone-induced cerebral vascular abnormalities were described.
+tmkp-2026-04-21-edge-audit-batch-002-1388,codex-manual,2026-05-04,supported,good,good,,Hypercholesterolemia was more common with anastrozole.
+tmkp-2026-04-21-edge-audit-batch-002-1389,codex-manual,2026-05-04,supported,good,good,generic_subject,Hormone therapy increased risk of cognitive impairment.
+tmkp-2026-04-21-edge-audit-batch-002-1390,codex-manual,2026-05-04,supported,good,good,,Neonates had generalized seizures during morphine therapy.
+tmkp-2026-04-21-edge-audit-batch-002-1391,codex-manual,2026-05-04,supported,good,good,,Taspoglutide adverse events included vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1392,codex-manual,2026-05-04,supported,good,good,,Ciglitazone caused edema in rodents.
+tmkp-2026-04-21-edge-audit-batch-002-1393,codex-manual,2026-05-04,supported,good,good,,Pralatrexate adverse events included vomiting.
+tmkp-2026-04-21-edge-audit-batch-002-1394,codex-manual,2026-05-04,unsupported,bad,good,diet_context,Food and water controlled calcium intake to produce hypocalcemia.
+tmkp-2026-04-21-edge-audit-batch-002-1395,codex-manual,2026-05-04,supported,good,good,,Busulfan induced skeletal abnormalities.
+tmkp-2026-04-21-edge-audit-batch-002-1396,codex-manual,2026-05-04,supported,good,good,,Tinnitus was related to meglumine antimoniate.
+tmkp-2026-04-21-edge-audit-batch-002-1397,codex-manual,2026-05-04,supported,good,good,,All nilutamide patients developed fever.
+tmkp-2026-04-21-edge-audit-batch-002-1398,codex-manual,2026-05-04,supported,good,good,,Rapacuronium caused more skin erythema.
+tmkp-2026-04-21-edge-audit-batch-002-1399,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision,TCP was beta tricalcium phosphate biomaterial not tenocyclidine.
+tmkp-2026-04-21-edge-audit-batch-002-1400,codex-manual,2026-05-04,partially_supported,good,bad,normalization_error,Latanoprost caused vomiting but subject normalization was incorrect.

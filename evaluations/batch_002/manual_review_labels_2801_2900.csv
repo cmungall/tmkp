@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-002-2801,codex-manual,2026-05-04,unsupported,bad,bad,object_abbreviation_false_positive|normalization_error,OCD means optimal clinical dose not obsessive-compulsive disorder
+tmkp-2026-04-21-edge-audit-batch-002-2802,codex-manual,2026-05-04,supported,good,partial,object_normalization_partial,Fibrinogen variants cause hereditary renal amyloidosis
+tmkp-2026-04-21-edge-audit-batch-002-2803,codex-manual,2026-05-04,unsupported,bad,bad,subject_abbreviation_false_positive|predicate_error,PCA is a case abbreviation in MEN context not pidolic acid treatment
+tmkp-2026-04-21-edge-audit-batch-002-2804,codex-manual,2026-05-04,partially_supported,partial,partial,model_only|subject_normalization_partial,Apo2L TRAIL was tested against cultured thoracic cancer cells
+tmkp-2026-04-21-edge-audit-batch-002-2805,codex-manual,2026-05-04,supported,good,good,model_context,Endothelin-1 is described as aggravating hyperplasia
+tmkp-2026-04-21-edge-audit-batch-002-2806,codex-manual,2026-05-04,supported,good,partial,object_normalization_broad,Elevated fibrinogen is associated with ischemic heart disease
+tmkp-2026-04-21-edge-audit-batch-002-2807,codex-manual,2026-05-04,unsupported,partial,bad,object_normalization_error,IL-10 was for inflammation in Borrelia infection not Lyme disease treatment
+tmkp-2026-04-21-edge-audit-batch-002-2808,codex-manual,2026-05-04,unsupported,bad,bad,object_normalization_error|protein_as_disease,Retinoblastoma refers to pRb protein interaction not the disease
+tmkp-2026-04-21-edge-audit-batch-002-2809,codex-manual,2026-05-04,supported,good,good,,Durvalumab studies include mantle cell lymphoma
+tmkp-2026-04-21-edge-audit-batch-002-2810,codex-manual,2026-05-04,unsupported,bad,good,context_error,Cataracts are listed as complications not basiliximab targets
+tmkp-2026-04-21-edge-audit-batch-002-2811,codex-manual,2026-05-04,supported,good,good,,HSP70 is implicated in melanoma development
+tmkp-2026-04-21-edge-audit-batch-002-2812,codex-manual,2026-05-04,partially_supported,good,partial,generic_object,Trastuzumab duocarmazine was studied in advanced solid tumours
+tmkp-2026-04-21-edge-audit-batch-002-2813,codex-manual,2026-05-04,supported,good,partial,object_normalization_partial,G-CSF use is reported as complicated by leukocytoclastic vasculitis
+tmkp-2026-04-21-edge-audit-batch-002-2814,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive|predicate_error,Same is ordinary text not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2815,codex-manual,2026-05-04,partially_supported,partial,good,exposure_context,Thrombin-generating traumatic injury is associated with chronic hyperglycemia
+tmkp-2026-04-21-edge-audit-batch-002-2816,codex-manual,2026-05-04,supported,good,partial,object_normalization_partial,G17DT was evaluated in advanced pancreatic cancer
+tmkp-2026-04-21-edge-audit-batch-002-2817,codex-manual,2026-05-04,supported,good,good,,Ad26.COV2.S vaccine is linked to thrombotic thrombocytopenia
+tmkp-2026-04-21-edge-audit-batch-002-2818,codex-manual,2026-05-04,supported,good,good,,Daratumumab treatment is explicitly for light-chain amyloidosis
+tmkp-2026-04-21-edge-audit-batch-002-2819,codex-manual,2026-05-04,supported,good,partial,object_normalization_partial,Taurine-induced toxic encephalopathy is discussed
+tmkp-2026-04-21-edge-audit-batch-002-2820,codex-manual,2026-05-04,supported,good,good,,Bacterial pneumonia is reported during etanercept treatment
+tmkp-2026-04-21-edge-audit-batch-002-2821,codex-manual,2026-05-04,unsupported,bad,bad,object_abbreviation_false_positive,CED is a measurement in animals not the disease abbreviation
+tmkp-2026-04-21-edge-audit-batch-002-2822,codex-manual,2026-05-04,supported,good,partial,generic_object|model_context,Thrombin enhances tumor metastases in vivo
+tmkp-2026-04-21-edge-audit-batch-002-2823,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_context,Hemoglobin level is an associated colorectal cancer marker
+tmkp-2026-04-21-edge-audit-batch-002-2824,codex-manual,2026-05-04,partially_supported,good,bad,object_normalization_error,L-asparaginase treatment refers to systemic lupus erythematosus not the normalized object
+tmkp-2026-04-21-edge-audit-batch-002-2825,codex-manual,2026-05-04,unsupported,bad,good,method_context,Hemoglobin was used in a cell assay not as colon tumor treatment
+tmkp-2026-04-21-edge-audit-batch-002-2826,codex-manual,2026-05-04,unsupported,partial,bad,object_normalization_error|list_context,Tocilizumab is listed for vasculitis not HIV or nephropathy
+tmkp-2026-04-21-edge-audit-batch-002-2827,codex-manual,2026-05-04,partially_supported,partial,partial,agent_list|object_normalization_partial,Biologic agents including alemtuzumab improved pituitary abnormalities
+tmkp-2026-04-21-edge-audit-batch-002-2828,codex-manual,2026-05-04,unsupported,bad,bad,object_context_error,Cardiac disease is only a prior-risk exclusion during IL-2 therapy
+tmkp-2026-04-21-edge-audit-batch-002-2829,codex-manual,2026-05-04,unsupported,bad,partial,model_context|predicate_error,Adalimumab was used in a lymphoma cell bioassay not as treatment
+tmkp-2026-04-21-edge-audit-batch-002-2830,codex-manual,2026-05-04,unsupported,bad,unclear,expression_context,CDKN2A expression comparison does not establish disease contribution here
+tmkp-2026-04-21-edge-audit-batch-002-2831,codex-manual,2026-05-04,unsupported,partial,bad,object_abbreviation_false_positive,ACS is not acrocallosal syndrome in this NPSLE context
+tmkp-2026-04-21-edge-audit-batch-002-2832,codex-manual,2026-05-04,partially_supported,partial,partial,generic_object|model_only,IMC-18F1 suppressed breast tumor xenograft growth
+tmkp-2026-04-21-edge-audit-batch-002-2833,codex-manual,2026-05-04,supported,good,good,,Cyclosporin A is described as inducing secondary hyperparathyroidism
+tmkp-2026-04-21-edge-audit-batch-002-2834,codex-manual,2026-05-04,partially_supported,partial,good,animal_model,Interferon-alpha 2b was administered in an experimental brain tumor model
+tmkp-2026-04-21-edge-audit-batch-002-2835,codex-manual,2026-05-04,partially_supported,partial,partial,antiviral_context,TUDCA repressed hepatitis C virus replication
+tmkp-2026-04-21-edge-audit-batch-002-2836,codex-manual,2026-05-04,unsupported,bad,good,diagnostic_context,FAZA was used to detect changes after sunitinib not as treatment
+tmkp-2026-04-21-edge-audit-batch-002-2837,codex-manual,2026-05-04,unsupported,partial,bad,object_normalization_error,G-CSF use in millions of cancer patients was misread as Leigh syndrome
+tmkp-2026-04-21-edge-audit-batch-002-2838,codex-manual,2026-05-04,unsupported,partial,bad,object_abbreviation_false_positive,SCD refers to sickle cell disease model not Schnyder corneal dystrophy
+tmkp-2026-04-21-edge-audit-batch-002-2839,codex-manual,2026-05-04,partially_supported,partial,good,cell_model,L-NAME was evaluated in prostate cancer and BPH cell models
+tmkp-2026-04-21-edge-audit-batch-002-2840,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary text about clinic and therapy not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2841,codex-manual,2026-05-04,supported,good,good,,Protamine is described as an effective agent against glioblastoma
+tmkp-2026-04-21-edge-audit-batch-002-2842,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary text not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2843,codex-manual,2026-05-04,unsupported,bad,good,predicate_error,Thrombin induces platelet pathway hyperactivity rather than treating thrombocythemia
+tmkp-2026-04-21-edge-audit-batch-002-2844,codex-manual,2026-05-04,supported,good,good,animal_model,Pepsin was used to induce aspiration pneumonia in mice
+tmkp-2026-04-21-edge-audit-batch-002-2845,codex-manual,2026-05-04,unsupported,bad,good,context_error,Multiple myeloma is a patient diagnosis associated with kidney disease risk
+tmkp-2026-04-21-edge-audit-batch-002-2846,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary text about experimental design not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2847,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary text about protocol not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2848,codex-manual,2026-05-04,supported,good,good,mechanism_context,Leptin stimulates a proatherogenic protein implicated in atherosclerosis
+tmkp-2026-04-21-edge-audit-batch-002-2849,codex-manual,2026-05-04,partially_supported,partial,partial,generic_object,Calmodulin-linked ion transport is associated with Bartter-like syndrome
+tmkp-2026-04-21-edge-audit-batch-002-2850,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary text about shared treatment not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2851,codex-manual,2026-05-04,partially_supported,partial,good,vaccine_component,Keyhole limpet hemocyanin was a vaccine component for colorectal cancer patients
+tmkp-2026-04-21-edge-audit-batch-002-2852,codex-manual,2026-05-04,unsupported,bad,good,predicate_error,Diabetes mellitus is an outcome not a daclizumab treatment target
+tmkp-2026-04-21-edge-audit-batch-002-2853,codex-manual,2026-05-04,supported,good,good,,Protamine evoked ventricular tachycardia
+tmkp-2026-04-21-edge-audit-batch-002-2854,codex-manual,2026-05-04,unsupported,partial,bad,object_abbreviation_false_positive,SPG is not hereditary spastic paraplegia in this shock liver context
+tmkp-2026-04-21-edge-audit-batch-002-2855,codex-manual,2026-05-04,supported,good,good,,Daclizumab is being evaluated for ovarian cancer
+tmkp-2026-04-21-edge-audit-batch-002-2856,codex-manual,2026-05-04,partially_supported,partial,good,cell_model,Bleomycin treatment was tested in promyelocytic leukemia cells
+tmkp-2026-04-21-edge-audit-batch-002-2857,codex-manual,2026-05-04,partially_supported,partial,good,adverse_observation,Breast cancer was observed in daclizumab-treated patients
+tmkp-2026-04-21-edge-audit-batch-002-2858,codex-manual,2026-05-04,supported,good,good,,Aortitis occurred during etanercept therapy
+tmkp-2026-04-21-edge-audit-batch-002-2859,codex-manual,2026-05-04,supported,good,good,,Stevens-Johnson syndrome is attributed to nivolumab
+tmkp-2026-04-21-edge-audit-batch-002-2860,codex-manual,2026-05-04,unsupported,bad,good,failed_treatment_context,Lymphangitis persisted after bacitracin rather than being caused by it
+tmkp-2026-04-21-edge-audit-batch-002-2861,codex-manual,2026-05-04,supported,good,partial,object_normalization_partial,Skin infection is reported as associated with etanercept
+tmkp-2026-04-21-edge-audit-batch-002-2862,codex-manual,2026-05-04,supported,good,good,,Acute renal failure occurred in patients treated with interferon alpha 2b
+tmkp-2026-04-21-edge-audit-batch-002-2863,codex-manual,2026-05-04,partially_supported,partial,good,outcome_definition,Caplacizumab group had more relapse defined by new thrombocytopenia
+tmkp-2026-04-21-edge-audit-batch-002-2864,codex-manual,2026-05-04,partially_supported,partial,partial,object_too_broad,Desmopressin controls bleeding tendency associated with an autosomal recessive disease
+tmkp-2026-04-21-edge-audit-batch-002-2865,codex-manual,2026-05-04,unsupported,bad,good,safety_context,Text discusses safety in hepatitis carriers not hepatitis treatment
+tmkp-2026-04-21-edge-audit-batch-002-2866,codex-manual,2026-05-04,supported,good,good,,Capillary leak syndrome is a severe adverse effect of dinutuximab
+tmkp-2026-04-21-edge-audit-batch-002-2867,codex-manual,2026-05-04,unsupported,good,bad,object_abbreviation_false_positive,TMD means temporomandibular disorder not transient myeloproliferative syndrome
+tmkp-2026-04-21-edge-audit-batch-002-2868,codex-manual,2026-05-04,unsupported,bad,bad,species_context,Rabbit is the model organism not an exposure causing disease
+tmkp-2026-04-21-edge-audit-batch-002-2869,codex-manual,2026-05-04,partially_supported,partial,good,cell_model,L-alanosine response was assessed in soft tissue sarcoma cells
+tmkp-2026-04-21-edge-audit-batch-002-2870,codex-manual,2026-05-04,unsupported,partial,bad,object_abbreviation_false_positive,ACS means American Cocker Spaniels not acrocephalosyndactyly
+tmkp-2026-04-21-edge-audit-batch-002-2871,codex-manual,2026-05-04,partially_supported,good,partial,generic_object,PIK3CA pathway mutations cause overgrowth spectrum syndromes
+tmkp-2026-04-21-edge-audit-batch-002-2872,codex-manual,2026-05-04,supported,good,good,,Taurine is described as protective for neural tube defect prevention
+tmkp-2026-04-21-edge-audit-batch-002-2873,codex-manual,2026-05-04,unsupported,bad,good,context_error,Baclofen was a concomitant medication not acute liver failure treatment
+tmkp-2026-04-21-edge-audit-batch-002-2874,codex-manual,2026-05-04,unsupported,bad,bad,object_abbreviation_false_positive,CHS is chalcone synthase in plant context not Chediak-Higashi syndrome
+tmkp-2026-04-21-edge-audit-batch-002-2875,codex-manual,2026-05-04,unsupported,bad,good,predicate_error,Lupus is listed as a related disease not a bleomycin treatment target
+tmkp-2026-04-21-edge-audit-batch-002-2876,codex-manual,2026-05-04,supported,good,good,,Rasburicase-induced hemolytic anemia is explicitly stated
+tmkp-2026-04-21-edge-audit-batch-002-2877,codex-manual,2026-05-04,unsupported,bad,good,cohort_context,Cyclosporine was part of GVHD immunosuppression in a patient with ALL
+tmkp-2026-04-21-edge-audit-batch-002-2878,codex-manual,2026-05-04,partially_supported,good,good,animal_model,Exenatide attenuates intimal hyperplasia after vascular injury
+tmkp-2026-04-21-edge-audit-batch-002-2879,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same is ordinary text about patient population not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2880,codex-manual,2026-05-04,unsupported,good,bad,subject_normalization_error,Protein C mention refers to myosin-binding protein C gene not PRPC protein C
+tmkp-2026-04-21-edge-audit-batch-002-2881,codex-manual,2026-05-04,supported,good,good,cell_model,DLEU1 upregulation increased ovarian cancer proliferation and invasion
+tmkp-2026-04-21-edge-audit-batch-002-2882,codex-manual,2026-05-04,partially_supported,partial,good,gene_therapy_model,Interferon alpha-2b adenovirus regressed bladder tumor models
+tmkp-2026-04-21-edge-audit-batch-002-2883,codex-manual,2026-05-04,unsupported,partial,bad,subject_normalization_error,Recombinant TNF was administered not etanercept
+tmkp-2026-04-21-edge-audit-batch-002-2884,codex-manual,2026-05-04,partially_supported,partial,good,animal_model,Interleukin-10 modulates hypersensitivity pneumonitis severity in mice
+tmkp-2026-04-21-edge-audit-batch-002-2885,codex-manual,2026-05-04,supported,good,good,adverse_observation,Crohn disease occurred in the daclizumab group
+tmkp-2026-04-21-edge-audit-batch-002-2886,codex-manual,2026-05-04,partially_supported,partial,good,model_only,Platelet lysate is protective in neurodegenerative disease models
+tmkp-2026-04-21-edge-audit-batch-002-2887,codex-manual,2026-05-04,unsupported,bad,good,exclusion_context,Type 1 diabetes is an autoimmune exclusion not a denosumab treatment target
+tmkp-2026-04-21-edge-audit-batch-002-2888,codex-manual,2026-05-04,unsupported,bad,good,comorbidity_context,Tocilizumab treated SS in a child with CVID not CVID itself
+tmkp-2026-04-21-edge-audit-batch-002-2889,codex-manual,2026-05-04,partially_supported,partial,good,combination_therapy,Nivolumab had activity only in combination for epithelioid sarcoma
+tmkp-2026-04-21-edge-audit-batch-002-2890,codex-manual,2026-05-04,supported,good,good,,Taurine has been used to treat macular degeneration
+tmkp-2026-04-21-edge-audit-batch-002-2891,codex-manual,2026-05-04,unsupported,bad,partial,predicate_error,Calcitonin reversed spinal-cord syndrome but the predicate is not contributes
+tmkp-2026-04-21-edge-audit-batch-002-2892,codex-manual,2026-05-04,unsupported,bad,bad,subject_string_false_positive,Same treatment refers to selegiline not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2893,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_context,Procalcitonin is associated with diabetes mellitus as a biomarker
+tmkp-2026-04-21-edge-audit-batch-002-2894,codex-manual,2026-05-04,unsupported,bad,good,predicate_error,L-NAME attenuated tolerance to PCP-induced ataxia not ataxia treatment
+tmkp-2026-04-21-edge-audit-batch-002-2895,codex-manual,2026-05-04,unsupported,bad,good,wrong_treatment_target,Leuprolide was for central precocious puberty not central hypothyroidism
+tmkp-2026-04-21-edge-audit-batch-002-2896,codex-manual,2026-05-04,supported,good,good,,GnRH is predicted to be effective for bladder leiomyoma
+tmkp-2026-04-21-edge-audit-batch-002-2897,codex-manual,2026-05-04,supported,good,partial,object_normalization_partial,Enapotamab vedotin trial included endometrial cancer
+tmkp-2026-04-21-edge-audit-batch-002-2898,codex-manual,2026-05-04,supported,good,good,animal_model,Dietary hemoglobin promotes precancerous lesions in colon cancer models
+tmkp-2026-04-21-edge-audit-batch-002-2899,codex-manual,2026-05-04,unsupported,bad,bad,subject_abbreviation_false_positive|object_abbreviation_false_positive,CSA and CHS are vascular abbreviations not cyclosporine or cannabinoid syndrome
+tmkp-2026-04-21-edge-audit-batch-002-2900,codex-manual,2026-05-04,unsupported,bad,bad,object_abbreviation_false_positive,WSS is a mechanical measurement not wrinkly skin syndrome

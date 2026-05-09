@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-002-2601,codex-manual,2026-05-04,supported,good,good,,NEUROG3 loss causes a disorder characterized by vomiting
+tmkp-2026-04-21-edge-audit-batch-002-2602,codex-manual,2026-05-04,partially_supported,partial,bad,wrong_subject,TUBB5 mutations are associated with cognitive impairment but subject is TUBB4A
+tmkp-2026-04-21-edge-audit-batch-002-2603,codex-manual,2026-05-04,supported,good,good,,Bmpr1a abnormal expression is linked to abnormal tongue morphology
+tmkp-2026-04-21-edge-audit-batch-002-2604,codex-manual,2026-05-04,unsupported,bad,bad,chemical_or_treatment_context,MC2 treatment prevents edema and is not C2 gene contribution
+tmkp-2026-04-21-edge-audit-batch-002-2605,codex-manual,2026-05-04,unsupported,bad,good,diagnostic_test_context,Glucagon is used in children with short stature but does not cause short stature
+tmkp-2026-04-21-edge-audit-batch-002-2606,codex-manual,2026-05-04,supported,good,good,,Inhibition of gamma glutamylcysteine synthetase exacerbates edema after ischemia
+tmkp-2026-04-21-edge-audit-batch-002-2607,codex-manual,2026-05-04,partially_supported,partial,good,cell_growth_context,c FOS reduction is associated with cell growth retardation after OCT4A knockout
+tmkp-2026-04-21-edge-audit-batch-002-2608,codex-manual,2026-05-04,supported,partial,good,association_context,Adipsin is proposed as linked to early cognitive decline susceptibility
+tmkp-2026-04-21-edge-audit-batch-002-2609,codex-manual,2026-05-04,supported,good,good,,FoxO1 deregulation contributes to abnormal metabolism in diabetes
+tmkp-2026-04-21-edge-audit-batch-002-2610,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|object_normalization_error,PrP in ulcerative colitis is not PRDX2 or oral ulcer support
+tmkp-2026-04-21-edge-audit-batch-002-2611,codex-manual,2026-05-04,supported,good,good,,ARID1B mutations cause CSS with mild nail hypoplasia
+tmkp-2026-04-21-edge-audit-batch-002-2612,codex-manual,2026-05-04,unsupported,bad,good,negated_context,Subsequent cohort found no association between etanercept and VATER vertebral anomalies
+tmkp-2026-04-21-edge-audit-batch-002-2613,codex-manual,2026-05-04,supported,good,good,,RAD21 is among CdLS genes and CdLS includes limb anomalies
+tmkp-2026-04-21-edge-audit-batch-002-2614,codex-manual,2026-05-04,unsupported,bad,good,locus_marker_context,Adh3 is a flanking locus for the rcm mutation and not causal
+tmkp-2026-04-21-edge-audit-batch-002-2615,codex-manual,2026-05-04,supported,good,good,,Nkx2-5 deficient embryos show growth retardation
+tmkp-2026-04-21-edge-audit-batch-002-2616,codex-manual,2026-05-04,supported,partial,good,variant_association_context,TREM2 p.R47H carriers show cognitive impairment related AD features
+tmkp-2026-04-21-edge-audit-batch-002-2617,codex-manual,2026-05-04,supported,good,good,,Twist1 null embryos show abnormal head development
+tmkp-2026-04-21-edge-audit-batch-002-2618,codex-manual,2026-05-04,partially_supported,partial,good,protective_model_context,Tat biliverdin reductase A inhibits inflammation in an edema mouse model
+tmkp-2026-04-21-edge-audit-batch-002-2619,codex-manual,2026-05-04,partially_supported,partial,partial,cytokine_vs_drug_context,G CSF is required for Ptpn6 mutant skin inflammation but subject is filgrastim
+tmkp-2026-04-21-edge-audit-batch-002-2620,codex-manual,2026-05-04,supported,good,good,,Caspase1 deletion reduces left ventricular dilatation after myocardial infarction
+tmkp-2026-04-21-edge-audit-batch-002-2621,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject,BnSP venom protein causes edema but is not IBSP
+tmkp-2026-04-21-edge-audit-batch-002-2622,codex-manual,2026-05-04,supported,good,good,,Deleterious EBF3 variants are reported with facial dysmorphism
+tmkp-2026-04-21-edge-audit-batch-002-2623,codex-manual,2026-05-04,supported,good,good,,High myocardial leptin can cause ventricular arrhythmias
+tmkp-2026-04-21-edge-audit-batch-002-2624,codex-manual,2026-05-04,supported,partial,good,locus_deletion_context,Deletions including COL12A1 are associated with foot deformities
+tmkp-2026-04-21-edge-audit-batch-002-2625,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject,MTTK mutation causes myoclonus and subject TTK is incorrect
+tmkp-2026-04-21-edge-audit-batch-002-2626,codex-manual,2026-05-04,unsupported,bad,good,indirect_interaction_context,Yulink deficiency predisposes ventricular arrhythmia and PPARgamma is an interacting regulator
+tmkp-2026-04-21-edge-audit-batch-002-2627,codex-manual,2026-05-04,supported,good,good,,Rats receiving thrombin during ischemia showed cognitive deficit
+tmkp-2026-04-21-edge-audit-batch-002-2628,codex-manual,2026-05-04,partially_supported,partial,good,protective_context,ANGPTL1 decreases blood brain barrier damage and edema
+tmkp-2026-04-21-edge-audit-batch-002-2629,codex-manual,2026-05-04,supported,good,good,adverse_treatment_context,GM CSF side effects include nausea and vomiting
+tmkp-2026-04-21-edge-audit-batch-002-2630,codex-manual,2026-05-04,unsupported,bad,good,negated_context,No drowsiness was observed after ASP A administration
+tmkp-2026-04-21-edge-audit-batch-002-2631,codex-manual,2026-05-04,unsupported,bad,bad,object_normalization_error,Brain calcium signaling is not cerebral calcification
+tmkp-2026-04-21-edge-audit-batch-002-2632,codex-manual,2026-05-04,unsupported,bad,bad,family_mention_fanout,MAP kinases in cognitive deficits do not support SGSM3
+tmkp-2026-04-21-edge-audit-batch-002-2633,codex-manual,2026-05-04,supported,good,good,adverse_treatment_context,Ciclosporin treated patients developed prolonged joint pain syndrome
+tmkp-2026-04-21-edge-audit-batch-002-2634,codex-manual,2026-05-04,supported,good,good,treatment_context,G CSF treatment reduced brain atrophy in the model
+tmkp-2026-04-21-edge-audit-batch-002-2635,codex-manual,2026-05-04,supported,good,good,,TLR9 promotes cardiac inflammation and heart failure during sepsis
+tmkp-2026-04-21-edge-audit-batch-002-2636,codex-manual,2026-05-04,supported,good,good,,SPRED1 loss of function causes Legius syndrome with macrocephaly
+tmkp-2026-04-21-edge-audit-batch-002-2637,codex-manual,2026-05-04,unsupported,bad,good,list_context,CHRNA7 causes severe mental retardation while TRPM1 is linked to retinal dysfunction
+tmkp-2026-04-21-edge-audit-batch-002-2638,codex-manual,2026-05-04,supported,good,good,,Occludin knockout mice show growth retardation
+tmkp-2026-04-21-edge-audit-batch-002-2639,codex-manual,2026-05-04,supported,good,good,,TLR7 mediated cancer cachexia is described as a therapeutic target context
+tmkp-2026-04-21-edge-audit-batch-002-2640,codex-manual,2026-05-04,partially_supported,partial,bad,family_mention_fanout,TNF alpha cytokine changes correlate with LPS aggravated absence seizures but subject is TNFSF13B
+tmkp-2026-04-21-edge-audit-batch-002-2641,codex-manual,2026-05-04,partially_supported,partial,good,case_report_context,Mild tinnitus occurred after ipilimumab therapy but causality is weak
+tmkp-2026-04-21-edge-audit-batch-002-2642,codex-manual,2026-05-04,supported,good,good,,Silencing tjp3 zo3 leads to edema in embryos
+tmkp-2026-04-21-edge-audit-batch-002-2643,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|nonhuman_pathogen_context,Candida SAP1 virulence in cutaneous infection is not human defensin beta 4A
+tmkp-2026-04-21-edge-audit-batch-002-2644,codex-manual,2026-05-04,unsupported,bad,bad,word_collision,Same refers to timing and clinical features not ademetionine
+tmkp-2026-04-21-edge-audit-batch-002-2645,codex-manual,2026-05-04,unsupported,bad,good,object_mismatch,TLR3 signal augments tumor growth retardation rather than developmental growth delay
+tmkp-2026-04-21-edge-audit-batch-002-2646,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject,SOX2 appears in a CNV region but subject is QSOX1 and support is indirect
+tmkp-2026-04-21-edge-audit-batch-002-2647,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject,Precursor refers to amyloid precursor protein not TGFB1
+tmkp-2026-04-21-edge-audit-batch-002-2648,codex-manual,2026-05-04,supported,good,good,adverse_treatment_context,Atezolizumab adverse events include abdominal pain
+tmkp-2026-04-21-edge-audit-batch-002-2649,codex-manual,2026-05-04,supported,good,good,,EXOSC2 mutations are identified in SHRF syndrome with short stature
+tmkp-2026-04-21-edge-audit-batch-002-2650,codex-manual,2026-05-04,partially_supported,partial,good,mutant_domain_context,Fgf8 expression in the Tbx1 domain causes skeletal abnormalities in Tbx1 mutants
+tmkp-2026-04-21-edge-audit-batch-002-2651,codex-manual,2026-05-04,partially_supported,partial,good,biomarker_context,MMP9 immunoreactivity decreases alongside decreased edema in SOD1 transgenic mice
+tmkp-2026-04-21-edge-audit-batch-002-2652,codex-manual,2026-05-04,partially_supported,partial,bad,channel_family_context,Nav1.8 and Nav1.9 are implicated in pain but subject maps to NAV1
+tmkp-2026-04-21-edge-audit-batch-002-2653,codex-manual,2026-05-04,supported,good,good,,EFHC1 mutations cause juvenile myoclonic epilepsy
+tmkp-2026-04-21-edge-audit-batch-002-2654,codex-manual,2026-05-04,supported,good,good,,Hsf2 disruption causes increased mild sperm head abnormalities
+tmkp-2026-04-21-edge-audit-batch-002-2655,codex-manual,2026-05-04,supported,good,good,,mrs2 mutant shows magnesium dependent growth retardation
+tmkp-2026-04-21-edge-audit-batch-002-2656,codex-manual,2026-05-04,supported,good,good,,Tsc2 heterozygous mice show cognitive deficits
+tmkp-2026-04-21-edge-audit-batch-002-2657,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject|protective_association,CD36 allele is associated with lower hypercholesterolemia risk and subject is SCARB1
+tmkp-2026-04-21-edge-audit-batch-002-2658,codex-manual,2026-05-04,supported,good,good,adverse_treatment_context,Denosumab adverse effects include joint pain
+tmkp-2026-04-21-edge-audit-batch-002-2659,codex-manual,2026-05-04,supported,good,good,,Beta III spectrin deficient mice show gait abnormalities
+tmkp-2026-04-21-edge-audit-batch-002-2660,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject,NOS3 uncoupling in hypercholesterolemia does not support NANOS3
+tmkp-2026-04-21-edge-audit-batch-002-2661,codex-manual,2026-05-04,unsupported,bad,good,cooccurrence_only,Growth hormone deficiency and facial abnormalities cooccur in a Kearns Sayre patient
+tmkp-2026-04-21-edge-audit-batch-002-2662,codex-manual,2026-05-04,supported,good,good,,HERC2 disruption is linked to neurodevelopmental delay
+tmkp-2026-04-21-edge-audit-batch-002-2663,codex-manual,2026-05-04,partially_supported,partial,bad,wrong_subject,MIC1 GDF15 levels are associated with cognitive decline but subject maps to RMC1
+tmkp-2026-04-21-edge-audit-batch-002-2664,codex-manual,2026-05-04,supported,good,good,treatment_context,Natalizumab reduced generalized seizures and status epilepticus
+tmkp-2026-04-21-edge-audit-batch-002-2665,codex-manual,2026-05-04,supported,good,good,treatment_context,Siltuximab is used for CRS with fever and related symptoms
+tmkp-2026-04-21-edge-audit-batch-002-2666,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject,MIP1 secretion decreases in RIP3 knockout edema model and is not TNPO1
+tmkp-2026-04-21-edge-audit-batch-002-2667,codex-manual,2026-05-04,partially_supported,partial,good,protective_treatment_context,Natalizumab treatment is associated with absence of generalized seizures
+tmkp-2026-04-21-edge-audit-batch-002-2668,codex-manual,2026-05-04,supported,good,good,,Loss of MST1 and MST2 ortholog Hpo causes marked overgrowth
+tmkp-2026-04-21-edge-audit-batch-002-2669,codex-manual,2026-05-04,supported,partial,good,case_report_context,TTR variant is reported in a patient presenting with severe episodic headaches
+tmkp-2026-04-21-edge-audit-batch-002-2670,codex-manual,2026-05-04,supported,good,good,adverse_treatment_context,Asparaginase pretreatment is associated with nausea and vomiting
+tmkp-2026-04-21-edge-audit-batch-002-2671,codex-manual,2026-05-04,unsupported,bad,good,modifier_context,Hypercholesterolemia synergizes with Lnk deficiency but SH2B3 does not cause hypercholesterolemia
+tmkp-2026-04-21-edge-audit-batch-002-2672,codex-manual,2026-05-04,supported,good,good,adverse_treatment_context,Hypercholesterolemia occurred in subjects treated with leuprolide
+tmkp-2026-04-21-edge-audit-batch-002-2673,codex-manual,2026-05-04,unsupported,bad,good,preexisting_condition_context,Cyclosporine dose was increased because of reduced visual acuity and does not cause it
+tmkp-2026-04-21-edge-audit-batch-002-2674,codex-manual,2026-05-04,partially_supported,partial,good,protective_or_inverse_context,GM CSF deficiency causes greater body weight loss in colitis model
+tmkp-2026-04-21-edge-audit-batch-002-2675,codex-manual,2026-05-04,supported,good,good,adverse_treatment_context,Edema is more frequent in patients receiving onartuzumab
+tmkp-2026-04-21-edge-audit-batch-002-2676,codex-manual,2026-05-04,supported,good,good,treatment_context,Tocilizumab alleviated hypoalbuminemia among biochemical abnormalities
+tmkp-2026-04-21-edge-audit-batch-002-2677,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject,KIF6 allele association does not support KIF21B
+tmkp-2026-04-21-edge-audit-batch-002-2678,codex-manual,2026-05-04,supported,good,good,,SCO2 mutations are reported in fatal infantile hyperthermia
+tmkp-2026-04-21-edge-audit-batch-002-2679,codex-manual,2026-05-04,supported,partial,good,biomarker_context,VWF antigen and multimers are associated with nocturnal hypoxemia
+tmkp-2026-04-21-edge-audit-batch-002-2680,codex-manual,2026-05-04,supported,good,good,treatment_context,Factor VIII is used by people with hemophilia to lessen chronic articular pain
+tmkp-2026-04-21-edge-audit-batch-002-2681,codex-manual,2026-05-04,unsupported,bad,bad,object_normalization_error,SLE erythematous disease context is not erythema phenotype support
+tmkp-2026-04-21-edge-audit-batch-002-2682,codex-manual,2026-05-04,supported,good,good,treatment_context,Cetrorelix is studied in short stature with short predicted final height
+tmkp-2026-04-21-edge-audit-batch-002-2683,codex-manual,2026-05-04,partially_supported,partial,bad,wrong_subject,TNF alpha production is associated with paw edema but subject is CD70
+tmkp-2026-04-21-edge-audit-batch-002-2684,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject,APP PS1 mouse behavioral abnormalities do not support PARP2
+tmkp-2026-04-21-edge-audit-batch-002-2685,codex-manual,2026-05-04,supported,good,good,,P2Y2 expression correlates with abdominal pain in IBS D patients
+tmkp-2026-04-21-edge-audit-batch-002-2686,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_error,ADH2 means autosomal dominant hypocalcemia type 2 and not ADH1B
+tmkp-2026-04-21-edge-audit-batch-002-2687,codex-manual,2026-05-04,supported,good,good,,Biallelic SEMA3A mutations cause syndromic short stature
+tmkp-2026-04-21-edge-audit-batch-002-2688,codex-manual,2026-05-04,unsupported,bad,bad,wrong_subject,PTH receptor mutations cause short limb dwarfism and PTH levels are normal or low
+tmkp-2026-04-21-edge-audit-batch-002-2689,codex-manual,2026-05-04,supported,good,good,,TAB2 mutations are associated with subtle facial dysmorphism
+tmkp-2026-04-21-edge-audit-batch-002-2690,codex-manual,2026-05-04,partially_supported,partial,good,autoantibody_context,Caspr2 antibodies occur in a patient with paroxysmal gait ataxia
+tmkp-2026-04-21-edge-audit-batch-002-2691,codex-manual,2026-05-04,supported,good,good,,SLC25A13 mutations cause citrin deficiency with failure to thrive
+tmkp-2026-04-21-edge-audit-batch-002-2692,codex-manual,2026-05-04,supported,good,good,,SOD1 mutations are linked to progressive neurodegenerative ALS
+tmkp-2026-04-21-edge-audit-batch-002-2693,codex-manual,2026-05-04,supported,partial,good,biomarker_context,C reactive protein is associated with renal function abnormalities
+tmkp-2026-04-21-edge-audit-batch-002-2694,codex-manual,2026-05-04,supported,partial,good,treatment_context,D amino acid substituted CRF analogs are tested for inhibitory activity on edema
+tmkp-2026-04-21-edge-audit-batch-002-2695,codex-manual,2026-05-04,partially_supported,partial,good,protective_context,Tbx3 overexpression rescues abnormal limb development in embryos
+tmkp-2026-04-21-edge-audit-batch-002-2696,codex-manual,2026-05-04,supported,good,good,,Beta glucocerebrosidase deficiency syndrome includes corneal opacities
+tmkp-2026-04-21-edge-audit-batch-002-2697,codex-manual,2026-05-04,supported,good,good,,Synapsin II knockout mice show behavioral abnormalities
+tmkp-2026-04-21-edge-audit-batch-002-2698,codex-manual,2026-05-04,supported,good,good,treatment_context,PTH 1 34 treatment prevents serious hypocalcemic episodes
+tmkp-2026-04-21-edge-audit-batch-002-2699,codex-manual,2026-05-04,unsupported,bad,bad,substring_error,Lormetazepam contains met substring and is not methionine treatment
+tmkp-2026-04-21-edge-audit-batch-002-2700,codex-manual,2026-05-04,supported,good,good,adverse_treatment_context,Ocriplasmin safety data include unresolved reduced visual acuity

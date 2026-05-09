@@ -1,0 +1,101 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-001-2351,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|method_context,Cas is from CRISPR Cas9 and not CSE1L
+tmkp-2026-04-21-edge-audit-batch-001-2352,codex-manual,2026-05-04,unsupported,bad,bad,treatment_combination|normalization_error,Gal-1 siRNA and PD-1 blockade are combined treatments without causal relation
+tmkp-2026-04-21-edge-audit-batch-001-2353,codex-manual,2026-05-04,unsupported,bad,partial,inverse_relation,Beta-arrestin recruits Smurf2 rather than Smurf2 causing arrestin
+tmkp-2026-04-21-edge-audit-batch-001-2354,codex-manual,2026-05-04,partially_supported,partial,partial,pathway_context|family_mention_fanout,LIF signaling and Erk inhibition are pathway contexts for pluripotency factors
+tmkp-2026-04-21-edge-audit-batch-001-2355,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|inverse_relation,TNF is implicated in Pf4-mediated inhibition and TNF is not TNFSF4
+tmkp-2026-04-21-edge-audit-batch-001-2356,codex-manual,2026-05-04,unsupported,bad,good,assay_control_context,p120GAP is used as an immunoblot loading control
+tmkp-2026-04-21-edge-audit-batch-001-2357,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,CHD2 is required for NKX2-1 target gene induction
+tmkp-2026-04-21-edge-audit-batch-001-2358,codex-manual,2026-05-04,unsupported,bad,partial,transgenic_promoter_context,Beta-actin promoter drives Trx overexpression and is not affected by Trx
+tmkp-2026-04-21-edge-audit-batch-001-2359,codex-manual,2026-05-04,partially_supported,partial,partial,family_mention_fanout,E2F5 with p130 inhibits E2F-induced cell-cycle entry
+tmkp-2026-04-21-edge-audit-batch-001-2360,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|pathway_context,Ubc13 affects TNF-mediated signaling and TNF was normalized to TNFSF4
+tmkp-2026-04-21-edge-audit-batch-001-2361,codex-manual,2026-05-04,partially_supported,partial,good,pathway_context,ACAT1 silencing inhibits SIRT5 cellular effects
+tmkp-2026-04-21-edge-audit-batch-001-2362,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,ASP therapy and protein C levels are misnormalized as aspartic acid and salivary protein
+tmkp-2026-04-21-edge-audit-batch-001-2363,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|negation_or_hedging,RIP2 and IRF3 expression failed to induce the response
+tmkp-2026-04-21-edge-audit-batch-001-2364,codex-manual,2026-05-04,unsupported,bad,good,parallel_knockout_context,Ccnd2 null and Nkx6.1 deficiency show similar phenotypes without causal relation
+tmkp-2026-04-21-edge-audit-batch-001-2365,codex-manual,2026-05-04,unsupported,bad,good,genetic_model_context,APC min is the model and p120-catenin controls tumorigenicity separately
+tmkp-2026-04-21-edge-audit-batch-001-2366,codex-manual,2026-05-04,supported,good,good,pathway_context,Loss of Pkhd1 suppresses the PDK1 AKT pathway
+tmkp-2026-04-21-edge-audit-batch-001-2367,codex-manual,2026-05-04,unsupported,bad,bad,self_loop|ortholog_alias,SirT1 and Sir2 are ortholog alias context for a self-loop
+tmkp-2026-04-21-edge-audit-batch-001-2368,codex-manual,2026-05-04,unsupported,bad,good,cell_marker_context,CD4 is a T cell marker in SMAR1 transgenic cells
+tmkp-2026-04-21-edge-audit-batch-001-2369,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|peptide_context,Arg is an amino acid in an MBP peptide not RERE
+tmkp-2026-04-21-edge-audit-batch-001-2370,codex-manual,2026-05-04,unsupported,bad,good,parallel_function_context,AURKB and PLK1 jointly inhibit senescence without relation to each other
+tmkp-2026-04-21-edge-audit-batch-001-2371,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|genetic_model_context,RIP2 is part of an Opa1 beta cell knockout model not HOOK1
+tmkp-2026-04-21-edge-audit-batch-001-2372,codex-manual,2026-05-04,supported,good,good,mechanism_context,Sp1 binding site is essential for TGM4 promoter activity
+tmkp-2026-04-21-edge-audit-batch-001-2373,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|correction_notice,Scc1 is cohesin context and not ATP2C2
+tmkp-2026-04-21-edge-audit-batch-001-2374,codex-manual,2026-05-04,unsupported,bad,good,parallel_function_context,GPER and SIRT1 both promote tumor growth without causal relation
+tmkp-2026-04-21-edge-audit-batch-001-2375,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,KIFC1 activates the gankyrin AKT pathway but subject is ZBTB22
+tmkp-2026-04-21-edge-audit-batch-001-2376,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|assay_name_context,CCK8 is a proliferation assay and not CCK
+tmkp-2026-04-21-edge-audit-batch-001-2377,codex-manual,2026-05-04,supported,good,good,mechanism_context,ALK5 upregulates matrix metalloproteinase-9
+tmkp-2026-04-21-edge-audit-batch-001-2378,codex-manual,2026-05-04,unsupported,bad,good,reagent_list_only,DOCK4 and FGD6 appear in a shRNA reagent list
+tmkp-2026-04-21-edge-audit-batch-001-2379,codex-manual,2026-05-04,partially_supported,partial,partial,family_mention_fanout|hypothesis_context,CREB is hypothesized upstream of VEGF family induction
+tmkp-2026-04-21-edge-audit-batch-001-2380,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|genetic_model_context,APP PS1 model context does not support XPNPEP1 to RTN3
+tmkp-2026-04-21-edge-audit-batch-001-2381,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_list_only|normalization_error,TNF and LCAD appear in an abbreviation list only
+tmkp-2026-04-21-edge-audit-batch-001-2382,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product,PLK3 and RXFP3 are co-listed as downregulated genes
+tmkp-2026-04-21-edge-audit-batch-001-2383,codex-manual,2026-05-04,partially_supported,partial,good,genetic_modifier_context,METTL13 variant modifies GAB1-associated deafness
+tmkp-2026-04-21-edge-audit-batch-001-2384,codex-manual,2026-05-04,partially_supported,partial,partial,family_mention_fanout|pathway_context,BMP7 stimulates morphogenesis through p38 MAPK not MAPK1 specifically
+tmkp-2026-04-21-edge-audit-batch-001-2385,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,Sp1 generic transcription factor text is misnormalized to DAND5 and NUP214
+tmkp-2026-04-21-edge-audit-batch-001-2386,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,TAB2 binding is linked to TAK1 signaling but TAK1 is misnormalized
+tmkp-2026-04-21-edge-audit-batch-001-2387,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product,PDK4 and GPX1 are separate features in a metabolic signature list
+tmkp-2026-04-21-edge-audit-batch-001-2388,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|pathway_context,S6K pathway is required for TNF signaling but does not cause TNF
+tmkp-2026-04-21-edge-audit-batch-001-2389,codex-manual,2026-05-04,unsupported,bad,good,vector_promoter_context|inverse_relation,hTERT promoter controls the E2F vector rather than E2F1 causing TERT
+tmkp-2026-04-21-edge-audit-batch-001-2390,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,MEG3 upregulates Bcl2 but subject is NIBAN2
+tmkp-2026-04-21-edge-audit-batch-001-2391,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|pathway_context,ASK1 Rb interaction modifies TNF-induced promoter silencing and TNF is misnormalized
+tmkp-2026-04-21-edge-audit-batch-001-2392,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error,TEX14 interacts with CEP55 and centrosomal protein is descriptive text
+tmkp-2026-04-21-edge-audit-batch-001-2393,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|pathway_context,TNF reporter effects depend on RUNX sites but do not support TNFSF8 to RUNX3
+tmkp-2026-04-21-edge-audit-batch-001-2394,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Angiotensin 1-7 inhibits NLRP3 but subject is normalized as ANG
+tmkp-2026-04-21-edge-audit-batch-001-2395,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error|pathway_context,Rap1 is required for LFA-1 induced adhesion but subject is RABGEF1
+tmkp-2026-04-21-edge-audit-batch-001-2396,codex-manual,2026-05-04,supported,good,partial,family_mention_fanout,GLP1 receptor agonist activates CREB
+tmkp-2026-04-21-edge-audit-batch-001-2397,codex-manual,2026-05-04,unsupported,bad,bad,domain_name_context|normalization_error,Src homology domain wording is not SRC kinase
+tmkp-2026-04-21-edge-audit-batch-001-2398,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|genetic_model_context,CREB alters sensitivity in HOXA9 MEIS1 cells but does not regulate HOXA9
+tmkp-2026-04-21-edge-audit-batch-001-2399,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,Growth hormone stimulates IGFBP3 rather than IGFBP3 affecting GH1
+tmkp-2026-04-21-edge-audit-batch-001-2400,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|pathway_context,p12 is not SPINK1 and calreticulin blocks p12-mediated NFAT activation
+tmkp-2026-04-21-edge-audit-batch-001-2401,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|parallel_function_context,RIP1 and TRAF2 act in parallel and TRAF2 is not TANK
+tmkp-2026-04-21-edge-audit-batch-001-2402,codex-manual,2026-05-04,unsupported,bad,good,method_context,TFEB localization with calcineurin inhibitors is experimental method context
+tmkp-2026-04-21-edge-audit-batch-001-2403,codex-manual,2026-05-04,partially_supported,partial,good,genetic_interaction,Lrp5 and Lrp6 deletion suppresses Sostdc1 mutant phenotypes
+tmkp-2026-04-21-edge-audit-batch-001-2404,codex-manual,2026-05-04,unsupported,bad,good,abbreviation_list_only,RAF1 and MST1 appear in a pathway legend without a stated relation
+tmkp-2026-04-21-edge-audit-batch-001-2405,codex-manual,2026-05-04,unsupported,bad,bad,self_loop|normalization_error,ZBP1 alias context creates a self-loop with the wrong object concept
+tmkp-2026-04-21-edge-audit-batch-001-2406,codex-manual,2026-05-04,unsupported,bad,partial,method_reagent_context,JNK antibodies are listed as western blot reagents
+tmkp-2026-04-21-edge-audit-batch-001-2407,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,IGF2BP2 is a target downregulated by HMGA2 shRNAs
+tmkp-2026-04-21-edge-audit-batch-001-2408,codex-manual,2026-05-04,supported,good,good,mechanism_context,DDR1 antagonizes integrin FAK Cdc42 mediated cell spreading
+tmkp-2026-04-21-edge-audit-batch-001-2409,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|cell_line_context,Hep-2 cell line context does not support EPHB6 to AURKA
+tmkp-2026-04-21-edge-audit-batch-001-2410,codex-manual,2026-05-04,unsupported,bad,good,genetic_model_context,ApoE knockout is the background for IRF8 lesion formation studies
+tmkp-2026-04-21-edge-audit-batch-001-2411,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|inverse_relation,Cav1.2 C terminus is required for CREB transcription and is not CAV1
+tmkp-2026-04-21-edge-audit-batch-001-2412,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|treatment_context,Nos3 is required for Ang1 treatment response but subject is NANOS3
+tmkp-2026-04-21-edge-audit-batch-001-2413,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error|generic_ubiquitin_context,Chk1 phosphorylation prevents ubiquitin ligase degradation but subject is STT3A
+tmkp-2026-04-21-edge-audit-batch-001-2414,codex-manual,2026-05-04,unsupported,bad,good,cell_marker_context,CD4 is a T cell marker in Com1-pulsed cell response
+tmkp-2026-04-21-edge-audit-batch-001-2415,codex-manual,2026-05-04,unsupported,bad,good,abbreviation_list_only,Clusterin and AMBP appear in an abbreviation list
+tmkp-2026-04-21-edge-audit-batch-001-2416,codex-manual,2026-05-04,unsupported,bad,bad,fusion_context|inverse_relation,PAX3-FOXO1 fusion induces PITX2 and related genes
+tmkp-2026-04-21-edge-audit-batch-001-2417,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|inverse_relation,Nurr1 overexpression suppresses TNF and subject is CD70
+tmkp-2026-04-21-edge-audit-batch-001-2418,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|pathway_abbreviation,ALP protective effects require Nrf2 but ALP is not NAT10
+tmkp-2026-04-21-edge-audit-batch-001-2419,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,SRSF2 stimulates E2F1 activity by interacting with E2F1
+tmkp-2026-04-21-edge-audit-batch-001-2420,codex-manual,2026-05-04,partially_supported,partial,good,pathway_context,LRRK2 mutants alter tubulin acetylation restored by HDAC6 inhibition
+tmkp-2026-04-21-edge-audit-batch-001-2421,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product,Mcm5 and E2f1 are co-listed as downregulated cell-cycle genes
+tmkp-2026-04-21-edge-audit-batch-001-2422,codex-manual,2026-05-04,unsupported,bad,good,parallel_knockdown_context,Gnai2 and Gnao1 knockdowns separately upregulate mitochondrial genes
+tmkp-2026-04-21-edge-audit-batch-001-2423,codex-manual,2026-05-04,supported,good,good,mechanism_context,MLK3 promotes interaction between beta-catenin and KLF4
+tmkp-2026-04-21-edge-audit-batch-001-2424,codex-manual,2026-05-04,supported,good,good,mechanism_context,Rab25 upregulates Cldn4 at tight junctions
+tmkp-2026-04-21-edge-audit-batch-001-2425,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,MCP1-induced effects require Pak1 rather than Pak1 causing MCP1
+tmkp-2026-04-21-edge-audit-batch-001-2426,codex-manual,2026-05-04,unsupported,bad,bad,self_loop|normalization_error,MTF1 context was normalized as an MTF1 to MYT1 edge
+tmkp-2026-04-21-edge-audit-batch-001-2427,codex-manual,2026-05-04,unsupported,bad,good,parallel_exposure_context|negation_or_hedging,IL-6 and IL-19 amounts are jointly insufficient for skin disease
+tmkp-2026-04-21-edge-audit-batch-001-2428,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,miR-9 represses FoxP1 but subject is MARCHF8
+tmkp-2026-04-21-edge-audit-batch-001-2429,codex-manual,2026-05-04,partially_supported,partial,bad,pathway_context|normalization_error,Triad3A negatively regulates TNF receptor signaling but object is TNFSF18
+tmkp-2026-04-21-edge-audit-batch-001-2430,codex-manual,2026-05-04,unsupported,bad,partial,genetic_model_context|family_mention_fanout,HB-EGF ASO was tested in LDLR-deficient mice
+tmkp-2026-04-21-edge-audit-batch-001-2431,codex-manual,2026-05-04,partially_supported,partial,bad,normalization_error,Beta-spectrin ELF disruption activates cyclin D1 but subject is SPTA1
+tmkp-2026-04-21-edge-audit-batch-001-2432,codex-manual,2026-05-04,unsupported,bad,good,treatment_context,IL-10 tolerance after anti-TIM1 treatment does not support IL-10 to TIM1
+tmkp-2026-04-21-edge-audit-batch-001-2433,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|promoter_context,Sp1 and E2F promoter elements do not support DAND5 to E2F3
+tmkp-2026-04-21-edge-audit-batch-001-2434,codex-manual,2026-05-04,unsupported,bad,bad,parallel_treatment_context|normalization_error,XCL1 and TNFalpha are separate culture supplements
+tmkp-2026-04-21-edge-audit-batch-001-2435,codex-manual,2026-05-04,unsupported,bad,good,treatment_context,Insulin is a treatment condition and CDH3 affects GSK3beta
+tmkp-2026-04-21-edge-audit-batch-001-2436,codex-manual,2026-05-04,supported,good,good,mechanism_context,GPC3 removes HGF from the cell surface
+tmkp-2026-04-21-edge-audit-batch-001-2437,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|treatment_context,TNF knockout mice received adiponectin treatment and TNF is misnormalized
+tmkp-2026-04-21-edge-audit-batch-001-2438,codex-manual,2026-05-04,unsupported,bad,good,inverse_relation,IGFBP3 is downregulated by COX-1 knockdown
+tmkp-2026-04-21-edge-audit-batch-001-2439,codex-manual,2026-05-04,unsupported,bad,good,list_or_cross_product,STAT1 and TGIF1 are co-listed among downregulated fibrosis genes
+tmkp-2026-04-21-edge-audit-batch-001-2440,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|cell_marker_context,CCR6 positive CD4 cells are a cell population and subject is CCRL2
+tmkp-2026-04-21-edge-audit-batch-001-2441,codex-manual,2026-05-04,partially_supported,partial,good,pathway_context,Keap1 controls Nrf2 release and Nrf2 activates GSH reductase genes
+tmkp-2026-04-21-edge-audit-batch-001-2442,codex-manual,2026-05-04,unsupported,bad,good,cell_marker_context,Emx1-positive neurons are the cell type for Shank2 deletion
+tmkp-2026-04-21-edge-audit-batch-001-2443,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|inverse_relation,HERC2-binding protein SOX18 correlates with reduced HERC2 mRNA and subject is ERC2
+tmkp-2026-04-21-edge-audit-batch-001-2444,codex-manual,2026-05-04,partially_supported,partial,good,promoter_context,Estrogen receptor activates transcription through AP-2 alpha binding sites
+tmkp-2026-04-21-edge-audit-batch-001-2445,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_list_only|normalization_error,CPT1 and aP2 appear in an abbreviation list only
+tmkp-2026-04-21-edge-audit-batch-001-2446,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|parallel_function_context,VEGF and TSP1 separately inhibit CD69 and object is GZMA
+tmkp-2026-04-21-edge-audit-batch-001-2447,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|negation_or_hedging,Glucagon-like peptide receptor antagonists failed to block BAA effects
+tmkp-2026-04-21-edge-audit-batch-001-2448,codex-manual,2026-05-04,supported,good,good,mechanism_context,CrkL overexpression enhances Raf-1 MEK Erk signaling
+tmkp-2026-04-21-edge-audit-batch-001-2449,codex-manual,2026-05-04,unsupported,bad,bad,normalization_error|assay_context,CIT2 complementation and Mks1p interaction assays do not support human CIT
+tmkp-2026-04-21-edge-audit-batch-001-2450,codex-manual,2026-05-04,partially_supported,partial,good,rescue_context|inverse_relation,FGF2 rescues KLF5 knockdown effects suggesting downstream relation

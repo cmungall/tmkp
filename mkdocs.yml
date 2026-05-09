@@ -1,0 +1,28 @@
+site_name: TMKP KGX Trust Assessment
+site_description: Audit findings, false-positive examples, and QA strategy for the 2026-04-21 TMKP KGX release.
+site_url: https://cmungall.github.io/tmkp/
+repo_url: https://github.com/cmungall/tmkp
+repo_name: cmungall/tmkp
+
+theme:
+  name: mkdocs
+  nav_style: dark
+
+nav:
+  - Home: index.md
+  - Trust Assessment: trust-assessment.md
+  - False Positive Examples: false-positives.md
+  - Deterministic QA: deterministic-qa.md
+  - Recommendations: recommendations.md
+  - Artifacts: artifacts.md
+  - Slides: slides.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css

@@ -1,0 +1,26 @@
+audit_id,manual_reviewer,manual_reviewed_at,manual_edge_support,manual_predicate_fit,manual_normalization_fit,manual_error_tags,manual_notes
+tmkp-2026-04-21-edge-audit-batch-001-1401,codex-manual,2026-05-04,supported,good,good,adverse_event_context,adverse event occurred following buprenorphine though less often than comparator
+tmkp-2026-04-21-edge-audit-batch-001-1402,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,CDP is a disease case context not chlordiazepoxide
+tmkp-2026-04-21-edge-audit-batch-001-1403,codex-manual,2026-05-04,supported,good,good,adverse_event_context,treated patient developed fever as dose limiting toxicity context
+tmkp-2026-04-21-edge-audit-batch-001-1404,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error|model_or_assay_only|treatment_context,TMP is not supported as dTMP and behavioral changes are measured in a mouse treatment study
+tmkp-2026-04-21-edge-audit-batch-001-1405,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error|cohort_or_exposure_only,APS is patient syndrome context not adenosine phosphosulfate
+tmkp-2026-04-21-edge-audit-batch-001-1406,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,his is a pronoun and the drug context is infliximab
+tmkp-2026-04-21-edge-audit-batch-001-1407,codex-manual,2026-05-04,supported,good,good,adverse_event_context,patch test to dorzolamide produced edema
+tmkp-2026-04-21-edge-audit-batch-001-1408,codex-manual,2026-05-04,supported,good,good,adverse_event_context|list_or_cross_product,levamisole is listed among drugs associated with agranulocytosis
+tmkp-2026-04-21-edge-audit-batch-001-1409,codex-manual,2026-05-04,supported,good,good,adverse_event_context,carbon monoxide toxicity includes sleep disturbances
+tmkp-2026-04-21-edge-audit-batch-001-1410,codex-manual,2026-05-04,supported,good,good,exposure_context,fire ant sting from Solenopsis invicta preceded edema
+tmkp-2026-04-21-edge-audit-batch-001-1411,codex-manual,2026-05-04,unsupported,bad,good,predicate_overbroad|symptom_context,water is part of swallowing symptom context not a causal exposure
+tmkp-2026-04-21-edge-audit-batch-001-1412,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,LSD refers to a clinical disease abbreviation not lysergide
+tmkp-2026-04-21-edge-audit-batch-001-1413,codex-manual,2026-05-04,supported,good,good,adverse_event_context,literature side effects of eltrombopag include joint pain
+tmkp-2026-04-21-edge-audit-batch-001-1414,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,date is the phrase to date not a chemical subject
+tmkp-2026-04-21-edge-audit-batch-001-1415,codex-manual,2026-05-04,unsupported,bad,bad,common_word_mention|normalization_error,his is a pronoun not histidine
+tmkp-2026-04-21-edge-audit-batch-001-1416,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error,APS is area postrema syndrome definition not adenosine phosphosulfate
+tmkp-2026-04-21-edge-audit-batch-001-1417,codex-manual,2026-05-04,supported,good,good,adverse_event_context,duloxetine side effects included abdominal pain
+tmkp-2026-04-21-edge-audit-batch-001-1418,codex-manual,2026-05-04,supported,good,good,adverse_event_context,PGE2 treated patients complained of abdominal pain
+tmkp-2026-04-21-edge-audit-batch-001-1419,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error|biomarker_or_expression_only,CRF appears to be fitness or risk level context not corticorelin
+tmkp-2026-04-21-edge-audit-batch-001-1420,codex-manual,2026-05-04,supported,good,good,adverse_event_context,hexavalent chromium exposure causes dermatitis with edema
+tmkp-2026-04-21-edge-audit-batch-001-1421,codex-manual,2026-05-04,partially_supported,partial,good,predicate_overbroad|inference_context,zinc levels modulate inflammatory effects including fever but causal phenotype edge is broad
+tmkp-2026-04-21-edge-audit-batch-001-1422,codex-manual,2026-05-04,supported,good,good,adverse_event_context,felodipine is reported to induce gingival overgrowth
+tmkp-2026-04-21-edge-audit-batch-001-1423,codex-manual,2026-05-04,supported,good,good,adverse_event_context,hydroxychloroquine is associated with drowsiness
+tmkp-2026-04-21-edge-audit-batch-001-1424,codex-manual,2026-05-04,supported,good,good,adverse_event_context,oxymorphone was associated with nausea and vomiting
+tmkp-2026-04-21-edge-audit-batch-001-1425,codex-manual,2026-05-04,unsupported,bad,bad,abbreviation_collision|normalization_error|negation_or_hedging,CeD is celiac disease context and failure to thrive is not associated with CeD here
