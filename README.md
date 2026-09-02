@@ -2,6 +2,8 @@
 
 This repository contains a small, reproducible analysis of the latest TMKP KGX release from the NCATS Translator KGX storage service.
 
+**Project site:** https://cmungall.github.io/tmkp/
+
 The large KGX data files are not committed. The notebook expects a local DuckDB database at:
 
 ```text
@@ -21,6 +23,7 @@ downloads/tmkp/2026_04_21/tmkp.duckdb
 - `slides/tmkp_audit_findings.html` is the rendered slide deck.
 - `slides/tmkp_analysis_recommendations.md` is a detailed Marp deck assessing raw KG trustworthiness with concrete false-positive examples and technical QA recommendations.
 - `slides/tmkp_analysis_recommendations.html` is the rendered recommendations deck.
+- The GitHub Pages site links both rendered decks from its [Slides page](https://cmungall.github.io/tmkp/slides/).
 
 ## Data release
 

@@ -3,6 +3,9 @@
 This site summarizes a manual and deterministic QA audit of the TMKP KGX
 release `2026_04_21`.
 
+[View the trust assessment slides](slides/tmkp_analysis_recommendations.html){ .md-button }
+[View the audit findings slides](slides/tmkp_audit_findings.html){ .md-button }
+
 ## Bottom line
 
 The raw TMKP KGX edge layer is **not trustable as curated truth**.
@@ -59,4 +62,4 @@ agentic checks:
   interpret the tags.
 - [Recommendations](recommendations.md): how to use TMKP safely.
 - [Artifacts](artifacts.md): tracked audit/evaluation files and commands.
-- [Slides](slides.md): rendered Marp deck.
+- [Slides](slides.md): both rendered Marp decks.
