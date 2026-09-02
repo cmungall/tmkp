@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://cmungall.github.io/tmkp/false-positives/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>False Positive Examples - TMKP KGX Trust Assessment</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../stylesheets/extra.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="..">TMKP KGX Trust Assessment</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../trust-assessment/" class="nav-link">Trust Assessment</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">False Positive Examples</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../deterministic-qa/" class="nav-link">Deterministic QA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../recommendations/" class="nav-link">Recommendations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../artifacts/" class="nav-link">Artifacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../slides/" class="nav-link">Slides</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../trust-assessment/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../deterministic-qa/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/cmungall/tmkp/edit/master/docs/false-positives.md" class="nav-link">Edit on cmungall/tmkp
+                                    </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#false-positive-examples" class="nav-link">False Positive Examples</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#gene-disease-false-positives" class="nav-link">Gene-disease false positives</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#mendelian-looking-false-positives" class="nav-link">Mendelian-looking false positives</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#drug-disease-false-positives" class="nav-link">Drug-disease false positives</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#rare-disease-abbreviation-collisions" class="nav-link">Rare-disease abbreviation collisions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#phenotype-false-positives" class="nav-link">Phenotype false positives</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#chemical-phenotype-false-positives" class="nav-link">Chemical -&gt; phenotype false positives</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#model-readouts-that-look-clinical" class="nav-link">Model readouts that look clinical</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#mechanism-false-positives" class="nav-link">Mechanism false positives</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#family-fan-out" class="nav-link">Family fan-out</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="false-positive-examples">False Positive Examples<a class="headerlink" href="#false-positive-examples" title="Permanent link">&para;</a></h1>
+<p>These examples are the clearest reason the raw KG should not be consumed as
+curated truth.</p>
+<h2 id="gene-disease-false-positives">Gene-disease false positives<a class="headerlink" href="#gene-disease-false-positives" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>KGX edge</th>
+<th>What went wrong</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>BCAR1 -&gt; syndrome</code></td>
+<td><code>Cas</code> came from <code>CRISPR/Cas9</code>; object <code>syndrome</code> is too vague.</td>
+</tr>
+<tr>
+<td><code>RDH11 -&gt; cancer</code></td>
+<td>Text supports expression in cancer cell lines, not disease causation.</td>
+</tr>
+<tr>
+<td><code>SRY -&gt; neoplasm</code></td>
+<td><code>SRY</code> is a marker for tumor-cell origin, not a cancer driver.</td>
+</tr>
+<tr>
+<td><code>SMC6 -&gt; cancer</code></td>
+<td>Text is about <code>RAD18</code>; subject normalized to <code>SMC6</code>.</td>
+</tr>
+<tr>
+<td><code>DEFA4 -&gt; papilloma</code></td>
+<td><code>HP-4</code> is likely a virus designation, not defensin <code>DEFA4</code>.</td>
+</tr>
+<tr>
+<td><code>PAK4 -&gt; Severe Dengue</code></td>
+<td><code>DSS</code> means disease-specific survival, not dengue shock syndrome.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="mendelian-looking-false-positives">Mendelian-looking false positives<a class="headerlink" href="#mendelian-looking-false-positives" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>KGX edge</th>
+<th>What went wrong</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>CALR3 -&gt; cardiomyopathy</code></td>
+<td>Evidence questions monogenic causality.</td>
+</tr>
+<tr>
+<td><code>DNAJC6 -&gt; dopa-responsive dystonia</code></td>
+<td>Multi-gene / movement-disorder list.</td>
+</tr>
+<tr>
+<td><code>VPS35 -&gt; dopa-responsive dystonia</code></td>
+<td>Same list-sentence cross-product issue.</td>
+</tr>
+<tr>
+<td><code>SALL4 -&gt; horizontal gaze palsy with progressive scoliosis</code></td>
+<td>Several genes and phenotypes listed together.</td>
+</tr>
+<tr>
+<td><code>CNGB3 -&gt; choroideremia</code></td>
+<td>Retinal-disease panel context, wrong specific object.</td>
+</tr>
+<tr>
+<td><code>CYP24A1 -&gt; distal renal tubular acidosis</code></td>
+<td>Differential list; <code>CYP24A1</code> belongs to another item.</td>
+</tr>
+<tr>
+<td><code>NSUN2 -&gt; autosomal recessive hypophosphatemic rickets</code></td>
+<td>Multi-case sequencing list cross-product.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="drug-disease-false-positives">Drug-disease false positives<a class="headerlink" href="#drug-disease-false-positives" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>KGX edge</th>
+<th>What went wrong</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Givinostat -&gt; Duane Syndrome</code></td>
+<td>Object mention was <code>duration</code>.</td>
+</tr>
+<tr>
+<td><code>Zafirlukast -&gt; kidney disorder</code></td>
+<td>Subjects without renal disease received zafirlukast.</td>
+</tr>
+<tr>
+<td><code>Hydralazine -&gt; thyroid disease</code></td>
+<td>Thyroid disease is a risk factor for hydralazine-induced AAV.</td>
+</tr>
+<tr>
+<td><code>Aminohippuric acid -&gt; neoplasm</code></td>
+<td><code>PAH</code> likely means polycyclic aromatic hydrocarbons.</td>
+</tr>
+<tr>
+<td><code>Bisphenol A -&gt; cancer</code> as treatment</td>
+<td>Evidence says data are lacking, not that BPA treats cancer.</td>
+</tr>
+<tr>
+<td><code>Domperidone -&gt; digestive system disorder</code></td>
+<td>Disease context plus cardiac adverse-effect discussion, not clean treatment.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="rare-disease-abbreviation-collisions">Rare-disease abbreviation collisions<a class="headerlink" href="#rare-disease-abbreviation-collisions" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>KGX edge</th>
+<th>Local meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Azacitidine -&gt; Miller-Dieker lissencephaly syndrome</code></td>
+<td><code>MDS</code> means myelodysplastic syndrome.</td>
+</tr>
+<tr>
+<td><code>Decitabine -&gt; Miller-Dieker lissencephaly syndrome</code></td>
+<td>Same <code>MDS</code> collision.</td>
+</tr>
+<tr>
+<td><code>Clopidogrel -&gt; acute chest syndrome</code></td>
+<td><code>ACS</code> often means acute coronary syndrome.</td>
+</tr>
+<tr>
+<td><code>Clopidogrel -&gt; acrocallosal syndrome</code></td>
+<td>Same <code>ACS</code>, different wrong rare disease.</td>
+</tr>
+<tr>
+<td><code>Ticagrelor -&gt; acute chest syndrome</code></td>
+<td>Cardiology <code>ACS</code> context.</td>
+</tr>
+<tr>
+<td><code>Hydroxyurea -&gt; Schnyder corneal dystrophy</code></td>
+<td><code>SCD</code> means sickle cell disease.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="phenotype-false-positives">Phenotype false positives<a class="headerlink" href="#phenotype-false-positives" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>KGX edge</th>
+<th>What went wrong</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>alteplase -&gt; Edema</code></td>
+<td><code>TPA-induced ear edema</code> uses phorbol ester, not alteplase.</td>
+</tr>
+<tr>
+<td><code>Methyldopa -&gt; Impaired Vision</code></td>
+<td><code>AMD</code> means age-related macular degeneration.</td>
+</tr>
+<tr>
+<td><code>GH1 -&gt; Short stature</code></td>
+<td>Text is about growth hormone treatment, not <code>GH1</code> gene causation.</td>
+</tr>
+<tr>
+<td><code>VEGFC -&gt; Edema</code></td>
+<td>Generic <code>VEGF</code> mapped to a specific family member.</td>
+</tr>
+<tr>
+<td><code>MAPT -&gt; Cognitive impairment</code></td>
+<td>CSF tau biomarker context, not direct gene causation.</td>
+</tr>
+<tr>
+<td><code>INS -&gt; Edema</code></td>
+<td>Insulin/metabolic model context; edema is histopathology.</td>
+</tr>
+<tr>
+<td><code>solution -&gt; Edema</code></td>
+<td>Generic reagent/exposure artifact.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="chemical-phenotype-false-positives">Chemical -&gt; phenotype false positives<a class="headerlink" href="#chemical-phenotype-false-positives" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>KGX edge</th>
+<th>What went wrong</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Pentaerythritol tetranitrate -&gt; Fever</code></td>
+<td>Subject mention <code>ten</code> came from "ten patients".</td>
+</tr>
+<tr>
+<td><code>Histidine -&gt; Fever</code></td>
+<td>Subject mention <code>his</code> was a pronoun.</td>
+</tr>
+<tr>
+<td><code>Histidine -&gt; Vomiting</code></td>
+<td>Same pronoun problem.</td>
+</tr>
+<tr>
+<td><code>Dextromethorphan -&gt; Edema</code></td>
+<td><code>DEX</code> meant dexamethasone.</td>
+</tr>
+<tr>
+<td><code>solution -&gt; Edema</code></td>
+<td>Generic experimental solution.</td>
+</tr>
+<tr>
+<td><code>Acetaminophen -&gt; Fever</code></td>
+<td>Patient had fever and took paracetamol; weak exposure context.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="model-readouts-that-look-clinical">Model readouts that look clinical<a class="headerlink" href="#model-readouts-that-look-clinical" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>KGX edge</th>
+<th>What the text was really about</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Histamine -&gt; Edema</code></td>
+<td>Rat paw edema model.</td>
+</tr>
+<tr>
+<td><code>Formaldehyde -&gt; Edema</code></td>
+<td>Formalin-induced paw edema.</td>
+</tr>
+<tr>
+<td><code>Serotonin -&gt; Edema</code></td>
+<td>5-HT induced paw edema model.</td>
+</tr>
+<tr>
+<td><code>Bradykinin -&gt; Edema</code></td>
+<td>Mediator-induced edema model.</td>
+</tr>
+<tr>
+<td><code>Capsaicin -&gt; Edema</code></td>
+<td>Mouse ear edema model.</td>
+</tr>
+<tr>
+<td><code>sodium oxybate -&gt; Absence Seizure</code></td>
+<td>GHB-induced seizures in animal models.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="mechanism-false-positives">Mechanism false positives<a class="headerlink" href="#mechanism-false-positives" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>KGX edge</th>
+<th>What went wrong</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Pembrolizumab -&gt; RPL17</code></td>
+<td>Object mention <code>PD-1</code>; useful target is <code>PDCD1</code>.</td>
+</tr>
+<tr>
+<td><code>Pembrolizumab -&gt; SPATA2</code></td>
+<td>Same <code>PD-1</code> collision.</td>
+</tr>
+<tr>
+<td><code>Infliximab -&gt; TNFSF18</code></td>
+<td>Generic <code>TNF</code> fanned out.</td>
+</tr>
+<tr>
+<td><code>Infliximab -&gt; CD40LG</code></td>
+<td>Same <code>TNF</code> fan-out.</td>
+</tr>
+<tr>
+<td><code>Celecoxib -&gt; MT-CO2</code></td>
+<td><code>COX2</code> should mean <code>PTGS2</code> here.</td>
+</tr>
+<tr>
+<td><code>Methyldopa -&gt; CXCR4</code></td>
+<td><code>AMD</code> came from AMD3100, not alpha-methyldopa.</td>
+</tr>
+<tr>
+<td><code>Cefaclor -&gt; CCL4</code></td>
+<td><code>CCL</code> is a chemokine prefix, not cefaclor.</td>
+</tr>
+<tr>
+<td><code>Dextromethorphan -&gt; IL6</code></td>
+<td><code>Dex</code> usually meant dexamethasone.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="family-fan-out">Family fan-out<a class="headerlink" href="#family-fan-out" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Mention</th>
+<th>Normalized objects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>TNF</code></td>
+<td><code>TNF</code>, <code>TNFSF12</code>, <code>TNFSF13</code>, <code>TNFSF13B</code>, <code>TNFSF18</code>, <code>TNFSF4</code>, <code>TNFSF8</code>, <code>TNFSF9</code>, <code>CD40LG</code>, <code>CD70</code>, <code>EDA</code></td>
+</tr>
+<tr>
+<td><code>VEGF</code></td>
+<td><code>VEGFA</code>, <code>VEGFB</code>, <code>VEGFC</code>, <code>VEGFD</code></td>
+</tr>
+<tr>
+<td><code>PPAR</code></td>
+<td><code>PPARA</code>, <code>PPARD</code>, <code>PPARG</code></td>
+</tr>
+<tr>
+<td><code>calcineurin</code></td>
+<td><code>PPP3CA</code>, <code>PPP3CB</code>, <code>PPP3CC</code>, <code>PPP3R1</code>, <code>PPP3R2</code></td>
+</tr>
+<tr>
+<td><code>PD-1</code></td>
+<td><code>PDCD1</code>, <code>RPL17</code>, <code>SPATA2</code></td>
+</tr>
+<tr>
+<td><code>COX2</code></td>
+<td><code>PTGS2</code>, <code>MT-CO2</code></td>
+</tr>
+</tbody>
+</table>
+<p>High evidence count does not fix this. Repeated extraction can repeat the same
+normalization error.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

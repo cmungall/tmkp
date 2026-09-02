@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://cmungall.github.io/tmkp/</loc>
+         <lastmod>2026-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://cmungall.github.io/tmkp/artifacts/</loc>
+         <lastmod>2026-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://cmungall.github.io/tmkp/deterministic-qa/</loc>
+         <lastmod>2026-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://cmungall.github.io/tmkp/false-positives/</loc>
+         <lastmod>2026-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://cmungall.github.io/tmkp/recommendations/</loc>
+         <lastmod>2026-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://cmungall.github.io/tmkp/slides/</loc>
+         <lastmod>2026-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://cmungall.github.io/tmkp/trust-assessment/</loc>
+         <lastmod>2026-09-02</lastmod>
+    </url>
+</urlset>

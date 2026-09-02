@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://cmungall.github.io/tmkp/deterministic-qa/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Deterministic QA - TMKP KGX Trust Assessment</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../stylesheets/extra.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="..">TMKP KGX Trust Assessment</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../trust-assessment/" class="nav-link">Trust Assessment</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../false-positives/" class="nav-link">False Positive Examples</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Deterministic QA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../recommendations/" class="nav-link">Recommendations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../artifacts/" class="nav-link">Artifacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../slides/" class="nav-link">Slides</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../false-positives/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../recommendations/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/cmungall/tmkp/edit/master/docs/deterministic-qa.md" class="nav-link">Edit on cmungall/tmkp
+                                    </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#deterministic-qa" class="nav-link">Deterministic QA</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#evidence-selection" class="nav-link">Evidence selection</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#mention-to-node-agreement" class="nav-link">Mention-to-node agreement</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#common-word-mentions" class="nav-link">Common-word mentions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#short-mention-risk" class="nav-link">Short mention risk</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#family-fan-out" class="nav-link">Family fan-out</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#context-tags" class="nav-link">Context tags</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#rule-scoring" class="nav-link">Rule scoring</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="deterministic-qa">Deterministic QA<a class="headerlink" href="#deterministic-qa" title="Permanent link">&para;</a></h1>
+<p>The deterministic QA framework is implemented in:</p>
+<ul>
+<li><code>scripts/export_edge_audit.py</code></li>
+<li><code>scripts/score_edge_audit_rules.py</code></li>
+</ul>
+<p>It is deliberately simple. It does not try to be a curator. It flags rows that
+are risky enough to require review.</p>
+<h2 id="evidence-selection">Evidence selection<a class="headerlink" href="#evidence-selection" title="Permanent link">&para;</a></h2>
+<p>For each edge, <code>export_edge_audit.py</code> chooses one representative evidence
+snippet from <code>has_supporting_studies</code>.</p>
+<p>It prefers evidence that:</p>
+<ol>
+<li>has both subject and object mention offsets,</li>
+<li>comes from an abstract,</li>
+<li>has higher extraction confidence,</li>
+<li>has longer supporting text as a tie-breaker.</li>
+</ol>
+<p>Same KG input means the same audit row is selected.</p>
+<h2 id="mention-to-node-agreement">Mention-to-node agreement<a class="headerlink" href="#mention-to-node-agreement" title="Permanent link">&para;</a></h2>
+<p>The script canonicalizes mention text and normalized node names by lowercasing
+and stripping punctuation. It checks exact match, substring match, or token
+overlap.</p>
+<p><code>mention_mismatch</code> is an <strong>at-risk flag</strong>, not an automatic rejection.</p>
+<table>
+<thead>
+<tr>
+<th>Case type</th>
+<th>Example</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clear false positive</td>
+<td><code>ten</code> -&gt; pentaerythritol tetranitrate</td>
+<td><code>ten</code> came from ordinary text; reject or quarantine.</td>
+</tr>
+<tr>
+<td>Clear false positive</td>
+<td><code>his</code> -&gt; histidine</td>
+<td><code>his</code> was a pronoun; reject or quarantine.</td>
+</tr>
+<tr>
+<td>Likely false positive</td>
+<td><code>BMD</code> -&gt; vitelliform macular dystrophy 2</td>
+<td>Often bone mineral density; require local expansion.</td>
+</tr>
+<tr>
+<td>Likely false positive</td>
+<td><code>ACS</code> -&gt; acrocallosal syndrome or acute chest syndrome</td>
+<td>Often acute coronary syndrome in cardiology text; require local expansion.</td>
+</tr>
+<tr>
+<td>Valid abbreviation</td>
+<td><code>MTX</code> -&gt; methotrexate</td>
+<td>Keep if the sentence supports methotrexate.</td>
+</tr>
+<tr>
+<td>Valid abbreviation</td>
+<td><code>G-CSF</code> -&gt; filgrastim</td>
+<td>Keep if context supports granulocyte colony-stimulating factor or filgrastim.</td>
+</tr>
+<tr>
+<td>Partial mismatch</td>
+<td><code>VEGF</code> -&gt; <code>VEGFA</code></td>
+<td>Accept only if local text names VEGF-A or an exact synonym.</td>
+</tr>
+</tbody>
+</table>
+<p>Across 6,000 manually reviewed rows, <code>mention_mismatch</code> caught 71.9% of manual
+failures. Its failure precision was 55.7%, so it should route rows to review,
+not delete every flagged edge.</p>
+<h2 id="common-word-mentions">Common-word mentions<a class="headerlink" href="#common-word-mentions" title="Permanent link">&para;</a></h2>
+<p>The script has a fixed list of common bad mentions:</p>
+<p><code>group</code>, <code>his</code>, <code>ten</code>, <code>duration</code>, <code>solution</code>, <code>ligand</code>, <code>biomarker</code>,
+<code>control</code>, <code>case</code>, <code>cases</code>.</p>
+<p>Examples:</p>
+<table>
+<thead>
+<tr>
+<th>Edge</th>
+<th>Problem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Histidine -&gt; Fever</code></td>
+<td><code>his</code> was a pronoun.</td>
+</tr>
+<tr>
+<td><code>Pentaerythritol tetranitrate -&gt; Fever</code></td>
+<td><code>ten</code> came from "ten patients".</td>
+</tr>
+<tr>
+<td><code>Givinostat -&gt; Duane Syndrome</code></td>
+<td>Object mention was <code>duration</code>.</td>
+</tr>
+<tr>
+<td><code>solution -&gt; Edema</code></td>
+<td>Generic method/exposure word.</td>
+</tr>
+</tbody>
+</table>
+<p>This is the strongest deterministic signal. In the manual review, it had about
+95% failure precision and 100% weak-or-bad precision.</p>
+<h2 id="short-mention-risk">Short mention risk<a class="headerlink" href="#short-mention-risk" title="Permanent link">&para;</a></h2>
+<p>The script flags mentions of four canonical characters or fewer when they do
+not lexically match the normalized node.</p>
+<p>Examples:</p>
+<ul>
+<li><code>BMD</code></li>
+<li><code>ACS</code></li>
+<li><code>MDS</code></li>
+<li><code>SCD</code></li>
+<li><code>MAD</code></li>
+<li><code>PAH</code></li>
+<li><code>HHT</code></li>
+<li><code>AHA</code></li>
+<li><code>PCV</code></li>
+</ul>
+<p>Short mention risk is not always wrong. <code>MTX</code> and <code>G-CSF</code> can be valid. The
+point is that the edge needs local abbreviation expansion before trust.</p>
+<h2 id="family-fan-out">Family fan-out<a class="headerlink" href="#family-fan-out" title="Permanent link">&para;</a></h2>
+<p>The script checks for common family or pathway terms:</p>
+<p><code>TNF</code>, <code>VEGF</code>, <code>PPAR</code>, <code>PD-1</code>, <code>COX2</code>, <code>MAPK</code>, <code>p38</code>, <code>calcineurin</code>, <code>AKT</code>,
+<code>EGF</code>, <code>STAT</code>, <code>TGF-beta</code>, <code>NF-kB</code>.</p>
+<p>If these occur in the mentions or normalized names, the row gets
+<code>family_mention_fanout</code>.</p>
+<p>Examples:</p>
+<table>
+<thead>
+<tr>
+<th>Edge</th>
+<th>Problem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Infliximab -&gt; TNFSF18</code></td>
+<td>Generic <code>TNF</code> became a specific TNF-superfamily gene.</td>
+</tr>
+<tr>
+<td><code>Pembrolizumab -&gt; RPL17</code></td>
+<td><code>PD-1</code> collision.</td>
+</tr>
+<tr>
+<td><code>Celecoxib -&gt; MT-CO2</code></td>
+<td><code>COX2</code> should mean <code>PTGS2</code> in context.</td>
+</tr>
+<tr>
+<td><code>VEGFC -&gt; Edema</code></td>
+<td>Generic <code>VEGF</code> mapped to one family member.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="context-tags">Context tags<a class="headerlink" href="#context-tags" title="Permanent link">&para;</a></h2>
+<p>The script also looks for fixed word lists in evidence text.</p>
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Example trigger words</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>negation_or_hedging</code></td>
+<td><code>no significant</code>, <code>did not</code>, <code>failed to</code>, <code>not associated</code>, <code>questionable</code>, <code>unlikely</code></td>
+</tr>
+<tr>
+<td><code>treatment_context</code></td>
+<td><code>treatment</code>, <code>therapy</code>, <code>trial</code>, <code>dose</code>, <code>efficacy</code>, <code>patients received</code></td>
+</tr>
+<tr>
+<td><code>adverse_or_risk_context</code></td>
+<td><code>adverse</code>, <code>risk</code>, <code>induced</code>, <code>toxicity</code>, <code>side effect</code></td>
+</tr>
+<tr>
+<td><code>cohort_or_exposure_context</code></td>
+<td><code>patients with</code>, <code>history of</code>, <code>case report</code>, <code>cohort</code>, <code>received</code></td>
+</tr>
+<tr>
+<td><code>mechanism_context</code></td>
+<td><code>activation</code>, <code>expression</code>, <code>inhibit</code>, <code>phosphorylation</code>, <code>knockdown</code></td>
+</tr>
+<tr>
+<td><code>biomarker_or_expression_context</code></td>
+<td><code>marker</code>, <code>serum</code>, <code>level</code>, <code>prognosis</code>, <code>expressed</code></td>
+</tr>
+<tr>
+<td><code>model_or_assay_context</code></td>
+<td><code>mice</code>, <code>rat</code>, <code>in vitro</code>, <code>cell line</code>, <code>assay</code></td>
+</tr>
+<tr>
+<td><code>method_or_reagent_context</code></td>
+<td><code>buffer</code>, <code>medium</code>, <code>staining</code>, <code>western blot</code>, <code>reagent</code></td>
+</tr>
+<tr>
+<td><code>list_or_cross_product_context</code></td>
+<td><code>including</code>, <code>such as</code>, <code>respectively</code>, plus several commas/semicolons</td>
+</tr>
+</tbody>
+</table>
+<h2 id="rule-scoring">Rule scoring<a class="headerlink" href="#rule-scoring" title="Permanent link">&para;</a></h2>
+<p><code>score_edge_audit_rules.py</code> compares deterministic tags against manual labels.</p>
+<p>Definitions:</p>
+<ul>
+<li>failure: <code>unsupported</code> or <code>unclear</code></li>
+<li>weak-or-bad: <code>partially_supported</code>, <code>unsupported</code>, or <code>unclear</code></li>
+</ul>
+<p>Combined results across 6,000 manual rows:</p>
+<table>
+<thead>
+<tr>
+<th>Rule tag</th>
+<th style="text-align: right;">Tagged rows</th>
+<th style="text-align: right;">Failure precision</th>
+<th style="text-align: right;">Weak/bad precision</th>
+<th style="text-align: right;">Failure recall</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>common_word_mention</code></td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">94.6%</td>
+<td style="text-align: right;">100.0%</td>
+<td style="text-align: right;">1.4%</td>
+</tr>
+<tr>
+<td><code>short_mention_risk</code></td>
+<td style="text-align: right;">1,912</td>
+<td style="text-align: right;">70.7%</td>
+<td style="text-align: right;">85.6%</td>
+<td style="text-align: right;">53.5%</td>
+</tr>
+<tr>
+<td><code>family_mention_fanout</code></td>
+<td style="text-align: right;">338</td>
+<td style="text-align: right;">67.5%</td>
+<td style="text-align: right;">94.1%</td>
+<td style="text-align: right;">9.0%</td>
+</tr>
+<tr>
+<td><code>method_or_reagent_context</code></td>
+<td style="text-align: right;">159</td>
+<td style="text-align: right;">64.2%</td>
+<td style="text-align: right;">78.6%</td>
+<td style="text-align: right;">4.0%</td>
+</tr>
+<tr>
+<td><code>negation_or_hedging</code></td>
+<td style="text-align: right;">199</td>
+<td style="text-align: right;">63.3%</td>
+<td style="text-align: right;">77.9%</td>
+<td style="text-align: right;">5.0%</td>
+</tr>
+<tr>
+<td><code>mention_mismatch</code></td>
+<td style="text-align: right;">3,258</td>
+<td style="text-align: right;">55.7%</td>
+<td style="text-align: right;">75.1%</td>
+<td style="text-align: right;">71.9%</td>
+</tr>
+</tbody>
+</table>
+<p>The best interpretation is: these rules are QA routing signals. They identify
+where agents or curators should look first.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
